@@ -10,15 +10,14 @@ author_profile: true
 
 ### [2020 - *Current* ]
 ------------------------
-[comment]: # * Modeling Cold Start and User Experience in Recommender Systems.
+[comment]: # * Modeling 
 
 * Domain Independent Sentiment Classification.
 
-[comment]: # * Information Extraction from Privacy Policy Documents.
+[comment]: # * Information
 
 <!-- ### [2019 - *Current* ]
 -----------
-* Pros and Cons Opinion Summarization based on Review Critics.
 * Neural Bangla Text Simplification for Children.
 * Automatic Summarization of Bangla Text Documents.
 -->
