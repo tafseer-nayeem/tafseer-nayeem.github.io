@@ -45,7 +45,6 @@ author_profile: true
 * 🏆 Graduate Student’s Association (**GSA**) Travel Award (2017) [*Amount: 500 CAD*]
 * 🏆 School of Graduate Studies (**S.G.S**) Dean’s Scholarship, UofL (2015 - 2017) [*Amount: 20,000 CAD*]
 * 🏆 School of Graduate Studies (**S.G.S**) International Tuition Award, UofL (2015 - 2017) [*Amount: 17,000 CAD*]
-[comment]: # * 🏆 Graduate Assistantship (**G.A.**), UofL (2015 - 2017) [*Amount: 14,400 CAD*]
 * 🏆 **IUT-OIC** Full Free Scholarship (International, 2008 - 2011) [*Amount: 12,000 USD*]
 
 
