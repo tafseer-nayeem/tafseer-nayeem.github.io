@@ -10,7 +10,11 @@ redirect_from:
 
 Thanks for stopping by!
 
-My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Science from the [University of Lethbridge (UofL)](https://www.uleth.ca/), Alberta, Canada. I also worked as a Teaching and Research Assistant at UofL. My research interests include, but are not limited to, Natural Language Processing, Computational Social Science, and Recommender Systems. My work was nominated for [<span style="color:Red"> **Best Paper Award**</span>](http://coling2018.org/coling-2018-best-papers/) and selected as <span style="color:Red"> **Area Chair Favorite Paper** </span> at [COLING 2018](http://coling2018.org). Currently, I am working as a faculty member at [Ahsanullah University of Science and Technology (AUST)](https://www.aust.edu/cse), Dhaka, Bangladesh. 
+My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Science from the [University of Lethbridge (UofL)](https://www.uleth.ca/), Alberta, Canada. I also worked as a Teaching and Research Assistant at UofL. My research interests include, but are not limited to, Natural Language Processing, Computational Social Science, and Recommender Systems. My work was nominated for [<span style="color:Red"> **Best Paper Award**</span>](http://coling2018.org/coling-2018-best-papers/) and selected as <span style="color:Red"> **Area Chair Favorite Paper** </span> at [COLING 2018](http://coling2018.org). 
+
+<!--
+Currently, I am working as a faculty member at [Ahsanullah University of Science and Technology (AUST)](https://www.aust.edu/cse), Dhaka, Bangladesh. 
+-->
 
 **For additional information, please see my [CV](https://tafseer-nayeem.github.io/cv/) and [publications](https://tafseer-nayeem.github.io/publications/).**
 
