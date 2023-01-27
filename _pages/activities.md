@@ -20,6 +20,11 @@ author_profile: true
 ----------------
 - <span style="color:Blue"> [Apr 2017] </span> - Talk on [Introduction to NLTK](https://tafseer-nayeem.github.io/files/Introduction_to_NLTK.pdf), University of Lethbrdige, Alberta, Canada. 
 
+## 💻 Project Demonstrations 
+
+* Bengali Document Readability Checker [[Demo Video]](https://youtu.be/U05Pf9Y4tCQ).
+* Bengali Document Summarization Tool [[Demo Video]](https://youtu.be/LrnskktiXcg).
+
 ## 👨‍⚖️ Leadership Activities
 ------------------------
 - Organizing Committee Member & Researcher, **Commonwealth of Learning ([COL](https://www.col.org/)) TEL AUST** Project [<span style ="color:Green"> [**Report**] </span>](http://oasis.col.org/handle/11599/3220)

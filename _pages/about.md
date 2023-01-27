@@ -38,10 +38,6 @@ Currently, I am working as a faculty member at [Ahsanullah University of Science
 * 📢 <span style="color:Blue"> [Aug 2017] </span> - I attended [ACL 2017](http://acl2017.org/) in Vancouver, and presented a [workshop paper](http://www.aclweb.org/anthology/W17-2407).  
 * 📢 <span style="color:Blue"> [Apr 2017] </span> - Gave a talk on [Introduction to NLTK.](https://tafseer-nayeem.github.io/files/Introduction_to_NLTK.pdf)
 
-## Recent Project Demonstrations 
-
-* 💻 Bengali Document Readability Checker [[Demo Video]](https://youtu.be/U05Pf9Y4tCQ).
-* 💻 Bengali Document Summarization Tool [[Demo Video]](https://youtu.be/LrnskktiXcg).
 
 ----------------------------------------
 
