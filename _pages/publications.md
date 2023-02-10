@@ -86,9 +86,9 @@ author_profile: true
 📰 15th IEEE International Conference on Computational Science and Engineering ([**IEEE CSE 2012**](http://www.cse2012.cs.ucy.ac.cy/)), Nicosia, Cyprus. <br/>
 👉 [<span style ="color:Green"> [**PDF**] </span>](https://tafseer-nayeem.github.io/files/IEEE_CSE12_paper.pdf) <span style ="color:Green"> **[Oral Presentation]** </span>
 
-<br/>
 
 <!--
+<br/>
 # Favorite Quotes
 -------------------
 
@@ -100,3 +100,5 @@ author_profile: true
 *Image Source: Google Image Search*
 -->
 [**Back to Top**](#)
+
+----------------------------------------
