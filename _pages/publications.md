@@ -88,6 +88,7 @@ author_profile: true
 
 <br/>
 
+<!--
 # Favorite Quotes
 -------------------
 
@@ -97,5 +98,5 @@ author_profile: true
 	title="Favorite Quotes" width="840" height="70">
 
 *Image Source: Google Image Search*
-
+-->
 [**Back to Top**](#)
