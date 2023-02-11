@@ -8,12 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-Thanks for stopping by!
+👋 Hi, there! I’m Mir Tafseer Nayeem, a second-year Computing Science Ph.D. student at the [University of Alberta](https://www.ualberta.ca/index.html), advised by Prof. [Davood Rafiei](https://webdocs.cs.ualberta.ca/~drafiei/). My research interests include, but are not limited to, Natural Language Processing, Information Retrieval, and Computational Social Science. My Ph.D. research is about human-centric modeling of content, especially two key factors (1) **who** are behind the data and (2) to **whom** the application will serve. My research is generously supported by a <span style="color:Red"> **Huawei Doctoral Scholarship** </span>. My work was nominated for [<span style="color:Red"> **Best Paper Award**</span>](http://coling2018.org/coling-2018-best-papers/) and selected as <span style="color:Red"> **Area Chair Favorite Paper** </span> at [COLING 2018](http://coling2018.org).
 
-My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Science from the [University of Lethbridge (UofL)](https://www.uleth.ca/), Alberta, Canada. I also worked as a Teaching and Research Assistant at UofL. My research interests include, but are not limited to, Natural Language Processing, Computational Social Science, and Recommender Systems. My work was nominated for [<span style="color:Red"> **Best Paper Award**</span>](http://coling2018.org/coling-2018-best-papers/) and selected as <span style="color:Red"> **Area Chair Favorite Paper** </span> at [COLING 2018](http://coling2018.org). 
 
 <!--
-Currently, I am working as a faculty member at [Ahsanullah University of Science and Technology (AUST)](https://www.aust.edu/cse), Dhaka, Bangladesh. 
+Thanks for stopping by!
+
+My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Science from the [University of Lethbridge (UofL)](https://www.uleth.ca/), Alberta, Canada. I also worked as a Teaching and Research Assistant at UofL. My research interests include, but are not limited to, Natural Language Processing, Computational Social Science, and Recommender Systems. My work was nominated for [<span style="color:Red"> **Best Paper Award**</span>](http://coling2018.org/coling-2018-best-papers/) and selected as <span style="color:Red"> **Area Chair Favorite Paper** </span> at [COLING 2018](http://coling2018.org). Currently, I am working as a faculty member at [Ahsanullah University of Science and Technology (AUST)](https://www.aust.edu/cse), Dhaka, Bangladesh. 
 -->
 
 **For additional information, please see my [CV](https://tafseer-nayeem.github.io/cv/) and [publications](https://tafseer-nayeem.github.io/publications/).**
