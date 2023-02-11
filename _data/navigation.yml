@@ -15,8 +15,8 @@ main:
   - title: "Activities"
     url: /activities/
     
-  - title: "Blog Posts"
-    url: /blog-posts/ 
+  #- title: "Blog Posts"
+    #url: /blog-posts/ 
     
   - title: "CV"
     url: /cv/

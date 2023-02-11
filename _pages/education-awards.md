@@ -7,6 +7,13 @@ author_profile: true
 
 # Education
 
+## 🎓 Ph.D. in Computing Science
+---------------------------------
+* [University of Alberta (UofA)](https://www.ualberta.ca/index.html), Edmonton, Canada.
+* **Tentative Thesis Title:** *"Human-Centric Modeling of Content"*
+* **Supervisor:** [Prof. Davood Rafiei](https://webdocs.cs.ualberta.ca/~drafiei/)
+
+
 ## 🎓 M.Sc. in Computer Science
 --------------------------------
 
@@ -14,8 +21,8 @@ author_profile: true
 <!-- **CGPA:  4.00** <span style ="color:Green"> [*out of 4.00* ] </span>-->
 * **Thesis Title:** [*"Methods of Sentence Extraction, Abstraction, and Ordering for Automatic Text Summarization"*](https://opus.uleth.ca/bitstream/handle/10133/4993/NAYEEM_MIR_TAFSEER_MSC_2017.pdf) 
 * **Thesis Presentation:** [<span style ="color:Green"> [**Presentation**] </span>](https://tafseer-nayeem.github.io/files/MSc_Thesis_Presenation.pdf) 
-* **Supervisor:** [Dr. Yllias Chali](http://www.cs.uleth.ca/~chali/), Professor, CS Department.
-* **Committee Members:** [Dr. Wendy Osborn](http://directory.uleth.ca/users/wendy.osborn), [Dr. John Anvik ](http://directory.uleth.ca/users/john.anvik)
+* **Supervisor:** [Prof. Yllias Chali](http://www.cs.uleth.ca/~chali/)
+* **Committee Members:** [Prof. Wendy Osborn](http://directory.uleth.ca/users/wendy.osborn), [Prof. John Anvik ](http://directory.uleth.ca/users/john.anvik)
 
 
 ## 🎓 B.Sc. in Computer Science and Information Technology
