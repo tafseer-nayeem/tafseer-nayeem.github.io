@@ -53,7 +53,7 @@ author_profile: true
 * 🏆 Graduate Student’s Association (**GSA**) Travel Award [2017]
 * 🏆 School of Graduate Studies (**S.G.S**) Dean’s Scholarship, UofL [2015 - 2017]
 * 🏆 School of Graduate Studies (**S.G.S**) International Tuition Award, UofL [2015 - 2017]
-* 🏆 **IUT-OIC** Full Free Scholarship [International, 2008 - 2011]
+* 🏆 **IUT-OIC** Full Free Scholarship [2008 - 2011]
 
 <!-- 
 <a href="https://tafseer-nayeem.github.io/education-awards/"> <img src="https://tafseer-nayeem.github.io/images/awards.png" alt="Awards"
