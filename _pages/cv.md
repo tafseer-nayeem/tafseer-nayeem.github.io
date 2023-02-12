@@ -10,9 +10,9 @@ author_profile: true
 ## Contact Me
 -------------
 
-📧 **Email:** mnayeem [at] ualberta [dot] ca (*official*)
+📧 **Email:** mnayeem [at] ualberta [dot] ca (***official***)
 
-&nbsp; &nbsp; tafseer.nayeem [at] {ualberta [dot] ca **OR** gmail [dot] com} (*others*)<br /> 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; tafseer.nayeem [at] {ualberta [dot] ca **OR** gmail [dot] com} (***others***)<br /> 
 
 <!-- [comment]: # &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mir.nayeem [at] alumni [dot] uleth [dot] [*first 2 letters in “canada”*], <br /> -->
 
@@ -22,11 +22,11 @@ You can also find me on [Twitter](https://twitter.com/mtnayeem), [LinkedIn](http
 
 **Address:**
 <address>
-Department of Computing Science
-1-38 Athabasca Hall
-University of Alberta
-Edmonton, Alberta
-Canada T6G 2E8
+Department of Computing Science  <br /> 
+1-38 Athabasca Hall  <br /> 
+University of Alberta  <br /> 
+Edmonton, Alberta  <br /> 
+Canada T6G 2E8  <br /> 
 </address> 
 
 <!-- 
