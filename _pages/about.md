@@ -48,10 +48,10 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 -->
 
 ----------------------------------------
-<!--
+
 [**Back to Top**](#)
 
-
+<!--
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=320&t=m&d=ipF0iF0Q-RsFHP1VWejYRbFjf-eSQyozfam19f0UfGo'></script>
 -->
 
