@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Mir Tafseer Nayeem"
   avatar           : "profile.jpg"
-  bio              : "I want to enable machines to interact intelligently with people via natural language."
+  bio              : "Ph.D. Student in Computing Science at University of Alberta" #"I want to enable machines to interact intelligently with people via natural language."
   location         : #"127.0.0.1"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
