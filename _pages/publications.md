@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-[ [**Google Scholar**](https://scholar.google.com/citations?hl=en&user=qoeylgEAAAAJ&view_op=list_works&sortby=pubdate) \| [**DBLP**](https://dblp.org/pid/125/2693.html) ]
+[ [**Google Scholar**](https://scholar.google.com/citations?hl=en&user=qoeylgEAAAAJ&view_op=list_works&sortby=pubdate) \| [**DBLP**](https://dblp.org/pid/125/2693.html) \| [**Semantic Scholar**](https://www.semanticscholar.org/author/Mir-Tafseer-Nayeem/1807355)]
 
 [comment]: # \| [**Favorite Quotes**](#favorite-quotes)
 
