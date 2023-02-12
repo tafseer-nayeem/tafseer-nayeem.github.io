@@ -12,7 +12,7 @@ author_profile: true
 
 📧 **Email:** mnayeem [at] ualberta [dot] ca (***official***)
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;tafseer.nayeem [at] {ualberta [dot] ca **OR** gmail [dot] com} (***others***)<br /> 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;tafseer.nayeem [at] {ualberta [dot] ca <span style="color:Blue">**OR**</span> gmail [dot] com} (***others***)<br /> 
 
 <!-- [comment]: # &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mir.nayeem [at] alumni [dot] uleth [dot] [*first 2 letters in “canada”*], <br /> -->
 
