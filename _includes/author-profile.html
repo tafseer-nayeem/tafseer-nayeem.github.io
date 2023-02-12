@@ -109,6 +109,9 @@
 	  {% if author.semanticscholar %}
         <li><a href="{{ author.semanticscholar }}"><i class="fas fa-graduation-cap"></i> Semantic Scholar</a></li>
       {% endif %}
+	  {% if author.DBLP %}
+        <li><a href="{{ author.DBLP }}"><i class="fas fa-graduation-cap"></i> DBLP</a></li>
+      {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>
       {% endif %}
