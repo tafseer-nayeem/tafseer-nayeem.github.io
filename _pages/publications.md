@@ -9,7 +9,7 @@ author_profile: true
 
 <span style ="color:BlueViolet"> [\**indicates equal contribution*]</span>
 
-[comment]: # \| [**Favorite Quotes**](#favorite-quotes)
+<!-- [comment]: # \| [**Favorite Quotes**](#favorite-quotes) -->
 
 ## 2021
 -----------
