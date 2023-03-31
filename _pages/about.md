@@ -31,9 +31,9 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 	title="Publication Venues" width="600" height="200"> </a>
 -->
 
-<br />
+<!-- <br /> -->
 <p align="center">
-	<img src="https://tafseer-nayeem.github.io/images/human-centric.png" alt="Human-Centric Modeling" title="Human-Centric Modeling" width="550" height="150">
+<img src="https://tafseer-nayeem.github.io/images/human-centric.png" alt="Human-Centric Modeling" title="Human-Centric Modeling" width="550" height="150">
 </p>
 
 ## Updates and Highlights
