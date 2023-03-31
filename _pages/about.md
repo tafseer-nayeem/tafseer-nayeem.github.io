@@ -33,7 +33,7 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 
 <br />
 &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://tafseer-nayeem.github.io/"> <img src="https://tafseer-nayeem.github.io/images/human-centric.png" alt="Human-Centric Modeling"
-	title="Publication Venues" width="500" height="150" class="center"> </a>
+	title="Publication Venues" width="550" height="150" class="center"> </a>
 
 ## Updates and Highlights
 * 📢 <span style="color:Blue"> [Jan 2023] </span> - **Paper Alert** 🔔 - Two papers got accepted at [EACL 2023](https://2023.eacl.org/).
