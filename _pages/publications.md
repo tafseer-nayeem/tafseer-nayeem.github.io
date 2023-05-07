@@ -16,7 +16,7 @@ author_profile: true
 -----------
 * [**On the Role of Reviewer Expertise in Temporal Review Helpfulness Prediction**](https://aclanthology.org/2023.findings-eacl.125/)<br/>
 👨‍💻 **Mir Tafseer Nayeem** and Davood Rafiei <br/>
-📰 European Chapter of the Association for Computational Linguistics ([**EACL 2023**](https://2023.eacl.org/))<br/>
+📰 European Chapter of the Association for Computational Linguistics ([**EACL 2023 (Findings)**](https://2023.eacl.org/))<br/>
 👉 [<span style ="color:Green"> [**Code & Dataset**] </span>](https://github.com/tafseer-nayeem/RHP) [<span style ="color:Green"> [**Presentation**] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_presentation.pdf) [<span style ="color:Green"> [**Poster**] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_poster.pdf) [<span style ="color:Green"> [<span style ="color:Green"> [**Twitter Thread**] </span>](https://twitter.com/mtnayeem/status/1350551479283662848?s=20)
 
 ## 2021
@@ -87,7 +87,7 @@ author_profile: true
 📰 IEEE International Conference on Cognitive Informatics and Cognitive Computing ([**IEEE ICCI*CC’14**](https://ieeexplore.ieee.org/xpl/conhome/6911098/proceeding)), London, UK.
 
 * [**Human Cognition in Automated Turing Test Design**](https://dl.acm.org/citation.cfm?id=2807119) <br/>
-🤓 **Mir Tafseer Nayeem**, Md Mamunur Rashid Akand, Nazmus Sakib, and Md. Wasi Ul Kabir <br/>
+👨‍💻 **Mir Tafseer Nayeem**, Md Mamunur Rashid Akand, Nazmus Sakib, and Md. Wasi Ul Kabir <br/>
 📰 International Journal of Software Science and Computational Intelligence ([**IJSSCI**](https://dl.acm.org/toc/ijssci-igi/2014/6/4)) 6.4 (2014): 1-19.
 
 
