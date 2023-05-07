@@ -11,6 +11,14 @@ author_profile: true
 
 <!-- [comment]: # \| [**Favorite Quotes**](#favorite-quotes) -->
 
+
+## 2023
+-----------
+* [**On the Role of Reviewer Expertise in Temporal Review Helpfulness Prediction**](https://aclanthology.org/2023.findings-eacl.125/)<br/>
+🤓 **Mir Tafseer Nayeem** and Davood Rafiei <br/>
+📰 17th Conference of the European Chapter of the Association for Computational Linguistics ([**EACL 2023**](https://2023.eacl.org/))<br/>
+👉 [<span style ="color:Green"> [**Code & Dataset**] </span>](https://github.com/tafseer-nayeem/RHP) [<span style ="color:Green"> [**Presentation**] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_presentation.pdf) [<span style ="color:Green"> [**Poster**] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_poster.pdf) [<span style ="color:Green"> [<span style ="color:Green"> [**Twitter Thread**] </span>](https://twitter.com/mtnayeem/status/1350551479283662848?s=20)
+
 ## 2021
 -----------
 * [**Simple or Complex? Learning to Predict Readability of Bengali Texts**](https://ojs.aaai.org/index.php/AAAI/article/view/17495)<br/>
