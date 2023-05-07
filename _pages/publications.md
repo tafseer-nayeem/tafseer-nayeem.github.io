@@ -17,12 +17,12 @@ author_profile: true
 * [**On the Role of Reviewer Expertise in Temporal Review Helpfulness Prediction**](https://aclanthology.org/2023.findings-eacl.125/)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **EACL 2023 (Findings)** </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem** and Davood Rafiei <br/>
-👉 [<span style ="color:DarkBlue"> [Code & Dataset] </span>](https://github.com/tafseer-nayeem/RHP) &nbsp; [<span style ="color:DarkBlue"> [Presentation] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_presentation.pdf) &nbsp; [<span style ="color:DarkBlue"> [**Poster**] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_poster.pdf)
+👉 [<span style ="color:DarkBlue"> [Code & Dataset] </span>](https://github.com/tafseer-nayeem/RHP) &nbsp; [<span style ="color:DarkBlue"> [Presentation] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_presentation.pdf) &nbsp; [<span style ="color:DarkBlue"> [Poster] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_poster.pdf)
 
 * [**Shironaam: Bengali News Headline Generation using Auxiliary Information**](https://aclanthology.org/2023.eacl-main.4/)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **EACL 2023** </span> <br/>
 👨‍💻 Abu Ubaida Akash\*, **Mir Tafseer Nayeem\***, Faisal Tareque Shohan, and Tanvir Islam <br/>
-👉 [<span style ="color:DarkBlue"> [Code & Dataset] </span>](https://github.com/dialect-ai/BenHeadGen) &nbsp; [<span style ="color:DarkBlue"> [Presentation] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_presentation.pdf) &nbsp; [<span style ="color:DarkBlue"> [**Poster**] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_poster.pdf)
+👉 [<span style ="color:DarkBlue"> [Code & Dataset] </span>](https://github.com/dialect-ai/BenHeadGen) &nbsp; [<span style ="color:DarkBlue"> [Presentation] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_presentation.pdf) &nbsp; [<span style ="color:DarkBlue"> [Poster] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_poster.pdf)
 
 ## 2021
 -----------
