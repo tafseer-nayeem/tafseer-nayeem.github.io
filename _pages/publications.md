@@ -19,6 +19,7 @@ author_profile: true
 👨‍💻 **Mir Tafseer Nayeem** and Davood Rafiei <br/>
 👉 [<span style ="color:DarkBlue"> [Code & Dataset] </span>](https://github.com/tafseer-nayeem/RHP) &nbsp; [<span style ="color:DarkBlue"> [Presentation] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_presentation.pdf) &nbsp; [<span style ="color:DarkBlue"> [Poster] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_poster.pdf)
 
+
 * [**Shironaam: Bengali News Headline Generation using Auxiliary Information**](https://aclanthology.org/2023.eacl-main.4/)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **EACL 2023** </span> <br/>
 👨‍💻 Abu Ubaida Akash\*, **Mir Tafseer Nayeem\***, Faisal Tareque Shohan, and Tanvir Islam <br/>
@@ -30,6 +31,7 @@ author_profile: true
 📰 <span style ="color:Maroon"> Proceedings of **AAAI 2021** </span> <br/>
 👨‍💻 Susmoy Chakraborty\*, **Mir Tafseer Nayeem\***, and Wasi Uddin Ahmad <br/>
 👉 [<span style ="color:DarkBlue"> [Code & Dataset] </span>](https://github.com/tafseer-nayeem/BengaliReadability) &nbsp; [<span style ="color:DarkBlue"> [Presentation] </span>](https://tafseer-nayeem.github.io/files/AAAI2021/aaai2021_full.pdf) &nbsp; [<span style ="color:DarkBlue"> [Poster] </span>](https://tafseer-nayeem.github.io/files/AAAI2021/aaai2021_poster.pdf) &nbsp; [<span style ="color:DarkBlue"> [Demo Video] </span>](https://youtu.be/U05Pf9Y4tCQ) &nbsp; [<span style ="color:DarkBlue"> [Twitter Thread] </span>](https://twitter.com/mtnayeem/status/1334590638105378817?s=20)
+
 
 * [**Unsupervised Abstractive Summarization of Bengali Text Documents**](https://www.aclweb.org/anthology/2021.eacl-main.224)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **EACL 2021** </span> <br/>
@@ -44,10 +46,12 @@ author_profile: true
 👨‍💻 **Mir Tafseer Nayeem**, Tanvir Ahmed Fuad, and Yllias Chali <br/>
 👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://tafseer-nayeem.github.io/files/ECIR_2019_paper.pdf)
 
+
 * [**Neural Sentence Fusion for Diversity Driven Abstractive Multi-Document Summarization**](https://www.sciencedirect.com/science/article/pii/S0885230818303449) <br/>
 📰 <span style ="color:Maroon"> **Computer Speech & Language**, Elsevier 58 (2019): 216-230. </span> <br/>
 👨‍💻 Tanvir Ahmed Fuad\*, **Mir Tafseer Nayeem\***, Asif Mahmud, and Yllias Chali <br/>
 👉 [<span style ="color:DarkBlue"> [Code] </span>](https://github.com/tafseer-nayeem/NeuFuse) &nbsp; [<span style ="color:DarkBlue"> [PDF] </span>](https://tafseer-nayeem.github.io/files/CSL_Journal_2019.pdf) 
+
 
 * [**Automatic Individual Information Aggregation using Publicly Available Social Media Data**](https://ieeexplore.ieee.org/document/9038402) <br/>
 📰 <span style ="color:Maroon"> Proceedings of **ICCIT 2019** </span> <br/>
@@ -78,6 +82,7 @@ author_profile: true
 📰 <span style ="color:Maroon"> Proceedings of **IJCNLP 2017** </span> <br/>
 👨‍💻 Yllias Chali, Moin Mahmud Tanvee, and **Mir Tafseer Nayeem** <br/>
 
+
 * [**Extract with Order for Coherent Multi-Document Summarization**](http://www.aclweb.org/anthology/W17-2407) <br/>
 📰 <span style ="color:Maroon"> Proceedings of **ACL 2017 (Workshop)** </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem** and Yllias Chali <br/>
@@ -90,6 +95,7 @@ author_profile: true
 📰 <span style ="color:Maroon"> Proceedings of **IEEE ICCI\*CC 2014** </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem**, Md Mamunur Rashid Akand, Nazmus Sakib, and Md. Wasi Ul Kabir <br/>
 👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://tafseer-nayeem.github.io/files/IEEE_ICCICC14_paper.pdf)
+
 
 * [**Human Cognition in Automated Turing Test Design**](https://dl.acm.org/citation.cfm?id=2807119) <br/>
 📰 <span style ="color:Maroon"> International Journal of Software Science and Computational Intelligence (**IJSSCI**) 6.4 (2014): 1-19. </span> <br/>
