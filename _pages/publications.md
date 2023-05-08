@@ -68,11 +68,11 @@ author_profile: true
 ## 2017
 -----------
 * [**Paraphrastic Fusion for Abstractive Multi-Sentence Compression Generation**](https://dl.acm.org/citation.cfm?id=3133106) <br/>
+📰 <span style ="color:Maroon"> Proceedings of **ECIR 2019** </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem** and Yllias Chali <br/>
 📰 ACM International Conference on Information and Knowledge Management ([**CIKM 2017**](http://www.cikmconference.org/CIKM2017/)), Singapore. <br/>
 👉 [<span style ="color:DarkBlue"> [**PDF**] </span>](https://tafseer-nayeem.github.io/files/CIKM_2017_paper.pdf) <br/>
 🏆 [<span style="color:Red"> **ACM SIGIR Student Travel Grant** </span>](https://sigir.org/general-information/travel-grants/)
-
 
 
 * [**Towards Abstractive Multi-Document Summarization Using Submodular Function-Based Framework, Sentence Compression and Merging**](http://www.aclweb.org/anthology/I17-2071) <br/>
@@ -88,13 +88,12 @@ author_profile: true
 ## 2014
 -----------
 * [**Design of a Human Interaction Proof (HIP) using Human Cognition in Contextual Natural Conversation**](https://ieeexplore.ieee.org/document/6921454/) <br/>
+📰 <span style ="color:Maroon"> Proceedings of **IEEE ICCI\*CC 2014** </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem**, Md Mamunur Rashid Akand, Nazmus Sakib, and Md. Wasi Ul Kabir <br/>
-📰 IEEE International Conference on Cognitive Informatics and Cognitive Computing ([**IEEE ICCI*CC’14**](https://ieeexplore.ieee.org/xpl/conhome/6911098/proceeding)), London, UK.
 
 * [**Human Cognition in Automated Turing Test Design**](https://dl.acm.org/citation.cfm?id=2807119) <br/>
-📰 <span style ="color:Maroon"> **Computer Speech & Language**, Elsevier 58 (2019): 216-230. </span> <br/>
+📰 <span style ="color:Maroon"> International Journal of Software Science and Computational Intelligence ([**IJSSCI**](https://dl.acm.org/toc/ijssci-igi/2014/6/4)) 6.4 (2014): 1-19. </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem**, Md Mamunur Rashid Akand, Nazmus Sakib, and Md. Wasi Ul Kabir <br/>
-📰 International Journal of Software Science and Computational Intelligence ([**IJSSCI**](https://dl.acm.org/toc/ijssci-igi/2014/6/4)) 6.4 (2014): 1-19.
 
 
 ## 2012
