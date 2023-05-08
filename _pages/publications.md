@@ -45,7 +45,7 @@ author_profile: true
 👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://tafseer-nayeem.github.io/files/ECIR_2019_paper.pdf)
 
 * [**Neural Sentence Fusion for Diversity Driven Abstractive Multi-Document Summarization**](https://www.sciencedirect.com/science/article/pii/S0885230818303449) <br/>
-📰 <span style ="color:Maroon"> **Computer Speech & Language**, Elsevier 58 (2019): 216-230. </span> <br/>
+📰 <span style ="color:Maroon"> [**Computer Speech & Language**](https://www.sciencedirect.com/journal/computer-speech-and-language), Elsevier 58 (2019): 216-230. </span> <br/>
 👨‍💻 Tanvir Ahmed Fuad\*, **Mir Tafseer Nayeem\***, Asif Mahmud, and Yllias Chali <br/>
 👉 [<span style ="color:DarkBlue"> [Code] </span>](https://github.com/tafseer-nayeem/NeuFuse) &nbsp; [<span style ="color:DarkBlue"> [PDF] </span>](https://tafseer-nayeem.github.io/files/CSL_Journal_2019.pdf) 
 
@@ -92,6 +92,7 @@ author_profile: true
 📰 IEEE International Conference on Cognitive Informatics and Cognitive Computing ([**IEEE ICCI*CC’14**](https://ieeexplore.ieee.org/xpl/conhome/6911098/proceeding)), London, UK.
 
 * [**Human Cognition in Automated Turing Test Design**](https://dl.acm.org/citation.cfm?id=2807119) <br/>
+📰 <span style ="color:Maroon"> **Computer Speech & Language**, Elsevier 58 (2019): 216-230. </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem**, Md Mamunur Rashid Akand, Nazmus Sakib, and Md. Wasi Ul Kabir <br/>
 📰 International Journal of Software Science and Computational Intelligence ([**IJSSCI**](https://dl.acm.org/toc/ijssci-igi/2014/6/4)) 6.4 (2014): 1-19.
 
@@ -101,7 +102,6 @@ author_profile: true
 * [**Use of Human Cognition in HIP Design Via EmotIcons to Defend BOT Attacks**](https://ieeexplore.ieee.org/document/6417291/) <br/>
 📰 <span style ="color:Maroon"> Proceedings of **IEEE CSE 2012** </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem**, Md. Saddam Hossain Mukta, Samsuddin Ahmed, and Md. Mahbubur Rahman <br/>
-📰 IEEE International Conference on Computational Science and Engineering ([**IEEE CSE 2012**](http://www.cse2012.cs.ucy.ac.cy/)), Nicosia, Cyprus. <br/>
 👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://tafseer-nayeem.github.io/files/IEEE_CSE12_paper.pdf) <span style ="color:DarkBlue"> [Oral Presentation] </span>
 
 
