@@ -61,7 +61,7 @@ author_profile: true
 👨‍💻 **Mir Tafseer Nayeem**, Tanvir Ahmed Fuad, and Yllias Chali <br/>
 📰 International Conference on Computational Linguistics ([**COLING 2018**](https://coling2018.org/)), Santa Fe, New Mexico, USA. <br/>
 👉 [<span style ="color:DarkBlue"> [**Oral Presentation**] </span>](https://tafseer-nayeem.github.io/files/COLING_2018_Presentation.pdf) [<span style ="color:DarkBlue"> [**Twitter Thread**] </span>](https://twitter.com/mtnayeem/status/1007565988047409152?s=20) <br/>
-🏆 [<span style="color:OrangeRed> **Area Chair Favorite Paper** </span>](http://coling2018.org/coling-2018-best-papers/) <br/>
+🏆 [<span style="color:OrangeRed"> **Area Chair Favorite Paper** </span>](http://coling2018.org/coling-2018-best-papers/) <br/>
 🏆 [<span style="color:OrangeRed"> **Best Paper Nomination** </span>](http://coling2018.org/coling-2018-best-papers/)   
 
 
