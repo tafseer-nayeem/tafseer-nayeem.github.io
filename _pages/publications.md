@@ -70,7 +70,7 @@ author_profile: true
 * [**Paraphrastic Fusion for Abstractive Multi-Sentence Compression Generation**](https://dl.acm.org/citation.cfm?id=3133106) <br/>
 📰 <span style ="color:Maroon"> Proceedings of **ACM CIKM 2017** </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem** and Yllias Chali <br/>
-👉 [<span style ="color:DarkBlue"> [**PDF**] </span>](https://tafseer-nayeem.github.io/files/CIKM_2017_paper.pdf) <br/>
+👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://tafseer-nayeem.github.io/files/CIKM_2017_paper.pdf) <br/>
 🏆 [<span style="color:Red"> **ACM SIGIR Student Travel Grant** </span>](https://sigir.org/general-information/travel-grants/)
 
 
