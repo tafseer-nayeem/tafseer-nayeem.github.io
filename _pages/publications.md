@@ -65,8 +65,8 @@ author_profile: true
 📰 <span style ="color:Maroon"> Proceedings of **COLING 2018** </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem**, Tanvir Ahmed Fuad, and Yllias Chali <br/>
 👉 [<span style ="color:DarkBlue"> [Oral Presentation] </span>](https://tafseer-nayeem.github.io/files/COLING_2018_Presentation.pdf) &nbsp; [<span style ="color:DarkBlue"> [Twitter Thread] </span>](https://twitter.com/mtnayeem/status/1007565988047409152?s=20) <br/>
-🏆 [<span style="color:Red"> Area Chair Favorite Paper </span>](http://coling2018.org/coling-2018-best-papers/) <br/>
-🏆 [<span style="color:Red"> Best Paper Nomination </span>](http://coling2018.org/coling-2018-best-papers/)   
+🏆 [<span style="color:Red"> **Area Chair Favorite Paper** </span>](http://coling2018.org/coling-2018-best-papers/) <br/>
+🏆 [<span style="color:Red"> **Best Paper Nomination** </span>](http://coling2018.org/coling-2018-best-papers/)   
 
 
 ## 2017
