@@ -61,8 +61,8 @@ author_profile: true
 👨‍💻 **Mir Tafseer Nayeem**, Tanvir Ahmed Fuad, and Yllias Chali <br/>
 📰 International Conference on Computational Linguistics ([**COLING 2018**](https://coling2018.org/)), Santa Fe, New Mexico, USA. <br/>
 👉 [<span style ="color:DarkBlue"> [**Oral Presentation**] </span>](https://tafseer-nayeem.github.io/files/COLING_2018_Presentation.pdf) [<span style ="color:DarkBlue"> [**Twitter Thread**] </span>](https://twitter.com/mtnayeem/status/1007565988047409152?s=20) <br/>
-🏆 [<span style="color:OrangeRed"> **Area Chair Favorite Paper** </span>](http://coling2018.org/coling-2018-best-papers/) <br/>
-🏆 [<span style="color:OrangeRed"> **Best Paper Nomination** </span>](http://coling2018.org/coling-2018-best-papers/)   
+🏆 [<span style="color:Red"> **Area Chair Favorite Paper** </span>](http://coling2018.org/coling-2018-best-papers/) <br/>
+🏆 [<span style="color:Red"> **Best Paper Nomination** </span>](http://coling2018.org/coling-2018-best-papers/)   
 
 
 ## 2017
@@ -71,7 +71,7 @@ author_profile: true
 👨‍💻 **Mir Tafseer Nayeem** and Yllias Chali <br/>
 📰 ACM International Conference on Information and Knowledge Management ([**CIKM 2017**](http://www.cikmconference.org/CIKM2017/)), Singapore. <br/>
 👉 [<span style ="color:DarkBlue"> [**PDF**] </span>](https://tafseer-nayeem.github.io/files/CIKM_2017_paper.pdf) <br/>
-🏆 [<span style="color:OrangeRed"> **ACM SIGIR Student Travel Grant** </span>](https://sigir.org/general-information/travel-grants/)
+🏆 [<span style="color:Red"> **ACM SIGIR Student Travel Grant** </span>](https://sigir.org/general-information/travel-grants/)
 
 
 
@@ -99,9 +99,10 @@ author_profile: true
 ## 2012
 -----------
 * [**Use of Human Cognition in HIP Design Via EmotIcons to Defend BOT Attacks**](https://ieeexplore.ieee.org/document/6417291/) <br/>
-👨‍💻 **Mir Tafseer Nayeem**, Md. Saddam Hossain Mukta , Samsuddin Ahmed, and Md. Mahbubur Rahman <br/>
+📰 <span style ="color:Maroon"> Proceedings of **IEEE CSE 2012** </span> <br/>
+👨‍💻 **Mir Tafseer Nayeem**, Md. Saddam Hossain Mukta, Samsuddin Ahmed, and Md. Mahbubur Rahman <br/>
 📰 IEEE International Conference on Computational Science and Engineering ([**IEEE CSE 2012**](http://www.cse2012.cs.ucy.ac.cy/)), Nicosia, Cyprus. <br/>
-👉 [<span style ="color:DarkBlue"> [**PDF**] </span>](https://tafseer-nayeem.github.io/files/IEEE_CSE12_paper.pdf) <span style ="color:DarkBlue"> **[Oral Presentation]** </span>
+👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://tafseer-nayeem.github.io/files/IEEE_CSE12_paper.pdf) <span style ="color:DarkBlue"> [Oral Presentation] </span>
 
 
 [comment]: # <br/>
