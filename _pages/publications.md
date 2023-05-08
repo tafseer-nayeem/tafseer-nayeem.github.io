@@ -92,7 +92,7 @@ author_profile: true
 👨‍💻 **Mir Tafseer Nayeem**, Md Mamunur Rashid Akand, Nazmus Sakib, and Md. Wasi Ul Kabir <br/>
 
 * [**Human Cognition in Automated Turing Test Design**](https://dl.acm.org/citation.cfm?id=2807119) <br/>
-📰 <span style ="color:Maroon"> International Journal of Software Science and Computational Intelligence (**IJSSCI**]) 6.4 (2014): 1-19. </span> <br/>
+📰 <span style ="color:Maroon"> International Journal of Software Science and Computational Intelligence (**IJSSCI**) 6.4 (2014): 1-19. </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem**, Md Mamunur Rashid Akand, Nazmus Sakib, and Md. Wasi Ul Kabir <br/>
 
 
