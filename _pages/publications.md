@@ -52,7 +52,7 @@ author_profile: true
 * [**Automatic Individual Information Aggregation using Publicly Available Social Media Data**](https://ieeexplore.ieee.org/document/9038402) <br/>
 📰 <span style ="color:Maroon"> Proceedings of **ICCIT 2019** </span> <br/>
 👨‍💻 Sibendu Sarker, Wayne Franz, and **Mir Tafseer Nayeem** <br/>
-👉 [<span style ="color:Green"> [**PDF**] </span>](https://tafseer-nayeem.github.io/files/ICCIT_2019_paper.pdf)
+👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://tafseer-nayeem.github.io/files/ICCIT_2019_paper.pdf)
 
 
 ## 2018
@@ -60,7 +60,7 @@ author_profile: true
 * [**Abstractive Unsupervised Multi-Document Summarization using Paraphrastic Sentence Fusion**](http://aclweb.org/anthology/C18-1102) <br/>
 👨‍💻 **Mir Tafseer Nayeem**, Tanvir Ahmed Fuad, and Yllias Chali <br/>
 📰 International Conference on Computational Linguistics ([**COLING 2018**](https://coling2018.org/)), Santa Fe, New Mexico, USA. <br/>
-👉 [<span style ="color:Green"> [**Oral Presentation**] </span>](https://tafseer-nayeem.github.io/files/COLING_2018_Presentation.pdf) [<span style ="color:Green"> [**Twitter Thread**] </span>](https://twitter.com/mtnayeem/status/1007565988047409152?s=20) <br/>
+👉 [<span style ="color:DarkBlue"> [**Oral Presentation**] </span>](https://tafseer-nayeem.github.io/files/COLING_2018_Presentation.pdf) [<span style ="color:DarkBlue"> [**Twitter Thread**] </span>](https://twitter.com/mtnayeem/status/1007565988047409152?s=20) <br/>
 🏆 [<span style="color:Red"> **Area Chair Favorite Paper** </span>](http://coling2018.org/coling-2018-best-papers/) <br/>
 🏆 [<span style="color:Red"> **Best Paper Nomination** </span>](http://coling2018.org/coling-2018-best-papers/)   
 
@@ -70,7 +70,7 @@ author_profile: true
 * [**Paraphrastic Fusion for Abstractive Multi-Sentence Compression Generation**](https://dl.acm.org/citation.cfm?id=3133106) <br/>
 👨‍💻 **Mir Tafseer Nayeem** and Yllias Chali <br/>
 📰 ACM International Conference on Information and Knowledge Management ([**CIKM 2017**](http://www.cikmconference.org/CIKM2017/)), Singapore. <br/>
-👉 [<span style ="color:Green"> [**PDF**] </span>](https://tafseer-nayeem.github.io/files/CIKM_2017_paper.pdf) <br/>
+👉 [<span style ="color:DarkBlue"> [**PDF**] </span>](https://tafseer-nayeem.github.io/files/CIKM_2017_paper.pdf) <br/>
 🏆 [<span style="color:Red"> **ACM SIGIR Student Travel Grant** </span>](https://sigir.org/general-information/travel-grants/)
 
 
@@ -82,7 +82,7 @@ author_profile: true
 * [**Extract with Order for Coherent Multi-Document Summarization**](http://www.aclweb.org/anthology/W17-2407) <br/>
 👨‍💻 **Mir Tafseer Nayeem** and Yllias Chali <br/>
 📰 Annual Meeting of the Association for Computational Linguistics ([**ACL-2017 Workshop**](http://acl2017.org/)), Vancouver, Canada. <br/>
-👉 [<span style ="color:Green"> [**Oral Presentation**] </span>](https://tafseer-nayeem.github.io/files/ACL_Workshop_2017_Presentation.pdf)
+👉 [<span style ="color:DarkBlue"> [**Oral Presentation**] </span>](https://tafseer-nayeem.github.io/files/ACL_Workshop_2017_Presentation.pdf)
 
 
 ## 2014
@@ -101,7 +101,7 @@ author_profile: true
 * [**Use of Human Cognition in HIP Design Via EmotIcons to Defend BOT Attacks**](https://ieeexplore.ieee.org/document/6417291/) <br/>
 👨‍💻 **Mir Tafseer Nayeem**, Md. Saddam Hossain Mukta , Samsuddin Ahmed, and Md. Mahbubur Rahman <br/>
 📰 IEEE International Conference on Computational Science and Engineering ([**IEEE CSE 2012**](http://www.cse2012.cs.ucy.ac.cy/)), Nicosia, Cyprus. <br/>
-👉 [<span style ="color:Green"> [**PDF**] </span>](https://tafseer-nayeem.github.io/files/IEEE_CSE12_paper.pdf) <span style ="color:Green"> **[Oral Presentation]** </span>
+👉 [<span style ="color:DarkBlue"> [**PDF**] </span>](https://tafseer-nayeem.github.io/files/IEEE_CSE12_paper.pdf) <span style ="color:DarkBlue"> **[Oral Presentation]** </span>
 
 
 [comment]: # <br/>
