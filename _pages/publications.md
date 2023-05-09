@@ -105,9 +105,9 @@ author_profile: true
 ## 2012
 -----------
 * [**Use of Human Cognition in HIP Design Via EmotIcons to Defend BOT Attacks**](https://ieeexplore.ieee.org/document/6417291/) <br/>
-📰 <span style ="color:Maroon"> Proceedings of **IEEE CSE 2012** </span> <br/>
+📰 <span style ="color:Maroon"> Proceedings of **IEEE CSE 2012** (*Oral*) </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem**, Md. Saddam Hossain Mukta, Samsuddin Ahmed, and Md. Mahbubur Rahman <br/>
-👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://tafseer-nayeem.github.io/files/IEEE_CSE12_paper.pdf) &nbsp; <span style ="color:DarkBlue"> [Oral Presentation] </span>
+👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://tafseer-nayeem.github.io/files/IEEE_CSE12_paper.pdf)
 
 
 [comment]: # <br/>
