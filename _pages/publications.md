@@ -15,7 +15,7 @@ author_profile: true
 ## 2023
 -----------
 * [**On the Role of Reviewer Expertise in Temporal Review Helpfulness Prediction**](https://aclanthology.org/2023.findings-eacl.125/)<br/>
-📰 <span style ="color:Maroon"> Proceedings of **EACL 2023 (Findings)** </span> <br/>
+📰 <span style ="color:Maroon"> Proceedings of **EACL 2023** (Findings)</span> <br/>
 👨‍💻 **Mir Tafseer Nayeem** and Davood Rafiei <br/>
 👉 [<span style ="color:DarkBlue"> [Code & Dataset] </span>](https://github.com/tafseer-nayeem/RHP) &nbsp; [<span style ="color:DarkBlue"> [Slides] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_presentation.pdf) &nbsp; [<span style ="color:DarkBlue"> [Poster] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_poster.pdf)
 
@@ -62,9 +62,9 @@ author_profile: true
 ## 2018
 -----------
 * [**Abstractive Unsupervised Multi-Document Summarization using Paraphrastic Sentence Fusion**](http://aclweb.org/anthology/C18-1102) <br/>
-📰 <span style ="color:Maroon"> Proceedings of **COLING 2018** </span> <br/>
+📰 <span style ="color:Maroon"> Proceedings of **COLING 2018** (Oral) </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem**, Tanvir Ahmed Fuad, and Yllias Chali <br/>
-👉 [<span style ="color:DarkBlue"> [Oral Presentation] </span>](https://tafseer-nayeem.github.io/files/COLING_2018_Presentation.pdf) &nbsp; [<span style ="color:DarkBlue"> [Twitter Thread] </span>](https://twitter.com/mtnayeem/status/1007565988047409152?s=20) <br/>
+👉 [<span style ="color:DarkBlue"> [Slides] </span>](https://tafseer-nayeem.github.io/files/COLING_2018_Presentation.pdf) &nbsp; [<span style ="color:DarkBlue"> [Twitter Thread] </span>](https://twitter.com/mtnayeem/status/1007565988047409152?s=20) <br/>
 🏆 [<span style="color:Red"> **Area Chair Favorite Paper** </span>](http://coling2018.org/coling-2018-best-papers/) <br/>
 🏆 [<span style="color:Red"> **Best Paper Nomination** </span>](http://coling2018.org/coling-2018-best-papers/)   
 
@@ -84,9 +84,9 @@ author_profile: true
 
 
 * [**Extract with Order for Coherent Multi-Document Summarization**](http://www.aclweb.org/anthology/W17-2407) <br/>
-📰 <span style ="color:Maroon"> Proceedings of **ACL 2017 (Workshop)** </span> <br/>
+📰 <span style ="color:Maroon"> Proceedings of **ACL 2017 (Workshop)** [Oral]</span> <br/>
 👨‍💻 **Mir Tafseer Nayeem** and Yllias Chali <br/>
-👉 [<span style ="color:DarkBlue"> [Oral Presentation] </span>](https://tafseer-nayeem.github.io/files/ACL_Workshop_2017_Presentation.pdf)
+👉 [<span style ="color:DarkBlue"> [Slides] </span>](https://tafseer-nayeem.github.io/files/ACL_Workshop_2017_Presentation.pdf)
 
 
 ## 2014
@@ -105,7 +105,7 @@ author_profile: true
 ## 2012
 -----------
 * [**Use of Human Cognition in HIP Design Via EmotIcons to Defend BOT Attacks**](https://ieeexplore.ieee.org/document/6417291/) <br/>
-📰 <span style ="color:Maroon"> Proceedings of **IEEE CSE 2012** (*Oral*) </span> <br/>
+📰 <span style ="color:Maroon"> Proceedings of **IEEE CSE 2012** (Oral) </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem**, Md. Saddam Hossain Mukta, Samsuddin Ahmed, and Md. Mahbubur Rahman <br/>
 👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://tafseer-nayeem.github.io/files/IEEE_CSE12_paper.pdf)
 
