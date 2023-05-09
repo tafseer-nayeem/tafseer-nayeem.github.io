@@ -17,26 +17,26 @@ author_profile: true
 * [**On the Role of Reviewer Expertise in Temporal Review Helpfulness Prediction**](https://aclanthology.org/2023.findings-eacl.125/)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **EACL 2023 (Findings)** </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem** and Davood Rafiei <br/>
-👉 [<span style ="color:DarkBlue"> [Code & Dataset] </span>](https://github.com/tafseer-nayeem/RHP) &nbsp; [<span style ="color:DarkBlue"> [Presentation] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_presentation.pdf) &nbsp; [<span style ="color:DarkBlue"> [Poster] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_poster.pdf)
+👉 [<span style ="color:DarkBlue"> [Code & Dataset] </span>](https://github.com/tafseer-nayeem/RHP) &nbsp; [<span style ="color:DarkBlue"> [Slides] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_presentation.pdf) &nbsp; [<span style ="color:DarkBlue"> [Poster] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_poster.pdf)
 
 
 * [**Shironaam: Bengali News Headline Generation using Auxiliary Information**](https://aclanthology.org/2023.eacl-main.4/)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **EACL 2023** </span> <br/>
 👨‍💻 Abu Ubaida Akash\*, **Mir Tafseer Nayeem\***, Faisal Tareque Shohan, and Tanvir Islam <br/>
-👉 [<span style ="color:DarkBlue"> [Code & Dataset] </span>](https://github.com/dialect-ai/BenHeadGen) &nbsp; [<span style ="color:DarkBlue"> [Presentation] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_presentation.pdf) &nbsp; [<span style ="color:DarkBlue"> [Poster] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_poster.pdf)
+👉 [<span style ="color:DarkBlue"> [Code & Dataset] </span>](https://github.com/dialect-ai/BenHeadGen) &nbsp; [<span style ="color:DarkBlue"> [Slides] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_presentation.pdf) &nbsp; [<span style ="color:DarkBlue"> [Poster] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_poster.pdf)
 
 ## 2021
 -----------
 * [**Simple or Complex? Learning to Predict Readability of Bengali Texts**](https://ojs.aaai.org/index.php/AAAI/article/view/17495)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **AAAI 2021** </span> <br/>
 👨‍💻 Susmoy Chakraborty\*, **Mir Tafseer Nayeem\***, and Wasi Uddin Ahmad <br/>
-👉 [<span style ="color:DarkBlue"> [Code & Dataset] </span>](https://github.com/tafseer-nayeem/BengaliReadability) &nbsp; [<span style ="color:DarkBlue"> [Presentation] </span>](https://tafseer-nayeem.github.io/files/AAAI2021/aaai2021_full.pdf) &nbsp; [<span style ="color:DarkBlue"> [Poster] </span>](https://tafseer-nayeem.github.io/files/AAAI2021/aaai2021_poster.pdf) &nbsp; [<span style ="color:DarkBlue"> [Demo Video] </span>](https://youtu.be/U05Pf9Y4tCQ) &nbsp; [<span style ="color:DarkBlue"> [Twitter Thread] </span>](https://twitter.com/mtnayeem/status/1334590638105378817?s=20)
+👉 [<span style ="color:DarkBlue"> [Code & Dataset] </span>](https://github.com/tafseer-nayeem/BengaliReadability) &nbsp; [<span style ="color:DarkBlue"> [Slides] </span>](https://tafseer-nayeem.github.io/files/AAAI2021/aaai2021_full.pdf) &nbsp; [<span style ="color:DarkBlue"> [Poster] </span>](https://tafseer-nayeem.github.io/files/AAAI2021/aaai2021_poster.pdf) &nbsp; [<span style ="color:DarkBlue"> [Demo Video] </span>](https://youtu.be/U05Pf9Y4tCQ) &nbsp; [<span style ="color:DarkBlue"> [Twitter Thread] </span>](https://twitter.com/mtnayeem/status/1334590638105378817?s=20)
 
 
 * [**Unsupervised Abstractive Summarization of Bengali Text Documents**](https://www.aclweb.org/anthology/2021.eacl-main.224)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **EACL 2021** </span> <br/>
 👨‍💻 Radia Rayan Chowdhury\*, **Mir Tafseer Nayeem\***, Tahsin Tasnim Mim, Md. Saifur Rahman Chowdhury, and Taufiqul Jannat <br/>
-👉 [<span style ="color:DarkBlue"> [Code & Dataset] </span>](https://github.com/tafseer-nayeem/BengaliSummarization) &nbsp; [<span style ="color:DarkBlue"> [Presentation] </span>](https://tafseer-nayeem.github.io/files/EACL2021/eacl2021_presentation.pdf) &nbsp; [<span style ="color:DarkBlue"> [Poster] </span>](https://tafseer-nayeem.github.io/files/EACL2021/eacl2021_poster.pdf) &nbsp; [<span style ="color:DarkBlue"> [Demo Video] </span>](https://youtu.be/LrnskktiXcg) &nbsp; [<span style ="color:DarkBlue"> [Twitter Thread] </span>](https://twitter.com/mtnayeem/status/1350551479283662848?s=20)
+👉 [<span style ="color:DarkBlue"> [Code & Dataset] </span>](https://github.com/tafseer-nayeem/BengaliSummarization) &nbsp; [<span style ="color:DarkBlue"> [Slides] </span>](https://tafseer-nayeem.github.io/files/EACL2021/eacl2021_presentation.pdf) &nbsp; [<span style ="color:DarkBlue"> [Poster] </span>](https://tafseer-nayeem.github.io/files/EACL2021/eacl2021_poster.pdf) &nbsp; [<span style ="color:DarkBlue"> [Demo Video] </span>](https://youtu.be/LrnskktiXcg) &nbsp; [<span style ="color:DarkBlue"> [Twitter Thread] </span>](https://twitter.com/mtnayeem/status/1350551479283662848?s=20)
 
 
 ## 2019
