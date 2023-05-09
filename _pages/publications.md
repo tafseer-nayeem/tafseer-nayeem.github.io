@@ -84,7 +84,7 @@ author_profile: true
 
 
 * [**Extract with Order for Coherent Multi-Document Summarization**](http://www.aclweb.org/anthology/W17-2407) <br/>
-📰 <span style ="color:Maroon"> Proceedings of **ACL 2017 (Workshop)** [Oral]</span> <br/>
+📰 <span style ="color:Maroon"> Proceedings of **ACL 2017** (Workshop, Oral) </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem** and Yllias Chali <br/>
 👉 [<span style ="color:DarkBlue"> [Slides] </span>](https://tafseer-nayeem.github.io/files/ACL_Workshop_2017_Presentation.pdf)
 
