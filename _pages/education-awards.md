@@ -44,7 +44,7 @@ author_profile: true
 
 # Awards
 ---------
-* 🏆 <span style="color:Red"> **Huawei Doctoral Scholarship** </span> [2022 - 2027].
+* 🏆 <span style="color:Red"> **Huawei Doctoral Fellowship** </span> [2022 - 2027].
 * 🏆 University of Alberta Graduate Recruitment Scholarship [2021 - 2022].
 * 🏆 [<span style="color:Red"> **Best Paper Nomination** </span>](http://coling2018.org/coling-2018-best-papers/) at **COLING 2018**.
 * 🏆 [<span style="color:Red"> **Area Chair Favorites** </span>](http://coling2018.org/coling-2018-best-papers/) paper at **COLING 2018**.
