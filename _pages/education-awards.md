@@ -7,14 +7,14 @@ author_profile: true
 
 # Education
 
-## 🎓 Ph.D. in Computing Science
+## 🎓 PhD in Computing Science
 ---------------------------------
 * [University of Alberta (UofA)](https://www.ualberta.ca/index.html), Edmonton, Canada.
 * **Tentative Thesis Title:** *"Human-Centric Modeling of Content"*
 * **Supervisor:** [Prof. Davood Rafiei](https://webdocs.cs.ualberta.ca/~drafiei/)
 
 
-## 🎓 M.Sc. in Computer Science
+## 🎓 MSc in Computer Science
 --------------------------------
 
 * [University of Lethbridge (UofL)](https://www.uleth.ca/), Lethbridge, Canada.
@@ -25,7 +25,7 @@ author_profile: true
 * **Committee Members:** [Prof. Wendy Osborn](http://directory.uleth.ca/users/wendy.osborn) and [Prof. John Anvik ](http://directory.uleth.ca/users/john.anvik)
 
 
-## 🎓 B.Sc. in Computer Science and Information Technology
+## 🎓 BSc in Computer Science and Information Technology
 -----------------------------------------------------------
 
 
@@ -44,7 +44,7 @@ author_profile: true
 
 # Awards
 ---------
-* 🏆 <span style="color:Red"> **Huawei Ph.D. Fellowship** </span> [2022 - 2027].
+* 🏆 <span style="color:Red"> **Huawei PhD Fellowship** </span> [2022 - 2027].
 * 🏆 University of Alberta Graduate Recruitment Scholarship [2021 - 2022].
 * 🏆 [<span style="color:Red"> **Best Paper Nomination** </span>](http://coling2018.org/coling-2018-best-papers/) at **COLING 2018**.
 * 🏆 [<span style="color:Red"> **Area Chair Favorites** </span>](http://coling2018.org/coling-2018-best-papers/) paper at **COLING 2018**.

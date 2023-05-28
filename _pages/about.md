@@ -11,10 +11,10 @@ redirect_from:
 👋Hi, there!
 
 <p align="justify">
-I’m Mir <b>Tafseer</b> Nayeem, a second-year <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> Ph.D. student at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by Prof. <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Davood Rafiei</a>. My research interests include, but are not limited to, Natural Language Processing, Information Retrieval, and Computational Social Science. My Ph.D. research is about human-centric modeling of content (<i>with different modalities such as text, table, ratings, etc.</i>), especially two key factors (1) <b>who</b> are behind the content and (2) to <b>whom</b> the model will serve (<i>see an overview of my research below</i>).</p>
+I’m Mir <b>Tafseer</b> Nayeem, a second-year <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> PhD student at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by Prof. <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Davood Rafiei</a>. My research interests include, but are not limited to, Natural Language Processing, Information Retrieval, and Computational Social Science. My Ph.D. research is about human-centric modeling of content (<i>with different modalities such as text, table, ratings, etc.</i>), especially two key factors (1) <b>who</b> are behind the content and (2) to <b>whom</b> the model will serve (<i>see an overview of my research below</i>).</p>
 
 <p align="justify">
-My research is generously supported by <span style="color:Red">Huawei Ph.D. Fellowship</span>. My work was previously nominated for <span style="color:Red">Best Paper Award</span> and selected as <span style="color:Red">Area Chair Favorite Paper</span> at <a href="http://coling2018.org/coling-2018-best-papers/">COLING 2018</a>.
+My research is generously supported by <span style="color:Red">Huawei PhD Fellowship</span>. My work was previously nominated for <span style="color:Red">Best Paper Award</span> and selected as <span style="color:Red">Area Chair Favorite Paper</span> at <a href="http://coling2018.org/coling-2018-best-papers/">COLING 2018</a>.
 </p>
 
 
@@ -38,8 +38,8 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 
 ## Updates and Highlights
 * 📢 <span style="color:Blue"> [Jan 2023] </span> - **Paper Alert** 🔔 - Two papers got accepted at [EACL 2023](https://2023.eacl.org/).
-* 📢 <span style="color:Blue"> [Jun 2022] </span> - I am thrilled to receive Huawei Ph.D. Fellowship✨ Thanks [Huawei](https://www.huawei.com/en/)!
-* 📢 <span style="color:Blue"> [Sep 2021] </span> - Started Ph.D. in [Computing Science](https://www.ualberta.ca/computing-science/index.html) at [University of Alberta](https://www.ualberta.ca/index.html)✌️.
+* 📢 <span style="color:Blue"> [Jun 2022] </span> - I am thrilled to receive Huawei PhD Fellowship✨ Thanks [Huawei](https://www.huawei.com/en/)!
+* 📢 <span style="color:Blue"> [Sep 2021] </span> - Started PhD in [Computing Science](https://www.ualberta.ca/computing-science/index.html) at [University of Alberta](https://www.ualberta.ca/index.html)✌️.
 * 📢 <span style="color:Blue"> [Jan 2021] </span> - **Paper Alert** 🔔 - One paper got accepted at [EACL 2021](https://2021.eacl.org/).
 * 📢 <span style="color:Blue"> [Dec 2020] </span> - **Paper Alert** 🔔 - One paper got accepted at [AAAI 2021](https://aaai.org/Conferences/AAAI-21/).
 * 📢 <span style="color:Blue"> [Jun 2018] </span> - Nominated for the [**Best Paper Award**](http://coling2018.org/coling-2018-best-papers/) 🏆 at COLING 2018.
