@@ -14,6 +14,13 @@ author_profile: true
 
 ## 2023
 -----------
+
+* **Product Entity Matching via Tabular Data**<br/>
+📰 <span style ="color:Maroon"> Accepted for publication at **ACM CIKM 2023** </span> <br/>
+👨‍💻  Ali Naeimabadi, **Mir Tafseer Nayeem**, and Davood Rafiei <br/>
+
+
+
 * [**On the Role of Reviewer Expertise in Temporal Review Helpfulness Prediction**](https://aclanthology.org/2023.findings-eacl.125/)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **EACL 2023** (Findings)</span> <br/>
 👨‍💻 **Mir Tafseer Nayeem** and Davood Rafiei <br/>
