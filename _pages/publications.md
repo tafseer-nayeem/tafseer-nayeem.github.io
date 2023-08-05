@@ -15,7 +15,7 @@ author_profile: true
 ## 2023
 -----------
 
-* **Product Entity Matching via Tabular Data**<br/>
+* [**Product Entity Matching via Tabular Data**](https://uobevents.eventsair.com/cikm2023/)<br/>
 📰 <span style ="color:Maroon"> Accepted for Publication at **ACM CIKM 2023** </span> <br/>
 👨‍💻  Ali Naeimabadi, **Mir Tafseer Nayeem**, and Davood Rafiei <br/>
 
