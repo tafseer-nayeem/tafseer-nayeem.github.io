@@ -37,6 +37,7 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 </p>
 
 ## Updates and Highlights
+* 📢 <span style="color:Blue"> [Aug 2023] </span> - **Paper Alert** 🔔 - One paper got accepted at [CIKM 2023](https://uobevents.eventsair.com/cikm2023/).
 * 📢 <span style="color:Blue"> [Jan 2023] </span> - **Paper Alert** 🔔 - Two papers got accepted at [EACL 2023](https://2023.eacl.org/).
 * 📢 <span style="color:Blue"> [Jun 2022] </span> - I am thrilled to receive Huawei PhD Fellowship✨ Thanks [Huawei](https://www.huawei.com/en/)!
 * 📢 <span style="color:Blue"> [Sep 2021] </span> - Started PhD in [Computing Science](https://www.ualberta.ca/computing-science/index.html) at [University of Alberta](https://www.ualberta.ca/index.html)✌️.
