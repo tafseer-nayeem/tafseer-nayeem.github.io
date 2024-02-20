@@ -11,10 +11,22 @@ author_profile: true
 
 <!-- [comment]: # \| [**Favorite Quotes**](#favorite-quotes) -->
 
+[comment]: # <br/>
+
+<!--
 ## Preprints
 --------------
 * [**BenLLMEval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP**](https://arxiv.org/abs/2309.13173)<br/>
 📰 <span style ="color:Maroon"> Uploaded to arXiv **(cs.CL)** </span> <br/>
+👨‍💻  Mohsinul Kabir\*, Mohammed Saidul Islam\*, Md Tahmid Rahman Laskar, **Mir Tafseer Nayeem**, M Saiful Bari, and Enamul Hoque <br/>
+👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://arxiv.org/abs/2309.13173)
+-->
+
+## 2024
+-----------
+
+* [**BenLLMEval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP**](https://arxiv.org/abs/2309.13173)<br/>
+📰 <span style ="color:Maroon"> Accepted for Publication at **LREC-COLING 2024** </span> <br/>
 👨‍💻  Mohsinul Kabir\*, Mohammed Saidul Islam\*, Md Tahmid Rahman Laskar, **Mir Tafseer Nayeem**, M Saiful Bari, and Enamul Hoque <br/>
 👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://arxiv.org/abs/2309.13173)
 
