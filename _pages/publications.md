@@ -61,7 +61,7 @@ author_profile: true
 
 * [**Unsupervised Abstractive Summarization of Bengali Text Documents**](https://www.aclweb.org/anthology/2021.eacl-main.224)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **EACL 2021** </span> <br/>
-👨‍💻 Radia Rayan Chowdhury\*, **Mir Tafseer Nayeem\***, Tahsin Tasnim Mim, MSR Chowdhury, and T Jannat <br/>
+👨‍💻 Radia Rayan Chowdhury\*, **Mir Tafseer Nayeem\***, TT Mim, MSR Chowdhury, and T Jannat <br/>
 👉 [<span style ="color:DarkBlue"> [Code & Dataset] </span>](https://github.com/tafseer-nayeem/BengaliSummarization) &nbsp; [<span style ="color:DarkBlue"> [Slides] </span>](https://tafseer-nayeem.github.io/files/EACL2021/eacl2021_presentation.pdf) &nbsp; [<span style ="color:DarkBlue"> [Poster] </span>](https://tafseer-nayeem.github.io/files/EACL2021/eacl2021_poster.pdf) &nbsp; [<span style ="color:DarkBlue"> [Demo Video] </span>](https://youtu.be/LrnskktiXcg) &nbsp; [<span style ="color:DarkBlue"> [Twitter Thread] </span>](https://twitter.com/mtnayeem/status/1350551479283662848?s=20)
 
 
@@ -91,7 +91,7 @@ author_profile: true
 📰 <span style ="color:Maroon"> Proceedings of **COLING 2018** (Oral) </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem**, Tanvir Ahmed Fuad, and Yllias Chali <br/>
 👉 [<span style ="color:DarkBlue"> [Slides] </span>](https://tafseer-nayeem.github.io/files/COLING_2018_Presentation.pdf) &nbsp; [<span style ="color:DarkBlue"> [Twitter Thread] </span>](https://twitter.com/mtnayeem/status/1007565988047409152?s=20) <br/>
-🏆 [<span style="color:Red"> **Area Chair Favorite Paper** </span>](http://coling2018.org/coling-2018-best-papers/) <br/>
+🏆 [<span style="color:dc3545"> **Area Chair Favorite Paper** </span>](http://coling2018.org/coling-2018-best-papers/) <br/>
 🏆 [<span style="color:Red"> **Best Paper Nomination** </span>](http://coling2018.org/coling-2018-best-papers/)   
 
 
