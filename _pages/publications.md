@@ -24,7 +24,6 @@ author_profile: true
 
 ## 2024
 -----------
-
 * [**BenLLMEval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP**](https://arxiv.org/abs/2309.13173)<br/>
 📰 <span style ="color:Maroon"> Accepted for publication at **LREC-COLING 2024** &nbsp; </span> [<span style ="color:DarkBlue"> [Link] </span>](https://lrec-coling-2024.org/) <br/>
 👨‍💻  Mohsinul Kabir\*, Mohammed Saidul Islam\*, Md Tahmid Rahman Laskar, **Mir Tafseer Nayeem**, M Saiful Bari, and Enamul Hoque <br/>
@@ -33,7 +32,6 @@ author_profile: true
 
 ## 2023
 -----------
-
 * [**Product Entity Matching via Tabular Data**](https://dl.acm.org/doi/10.1145/3583780.3615172)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **ACM CIKM 2023** </span> <br/>
 👨‍💻  Ali Naeimabadi, **Mir Tafseer Nayeem**, and Davood Rafiei <br/>
@@ -51,6 +49,7 @@ author_profile: true
 👨‍💻 Abu Ubaida Akash\*, **Mir Tafseer Nayeem\***, Faisal Tareque Shohan, and Tanvir Islam <br/>
 👉 [![Code](https://img.shields.io/badge/Code-critical)](https://github.com/dialect-ai/BenHeadGen) [![Dataset](https://img.shields.io/badge/Dataset-orange)](https://huggingface.co/datasets/dialect-ai/shironaam) [![Slides](https://img.shields.io/badge/Slides-blueviolet)](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-green?color=28a745)](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_poster.pdf)
 
+
 ## 2021
 -----------
 * [**Simple or Complex? Learning to Predict Readability of Bengali Texts**](https://ojs.aaai.org/index.php/AAAI/article/view/17495)<br/>
@@ -65,13 +64,12 @@ author_profile: true
 👉 [![Code](https://img.shields.io/badge/Code-critical)](https://github.com/tafseer-nayeem/BengaliSummarization) [![Dataset](https://img.shields.io/badge/Dataset-orange)](https://github.com/tafseer-nayeem/BengaliSummarization/tree/main/Dataset) [![Slides](https://img.shields.io/badge/Slides-blueviolet)](https://tafseer-nayeem.github.io/files/EACL2021/EACL2021_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-green?color=28a745)](https://tafseer-nayeem.github.io/files/EACL2021/EACL2021_poster.pdf) [![Demo Video](https://img.shields.io/badge/Demo%20Video-brightgreen?color=dc3545)](https://youtu.be/LrnskktiXcg) [![Twitter Thread](https://img.shields.io/badge/Twitter%20Thread-brightgreen?color=17a2b8)](https://twitter.com/mtnayeem/status/1350551479283662848?s=20)
 
 
-
 ## 2019
 -----------
 * [**Neural Diverse Abstractive Sentence Compression Generation**](https://link.springer.com/chapter/10.1007/978-3-030-15719-7_14)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **ECIR 2019** </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem**, Tanvir Ahmed Fuad, and Yllias Chali <br/>
-👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://tafseer-nayeem.github.io/files/ECIR_2019_paper.pdf)
+👉 [![Paper](https://img.shields.io/badge/Paper-blue)](https://tafseer-nayeem.github.io/files/ECIR_2019_paper.pdf)
 
 
 * [**Neural Sentence Fusion for Diversity Driven Abstractive Multi-Document Summarization**](https://www.sciencedirect.com/science/article/pii/S0885230818303449) <br/>
