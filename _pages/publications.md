@@ -43,20 +43,20 @@ author_profile: true
 * [**On the Role of Reviewer Expertise in Temporal Review Helpfulness Prediction**](https://aclanthology.org/2023.findings-eacl.125/)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **EACL 2023** (Findings)</span> <br/>
 👨‍💻 **Mir Tafseer Nayeem** and Davood Rafiei <br/>
-👉 [![Code](https://img.shields.io/badge/Code-critical)](https://github.com/tafseer-nayeem/RHP) [![Dataset](https://img.shields.io/badge/Dataset-orange)](https://huggingface.co/datasets/tafseer-nayeem/review_helpfulness_prediction) [![Slides](https://img.shields.io/badge/Slides-blueviolet)](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-green)](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_poster.pdf)
+👉 [![Code](https://img.shields.io/badge/Code-critical)](https://github.com/tafseer-nayeem/RHP) [![Dataset](https://img.shields.io/badge/Dataset-orange)](https://huggingface.co/datasets/tafseer-nayeem/review_helpfulness_prediction) [![Slides](https://img.shields.io/badge/Slides-blueviolet)](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-green?color=28a745)](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_poster.pdf)
 
 
 * [**Shironaam: Bengali News Headline Generation using Auxiliary Information**](https://aclanthology.org/2023.eacl-main.4/)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **EACL 2023** </span> <br/>
 👨‍💻 Abu Ubaida Akash\*, **Mir Tafseer Nayeem\***, Faisal Tareque Shohan, and Tanvir Islam <br/>
-👉 [![Code](https://img.shields.io/badge/Code-critical)](https://github.com/dialect-ai/BenHeadGen) [![Dataset](https://img.shields.io/badge/Dataset-orange)](https://huggingface.co/datasets/dialect-ai/shironaam) [![Slides](https://img.shields.io/badge/Slides-blueviolet)](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-green)](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_poster.pdf)
+👉 [![Code](https://img.shields.io/badge/Code-critical)](https://github.com/dialect-ai/BenHeadGen) [![Dataset](https://img.shields.io/badge/Dataset-orange)](https://huggingface.co/datasets/dialect-ai/shironaam) [![Slides](https://img.shields.io/badge/Slides-blueviolet)](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-green?color=28a745)](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_poster.pdf)
 
 ## 2021
 -----------
 * [**Simple or Complex? Learning to Predict Readability of Bengali Texts**](https://ojs.aaai.org/index.php/AAAI/article/view/17495)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **AAAI 2021** </span> <br/>
 👨‍💻 Susmoy Chakraborty\*, **Mir Tafseer Nayeem\***, and Wasi Uddin Ahmad <br/>
-👉 [![Code](https://img.shields.io/badge/Code-critical)](https://github.com/tafseer-nayeem/BengaliReadability) [![Dataset](https://img.shields.io/badge/Dataset-orange)](https://github.com/tafseer-nayeem/BengaliReadability/tree/main/Data) [![Slides](https://img.shields.io/badge/Slides-blueviolet)](https://tafseer-nayeem.github.io/files/AAAI2021/aaai2021_full.pdf) [![Poster](https://img.shields.io/badge/Poster-green)](https://tafseer-nayeem.github.io/files/AAAI2021/aaai2021_poster.pdf) [![Demo Video](https://img.shields.io/badge/Demo%20Video-brightgreen?color=dc3545)](https://youtu.be/U05Pf9Y4tCQ) [![Twitter Thread](https://img.shields.io/badge/Twitter%20Thread-brightgreen?color=28a745)](https://twitter.com/mtnayeem/status/1334590638105378817?s=20)
+👉 [![Code](https://img.shields.io/badge/Code-critical)](https://github.com/tafseer-nayeem/BengaliReadability) [![Dataset](https://img.shields.io/badge/Dataset-orange)](https://github.com/tafseer-nayeem/BengaliReadability/tree/main/Data) [![Slides](https://img.shields.io/badge/Slides-blueviolet)](https://tafseer-nayeem.github.io/files/AAAI2021/aaai2021_full.pdf) [![Poster](https://img.shields.io/badge/Poster-green?color=28a745)](https://tafseer-nayeem.github.io/files/AAAI2021/aaai2021_poster.pdf) [![Demo Video](https://img.shields.io/badge/Demo%20Video-brightgreen?color=dc3545)](https://youtu.be/U05Pf9Y4tCQ) [![Twitter Thread](https://img.shields.io/badge/Twitter%20Thread-brightgreen?color=17a2b8)](https://twitter.com/mtnayeem/status/1334590638105378817?s=20)
 
 
 * [**Unsupervised Abstractive Summarization of Bengali Text Documents**](https://www.aclweb.org/anthology/2021.eacl-main.224)<br/>
