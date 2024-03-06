@@ -62,7 +62,8 @@ author_profile: true
 * [**Unsupervised Abstractive Summarization of Bengali Text Documents**](https://www.aclweb.org/anthology/2021.eacl-main.224)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **EACL 2021** </span> <br/>
 👨‍💻 Radia Rayan Chowdhury\*, **Mir Tafseer Nayeem\***, TT Mim, MSR Chowdhury, and T Jannat <br/>
-👉 [<span style ="color:DarkBlue"> [Code & Dataset] </span>](https://github.com/tafseer-nayeem/BengaliSummarization) &nbsp; [<span style ="color:DarkBlue"> [Slides] </span>](https://tafseer-nayeem.github.io/files/EACL2021/eacl2021_presentation.pdf) &nbsp; [<span style ="color:DarkBlue"> [Poster] </span>](https://tafseer-nayeem.github.io/files/EACL2021/eacl2021_poster.pdf) &nbsp; [<span style ="color:DarkBlue"> [Demo Video] </span>](https://youtu.be/LrnskktiXcg) &nbsp; [<span style ="color:DarkBlue"> [Twitter Thread] </span>](https://twitter.com/mtnayeem/status/1350551479283662848?s=20)
+👉 [![Code](https://img.shields.io/badge/Code-critical)](https://github.com/tafseer-nayeem/BengaliSummarization) [![Dataset](https://img.shields.io/badge/Dataset-orange)](https://github.com/tafseer-nayeem/BengaliSummarization/tree/main/Dataset) [![Slides](https://img.shields.io/badge/Slides-blueviolet)](https://tafseer-nayeem.github.io/files/EACL2021/eacl2021_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-green?color=28a745)](https://tafseer-nayeem.github.io/files/EACL2021/eacl2021_poster.pdf) [![Demo Video](https://img.shields.io/badge/Demo%20Video-brightgreen?color=dc3545)](https://youtu.be/LrnskktiXcg) [![Twitter Thread](https://img.shields.io/badge/Twitter%20Thread-brightgreen?color=17a2b8)](https://twitter.com/mtnayeem/status/1350551479283662848?s=20)
+
 
 
 ## 2019
