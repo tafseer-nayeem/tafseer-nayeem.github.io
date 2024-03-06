@@ -49,7 +49,7 @@ author_profile: true
 * [**Shironaam: Bengali News Headline Generation using Auxiliary Information**](https://aclanthology.org/2023.eacl-main.4/)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **EACL 2023** </span> <br/>
 👨‍💻 Abu Ubaida Akash\*, **Mir Tafseer Nayeem\***, Faisal Tareque Shohan, and Tanvir Islam <br/>
-👉 [<span style ="color:DarkBlue"> [Code & Dataset] </span>](https://github.com/dialect-ai/BenHeadGen) &nbsp; [<span style ="color:DarkBlue"> [Slides] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_presentation.pdf) &nbsp; [<span style ="color:DarkBlue"> [Poster] </span>](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_poster.pdf)
+👉 [![Code](https://img.shields.io/badge/Code-critical)](https://github.com/dialect-ai/BenHeadGen) [![Dataset](https://img.shields.io/badge/Dataset-orange)](https://huggingface.co/datasets/dialect-ai/shironaam) [![Slides](https://img.shields.io/badge/Slides-blueviolet)](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-green)](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_poster.pdf)
 
 ## 2021
 -----------
