@@ -80,7 +80,7 @@ author_profile: true
 * [**Automatic Individual Information Aggregation using Publicly Available Social Media Data**](https://ieeexplore.ieee.org/document/9038402) <br/>
 📰 <span style ="color:Maroon"> Proceedings of **ICCIT 2019** </span> <br/>
 👨‍💻 Sibendu Sarker, Wayne Franz, and **Mir Tafseer Nayeem** <br/>
-👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://tafseer-nayeem.github.io/files/ICCIT_2019_paper.pdf)
+👉 [![Paper](https://img.shields.io/badge/Paper-blue)](https://tafseer-nayeem.github.io/files/ICCIT_2019_paper.pdf)
 
 
 ## 2018
