@@ -98,7 +98,7 @@ author_profile: true
 * [**Paraphrastic Fusion for Abstractive Multi-Sentence Compression Generation**](https://dl.acm.org/citation.cfm?id=3133106) <br/>
 📰 <span style ="color:Maroon"> Proceedings of **ACM CIKM 2017** </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem** and Yllias Chali <br/>
-👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://tafseer-nayeem.github.io/files/CIKM_2017_paper.pdf) <br/>
+👉 [![Paper](https://img.shields.io/badge/Paper-blue)](https://tafseer-nayeem.github.io/files/CIKM_2017_paper.pdf) <br/>
 🏆 [<span style="color:Red"> **ACM SIGIR Student Travel Grant** </span>](https://sigir.org/general-information/travel-grants/)
 
 
@@ -110,7 +110,7 @@ author_profile: true
 * [**Extract with Order for Coherent Multi-Document Summarization**](http://www.aclweb.org/anthology/W17-2407) <br/>
 📰 <span style ="color:Maroon"> Proceedings of **ACL 2017** (Workshop, Oral) </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem** and Yllias Chali <br/>
-👉 [<span style ="color:DarkBlue"> [Slides] </span>](https://tafseer-nayeem.github.io/files/ACL_Workshop_2017_Presentation.pdf)
+👉 [![Slides](https://img.shields.io/badge/Slides-blueviolet)](https://tafseer-nayeem.github.io/files/ACL_Workshop_2017_Presentation.pdf)
 
 
 ## 2014
@@ -118,7 +118,7 @@ author_profile: true
 * [**Design of a Human Interaction Proof (HIP) using Human Cognition in Contextual Natural Conversation**](https://ieeexplore.ieee.org/document/6921454/) <br/>
 📰 <span style ="color:Maroon"> Proceedings of **IEEE ICCI\*CC 2014** </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem**, Md Mamunur Rashid Akand, Nazmus Sakib, and Md. Wasi Ul Kabir <br/>
-👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://tafseer-nayeem.github.io/files/IEEE_ICCICC14_paper.pdf)
+👉 [![Paper](https://img.shields.io/badge/Paper-blue)](https://tafseer-nayeem.github.io/files/IEEE_ICCICC14_paper.pdf)
 
 
 * [**Human Cognition in Automated Turing Test Design**](https://dl.acm.org/citation.cfm?id=2807119) <br/>
@@ -131,7 +131,7 @@ author_profile: true
 * [**Use of Human Cognition in HIP Design Via EmotIcons to Defend BOT Attacks**](https://ieeexplore.ieee.org/document/6417291/) <br/>
 📰 <span style ="color:Maroon"> Proceedings of **IEEE CSE 2012** (Oral) </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem**, Md. Saddam Hossain Mukta, Samsuddin Ahmed, and Md. Mahbubur Rahman <br/>
-👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://tafseer-nayeem.github.io/files/IEEE_CSE12_paper.pdf)
+👉 [![Paper](https://img.shields.io/badge/Paper-blue)](https://tafseer-nayeem.github.io/files/IEEE_CSE12_paper.pdf)
 
 
 [comment]: # <br/>
