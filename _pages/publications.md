@@ -88,7 +88,7 @@ author_profile: true
 * [**Abstractive Unsupervised Multi-Document Summarization using Paraphrastic Sentence Fusion**](http://aclweb.org/anthology/C18-1102) <br/>
 📰 <span style ="color:Maroon"> Proceedings of **COLING 2018** (Oral) </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem**, Tanvir Ahmed Fuad, and Yllias Chali <br/>
-👉 [![Slides](https://img.shields.io/badge/Slides-blueviolet)](https://tafseer-nayeem.github.io/files/COLING_2018_Presentation.pdf) [![Twitter Thread](https://img.shields.io/badge/Twitter%20Thread-brightgreen?color=17a2b8)](https://twitter.com/mtnayeem/status/1007565988047409152?s=20) <br/>
+👉 [![Slides](https://img.shields.io/badge/Slides-blueviolet)](https://tafseer-nayeem.github.io/files/COLING_2018_Presentation.pdf) [![Twitter Thread](https://img.shields.io/badge/Twitter%20Thread-17a2b8)](https://twitter.com/mtnayeem/status/1007565988047409152?s=20) <br/>
 🏆 [<span style="color:Red"> **Area Chair Favorite Paper** </span>](http://coling2018.org/coling-2018-best-papers/) <br/>
 🏆 [<span style="color:Red"> **Best Paper Nomination** </span>](http://coling2018.org/coling-2018-best-papers/)   
 
