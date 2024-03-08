@@ -5,7 +5,7 @@ permalink: /cv/
 author_profile: true
 ---
 
-[Long CV](https://tafseer-nayeem.github.io/files/CVs/CV_long_tafseer.pdf) AND [Short CV](https://tafseer-nayeem.github.io/files/CVs/CV_short_tafseer.pdf) <span style ="color:Green"> [<ins>*Last Updated on Mar 07, 2024*</ins>] </span>
+[Long CV](https://tafseer-nayeem.github.io/files/CVs/CV_long_tafseer.pdf) **AND** [Short CV](https://tafseer-nayeem.github.io/files/CVs/CV_short_tafseer.pdf) <span style ="color:Green"> [<ins>*Last Updated on Mar 07, 2024*</ins>] </span>
 
 ## Contact Me
 -------------
