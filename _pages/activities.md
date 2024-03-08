@@ -22,7 +22,7 @@ author_profile: true
 - <span style="color:Blue"> [Feb 2017] </span> - Guest Lecturer in CPSC 3750 - Artificial Intelligence course at UofL.
 
 ## 💻 Project Demonstrations 
-
+----------------
 * Bengali Document Readability Checker [[Demo Video]](https://youtu.be/U05Pf9Y4tCQ).
 * Bengali Document Summarization Tool [[Demo Video]](https://youtu.be/LrnskktiXcg).
 
