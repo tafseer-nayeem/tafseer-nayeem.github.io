@@ -31,7 +31,7 @@ author_profile: true
 - Organizing Committee Member & Researcher, **Commonwealth of Learning ([COL](https://www.col.org/)) TEL AUST** Project [<span style ="color:Green"> [**Report**] </span>](http://oasis.col.org/handle/11599/3220)
 - Member, Logistics & IT Support Committee, [ICCIT 2020](http://iccit.org.bd/2020/)
 - **Organizer and Host:** [Intel Nervana AI Academy - Workshop](https://www.intel.ai/).
-- Member, *Bangladeshi Students' Organization at the University of Lethbridge* ([**BSOUL**](https://www.facebook.com/BSOULpage/)), Alberta, Canada. 
+<!-- - Member, *Bangladeshi Students' Organization at the University of Lethbridge* ([**BSOUL**](https://www.facebook.com/BSOULpage/)), Alberta, Canada. -->
 - Convener, Project Showcasing, **AUST CSE WEEK 2018**, Dhaka, Bangladesh.
 - Organizing committee member in the **AUST CSE Fest 2013 and 2014**, Dhaka, Bangladesh.
 - Organizing committee member in the **BUBT CSE FIESTA 2012**, Dhaka, Bangladesh.
