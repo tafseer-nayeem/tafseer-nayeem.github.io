@@ -61,17 +61,17 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 <!-- Styling for the button and the list -->
 <style>
 .expand-button {
-  background-color: #007bff; /* Bootstrap primary button color */
-  color: white;
-  border: none;
-  padding: 10px 20px;
+  background-color: #add8e6; /* Light blue color */
+  color: #333; /* Dark text color for contrast */
+  border: 1px solid #ccc; /* Light border color */
+  padding: 5px 10px; /* Smaller padding to reduce button size */
   text-align: center;
   text-decoration: none;
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 8px;
-  font-size: 16px;
+  border-radius: 4px; /* Less rounded corners */
+  font-size: 14px; /* Smaller font size */
 }
 
 ul {
