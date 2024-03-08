@@ -11,7 +11,7 @@ author_profile: true
 1. **Program Committee/Reviewer**
 	- **2024:** 
 	- **2023:** [SIGIR](https://sigir.org/sigir2023/), [KDD](https://kdd.org/kdd2023/), [WSDM](https://www.wsdm-conference.org/2023/), [CIKM](https://uobevents.eventsair.com/cikm2023/)
-	- **2022:** 
+	- **2022:** [SIGIR](https://sigir.org/sigir2022/), [KDD](https://kdd.org/kdd2022/), [CIKM](https://www.cikm2022.org/), [ICDE](https://icde2022.ieeecomputer.my/)
 	- **2020:** [ICCIT](https://iccit.org.bd/2020/)
 	- **2019:** [ICIET](http://www.enggtech.du.ac.bd/iciet-2019/)
 
