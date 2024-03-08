@@ -12,8 +12,8 @@ author_profile: true
 	- **2024:** [ACL](https://2024.aclweb.org/), [NAACL](https://2024.naacl.org/), [EACL](https://2024.eacl.org/), [SIGIR](https://sigir-2024.github.io/), [WSDM](https://www.wsdm-conference.org/2024/)
 	- **2023:** [SIGIR](https://sigir.org/sigir2023/), [KDD](https://kdd.org/kdd2023/), [WSDM](https://www.wsdm-conference.org/2023/), [CIKM](https://uobevents.eventsair.com/cikm2023/)
 	- **2022:** [SIGIR](https://sigir.org/sigir2022/), [KDD](https://kdd.org/kdd2022/), [CIKM](https://www.cikm2022.org/), [ICDE](https://icde2022.ieeecomputer.my/)
-	[comment]: # - **2020:** [ICCIT](https://iccit.org.bd/2020/)
-	[comment]: # - **2019:** [ICIET](http://www.enggtech.du.ac.bd/iciet-2019/)
+	<!-- - **2020:** [ICCIT](https://iccit.org.bd/2020/) -->
+	<!-- - **2019:** [ICIET](http://www.enggtech.du.ac.bd/iciet-2019/) -->
 
 ## 👨‍🏫 Invited Talks
 ----------------
