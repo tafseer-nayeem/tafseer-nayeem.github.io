@@ -37,6 +37,7 @@ author_profile: true
 - **Organizing Committee Member**, AUST CSE Fest. `[2013, 2014]`
 - **Organizing Committee Member**, BUBT CSE FIESTA. `[2012]`
 - **Organizing Committee Member**, IUT ICT Fest. `[2011]`
+
 ----------------------
 
 <!-- - 
