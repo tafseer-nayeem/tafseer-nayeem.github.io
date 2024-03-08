@@ -68,22 +68,6 @@ function toggleVisibility(id) {
 }
 </script>
 
-<a href="#moreUpdates">Click to expand</a>
-
-<div id="moreUpdates" style="display: none;">
-  <!-- Additional updates here -->
-  <ul>
-    <li>[Jun 2017] - Event or publication details</li>
-    <li>[May 2017] - Event or publication details</li>
-    <!-- More items -->
-  </ul>
-</div>
-
-<style>
-#moreUpdates:target {
-  display: block;
-}
-</style>
 
 
 <!--
