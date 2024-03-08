@@ -23,9 +23,15 @@ author_profile: true
 
 🔗 **Website:** [tafseer-nayeem.github.io](https://tafseer-nayeem.github.io/)
 
+<a href="https://twitter.com/mtnayeem" title="Twitter"><i class="fa fa-twitter" style="color: #1DA1F2;"></i> Twitter</a>  
+<a href="https://www.linkedin.com/in/mtnayeem/" title="LinkedIn"><i class="fa fa-linkedin" style="color: #0077B5;"></i> LinkedIn</a>  
+<a href="https://github.com/tafseer-nayeem" title="GitHub"><i class="fa fa-github" style="color: #333;"></i> GitHub</a>
+
+<!-- 
 🐦 **Twitter:** [mtnayeem](https://twitter.com/mtnayeem)  
 🔗 **LinkedIn:** [mtnayeem](https://www.linkedin.com/in/mtnayeem/)  
 🐙 **GitHub:** [tafseer-nayeem](https://github.com/tafseer-nayeem)
+-->
 
 🏠 **Address:**  
 Department of Computing Science  
@@ -44,7 +50,7 @@ Canada T6G 2E8
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;tafseer.nayeem [at] {ualberta [dot] ca <span style="color:Blue">**OR**</span> gmail [dot] com} (***others***)<br /> 
 
-<!-- [comment]: # &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mir.nayeem [at] alumni [dot] uleth [dot] [*first 2 letters in “canada”*], <br /> 
+[comment]: # &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mir.nayeem [at] alumni [dot] uleth [dot] [*first 2 letters in “canada”*], <br /> 
 
 📒 **Website:** [https://tafseer-nayeem.github.io](https://tafseer-nayeem.github.io/) <br />
 
