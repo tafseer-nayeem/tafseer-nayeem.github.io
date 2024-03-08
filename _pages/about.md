@@ -46,7 +46,7 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 * 📢 <span style="color:Blue"> [Jun 2018] </span> - Nominated for the [**Best Paper Award**](http://coling2018.org/coling-2018-best-papers/) 🏆 at COLING 2018.
 * 📢 <span style="color:Blue"> [May 2018] </span> - One [paper](http://aclweb.org/anthology/C18-1102) got accepted at COLING 2018 as [**Area Chair Favorites**](http://coling2018.org/coling-2018-best-papers/) 🏆. 
 
-<!-- Click to expand/collapse button -->
+<!-- Button to show/hide additional content -->
 <button onclick="toggleVisibility('moreUpdates')" class="expand-button">Click to expand</button>
 
 <!-- Hidden content -->
@@ -58,46 +58,43 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
   </ul>
 </div>
 
-<!-- Styling for the button and the list -->
+<!-- Styling for the button -->
 <style>
 .expand-button {
-  background-color: #add8e6; /* Light blue color */
-  color: #333; /* Dark text color for contrast */
-  border: 1px solid #ccc; /* Light border color */
-  padding: 5px 10px; /* Smaller padding to reduce button size */
+  background-color: #f0f0f0; /* Very light gray, for subtlety */
+  color: #5f5f5f; /* Dark gray text, for formality and readability */
+  border: 1px solid #dedede; /* Slightly darker border for a crisp edge */
+  padding: 6px 12px; /* Adequate padding but not too bulky */
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 4px 2px;
+  margin: 10px 0; /* Adds some space around the button */
   cursor: pointer;
-  border-radius: 4px; /* Less rounded corners */
-  font-size: 14px; /* Smaller font size */
+  border-radius: 3px; /* Slightly rounded corners for a modern look */
+  font-size: 15px; /* Not too large, keeping the text professional */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.expand-button:hover {
+  background-color: #e8e8e8; /* A shade darker when hovering for interactivity */
+  color: #404040; /* Text slightly darker on hover for contrast */
 }
 
 ul {
-  list-style: none; /* Remove default list style */
-  padding-left: 0; /* Remove default padding */
-}
-
-li {
-  padding-left: 1.3em; /* Space for the icon */
+  list-style-type: none; /* Removes the default list styling */
+  padding: 0;
 }
 
 li i {
-  margin-right: 10px;
-  color: #007bff; /* Icon color */
+  margin-right: 5px; /* Ensures icons have space */
 }
 </style>
 
-<!-- JavaScript to toggle the hidden content -->
+<!-- JavaScript to toggle the visibility of the 'moreUpdates' section -->
 <script>
 function toggleVisibility(id) {
   var x = document.getElementById(id);
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
+  x.style.display = x.style.display === "none" ? "block" : "none";
 }
 </script>
 
