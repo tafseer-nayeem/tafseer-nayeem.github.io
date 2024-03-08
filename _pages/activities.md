@@ -28,16 +28,28 @@ author_profile: true
 
 ## 👨‍⚖️ Leadership Activities
 ------------------------
+- **Lab Manager**, Database Lab, University of Alberta, Edmonton, AB, Canada. `[2022 – Current]`
+- **Founding Admin** of a Discord server comprising approximately 4,500+ members dedicated to assisting prospective students with grad school applications. `[2021 - Current]`
+- **Member**, Logistics & IT Support Committee, ICCIT 2020 Conference.
+- **Organizing Committee**, Commonwealth of Learning (COL) TEL AUST Project. [[report]](URL_TO_REPORT)
+- **Organizer and Host**, Intel Nervana AI Academy - Workshop. `[2017]`
+- **Convener**, Project Showcasing, AUST CSE WEEK. `[2018]`
+- **Organizing Committee Member**, AUST CSE Fest. `[2013, 2014]`
+- **Organizing Committee Member**, BUBT CSE FIESTA. `[2012]`
+- **Organizing Committee Member**, IUT ICT Fest. `[2011]`
+----------------------
+
+<!-- - 
 - Organizing Committee Member & Researcher, **Commonwealth of Learning ([COL](https://www.col.org/)) TEL AUST** Project [<span style ="color:Green"> [**Report**] </span>](http://oasis.col.org/handle/11599/3220)
 - Member, Logistics & IT Support Committee, [ICCIT 2020](http://iccit.org.bd/2020/)
 - **Organizer and Host:** [Intel Nervana AI Academy - Workshop](https://www.intel.ai/).
-<!-- - Member, *Bangladeshi Students' Organization at the University of Lethbridge* ([**BSOUL**](https://www.facebook.com/BSOULpage/)), Alberta, Canada. -->
+<!-- - Member, *Bangladeshi Students' Organization at the University of Lethbridge* ([**BSOUL**](https://www.facebook.com/BSOULpage/)), Alberta, Canada. 
 - Convener, Project Showcasing, **AUST CSE WEEK 2018**, Dhaka, Bangladesh.
 - Organizing committee member in the **AUST CSE Fest 2013 and 2014**, Dhaka, Bangladesh.
 - Organizing committee member in the **BUBT CSE FIESTA 2012**, Dhaka, Bangladesh.
 - Organizing committee member in the **IUT ICT Fest 2011**, Dhaka, Bangladesh. 
+-->
 
-----------------------
 
 [**Back to Top**](#)
 
