@@ -49,9 +49,11 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 
 
 <div style="height: 300px; overflow-y: scroll;">
-  * 📢 <span style="color:Blue"> [Jan 2019] </span> - One [paper](https://link.springer.com/chapter/10.1007/978-3-030-15719-7_14) got accepted at [ECIR 2019](http://ecir2019.org/).
+
+* 📢 <span style="color:Blue"> [Jan 2019] </span> - One [paper](https://link.springer.com/chapter/10.1007/978-3-030-15719-7_14) got accepted at [ECIR 2019](http://ecir2019.org/).
 * 📢 <span style="color:Blue"> [Oct 2017] </span> - Organizer and Host: [Intel Nervana AI Academy - Workshop](https://www.intel.ai/).
 * 📢 <span style="color:Blue"> [Aug 2017] </span> - One [paper](http://www.aclweb.org/anthology/I17-2071) got accepted at [IJCNLP 2017](http://ijcnlp2017.org/site/page.aspx?pid=901&sid=1133&lang=en).
+
 </div>
 
 
