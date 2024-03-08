@@ -46,17 +46,50 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 * 📢 <span style="color:Blue"> [Jun 2018] </span> - Nominated for the [**Best Paper Award**](http://coling2018.org/coling-2018-best-papers/) 🏆 at COLING 2018.
 * 📢 <span style="color:Blue"> [May 2018] </span> - One [paper](http://aclweb.org/anthology/C18-1102) got accepted at COLING 2018 as [**Area Chair Favorites**](http://coling2018.org/coling-2018-best-papers/) 🏆. 
 
-<button onclick="toggleVisibility('moreUpdates')">Click to expand</button>
+<!-- Click to expand/collapse button -->
+<button onclick="toggleVisibility('moreUpdates')" class="expand-button">Click to expand</button>
 
+<!-- Hidden content -->
 <div id="moreUpdates" style="display: none;">
-  <!-- Additional updates here -->
   <ul>
-    <li>[Jun 2017] - Event or publication details</li>
-    <li>[May 2017] - Event or publication details</li>
-    <!-- More items -->
+    <li><i class="fa fa-calendar" aria-hidden="true"></i> [Jun 2017] - Event or publication details</li>
+    <li><i class="fa fa-calendar" aria-hidden="true"></i> [May 2017] - Event or publication details</li>
+    <!-- Add more list items here -->
   </ul>
 </div>
 
+<!-- Styling for the button and the list -->
+<style>
+.expand-button {
+  background-color: #007bff; /* Bootstrap primary button color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none; /* Remove default list style */
+  padding-left: 0; /* Remove default padding */
+}
+
+li {
+  padding-left: 1.3em; /* Space for the icon */
+}
+
+li i {
+  margin-right: 10px;
+  color: #007bff; /* Icon color */
+}
+</style>
+
+<!-- JavaScript to toggle the hidden content -->
 <script>
 function toggleVisibility(id) {
   var x = document.getElementById(id);
@@ -67,6 +100,7 @@ function toggleVisibility(id) {
   }
 }
 </script>
+
 
 
 
