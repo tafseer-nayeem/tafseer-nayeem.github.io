@@ -47,7 +47,7 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 * 📢 <span style="color:Blue"> [May 2018] </span> - One [paper](http://aclweb.org/anthology/C18-1102) got accepted at COLING 2018 as [**Area Chair Favorites**](http://coling2018.org/coling-2018-best-papers/) 🏆. 
 
 <!-- Button to show/hide additional content -->
-<button onclick="toggleVisibility('moreUpdates')" class="expand-button">Click to expand</button>
+<button onclick="toggleVisibility('moreUpdates')" class="expand-button">View More Achievements</button>
 
 <!-- Hidden content -->
 <div id="moreUpdates" style="display: none;">
@@ -61,23 +61,24 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 <!-- Styling for the button -->
 <style>
 .expand-button {
-  background-color: #f0f0f0; /* Very light gray, for subtlety */
-  color: #5f5f5f; /* Dark gray text, for formality and readability */
-  border: 1px solid #dedede; /* Slightly darker border for a crisp edge */
-  padding: 6px 12px; /* Adequate padding but not too bulky */
+  background-color: #e6eef8; /* Soft blue, often associated with academia */
+  color: #2a4d69; /* Deep blue, good for readability and a scholarly vibe */
+  border: 1px solid #b0c4de; /* Gentle border color */
+  padding: 7px 15px; /* Comfortable padding */
   text-align: center;
   text-decoration: none;
   display: inline-block;
   margin: 10px 0; /* Adds some space around the button */
   cursor: pointer;
-  border-radius: 3px; /* Slightly rounded corners for a modern look */
-  font-size: 15px; /* Not too large, keeping the text professional */
-  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+  border-radius: 5px; /* Gentle curve on corners */
+  font-size: 16px; /* Clear, legible text size */
+  transition: box-shadow 0.2s ease-in-out; /* Smooth shadow transition */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-.expand-button:hover {
-  background-color: #e8e8e8; /* A shade darker when hovering for interactivity */
-  color: #404040; /* Text slightly darker on hover for contrast */
+.expand-button:hover,
+.expand-button:focus {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow on hover/focus for interactivity */
 }
 
 ul {
@@ -97,8 +98,6 @@ function toggleVisibility(id) {
   x.style.display = x.style.display === "none" ? "block" : "none";
 }
 </script>
-
-
 
 
 <!--
