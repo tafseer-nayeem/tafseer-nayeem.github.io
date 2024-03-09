@@ -38,15 +38,15 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 
 ## News and Announcements
 
-- 📅 <span style="color:Blue"> [Feb 2024] </span> - 📢 **Paper Alert** - One paper got accepted at [LREC-COLING 2024](https://lrec-coling-2024.org/).
-- 📅 <span style="color:Blue"> [Aug 2023] </span> - 📢 **Paper Alert** - One paper got accepted at [CIKM 2023](https://uobevents.eventsair.com/cikm2023/).
-- 📅 <span style="color:Blue"> [Jan 2023] </span> - 📢 **Paper Alert** - Two papers got accepted at [EACL 2023](https://2023.eacl.org/).
+- 📅 <span style="color:Blue"> [Feb 2024] </span> - 🔔 **Paper Alert** - One paper got accepted at [LREC-COLING 2024](https://lrec-coling-2024.org/).
+- 📅 <span style="color:Blue"> [Aug 2023] </span> - 🔔 **Paper Alert** - One paper got accepted at [CIKM 2023](https://uobevents.eventsair.com/cikm2023/).
+- 📅 <span style="color:Blue"> [Jan 2023] </span> - 🔔 **Paper Alert** - Two papers got accepted at [EACL 2023](https://2023.eacl.org/).
 - 📅 <span style="color:Blue"> [Jun 2022] </span> - ✨ **Exciting News** - I am thrilled to receive **Huawei PhD Fellowship**.
 - 📅 <span style="color:Blue"> [Sep 2021] </span> - 🎓 **Education** - Started PhD in [Computing Science](https://www.ualberta.ca/computing-science/index.html) at [University of Alberta](https://www.ualberta.ca/index.html).
-- 📅 <span style="color:Blue"> [Feb 2021] </span> - 📢 **Paper Alert** - One paper got accepted at [EACL 2021](https://2021.eacl.org/).
-- 📅 <span style="color:Blue"> [Jan 2021] </span> - 📢 **Paper Alert** - One paper got accepted at [AAAI 2021](https://aaai.org/Conferences/AAAI-21/).
+- 📅 <span style="color:Blue"> [Feb 2021] </span> - 🔔 **Paper Alert** - One paper got accepted at [EACL 2021](https://2021.eacl.org/).
+- 📅 <span style="color:Blue"> [Jan 2021] </span> - 🔔 **Paper Alert** - One paper got accepted at [AAAI 2021](https://aaai.org/Conferences/AAAI-21/).
 - 📅 <span style="color:Blue"> [Jun 2018] </span> - 🏆 **Award** - Nominated for the [**Best Paper Award**](http://coling2018.org/coling-2018-best-papers/) at COLING 2018.
-- 📅 <span style="color:Blue"> [May 2018] </span> - 📢 **Paper Alert** - One [paper](http://aclweb.org/anthology/C18-1102) got accepted at COLING 2018 as [**Area Chair Favorites**](http://coling2018.org/coling-2018-best-papers/). 
+- 📅 <span style="color:Blue"> [May 2018] </span> - 🔔 **Paper Alert** - One [paper](http://aclweb.org/anthology/C18-1102) got accepted at COLING 2018 as [**Area Chair Favorites**](http://coling2018.org/coling-2018-best-papers/). 
 
 <!-- Button to show/hide additional content -->
 <button onclick="toggleVisibility('moreUpdates')" class="expand-button">View More News</button>
