@@ -72,7 +72,7 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
   margin: 7px 0; /* Adds some space around the button */
   cursor: pointer;
   border-radius: 5px; /* Gentle curve on corners */
-  font-size: 14px; /* Clear, legible text size */
+  font-size: 13px; /* Clear, legible text size */
   transition: box-shadow 0.2s ease-in-out; /* Smooth shadow transition */
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
