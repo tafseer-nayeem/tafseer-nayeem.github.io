@@ -29,8 +29,8 @@ author_profile: true
 ## 👨‍⚖️ Leadership Activities
 ------------------------
 - **Lab Manager**, Database Lab, University of Alberta, Edmonton, AB, Canada. `[2022 – Current]`
-- **Founding Admin** of a Discord server comprising approximately 4,500+ members dedicated to assisting prospective students with grad school applications. `[2021 - Current]`
-- **Member**, Logistics & IT Support Committee, ICCIT 2020 Conference.
+- **Founding Admin** of a Discord server comprising approximately **4,500+ members** dedicated to assisting prospective students with grad school applications. `[2021 - Current]`
+- **Member**, Logistics & IT Support Committee, [ICCIT 2020](http://iccit.org.bd/2020/) Conference.
 - **Organizing Committee**, Commonwealth of Learning (COL) TEL AUST Project. [[report]](http://oasis.col.org/handle/11599/3220)
 - **Organizer and Host**, Intel Nervana AI Academy - Workshop. `[2017]`
 - **Convener**, Project Showcasing, AUST CSE WEEK. `[2018]`
