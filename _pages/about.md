@@ -48,7 +48,7 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 * 📢 <span style="color:Blue"> [May 2018] </span> - One [paper](http://aclweb.org/anthology/C18-1102) got accepted at COLING 2018 as [**Area Chair Favorites**](http://coling2018.org/coling-2018-best-papers/) 🏆. 
 
 <!-- Button to show/hide additional content -->
-<button onclick="toggleVisibility('moreUpdates')" class="expand-button">View More</button>
+<button onclick="toggleVisibility('moreUpdates')" class="expand-button">View More News</button>
 
 <!-- Hidden content -->
 <div id="moreUpdates" style="display: none;">
