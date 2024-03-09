@@ -40,11 +40,11 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 
 - 📅 <span style="color:Blue"> [Aug 2023] </span> - 📢 Paper Alert - One paper got accepted at [CIKM 2023](https://uobevents.eventsair.com/cikm2023/).
 - 📅 <span style="color:Blue"> [Jan 2023] </span> - 📢 Paper Alert - Two papers got accepted at [EACL 2023](https://2023.eacl.org/).
-- 📅 <span style="color:Blue"> [Jun 2022] </span> - ✨ Exciting News - I am thrilled to receive Huawei PhD Fellowship✨ Thanks [Huawei](https://www.huawei.com/en/)!
+- 📅 <span style="color:Blue"> [Jun 2022] </span> - ✨ Exciting News - I am thrilled to receive Huawei PhD Fellowship 🏆 Thanks [Huawei](https://www.huawei.com/en/)!
 - 📅 <span style="color:Blue"> [Sep 2021] </span> - 🎓 Education - Started PhD in [Computing Science](https://www.ualberta.ca/computing-science/index.html) at [University of Alberta](https://www.ualberta.ca/index.html)✌️.
 - 📅 <span style="color:Blue"> [Jan 2021] </span> - 📢 Paper Alert - One paper got accepted at [EACL 2021](https://2021.eacl.org/).
 - 📅 <span style="color:Blue"> [Dec 2020] </span> - 📢 Paper Alert - One paper got accepted at [AAAI 2021](https://aaai.org/Conferences/AAAI-21/).
-- 📅 <span style="color:Blue"> [Jun 2018] </span> - 🏆 Award - Nominated for the [**Best Paper Award**](http://coling2018.org/coling-2018-best-papers/) 🏆 at COLING 2018.
+- 📅 <span style="color:Blue"> [Jun 2018] </span> - 🏆 Award - Nominated for the [**Best Paper Award**](http://coling2018.org/coling-2018-best-papers/) at COLING 2018.
 - 📅 <span style="color:Blue"> [May 2018] </span> - 📢 Paper Alert - One [paper](http://aclweb.org/anthology/C18-1102) got accepted at COLING 2018 as [**Area Chair Favorites**](http://coling2018.org/coling-2018-best-papers/) 🏆. 
 
 <!-- Button to show/hide additional content -->
