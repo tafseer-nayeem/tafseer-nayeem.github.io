@@ -55,6 +55,8 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 <!-- Hidden content -->
 <div id="moreUpdates" style="display: none;">
   <ul>
+    <li><span style="color:Blue">[Jun 2018]</span> - 🏆 <strong>Award</strong> - Nominated for the <a href="http://coling2018.org/coling-2018-best-papers/">Best Paper Award</a> at COLING 2018.</li>
+    <li><span style="color:Blue">[May 2018]</span> - 🔔 <strong>Paper Alert</strong> - One <a href="http://aclweb.org/anthology/C18-1102">paper</a> got accepted at COLING 2018 as <a href="http://coling2018.org/coling-2018-best-papers/">Area Chair Favorites</a>.</li>
     <li><span style="color:Blue">[May 2019]</span> - 🔔 <strong>Paper Alert</strong> - One <a href="https://www.sciencedirect.com/science/article/pii/S0885230818303449">journal paper</a> got accepted to <a href="https://www.journals.elsevier.com/computer-speech-and-language">Computer Speech & Language</a>.</li>
     <li><span style="color:Blue">[Jan 2019]</span> - 🔔 <strong>Paper Alert</strong> - One <a href="https://link.springer.com/chapter/10.1007/978-3-030-15719-7_14">paper</a> got accepted at <a href="http://ecir2019.org/">ECIR 2019</a>.</li>
     <li><span style="color:Blue">[Oct 2017]</span> - 🎤 <strong>Event</strong> - Organizer and Host: <a href="https://www.intel.ai/">Intel Nervana AI Academy - Workshop</a>.</li>
