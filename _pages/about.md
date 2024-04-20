@@ -8,10 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-👋Hi, there!
+<!--👋Hi, there! -->
 
 <p align="justify">
-I’m Mir <b>Tafseer</b> Nayeem, a second-year <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> PhD student at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by Prof. <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Davood Rafiei</a>. My research interests include, but are not limited to, Natural Language Processing, Information Retrieval, and Computational Social Science. My PhD research is about human-centric modeling of content (<i>with different modalities such as text, table, images, ratings, etc.</i>), especially two key factors (1) <b>who</b> are behind the content and (2) to <b>whom</b> the model will serve (<i>see an overview of my research below</i>).</p>
+I’m Mir <b>Tafseer</b> Nayeem, a third-year <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> PhD student at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by Prof. <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Davood Rafiei</a>. My research primarily focuses on Natural Language Processing (NLP), with special emphasis on Human-centered NLP, Summarization, and Multilingual and Cross-Lingual NLP. My PhD research involves human-centric modeling of content across various modalities, including text, tables, images, and ratings, particularly considering two key factors: (1) <b>who</b> are the creators of the content and (2) to <b>whom</b> the model will serve, specifically the intended audience. Below, you can find an overview of my research and its broader implications.
+</p>
+
 
 <p align="justify">
 My research is generously supported by <span style="color:Red">Huawei PhD Fellowship</span>. My work was previously nominated for <span style="color:Red">Best Paper Award</span> and selected as <span style="color:Red">Area Chair Favorite Paper</span> at <a href="http://coling2018.org/coling-2018-best-papers/">COLING 2018</a>.
