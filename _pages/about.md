@@ -11,7 +11,7 @@ redirect_from:
 <!--👋Hi, there! -->
 
 <p align="justify">
-I’m Mir <b>Tafseer</b> Nayeem, a third-year <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> PhD student at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by Prof. <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Davood Rafiei</a>. My research primarily focuses on Natural Language Processing (NLP), with special emphasis on Human-centered NLP, Summarization, and Multilingual and Cross-Lingual NLP. 
+I’m Mir <b>Tafseer</b> Nayeem, a third-year <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> PhD student at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by Prof. <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Davood Rafiei</a>. My research primarily focuses on Natural Language Processing (NLP), with special emphasis on Human-centered NLP, Summarization, and Multilingual & Cross-Lingual NLP. 
 </p>
 
 <p align="justify">
