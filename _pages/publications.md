@@ -22,6 +22,13 @@ author_profile: true
 👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://arxiv.org/abs/2309.13173)
 -->
 
+## Preprints
+--------------
+* [**Are Large Vision Language Models up to the Challenge of Chart Comprehension and Reasoning? An Extensive Investigation into the Capabilities and Limitations of LVLMs**](https://arxiv.org/abs/2406.00257)<br/>
+📰 <span style ="color:Maroon"> Uploaded to arXiv **(cs.CL)** </span> <br/>
+👨‍💻  Mohammed Saidul Islam, Raian Rahman, Ahmed Masry, Md Tahmid Rahman Laskar, **Mir Tafseer Nayeem**, and Enamul Hoque <br/>
+👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://arxiv.org/abs/2406.00257)
+
 ## 2024
 -----------
 * [**XL-HeadTags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags**](https://arxiv.org/abs/2406.03776)<br/>
