@@ -12,6 +12,7 @@ author_profile: true
 * [University of Alberta (UofA)](https://www.ualberta.ca/index.html), Edmonton, Canada.
 * **Tentative Thesis Title:** *"Human-Centric Modeling of Content"*
 * **Supervisor:** [Prof. Davood Rafiei](https://webdocs.cs.ualberta.ca/~drafiei/)
+* **Committee Members:** [Prof. Osmar Zaiane](https://webdocs.cs.ualberta.ca/~zaiane/) and [Prof. Lili Mou ](https://lili-mou.github.io/)
 
 
 ## 🎓 MSc in Computer Science
