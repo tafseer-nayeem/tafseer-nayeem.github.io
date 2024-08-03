@@ -32,7 +32,7 @@ author_profile: true
 ## 2024
 <hr style="border: 1px solid #ddd;" />
 
-![ACL 2024](https://img.shields.io/badge/ACL%202024-4682B4?style=for-the-badge)
+![ACL 2024](https://img.shields.io/badge/ACL%202024-3CB371?style=for-the-badge)
 * [**XL-HeadTags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags**](https://arxiv.org/abs/2406.03776)<br/>
 📰 <span style ="color:Maroon"> Accepted for publication at **ACL 2024** (Findings)</span> <br/>
 👨‍💻  Faisal Tareque Shohan\*, **Mir Tafseer Nayeem\***, Samsul Islam, Abu Ubaida Akash, and Shafiq Joty <br/>  
