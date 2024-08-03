@@ -31,12 +31,12 @@ author_profile: true
 
 ## 2024
 -----------
-* [**XL-HeadTags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags**](https://arxiv.org/abs/2406.03776)<br/>
+[**XL-HeadTags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags**](https://arxiv.org/abs/2406.03776)<br/>
 📰 <span style ="color:Maroon"> Accepted for publication at **ACL 2024** (Findings)</span> <br/>
 👨‍💻  Faisal Tareque Shohan\*, **Mir Tafseer Nayeem\***, Samsul Islam, Abu Ubaida Akash, and Shafiq Joty <br/>
 
 
-* [**BenLLM-Eval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP**](https://aclanthology.org/2024.lrec-main.201/)<br/>
+[**BenLLM-Eval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP**](https://aclanthology.org/2024.lrec-main.201/)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **LREC-COLING 2024** </span> <br/>
 👨‍💻  Mohsinul Kabir\*, Mohammed Saidul Islam\*, Md Tahmid Rahman Laskar, **Mir Tafseer Nayeem**, M Saiful Bari, and Enamul Hoque <br/>
 👉 [![Code](https://img.shields.io/badge/Code-critical)](https://github.com/saidul-islam98/BenLLMeval) [![Slides](https://img.shields.io/badge/Slides-blueviolet)](https://tafseer-nayeem.github.io/files/LREC-COLING-2024/LREC-COLING-2024_BenLLM-Eval_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-28a745)](https://tafseer-nayeem.github.io/files/LREC-COLING-2024/LREC-COLING-2024_BenLLM-Eval_poster.pdf)
