@@ -5,41 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-<div style="width: 100%;">
-  <style>
-    .publication-list {
-      list-style: none; /* Removes bullet points */
-      padding: 0;
-      margin: 0;
-    }
-    .conference-acronym {
-      display: inline-block;
-      background-color: #6a5acd; /* Stylish slate blue background */
-      color: white; /* White text for high contrast */
-      padding: 5px 10px;
-      border-radius: 5px; /* Rounded corners */
-      text-align: center;
-      margin-right: 10px;
-      vertical-align: middle; /* Aligns text vertically */
-      width: 15%; /* Ensures uniform size */
-    }
-    .publication-details {
-      display: inline-block;
-      vertical-align: middle;
-      width: 84%;
-    }
-    .header {
-      font-size: 24px;
-      color: #333;
-      padding-bottom: 5px;
-      border-bottom: 2px solid #ccc;
-      margin-bottom: 20px;
-    }
-    .link-section {
-      margin-top: 10px;
-    }
-  </style>
-
 **Full List:** [ [**Google Scholar**](https://scholar.google.com/citations?hl=en&user=qoeylgEAAAAJ&view_op=list_works&sortby=pubdate) \| [**Semantic Scholar**](https://www.semanticscholar.org/author/Mir-Tafseer-Nayeem/1807355) \| [**ACL Anthology**](https://aclanthology.org/people/m/mir-tafseer-nayeem/) \| [**DBLP**](https://dblp.org/pid/125/2693.html) ]
 
 <span style ="color:BlueViolet"> [\**indicates equal contribution*]</span>
@@ -66,22 +31,9 @@ author_profile: true
 
 ## 2024
 -----------
-<div class="header">Selected Publications</div>
-  <div>**Full List:** [ [**Google Scholar**](https://scholar.google.com/citations?hl=en&user=qoeylgEAAAAJ&view_op=list_works&sortby=pubdate) \| [**Semantic Scholar**](https://www.semanticscholar.org/author/Mir-Tafseer-Nayeem/1807355) \| [**ACL Anthology**](https://aclanthology.org/people/m/mir-tafseer-nayeem/) \| [**DBLP**](https://dblp.org/pid/125/2693.html) ]</div>
-
-  <ul class="publication-list">
-    <!-- Repeat this pattern for each year and publication -->
-    <li>
-      <div class="conference-acronym">ACL 2024</div>
-      <div class="publication-details">
-        <a href="https://arxiv.org/abs/2406.03776"><strong>XL-HeadTags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags</strong></a><br/>
-        <span style="color:Maroon">Accepted for publication</span><br/>
-        👨‍💻 Faisal Tareque Shohan*, <strong>Mir Tafseer Nayeem*</strong>, Samsul Islam, Abu Ubaida Akash, and Shafiq Joty
-      </div>
-    </li>
-    <!-- Additional list items -->
-  </ul>
-</div>
+* [**XL-HeadTags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags**](https://arxiv.org/abs/2406.03776)<br/>
+📰 <span style ="color:Maroon"> Accepted for publication at **ACL 2024** (Findings)</span> <br/>
+👨‍💻  Faisal Tareque Shohan\*, **Mir Tafseer Nayeem\***, Samsul Islam, Abu Ubaida Akash, and Shafiq Joty <br/>
 
 
 * [**BenLLM-Eval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP**](https://aclanthology.org/2024.lrec-main.201/)<br/>
