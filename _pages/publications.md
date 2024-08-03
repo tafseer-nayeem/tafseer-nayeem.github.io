@@ -29,17 +29,53 @@ author_profile: true
 👨‍💻  Mohammed Saidul Islam, Raian Rahman, Ahmed Masry, Md Tahmid Rahman Laskar, **Mir Tafseer Nayeem**, and Enamul Hoque <br/>
 👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://arxiv.org/abs/2406.00257)
 
-## 2024
------------
-* [**XL-HeadTags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags**](https://arxiv.org/abs/2406.03776)<br/>
-📰 <span style ="color:Maroon"> Accepted for publication at **ACL 2024** (Findings)</span> <br/>
-👨‍💻  Faisal Tareque Shohan\*, **Mir Tafseer Nayeem\***, Samsul Islam, Abu Ubaida Akash, and Shafiq Joty <br/>
 
+<div style="width: 100%;">
+  <style>
+    .publication-list {
+      list-style: none; /* Removes bullet points */
+      padding: 0;
+      margin: 0;
+    }
+    .conference-acronym {
+      float: left; /* Positions the acronym to the left */
+      width: 20%; /* Sets the width of the acronym column */
+      text-align: right; /* Right-aligns the text */
+      padding-right: 20px; /* Adds spacing between acronym and title */
+      color: maroon; /* Style the color as needed */
+      font-weight: bold; /* Makes the acronym bold */
+    }
+    .publication-details {
+      width: 80%; /* Sets the width of the publication details */
+      float: right; /* Ensures it aligns correctly with the acronym */
+    }
+    .clear-float {
+      clear: both; /* Clears the floating elements */
+    }
+  </style>
+  <ul class="publication-list">
+    <li>
+      <div class="conference-acronym">ACL 2024</div>
+      <div class="publication-details">
+        <a href="https://arxiv.org/abs/2406.03776"><strong>XL-HeadTags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags</strong></a><br/>
+        📰 <span style="color:Maroon">Accepted for publication at <strong>ACL 2024</strong> (Findings)</span> <br/>
+        👨‍💻  Faisal Tareque Shohan*, **Mir Tafseer Nayeem***, Samsul Islam, Abu Ubaida Akash, and Shafiq Joty <br/>
+      </div>
+      <div class="clear-float"></div>
+    </li>
+    <li>
+      <div class="conference-acronym">LREC-COLING 2024</div>
+      <div class="publication-details">
+        <a href="https://aclanthology.org/2024.lrec-main.201/"><strong>BenLLM-Eval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP</strong></a><br/>
+        📰 <span style="color:Maroon">Proceedings of <strong>LREC-COLING 2024</strong></span> <br/>
+        👨‍💻 Mohsinul Kabir*, Mohammed Saidul Islam*, Md Tahmid Rahman Laskar, **Mir Tafseer Nayeem**, M Saiful Bari, and Enamul Hoque <br/>
+        👉 <a href="https://github.com/saidul-islam98/BenLLMeval"><img src="https://img.shields.io/badge/Code-critical" alt="Code"/></a> <a href="https://tafseer-nayeem.github.io/files/LREC-COLING-2024/LREC-COLING-2024_BenLLM-Eval_presentation.pdf"><img src="https://img.shields.io/badge/Slides-blueviolet" alt="Slides"/></a> <a href="https://tafseer-nayeem.github.io/files/LREC-COLING-2024/LREC-COLING-2024_BenLLM-Eval_poster.pdf"><img src="https://img.shields.io/badge/Poster-28a745" alt="Poster"/></a>
+      </div>
+      <div class="clear-float"></div>
+    </li>
+  </ul>
+</div>
 
-* [**BenLLM-Eval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP**](https://aclanthology.org/2024.lrec-main.201/)<br/>
-📰 <span style ="color:Maroon"> Proceedings of **LREC-COLING 2024** </span> <br/>
-👨‍💻  Mohsinul Kabir\*, Mohammed Saidul Islam\*, Md Tahmid Rahman Laskar, **Mir Tafseer Nayeem**, M Saiful Bari, and Enamul Hoque <br/>
-👉 [![Code](https://img.shields.io/badge/Code-critical)](https://github.com/saidul-islam98/BenLLMeval) [![Slides](https://img.shields.io/badge/Slides-blueviolet)](https://tafseer-nayeem.github.io/files/LREC-COLING-2024/LREC-COLING-2024_BenLLM-Eval_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-28a745)](https://tafseer-nayeem.github.io/files/LREC-COLING-2024/LREC-COLING-2024_BenLLM-Eval_poster.pdf)
 
 
 ## 2023
