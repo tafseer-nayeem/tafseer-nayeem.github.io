@@ -29,7 +29,8 @@ author_profile: true
 * [**Are Large Vision Language Models up to the Challenge of Chart Comprehension and Reasoning? An Extensive Investigation into the Capabilities and Limitations of LVLMs**](https://arxiv.org/abs/2406.00257)<br/>
 📰 <span style ="color:Maroon"> Uploaded to arXiv **(cs.CL)** </span> <br/>
 👨‍💻  Mohammed Saidul Islam, Raian Rahman, Ahmed Masry, Md Tahmid Rahman Laskar, **Mir Tafseer Nayeem**, and Enamul Hoque <br/>
-👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://arxiv.org/abs/2406.00257)
+👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://arxiv.org/abs/2406.00257)
+
 
 ## 2024
 <hr style="border: 1px solid #ddd;" />
