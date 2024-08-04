@@ -83,6 +83,7 @@ author_profile: true
 
 -----------
 
+![EACL 2021](https://img.shields.io/badge/EACL%202021-blueviolet?style=for-the-badge)
 * [**Unsupervised Abstractive Summarization of Bengali Text Documents**](https://www.aclweb.org/anthology/2021.eacl-main.224)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **EACL 2021** </span> <br/>
 👨‍💻 Radia Rayan Chowdhury\*, **Mir Tafseer Nayeem\***, TT Mim, MSR Chowdhury, and T Jannat <br/>
