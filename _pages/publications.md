@@ -153,7 +153,7 @@ author_profile: true
 ## 2014
 <hr style="border: 1px solid #ddd;" />
 
-![ICCI\*CC 2014](https://img.shields.io/badge/ICCI\*CC%202014-00acee?style=for-the-badge)
+![ICCI\*CC 2014](https://img.shields.io/badge/ICCI*CC%202014-00acee?style=for-the-badge)
 * [**Design of a Human Interaction Proof (HIP) using Human Cognition in Contextual Natural Conversation**](https://ieeexplore.ieee.org/document/6921454/) <br/>
 📰 <span style ="color:Maroon"> Proceedings of **IEEE ICCI\*CC 2014** </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem**, Md Mamunur Rashid Akand, Nazmus Sakib, and Md. Wasi Ul Kabir <br/>
