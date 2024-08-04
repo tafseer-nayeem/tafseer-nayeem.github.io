@@ -40,7 +40,7 @@ author_profile: true
 
 -----------
 
-![COLING 2024](https://img.shields.io/badge/ACL%202024-critical?style=for-the-badge)
+![COLING 2024](https://img.shields.io/badge/COLING%202024-orange?style=for-the-badge)
 * [**BenLLM-Eval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP**](https://aclanthology.org/2024.lrec-main.201/)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **LREC-COLING 2024** </span> <br/>
 👨‍💻  Mohsinul Kabir\*, Mohammed Saidul Islam\*, Md Tahmid Rahman Laskar, **Mir Tafseer Nayeem**, M Saiful Bari, and Enamul Hoque <br/>
