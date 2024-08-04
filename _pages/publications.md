@@ -113,6 +113,7 @@ author_profile: true
 ## 2018
 <hr style="border: 1px solid #ddd;" />
 
+![COLING 2018](https://img.shields.io/badge/COLING%202018-orange?style=for-the-badge)
 * [**Abstractive Unsupervised Multi-Document Summarization using Paraphrastic Sentence Fusion**](http://aclweb.org/anthology/C18-1102) <br/>
 📰 <span style ="color:Maroon"> Proceedings of **COLING 2018** (Oral) </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem**, Tanvir Ahmed Fuad, and Yllias Chali <br/>
