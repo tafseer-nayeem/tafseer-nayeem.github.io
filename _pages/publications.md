@@ -95,6 +95,7 @@ author_profile: true
 ## 2019
 <hr style="border: 1px solid #ddd;" />
 
+![ECIR 2019](https://img.shields.io/badge/ECIR%202019-28a745?style=for-the-badge)
 * [**Neural Diverse Abstractive Sentence Compression Generation**](https://link.springer.com/chapter/10.1007/978-3-030-15719-7_14)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **ECIR 2019** </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem**, Tanvir Ahmed Fuad, and Yllias Chali <br/>
@@ -106,13 +107,6 @@ author_profile: true
 📰 <span style ="color:Maroon"> **Computer Speech & Language**, Elsevier 58 (2019): 216-230. </span> <br/>
 👨‍💻 Tanvir Ahmed Fuad\*, **Mir Tafseer Nayeem\***, Asif Mahmud, and Yllias Chali <br/>
 👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://tafseer-nayeem.github.io/files/CSL_Journal_2019.pdf) [![Code](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/tafseer-nayeem/NeuFuse)
-
------------
-
-* [**Automatic Individual Information Aggregation using Publicly Available Social Media Data**](https://ieeexplore.ieee.org/document/9038402) <br/>
-📰 <span style ="color:Maroon"> Proceedings of **ICCIT 2019** </span> <br/>
-👨‍💻 Sibendu Sarker, Wayne Franz, and **Mir Tafseer Nayeem** <br/>
-👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://tafseer-nayeem.github.io/files/ICCIT_2019_paper.pdf)
 
 
 ## 2018
