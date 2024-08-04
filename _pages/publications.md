@@ -134,6 +134,7 @@ author_profile: true
 
 -----------
 
+![IJCNLP 2017](https://img.shields.io/badge/IJCNLP%202017-4682B4?style=for-the-badge)
 * [**Towards Abstractive Multi-Document Summarization Using Submodular Function-Based Framework, Sentence Compression and Merging**](http://www.aclweb.org/anthology/I17-2071) <br/>
 📰 <span style ="color:Maroon"> Proceedings of **IJCNLP 2017** </span> <br/>
 👨‍💻 Yllias Chali, Moin Mahmud Tanvee, and **Mir Tafseer Nayeem** <br/>
