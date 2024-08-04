@@ -143,6 +143,7 @@ author_profile: true
 
 -----------
 
+![ACL 2017](https://img.shields.io/badge/ACL%202017-dc3545?style=for-the-badge)
 * [**Extract with Order for Coherent Multi-Document Summarization**](http://www.aclweb.org/anthology/W17-2407) <br/>
 📰 <span style ="color:Maroon"> Proceedings of **ACL 2017** (Workshop, Oral) </span> <br/>
 👨‍💻 **Mir Tafseer Nayeem** and Yllias Chali <br/>
