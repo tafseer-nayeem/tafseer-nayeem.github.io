@@ -146,6 +146,7 @@ author_profile: true
 👨‍💻 **Mir Tafseer Nayeem** and Yllias Chali <br/>
 👉 [![Slides](https://img.shields.io/badge/Slides-D3D3D3)](https://tafseer-nayeem.github.io/files/ACL_Workshop_2017_Presentation.pdf)
 
+<!--
 
 ## 2014
 <hr style="border: 1px solid #ddd;" />
@@ -175,7 +176,7 @@ author_profile: true
 
 [comment]: # <br/>
 
-<!--
+
 # Favorite Quotes
 -------------------
 &nbsp;
