@@ -42,7 +42,8 @@ author_profile: true
 ![ACL 2024](https://img.shields.io/badge/ACL%202024-dc3545?style=for-the-badge)
 * [**XL-HeadTags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags**](https://aclanthology.org/2024.findings-acl.771/)<br/>
 📰 <span style ="color:Maroon"> Proceedings of **ACL 2024** (Findings)</span> <br/>
-👨‍💻  Faisal Tareque Shohan\*, **Mir Tafseer Nayeem\***, Samsul Islam, Abu Ubaida Akash, and Shafiq Joty <br/>  
+👨‍💻  Faisal Tareque Shohan\*, **Mir Tafseer Nayeem\***, Samsul Islam, Abu Ubaida Akash, and Shafiq Joty <br/> 
+👉 [![Code](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/faisaltareque/XL-HeadTags) [![Dataset & Models](https://img.shields.io/badge/Dataset-D3D3D3)](https://huggingface.co/datasets/faisaltareque/XL-HeadTags) [![Slides](https://img.shields.io/badge/Slides-D3D3D3)](https://tafseer-nayeem.github.io/files/ACL2024/ACL2024_XL-HeadTags_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-D3D3D3)](https://tafseer-nayeem.github.io/files/ACL2024/ACL2024_XL-HeadTags_poster.pdf)
 
 -----------
 
