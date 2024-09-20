@@ -39,7 +39,6 @@ Proceedings of
 ## 2024
 <hr style="border: 1px solid #ddd;" />
 
-<!--
 ![EMNLP 2024](https://img.shields.io/badge/EMNLP%202024-teal?style=for-the-badge)
 * [**KidLM: Advancing Language Models for Children – Early Insights and Future Directions**](https://2024.emnlp.org/)<br/>
 📰 <span style ="color:Maroon"> Accepted for publication at **EMNLP 2024**</span> <span class="blinking">✨</span> <br/>
@@ -55,7 +54,6 @@ Proceedings of
 👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://arxiv.org/abs/2406.00257)
 
 -----------
--->
 
 ![ACL 2024](https://img.shields.io/badge/ACL%202024-dc3545?style=for-the-badge)
 * [**XL-HeadTags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags**](https://aclanthology.org/2024.findings-acl.771/)<br/>
@@ -70,7 +68,6 @@ Proceedings of
 📰 <span style ="color:Maroon"> Published in **LREC-COLING 2024** </span> <br/>
 👨‍💻  Mohsinul Kabir\*, Mohammed Saidul Islam\*, Md Tahmid Rahman Laskar, **Mir Tafseer Nayeem**, M Saiful Bari, and Enamul Hoque <br/>
 👉 [![Code](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/saidul-islam98/BenLLMeval) [![Slides](https://img.shields.io/badge/Slides-D3D3D3)](https://tafseer-nayeem.github.io/files/LREC-COLING-2024/LREC-COLING-2024_BenLLM-Eval_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-D3D3D3)](https://tafseer-nayeem.github.io/files/LREC-COLING-2024/LREC-COLING-2024_BenLLM-Eval_poster.pdf)  
-
 
 
 ## 2023
