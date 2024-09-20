@@ -173,18 +173,23 @@ Proceedings of
 
 
 <style>
-.blinking {
-    color: red; /* Optional: Set the color of "new" */
-    font-weight: bold; /* Optional: Make it bold */
-    animation: blinker 1s linear infinite;
+.blinking-badge {
+    display: inline-block;
+    background-color: teal; /* Initial background color */
+    color: white; /* Text color */
+    padding: 2px 6px; /* Adjust padding as needed */
+    border-radius: 12px; /* Creates the rounded rectangle effect */
+    font-weight: bold; /* Makes the text bold */
+    animation: blinkingBackground 1s linear infinite;
 }
 
-@keyframes blinker {
-    50% {
-        opacity: 0;
-    }
+@keyframes blinkingBackground {
+    0% { background-color: teal; }
+    50% { background-color: transparent; }
+    100% { background-color: teal; }
 }
 </style>
+
 
 <!--
 
