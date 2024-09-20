@@ -177,7 +177,7 @@ Proceedings of
     font-size: 1.2em;     /* Adjust size as needed */
     margin-right: 8px;    /* Adds space between symbol and title */
     vertical-align: middle; /* Aligns symbol with text */
-    animation: blinker 2s linear infinite;
+    animation: blinker 3s linear infinite;
 }
 
 @keyframes blinker {
