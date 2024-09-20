@@ -40,7 +40,7 @@ Proceedings of
 <hr style="border: 1px solid #ddd;" />
 
 ![EMNLP 2024](https://img.shields.io/badge/EMNLP%202024-teal?style=for-the-badge)
-* <span class="blinking">new</span> [**KidLM: Advancing Language Models for Children – Early Insights and Future Directions**](https://2024.emnlp.org/)<br/>
+* <span class="blinking-badge">NEW</span> [**KidLM: Advancing Language Models for Children – Early Insights and Future Directions**](https://2024.emnlp.org/)<br/>
 📰 <span style ="color:Maroon"> Accepted for publication at **EMNLP 2024**</span> <br/>
 👨‍💻  **Mir Tafseer Nayeem** and Davood Rafiei <br/>
 👉 <span style ="color:Maroon"> *Coming Soon* </span>
