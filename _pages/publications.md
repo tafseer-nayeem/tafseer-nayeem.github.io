@@ -40,6 +40,14 @@ Proceedings of
 <hr style="border: 1px solid #ddd;" />
 
 ![EMNLP 2024](https://img.shields.io/badge/EMNLP%202024-teal?style=for-the-badge)
+* [**KidLM: Advancing Language Models for Children – Early Insights and Future Directions**](https://2024.emnlp.org/)<br/>
+📰 <span style ="color:Maroon"> Accepted for publication at **EMNLP 2024**</span> <br/>
+👨‍💻  **Mir Tafseer Nayeem** and Davood Rafiei <br/>
+👉 <span style ="color:Maroon"> *Coming Soon* </span>
+
+-----------
+
+![EMNLP 2024](https://img.shields.io/badge/EMNLP%202024-teal?style=for-the-badge)
 * [**Are Large Vision Language Models up to the Challenge of Chart Comprehension and Reasoning**](https://arxiv.org/abs/2406.00257)<br/>
 📰 <span style ="color:Maroon"> Accepted for publication at **EMNLP 2024** (Findings)</span> <br/>
 👨‍💻  Mohammed Saidul Islam, Raian Rahman, Ahmed Masry\*, Md Tahmid Rahman Laskar\*, **Mir Tafseer Nayeem\***, and Enamul Hoque <br/>
