@@ -24,6 +24,7 @@ Proceedings of
 
 -->
 
+<!--
 ## Preprints
 <hr style="border: 1px solid #ddd;" />
 
@@ -33,11 +34,19 @@ Proceedings of
 👨‍💻  Mohammed Saidul Islam, Raian Rahman, Ahmed Masry, Md Tahmid Rahman Laskar, **Mir Tafseer Nayeem**, and Enamul Hoque <br/>
 👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://arxiv.org/abs/2406.00257)
 
+-->
 
 ## 2024
 <hr style="border: 1px solid #ddd;" />
 
 ![EMNLP 2024](https://img.shields.io/badge/EMNLP%202024-teal?style=for-the-badge)
+* [**Are Large Vision Language Models up to the Challenge of Chart Comprehension and Reasoning**](https://arxiv.org/abs/2406.00257)<br/>
+📰 <span style ="color:Maroon"> Accepted for publication at **EMNLP 2024** (Findings)</span> <br/>
+👨‍💻  Mohammed Saidul Islam, Raian Rahman, Ahmed Masry\*, Md Tahmid Rahman Laskar\*, **Mir Tafseer Nayeem\***, and Enamul Hoque <br/>
+👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://arxiv.org/abs/2406.00257)
+
+-----------
+
 
 ![ACL 2024](https://img.shields.io/badge/ACL%202024-dc3545?style=for-the-badge)
 * [**XL-HeadTags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags**](https://aclanthology.org/2024.findings-acl.771/)<br/>
