@@ -14,12 +14,8 @@ author_profile: true
 [comment]: # <br/>
 
 <!--
-## Preprints and Samples
+## Samples
 --------------
-* [**BenLLMEval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP**](https://arxiv.org/abs/2309.13173)<br/>
-📰 <span style ="color:Maroon"> Uploaded to arXiv **(cs.CL)** </span> <br/>
-👨‍💻  Mohsinul Kabir\*, Mohammed Saidul Islam\*, Md Tahmid Rahman Laskar, **Mir Tafseer Nayeem**, M Saiful Bari, and Enamul Hoque <br/>
-👉 [<span style ="color:DarkBlue"> [PDF] </span>](https://arxiv.org/abs/2309.13173)
 
 ## For just accepted papers
 📰 <span style ="color:Maroon"> Accepted for publication at **ACL 2024** (Findings)</span> <br/>
@@ -41,7 +37,7 @@ Proceedings of
 ## 2024
 <hr style="border: 1px solid #ddd;" />
 
-![EMNLP 2024](https://img.shields.io/badge/EMNLP%202024-crimson?style=for-the-badge)
+![EMNLP 2024](https://img.shields.io/badge/EMNLP%202024-teal?style=for-the-badge)
 
 ![ACL 2024](https://img.shields.io/badge/ACL%202024-dc3545?style=for-the-badge)
 * [**XL-HeadTags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags**](https://aclanthology.org/2024.findings-acl.771/)<br/>
