@@ -42,7 +42,7 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 
 ## News and Announcements
 
-* <span style="color:Blue"> [Sep 2024] </span> - 🔔 **Paper Alert** - Two papers got accepted at [EMNLP 2024](https://2024.emnlp.org/).
+<!--* <span style="color:Blue"> [Sep 2024] </span> - 🔔 **Paper Alert** - Two papers got accepted at [EMNLP 2024](https://2024.emnlp.org/). -->
 * <span style="color:Blue"> [May 2024] </span> - 🔔 **Paper Alert** - One paper got accepted at [ACL 2024](https://2024.aclweb.org/).
 * <span style="color:Blue"> [Feb 2024] </span> - 🔔 **Paper Alert** - One paper got accepted at [LREC-COLING 2024](https://lrec-coling-2024.org/).
 * <span style="color:Blue"> [Aug 2023] </span> - 🔔 **Paper Alert** - One paper got accepted at [CIKM 2023](https://uobevents.eventsair.com/cikm2023/).
