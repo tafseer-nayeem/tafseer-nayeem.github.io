@@ -40,7 +40,7 @@ Proceedings of
 <hr style="border: 1px solid #ddd;" />
 
 ![EMNLP 2024](https://img.shields.io/badge/EMNLP%202024-teal?style=for-the-badge)
-* <span class="blinking">NEW</span> [**KidLM: Advancing Language Models for Children – Early Insights and Future Directions**](https://2024.emnlp.org/)<br/>
+* <span class="blinking-badge">NEW</span> [**KidLM: Advancing Language Models for Children – Early Insights and Future Directions**](https://2024.emnlp.org/)<br/>
 📰 <span style ="color:Maroon"> Accepted for publication at **EMNLP 2024**</span> <br/>
 👨‍💻  **Mir Tafseer Nayeem** and Davood Rafiei <br/>
 👉 <span style ="color:Maroon"> *Coming Soon* </span>
@@ -173,18 +173,24 @@ Proceedings of
 
 
 <style>
-.blinking {
-    color: red; /* Optional: Set the color of "new" */
-    font-weight: bold; /* Optional: Make it bold */
-    animation: blinker 1s linear infinite;
+.blinking-badge {
+    display: inline-block;
+    background-color: teal;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 12px;
+    font-weight: bold;
+    animation: blinkingBackground 5s linear infinite;
+    margin-right: 8px;
+    vertical-align: middle;
 }
 
-@keyframes blinker {
-    50% {
-        opacity: 0;
-    }
+@keyframes blinkingBackground {
+    0%, 90% { background-color: teal; }
+    91%, 100% { background-color: transparent; }
 }
 </style>
+
 
 
 
