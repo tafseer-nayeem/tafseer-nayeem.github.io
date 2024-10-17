@@ -18,7 +18,7 @@ author_profile: true
 --------------
 
 ## For just accepted papers
-📰 <span style ="color:Maroon"> Accepted for publication at **ACL 2024** (Findings)</span> <br/>
+Accepted for publication at **ACL 2024** (Findings)
 
 Proceedings of
 
