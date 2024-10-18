@@ -24,17 +24,17 @@ Proceedings of
 
 -->
 
-<!--
+
 ## Preprints
 <hr style="border: 1px solid #ddd;" />
 
 ![arXiv 2024](https://img.shields.io/badge/arXiv%202024-blue?style=for-the-badge)
-* [**Are Large Vision Language Models up to the Challenge of Chart Comprehension and Reasoning? An Extensive Investigation into the Capabilities and Limitations of LVLMs**](https://arxiv.org/abs/2406.00257)<br/>
+* [**LFOSum: Summarizing Long-form Opinions with Large Language Models**](https://arxiv.org/abs/2410.13037)<br/>
 📰 <span style ="color:Maroon"> Uploaded to arXiv **(cs.CL)** </span> <br/>
-👨‍💻  Mohammed Saidul Islam, Raian Rahman, Ahmed Masry, Md Tahmid Rahman Laskar, **Mir Tafseer Nayeem**, and Enamul Hoque <br/>
-👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://arxiv.org/abs/2406.00257)
+👨‍💻  **Mir Tafseer Nayeem** and Davood Rafiei <br/>
+👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://arxiv.org/abs/2410.13037)
 
--->
+
 
 ## 2024
 <hr style="border: 1px solid #ddd;" />
