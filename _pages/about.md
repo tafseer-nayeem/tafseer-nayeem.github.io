@@ -42,7 +42,7 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 
 ## News and Announcements
 
-* <span style="color:Blue"> [Nov 2024] </span> - 🏆 **Award** - [KidLM](https://aclanthology.org/2024.emnlp-main.277/) received the <span style="color:Red">Best Resource Paper Award</span> at [EMNLP 2024](https://2024.emnlp.org/).
+* <span style="color:Blue"> [Nov 2024] </span> - 🏆 **Award** - [KidLM](https://aclanthology.org/2024.emnlp-main.277/) received the <span style="color:Red">**Best Resource Paper Award**</span> at [EMNLP 2024](https://2024.emnlp.org/).
 * <span style="color:Blue"> [Sep 2024] </span> - 🔔 **Paper Alert** - Two papers accepted at [EMNLP 2024](https://2024.emnlp.org/).
 * <span style="color:Blue"> [May 2024] </span> - 🔔 **Paper Alert** - One paper accepted at [ACL 2024](https://2024.aclweb.org/).
 * <span style="color:Blue"> [Feb 2024] </span> - 🔔 **Paper Alert** - One paper accepted at [LREC-COLING 2024](https://lrec-coling-2024.org/).
