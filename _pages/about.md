@@ -42,7 +42,7 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 
 ## News and Announcements
 
-* <span style="color:Blue"> [Nov 2024] </span> - 🏆 **Paper Award** - [KidLM](https://aclanthology.org/2024.emnlp-main.277/) received the <span style="color:Red">Best Resource Paper Award</span> at [EMNLP 2024](https://2024.emnlp.org/).
+* <span style="color:Blue"> [Nov 2024] </span> - 🏆 **Award** - [KidLM](https://aclanthology.org/2024.emnlp-main.277/) received the <span style="color:Red">Best Resource Paper Award</span> at [EMNLP 2024](https://2024.emnlp.org/).
 * <span style="color:Blue"> [Sep 2024] </span> - 🔔 **Paper Alert** - Two papers accepted at [EMNLP 2024](https://2024.emnlp.org/).
 * <span style="color:Blue"> [May 2024] </span> - 🔔 **Paper Alert** - One paper accepted at [ACL 2024](https://2024.aclweb.org/).
 * <span style="color:Blue"> [Feb 2024] </span> - 🔔 **Paper Alert** - One paper accepted at [LREC-COLING 2024](https://lrec-coling-2024.org/).
@@ -60,7 +60,7 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 <!-- Hidden content -->
 <div id="moreUpdates" style="display: none;">
   <ul>
-   <li><span style="color:blue;">[Jun 2018]</span> - 🏆 <strong>Paper Award</strong> - Our <a href="http://aclweb.org/anthology/C18-1102">paper</a> received <span style="color:red;"><strong>Area Chair Favorite Paper Award</strong></span> at <a href="http://coling2018.org/coling-2018-best-papers/">COLING 2018</a>.</li>
+   <li><span style="color:blue;">[Jun 2018]</span> - 🏆 <strong>Award</strong> - Our <a href="http://aclweb.org/anthology/C18-1102">paper</a> received <span style="color:red;"><strong>Area Chair Favorite Paper Award</strong></span> at <a href="http://coling2018.org/coling-2018-best-papers/">COLING 2018</a>.</li>
     <!-- <li><span style="color:Blue">[Jun 2018]</span> - 🏆 <strong>Award</strong> - Nominated for the <a href="http://coling2018.org/coling-2018-best-papers/">Best Paper Award</a> at COLING 2018.</li> -->
     <li><span style="color:Blue">[May 2018]</span> - 🔔 <strong>Paper Alert</strong> - One <a href="http://aclweb.org/anthology/C18-1102">paper</a> accepted at COLING 2018.</li>
     <li><span style="color:Blue">[May 2019]</span> - 🔔 <strong>Paper Alert</strong> - One <a href="https://www.sciencedirect.com/science/article/pii/S0885230818303449">journal paper</a> accepted to <a href="https://www.journals.elsevier.com/computer-speech-and-language">Computer Speech & Language</a>.</li>
