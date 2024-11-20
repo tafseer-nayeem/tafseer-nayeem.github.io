@@ -62,7 +62,14 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
     <li><span style="color:Blue">[Jan 2021]</span> - 🔔 <strong>Paper Alert</strong> - One paper accepted at <a href="https://aaai.org/Conferences/AAAI-21/">AAAI 2021</a>.</li>
     <li><span style="color:blue;">[Jun 2018]</span> - 🏆 <strong>Award</strong> - Our <a href="http://aclweb.org/anthology/C18-1102">paper</a> received <span style="color:red;">Area Chair Favorite Paper Award</span> at <a href="http://coling2018.org/coling-2018-best-papers/">COLING 2018</a>.</li>
     <!-- <li><span style="color:Blue">[Jun 2018]</span> - 🏆 <strong>Award</strong> - Nominated for the <a href="http://coling2018.org/coling-2018-best-papers/">Best Paper Award</a> at COLING 2018.</li> -->
-    <li><span style="color:Blue">[May 2018]</span> - 🔔 <strong>Paper Alert</strong> - One <a href="http://aclweb.org/anthology/C18-1102">paper</a> accepted at COLING 2018.</li>
+</ul>
+
+</div>
+
+
+<!--
+
+<li><span style="color:Blue">[May 2018]</span> - 🔔 <strong>Paper Alert</strong> - One <a href="http://aclweb.org/anthology/C18-1102">paper</a> accepted at COLING 2018.</li>
     <li><span style="color:Blue">[May 2019]</span> - 🔔 <strong>Paper Alert</strong> - One <a href="https://www.sciencedirect.com/science/article/pii/S0885230818303449">journal paper</a> accepted to <a href="https://www.journals.elsevier.com/computer-speech-and-language">Computer Speech & Language</a>.</li>
     <li><span style="color:Blue">[Jan 2019]</span> - 🔔 <strong>Paper Alert</strong> - One <a href="https://link.springer.com/chapter/10.1007/978-3-030-15719-7_14">paper</a> accepted at <a href="http://ecir2019.org/">ECIR 2019</a>.</li>
     <li><span style="color:Blue">[Oct 2017]</span> - 📢 <strong>Event</strong> - Organizer and Host: <a href="https://www.intel.ai/">Intel Nervana AI Academy - Workshop</a>.</li>
@@ -70,9 +77,7 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
     <li><span style="color:Blue">[Aug 2017]</span> - 🔔 <strong>Paper Alert</strong> - One <a href="https://dl.acm.org/citation.cfm?id=3133106">paper</a> accepted at <a href="http://www.cikmconference.org/CIKM2017/index.html">CIKM 2017</a>.</li>
     <li><span style="color:Blue">[Aug 2017]</span> - 📢 <strong>Event</strong> - Attended <a href="http://acl2017.org/">ACL 2017</a> in Vancouver, and presented a <a href="http://www.aclweb.org/anthology/W17-2407">workshop paper</a>.</li>
     <li><span style="color:Blue">[Apr 2017]</span> - 🎤 <strong>Lecture</strong> - Gave a talk on <a href="https://tafseer-nayeem.github.io/files/Introduction_to_NLTK.pdf">Introduction to NLTK</a>.</li>
-</ul>
-
-</div>
+-->
 
 <!-- Styling for the button -->
 <style>
