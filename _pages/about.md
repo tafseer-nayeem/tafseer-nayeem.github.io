@@ -60,7 +60,11 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 <!-- Hidden content -->
 <div id="moreUpdates" style="display: none;">
   <ul>
-   <li><span style="color:blue;">[Jun 2018]</span> - 🏆 <strong>Award</strong> - Our <a href="http://aclweb.org/anthology/C18-1102">paper</a> received <span style="color:red;"><strong>Area Chair Favorite Paper Award</strong></span> at <a href="http://coling2018.org/coling-2018-best-papers/">COLING 2018</a>.</li>
+     <li><span style="color:Blue">[Jun 2022]</span> - ✨ <strong>Exciting News</strong> - I am thrilled to receive <span style="color:Red">Huawei PhD Fellowship</span>.</li>
+    <li><span style="color:Blue">[Sep 2021]</span> - 🎓 <strong>Education</strong> - Started PhD in <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> at <a href="https://www.ualberta.ca/index.html">University of Alberta</a>.</li>
+    <li><span style="color:Blue">[Feb 2021]</span> - 🔔 <strong>Paper Alert</strong> - One paper accepted at <a href="https://2021.eacl.org/">EACL 2021</a>.</li>
+    <li><span style="color:Blue">[Jan 2021]</span> - 🔔 <strong>Paper Alert</strong> - One paper accepted at <a href="https://aaai.org/Conferences/AAAI-21/">AAAI 2021</a>.</li>
+    <li><span style="color:blue;">[Jun 2018]</span> - 🏆 <strong>Award</strong> - Our <a href="http://aclweb.org/anthology/C18-1102">paper</a> received <span style="color:red;"><strong>Area Chair Favorite Paper Award</strong></span> at <a href="http://coling2018.org/coling-2018-best-papers/">COLING 2018</a>.</li>
     <!-- <li><span style="color:Blue">[Jun 2018]</span> - 🏆 <strong>Award</strong> - Nominated for the <a href="http://coling2018.org/coling-2018-best-papers/">Best Paper Award</a> at COLING 2018.</li> -->
     <li><span style="color:Blue">[May 2018]</span> - 🔔 <strong>Paper Alert</strong> - One <a href="http://aclweb.org/anthology/C18-1102">paper</a> accepted at COLING 2018.</li>
     <li><span style="color:Blue">[May 2019]</span> - 🔔 <strong>Paper Alert</strong> - One <a href="https://www.sciencedirect.com/science/article/pii/S0885230818303449">journal paper</a> accepted to <a href="https://www.journals.elsevier.com/computer-speech-and-language">Computer Speech & Language</a>.</li>
