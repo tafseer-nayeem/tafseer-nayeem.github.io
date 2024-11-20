@@ -19,7 +19,7 @@ My PhD research involves human-centric modeling of content across various modali
 </p>
 
 <p align="justify">
-My research is generously supported by <span style="color:Red">Huawei PhD Fellowship</span>. My work was previously nominated for <span style="color:Red">Best Paper Award</span> and selected as <span style="color:Red">Area Chair Favorite Paper</span> at <a href="http://coling2018.org/coling-2018-best-papers/">COLING 2018</a>.
+My research is generously supported by the <span style="color:Red">Huawei PhD Fellowship</span>. My work received the <span style="color:Red">Best Resource Paper Award</span> at EMNLP 2024 and the <span style="color:Red">Area Chair Favorite Paper Award</span> at COLING 2018.
 </p>
 
 <!--
