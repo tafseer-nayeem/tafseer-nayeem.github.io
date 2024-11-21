@@ -45,7 +45,7 @@ Proceedings of
 * [**KidLM: Advancing Language Models for Children – Early Insights and Future Directions**](https://aclanthology.org/2024.emnlp-main.277/)<br/>
 📰 <span style ="color:Maroon"> Published in **EMNLP 2024**</span> <br/>
 👨‍💻  **Mir Tafseer Nayeem** and Davood Rafiei <br/>
-👉 [![Corpus](https://img.shields.io/badge/Corpus-D3D3D3)](https://huggingface.co/datasets/tafseer-nayeem/KidLM-corpus) [![Models & Collection](https://img.shields.io/badge/Models%20&%20Collection-D3D3D3)](https://huggingface.co/collections/tafseer-nayeem/kidlm-672e5afcdc68cedc1c5df812)[![Slides](https://img.shields.io/badge/Slides-D3D3D3)](https://tafseer-nayeem.github.io/files/EMNLP2024/EMNLP2024_KidLM_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-D3D3D3)](https://tafseer-nayeem.github.io/files/EMNLP2024/EMNLP2024_KidLM_poster.pdf) [![X Thread](https://img.shields.io/badge/X%20Thread-D3D3D3)](https://x.com/mtnayeem/status/1855726698324742581)
+👉 [![Corpus](https://img.shields.io/badge/Corpus-D3D3D3)](https://huggingface.co/datasets/tafseer-nayeem/KidLM-corpus) [![Models & Collection](https://img.shields.io/badge/Models%20&%20Collection-D3D3D3)](https://huggingface.co/collections/tafseer-nayeem/kidlm-672e5afcdc68cedc1c5df812) [![Slides](https://img.shields.io/badge/Slides-D3D3D3)](https://tafseer-nayeem.github.io/files/EMNLP2024/EMNLP2024_KidLM_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-D3D3D3)](https://tafseer-nayeem.github.io/files/EMNLP2024/EMNLP2024_KidLM_poster.pdf) [![X Thread](https://img.shields.io/badge/X%20Thread-D3D3D3)](https://x.com/mtnayeem/status/1855726698324742581)
 
 -----------
 
