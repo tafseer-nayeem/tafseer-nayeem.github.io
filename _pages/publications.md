@@ -32,7 +32,7 @@ Proceedings of
 
 ![arXiv 2024](https://img.shields.io/badge/arXiv%202024-blue?style=for-the-badge)
 * [**LFOSum: Summarizing Long-form Opinions with Large Language Models**](https://arxiv.org/abs/2410.13037)<br/>
-📰 <span style ="color:Maroon"> Uploaded to arXiv **(cs.CL)** </span> <br/>
+📰 <span style ="color:Maroon"> Uploaded to arXiv **(cs.CL)** </span> <span class="blinking">🆕</span> <br/>
 👨‍💻  **Mir Tafseer Nayeem** and Davood Rafiei <br/>
 👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://arxiv.org/abs/2410.13037)
 
