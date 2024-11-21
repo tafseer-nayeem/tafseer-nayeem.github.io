@@ -53,7 +53,7 @@ Proceedings of
 * [**Are Large Vision Language Models up to the Challenge of Chart Comprehension and Reasoning**](https://aclanthology.org/2024.findings-emnlp.191/)<br/>
 📰 <span style ="color:Maroon"> Published in **EMNLP 2024** (Findings)</span> <br/>
 👨‍💻  Mohammed Saidul Islam, Raian Rahman, Ahmed Masry\*, Md Tahmid Rahman Laskar\*, **Mir Tafseer Nayeem\***, and Enamul Hoque <br/>
-👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://arxiv.org/abs/2406.00257)
+👉 [![Code](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/saidul-islam98/LVLM-ChartEval) [![Slides](https://img.shields.io/badge/Slides-D3D3D3)](https://tafseer-nayeem.github.io/files/EMNLP2024/EMNLP2024_ChartEval_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-D3D3D3)](https://tafseer-nayeem.github.io/files/EMNLP2024/EMNLP2024_ChartEval_poster.pdf)
 
 -----------
 
