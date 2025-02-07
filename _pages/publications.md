@@ -61,7 +61,7 @@ Proceedings of
 ![ACL 2024](https://img.shields.io/badge/ACL%202024-dc3545?style=for-the-badge)
 * [**XL-HeadTags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags**](https://aclanthology.org/2024.findings-acl.771/)<br/>
 📰 <span style ="color:Maroon"> Published in **ACL 2024** (Findings)</span> <br/>
-👨‍💻  Faisal Tareque Shohan\*, **Mir Tafseer Nayeem\***, Samsul Islam, Abu Ubaida Akash, and Shafiq Joty <br/> 
+👨‍💻 **Mir Tafseer Nayeem\***, Faisal Tareque Shohan\*, Samsul Islam, Abu Ubaida Akash, and Shafiq Joty <br/> 
 👉 [![Code](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/faisaltareque/XL-HeadTags) [![Dataset & Models](https://img.shields.io/badge/Dataset%20&%20Models-D3D3D3)](https://huggingface.co/datasets/faisaltareque/XL-HeadTags) [![Slides](https://img.shields.io/badge/Slides-D3D3D3)](https://tafseer-nayeem.github.io/files/ACL2024/ACL2024_XL-HeadTags_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-D3D3D3)](https://tafseer-nayeem.github.io/files/ACL2024/ACL2024_XL-HeadTags_poster.pdf) [![X Thread](https://img.shields.io/badge/X%20Thread-D3D3D3)](https://x.com/mtnayeem/status/1853936728408809835)
 
 -----------
@@ -95,7 +95,7 @@ Proceedings of
 ![EACL 2023](https://img.shields.io/badge/EACL%202023-blueviolet?style=for-the-badge)
 * [**Shironaam: Bengali News Headline Generation using Auxiliary Information**](https://aclanthology.org/2023.eacl-main.4/)<br/>
 📰 <span style ="color:Maroon"> Published in **EACL 2023** </span> <br/>
-👨‍💻 Abu Ubaida Akash\*, **Mir Tafseer Nayeem\***, Faisal Tareque Shohan, and Tanvir Islam <br/>
+👨‍💻 **Mir Tafseer Nayeem\***, Abu Ubaida Akash\*, Faisal Tareque Shohan, and Tanvir Islam <br/>
 👉 [![Code](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/dialect-ai/BenHeadGen) [![Dataset](https://img.shields.io/badge/Dataset-D3D3D3)](https://huggingface.co/datasets/dialect-ai/shironaam) [![Slides](https://img.shields.io/badge/Slides-D3D3D3)](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-D3D3D3)](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_poster.pdf)
 
 
@@ -105,7 +105,7 @@ Proceedings of
 ![AAAI 2021](https://img.shields.io/badge/AAAI%202021-4682B4?style=for-the-badge)
 * [**Simple or Complex? Learning to Predict Readability of Bengali Texts**](https://ojs.aaai.org/index.php/AAAI/article/view/17495)<br/>
 📰 <span style ="color:Maroon"> Published in **AAAI 2021** </span> <br/>
-👨‍💻 Susmoy Chakraborty\*, **Mir Tafseer Nayeem\***, and Wasi Uddin Ahmad <br/>
+👨‍💻 **Mir Tafseer Nayeem\***, Susmoy Chakraborty\*, and Wasi Uddin Ahmad <br/>
 👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://tafseer-nayeem.github.io/files/AAAI2021/AAAI2021_paper.pdf) [![Code](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/tafseer-nayeem/BengaliReadability) [![Dataset](https://img.shields.io/badge/Dataset-D3D3D3)](https://github.com/tafseer-nayeem/BengaliReadability/tree/main/Data) [![Slides](https://img.shields.io/badge/Slides-D3D3D3)](https://tafseer-nayeem.github.io/files/AAAI2021/AAAI2021_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-D3D3D3)](https://tafseer-nayeem.github.io/files/AAAI2021/AAAI2021_poster.pdf) [![Demo Video](https://img.shields.io/badge/Demo%20Video-D3D3D3)](https://youtu.be/U05Pf9Y4tCQ) [![X Thread](https://img.shields.io/badge/X%20Thread-D3D3D3)](https://x.com/mtnayeem/status/1334590638105378817)
 
 -----------
@@ -113,7 +113,7 @@ Proceedings of
 ![EACL 2021](https://img.shields.io/badge/EACL%202021-blueviolet?style=for-the-badge)
 * [**Unsupervised Abstractive Summarization of Bengali Text Documents**](https://www.aclweb.org/anthology/2021.eacl-main.224)<br/>
 📰 <span style ="color:Maroon"> Published in **EACL 2021** </span> <br/>
-👨‍💻 Radia Rayan Chowdhury\*, **Mir Tafseer Nayeem\***, TT Mim, MSR Chowdhury, and T Jannat <br/>
+👨‍💻 **Mir Tafseer Nayeem\***, Radia Rayan Chowdhury\*, TT Mim, MSR Chowdhury, and T Jannat <br/>
 👉 [![Code](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/tafseer-nayeem/BengaliSummarization) [![Dataset](https://img.shields.io/badge/Dataset-D3D3D3)](https://github.com/tafseer-nayeem/BengaliSummarization/tree/main/Dataset) [![Slides](https://img.shields.io/badge/Slides-D3D3D3)](https://tafseer-nayeem.github.io/files/EACL2021/EACL2021_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-D3D3D3)](https://tafseer-nayeem.github.io/files/EACL2021/EACL2021_poster.pdf) [![Demo Video](https://img.shields.io/badge/Demo%20Video-D3D3D3)](https://youtu.be/LrnskktiXcg) [![X Thread](https://img.shields.io/badge/X%20Thread-D3D3D3)](https://x.com/mtnayeem/status/1350551479283662848)
 
 
@@ -131,7 +131,7 @@ Proceedings of
 ![Computer Speech & Language](https://img.shields.io/badge/Computer%20Speech%20&%20Language-critical?style=for-the-badge)
 * [**Neural Sentence Fusion for Diversity Driven Abstractive Multi-Document Summarization**](https://www.sciencedirect.com/science/article/pii/S0885230818303449) <br/>
 📰 <span style ="color:Maroon"> Published in **Computer Speech & Language**, Elsevier 58 (2019): 216-230. </span> <br/>
-👨‍💻 Tanvir Ahmed Fuad\*, **Mir Tafseer Nayeem\***, Asif Mahmud, and Yllias Chali <br/>
+👨‍💻 **Mir Tafseer Nayeem\***, Tanvir Ahmed Fuad\*, Asif Mahmud, and Yllias Chali <br/>
 👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://tafseer-nayeem.github.io/files/CSL_Journal_2019.pdf) [![Code](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/tafseer-nayeem/NeuFuse)
 
 
