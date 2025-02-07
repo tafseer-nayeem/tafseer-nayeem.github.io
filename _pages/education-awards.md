@@ -50,7 +50,7 @@ author_profile: true
 * Nominated for **PhD Early Achievement Award** [2023].
 * University of Alberta Graduate Recruitment Scholarship [2021 - 2022].
 <!-- * [<span style="color:Red"> **Best Paper Nomination** </span>](http://coling2018.org/coling-2018-best-papers/) at **COLING 2018**. -->
-* [<span style="color:Red"> **Area Chair Favorites** </span>](http://coling2018.org/coling-2018-best-papers/) paper at **COLING 2018**.
+* [<span style="color:Red"> **Area Chair Favorite Paper Award** </span>](http://coling2018.org/coling-2018-best-papers/) paper at **COLING 2018**.
 * **ACM SIGIR** Student Travel Grant [2017]
 * School of Graduate Studies (**S.G.S**) Research Dissemination Travel Award [2017]
 * Graduate Student’s Association (**GSA**) Travel Award [2017]
