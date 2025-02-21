@@ -37,6 +37,11 @@ Proceedings of
 👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://arxiv.org/abs/2410.13037)
 
 
+## 2025
+<hr style="border: 1px solid #ddd;" />
+
+![NAACL 2025](https://img.shields.io/badge/NAACL%202025-191970?style=for-the-badge)
+
 
 ## 2024
 <hr style="border: 1px solid #ddd;" />
