@@ -40,7 +40,7 @@ Proceedings of
 ## 2025
 <hr style="border: 1px solid #ddd;" />
 
-![NAACL 2025](https://img.shields.io/badge/NAACL%202025-FFD700?style=for-the-badge)
+![NAACL 2025](https://img.shields.io/badge/NAACL%202025-242D8C?style=for-the-badge)
 
 
 ## 2024
