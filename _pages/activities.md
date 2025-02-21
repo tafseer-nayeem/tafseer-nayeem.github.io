@@ -19,6 +19,7 @@ author_profile: true
 
 ## 👨‍🏫 Invited Talks
 ----------------
+- <span style="color:Blue"> [Nov 2024] </span> - Talk on [KidLM](https://tafseer-nayeem.github.io/files/KidLM_seminar_slides.pdf), [Honors Seminar](https://www.ualberta.ca/en/computing-science/undergraduate-studies/course-directory/courses/honors-seminar.html) - University of Alberta (UofA), Canada. 
 - <span style="color:Blue"> [Apr 2017] </span> - Talk on [Introduction to NLTK](https://tafseer-nayeem.github.io/files/Introduction_to_NLTK.pdf), University of Lethbrdige (UofL), AB, Canada. 
 - <span style="color:Blue"> [Feb 2017] </span> - Guest Lecturer in CPSC 3750 - Artificial Intelligence course at UofL.
 
