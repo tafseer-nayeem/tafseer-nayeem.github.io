@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-**Full List:** [ [**Google Scholar**](https://scholar.google.com/citations?hl=en&user=qoeylgEAAAAJ&view_op=list_works&sortby=pubdate) \| [**Semantic Scholar**](https://www.semanticscholar.org/author/Mir-Tafseer-Nayeem/1807355) \| [**ACL Anthology**](https://aclanthology.org/people/m/mir-tafseer-nayeem/) \| [**DBLP**](https://dblp.org/pid/125/2693.html) ]
+**Full List:** [ [**Google Scholar**](https://scholar.google.com/citations?hl=en&user=qoeylgEAAAAJ&view_op=list_works&sortby=pubdate) \| [**ACL Anthology**](https://aclanthology.org/people/m/mir-tafseer-nayeem/) \| [**DBLP**](https://dblp.org/pid/125/2693.html) ]
 
 <span style ="color:BlueViolet"> [\**indicates equal contribution*]</span>
 
@@ -41,6 +41,10 @@ Proceedings of
 <hr style="border: 1px solid #ddd;" />
 
 ![NAACL 2025](https://img.shields.io/badge/NAACL%202025-242D8C?style=for-the-badge)
+* [**eC-Tab2Text: Aspect-Based Text Generation from e-Commerce Product Tables**](https://arxiv.org/abs/2502.14820)<br/>
+📰 <span style ="color:Maroon"> Accepted for publication at **NAACL 2025 (Industry Track)** <span class="blinking">🆕</span> </span> <br/>
+👨‍💻  Luis Antonio Gutiérrez Guanilo, **Mir Tafseer Nayeem**, Cristian López, and Davood Rafiei <br/>
+👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://arxiv.org/pdf/2502.14820) [![Code & Dataset](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/Luis-ntonio/eC-Tab2Text)
 
 
 ## 2024
