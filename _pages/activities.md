@@ -12,6 +12,7 @@ author_profile: true
 
 - **2025:** [ACL](https://2025.aclweb.org/)
 
+----------------
 
 ## 🔹 Reviewer
 
@@ -21,6 +22,14 @@ author_profile: true
 - **2022:** [SIGIR](https://sigir.org/sigir2022/), [KDD](https://kdd.org/kdd2022/), [CIKM](https://www.cikm2022.org/), [ICDE](https://icde2022.ieeecomputer.my/)
 <!-- - **2020:** [ICCIT](https://iccit.org.bd/2020/) -->
 <!-- - **2019:** [ICIET](http://www.enggtech.du.ac.bd/iciet-2019/) -->
+
+## 🔹 Outstanding Reviews  
+
+High-quality reviews that are strong, decisive, helpful, and well-written are recognized as **Great Reviews**.
+
+- **2025:** 🏅 1/3 reviews recognized at [NAACL](https://2025.naacl.org/)
+- **2024:** 🏅 2/4 reviews recognized at [ACL](https://2024.aclweb.org/)
+
 
 ## 👨‍🏫 Invited Talks
 ----------------
