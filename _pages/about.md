@@ -55,7 +55,7 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
   <ul>
     <li><span style="color:Blue"> [Feb 2024] </span> - 🔔 <strong>Paper Alert</strong> - One paper accepted at [LREC-COLING 2024](https://lrec-coling-2024.org/).</li>
     <li><span style="color:Blue"> [Aug 2023] </span> - 🔔 <strong>Paper Alert</strong> - One paper accepted at [CIKM 2023](https://uobevents.eventsair.com/cikm2023/).</li>
-    <li><span style="color:Blue"> [Jan 2023] </span> - 🔔 <strong>Paper Alert</strong> - Two papers accepted at [EACL 2023](https://2023.eacl.org/).</li>
+    <li><span style="color:Blue"> [Jan 2023] </span> - 🔔 <strong>Paper Alert</strong> - Two papers accepted at <a href="https://2023.eacl.org/">EACL 2023</a>.</li>
     <li><span style="color:Blue">[Jun 2022]</span> - ✨ <strong>Exciting News</strong> - I am thrilled to receive <span style="color:Red">Huawei PhD Fellowship</span>.</li>
     <li><span style="color:Blue">[Sep 2021]</span> - 🎓 <strong>Education</strong> - Started PhD in <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> at <a href="https://www.ualberta.ca/index.html">University of Alberta</a>.</li>
     <li><span style="color:Blue">[Feb 2021]</span> - 🔔 <strong>Paper Alert</strong> - One paper accepted at <a href="https://2021.eacl.org/">EACL 2021</a>.</li>
