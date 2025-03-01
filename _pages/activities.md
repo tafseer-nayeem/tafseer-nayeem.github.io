@@ -12,7 +12,7 @@ author_profile: true
 
 - **2025:** [ACL](https://2025.aclweb.org/)
 
-**Reviewer**
+### 🔹 Reviewer
 
 - **2025:** [NAACL](https://2025.naacl.org/)
 - **2024:** [ACL](https://2024.aclweb.org/), [EMNLP](https://2024.emnlp.org/), [NAACL](https://2024.naacl.org/), [EACL](https://2024.eacl.org/), [SIGIR](https://sigir-2024.github.io/), [WSDM](https://www.wsdm-conference.org/2024/)
