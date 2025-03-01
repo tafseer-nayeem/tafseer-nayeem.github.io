@@ -23,12 +23,12 @@ author_profile: true
 <!-- - **2020:** [ICCIT](https://iccit.org.bd/2020/) -->
 <!-- - **2019:** [ICIET](http://www.enggtech.du.ac.bd/iciet-2019/) -->
 
-## 🔹 Outstanding Reviews  
+## 🏆 Outstanding Reviews
 
 High-quality reviews that are strong, decisive, helpful, and well-written are recognized as **Great Reviews**.
 
-- **2025:** 🏅 1/3 reviews recognized at [NAACL](https://2025.naacl.org/)
-- **2024:** 🏅 2/4 reviews recognized at [ACL](https://2024.aclweb.org/)
+- 🏅 1/3 reviews recognized at [NAACL 2025](https://2025.naacl.org/)  
+- 🏅 2/4 reviews recognized at [ACL 2024](https://2024.aclweb.org/)  
 
 
 ## 👨‍🏫 Invited Talks
