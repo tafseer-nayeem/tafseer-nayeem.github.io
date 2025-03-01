@@ -8,7 +8,7 @@ author_profile: true
 ## 👨‍💻 Professional Services
 -------------------------
 
-**Area Chair (AC)**
+### 🔹 Area Chair (AC) 🔹
 
 - **2025:** [ACL](https://2025.aclweb.org/)
 
