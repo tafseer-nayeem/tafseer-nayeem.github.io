@@ -40,7 +40,7 @@ Proceedings of
 ## 2025
 <hr style="border: 1px solid #ddd;" />
 
-![ACL 2025](https://img.shields.io/badge/ACL%202024-dc3545?style=for-the-badge)
+![ACL 2025](https://img.shields.io/badge/ACL%202025-dc3545?style=for-the-badge)
 * [**Judging the Judges: Can Large Vision-Language Models Fairly Evaluate Chart Comprehension and Reasoning?**](https://arxiv.org/abs/2505.08468)<br/>
 📰 <span style ="color:Maroon"> Accepted for publication at **ACL 2025** (Industry Track)</span> <br/>
 👨‍💻 Md Tahmid Rahman Laskar, Mohammed Saidul Islam, Ridwan Mahbub, Ahmed Masry, Mizanur Rahman, Amran Bhuiyan, **Mir Tafseer Nayeem**, Shafiq Joty, Enamul Hoque, and Jimmy Huang <br/> 
