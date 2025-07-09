@@ -43,9 +43,9 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 ## News and Announcements
 * <span style="color:Blue"> [July 2025] </span> - 📌 One paper accepted at [COLM 2025](https://colmweb.org/).
 * <span style="color:Blue"> [Jun 2025] </span> - 📌 One paper accepted at [VIS 2025](https://ieeevis.org/year/2025/welcome).
-* <span style="color:Blue"> [May 2025] </span> - 📝 Serving as an **Area Chair (AC)** for [EMNLP 2025](https://2025.emnlp.org/).
+* <span style="color:Blue"> [May 2025] </span> - 🧑‍⚖️ Serving as an **Area Chair (AC)** for [EMNLP 2025](https://2025.emnlp.org/).
 * <span style="color:Blue"> [May 2025] </span> - 📌 One paper accepted at [ACL 2025](https://2025.aclweb.org/) (Industry Track).
-* <span style="color:Blue"> [Mar 2025] </span> - 📝  Serving as an **Area Chair (AC)** for [ACL 2025](https://2025.aclweb.org/).
+* <span style="color:Blue"> [Mar 2025] </span> - 🧑‍⚖️ Serving as an **Area Chair (AC)** for [ACL 2025](https://2025.aclweb.org/).
 * <span style="color:Blue"> [Feb 2025] </span> - 📌 One paper accepted at [NAACL 2025](https://2025.naacl.org/) (Industry Track).
 * <span style="color:Blue"> [Nov 2024] </span> - 🏆 [KidLM](https://aclanthology.org/2024.emnlp-main.277/) received the <span style="color:Red">Best Resource Paper Award</span> at [EMNLP 2024](https://2024.emnlp.org/).
 * <span style="color:Blue"> [Sep 2024] </span> - 📌 Two papers accepted at [EMNLP 2024](https://2024.emnlp.org/).
@@ -60,7 +60,7 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
     <li><span style="color:Blue"> [Feb 2024] </span> - 📌 One paper accepted at <a href="https://lrec-coling-2024.org/">LREC-COLING 2024</a>.</li>
     <li><span style="color:Blue"> [Aug 2023] </span> - 📌 One paper accepted at <a href="https://uobevents.eventsair.com/cikm2023/">CIKM 2023</a>.</li>
     <li><span style="color:Blue"> [Jan 2023] </span> - 📌 Two papers accepted at <a href="https://2023.eacl.org/">EACL 2023</a>.</li>
-    <li><span style="color:Blue">[Jun 2022]</span> - ✨ I am thrilled to receive <span style="color:Red">Huawei PhD Fellowship</span>.</li>
+    <li><span style="color:Blue">[Jun 2022]</span> - 🏅 I am thrilled to receive <span style="color:Red">Huawei PhD Fellowship</span>.</li>
     <li><span style="color:Blue">[Sep 2021]</span> - 🎓 Started PhD in <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> at <a href="https://www.ualberta.ca/index.html">University of Alberta</a>.</li>
     <li><span style="color:Blue">[Feb 2021]</span> - 📌 One paper accepted at <a href="https://2021.eacl.org/">EACL 2021</a>.</li>
     <li><span style="color:Blue">[Jan 2021]</span> - 📌 One paper accepted at <a href="https://aaai.org/Conferences/AAAI-21/">AAAI 2021</a>.</li>
