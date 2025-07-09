@@ -243,7 +243,7 @@ Proceedings of
 
 # Favorite Quotes
 -------------------
-&nbsp; -- For new line
+&nbsp; -- For space
 
 [**Back to Top**](#)
 
