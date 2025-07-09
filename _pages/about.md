@@ -41,7 +41,7 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 </p>
 
 ## News and Announcements
-* <span style="color:Blue"> [Jul 2025] </span> - 🔔 **Paper Alert** - One paper accepted at [COLM 2025](https://colmweb.org/).
+* <span style="color:Blue"> [July 2025] </span> - 🔔 **Paper Alert** - One paper accepted at [COLM 2025](https://colmweb.org/).
 * <span style="color:Blue"> [Jun 2025] </span> - 🔔 **Paper Alert** - One paper accepted at [VIS 2025](https://ieeevis.org/year/2025/welcome).
 * <span style="color:Blue"> [May 2025] </span> - 📝 **Service Role** - Serving as an **Area Chair (AC)** for [EMNLP 2025](https://2025.emnlp.org/).
 * <span style="color:Blue"> [May 2025] </span> - 🔔 **Paper Alert** - One paper accepted at [ACL 2025](https://2025.aclweb.org/) (Industry Track).
