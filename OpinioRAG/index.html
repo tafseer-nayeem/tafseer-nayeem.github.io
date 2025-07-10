@@ -838,66 +838,7 @@
   </div>
 
 
-  
-    <div class="row" id="controls">
-      <div class="col-md-10 col-md-offset-1">
-        <h3 id="benchmark_demo">SORRY-Bench: Results Demo</h3>
-        <div class="text-justify">
-          We introduce 🥺<u><b>SORRY-Bench</b></u> to systematically evaluate LLM safety refusal behaviors, in a balanced, granular, customizable, and efficient manner.
-          Below, we showcase the <i><b>fulfillment rates</b></i> (the portion of unsafe instructions the models fulfill, i.e., do not refuse) of 50+ proprietary and open-source LLMs, across 44 fine-grained potentially unsafe topics.
-          A lower↓ fulfillment rate indicates 💪stronger safety refusal.
-        </div>
-      
-        <br>
-        <div class="text-justify">
-          <b>☑️ Click each <button class="sorry-bench-badge">category</button> badge to customize your own safety policy for evaluation!</b>
-        </div>
-
-        <form id="categorySelection">
-          <!-- Checkboxes will be inserted here by JavaScript -->
-        </form>
-
-        <div id="heatmap"></div>
-
-        <div id="tooltip" style="position: absolute; display: none; padding: 10px; background: rgba(0, 0, 0, 0.6); color: white; border-radius: 5px; pointer-events: none; z-index: 10;"></div>
-        
-        <div id="domain-selection" style="display: flex;">
-          <div>
-          <div class="domain" data-domain="hate-speech" style="width: 100%; text-align: center;">
-            <h4>Hate Speech Generation </h4>
-            <div class="categories" data-visible="true">
-            <!-- Categories are dynamically filled based on selection -->
-            </div>
-          </div>
-          <div class="domain" data-domain="crimes-torts" style="width: 100%; text-align: center;">
-            <h4><p id="#linebreak" style="height: 25px;"></p>Assistance with Crimes or Torts </h4>
-            <div class="categories" data-visible="true">
-              <!-- Categories are dynamically filled based on selection -->
-            </div>
-          </div>
-        </div>
-        <div>
-          <div class="domain" data-domain="inappropriate-topics" style="width: 100%; text-align: center;">
-            <h4>Potentially Inappropriate Topics </h4>
-            <div class="categories" data-visible="true">
-              <!-- Categories are dynamically filled based on selection -->
-            </div>
-          </div>
-          <div class="domain" data-domain="unqualified-advice" style="width: 100%; text-align: center;">
-            <h4>Potentially Unqualified Advice </h4>
-            <div class="categories" data-visible="true">
-              <!-- Categories are dynamically filled based on selection -->
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-    </div>
-    <script src="project_files/heatmap.js"></script>
-
-
-
-    <div class="row">
+  <div class="row">
       <div class="col-md-10 col-md-offset-1">
         <br>
         <h3 id="paper_overview">
