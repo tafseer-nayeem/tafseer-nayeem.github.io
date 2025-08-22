@@ -11,11 +11,7 @@ redirect_from:
 <!--👋Hi, there! -->
 
 <p align="justify">
-I’m Mir <b>Tafseer</b> Nayeem, a third-year <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> PhD student at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by Prof. <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Davood Rafiei</a>. My research primarily focuses on Natural Language Processing (NLP), with special emphasis on Human-centered NLP, Summarization, and Multilingual & Cross-Lingual NLP. 
-</p>
-
-<p align="justify">
-My PhD research involves human-centric modeling of content across various modalities, including text, tables, images, and ratings, particularly considering two key factors: (1) <b>who</b> are the creators of the content and (2) to <b>whom</b> the model will serve, specifically the intended audience. Below, you can find an overview of my research and its broader implications.
+I’m Mir <b>Tafseer</b> Nayeem, a third-year <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> PhD student at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by Prof. <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Davood Rafiei</a>. My research centers on Language Modeling with a focus on User-Centric NLP. Specifically, I study how user attributes—such as age, dialect, intent, and stylistic preferences—can be systematically integrated into the development of large language models (LLMs) and downstream synthesis tasks, including summarization and opinion generation. 
 </p>
 
 <p align="justify">
