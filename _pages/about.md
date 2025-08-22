@@ -11,7 +11,7 @@ redirect_from:
 <!--👋Hi, there! -->
 
 <p align="justify">
-I’m Mir <b>Tafseer</b> Nayeem, a PhD Candidate in <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by Prof. <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Davood Rafiei</a>. My research centers on Language Modeling with a focus on User-Centric NLP. Specifically, I study how user attributes—such as age, dialect, intent, and stylistic preferences—can be systematically integrated into the development of large language models (LLMs) and downstream synthesis tasks, including summarization and opinion generation. 
+I’m Mir <b>Tafseer</b> Nayeem, a PhD Candidate in <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by Prof. <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Davood Rafiei</a>. My research centers on Language Modeling with a focus on User-Centric NLP. Specifically, I study how user attributes—such as age, dialect, intent, and stylistic preferences—can be systematically integrated into the development of large language models (LLMs) and downstream synthesis tasks, including summarization and opinion generation, to build more inclusive, adaptive, and context-aware language technologies.
 </p>
 
 <p align="justify">
