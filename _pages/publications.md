@@ -58,7 +58,7 @@ Proceedings of
 * [**The Perils of Chart Deception: How Misleading Visualizations Affect Vision-Language Models**](https://arxiv.org/abs/2508.09716)<br/>
 📰 <span style ="color:Maroon"> Accepted for publication at **IEEE VIS 2025**</span> <br/>
 👨‍💻 Ridwan Mahbub, Mohammed Saidul Islam, Md Tahmid Rahman Laskar, Mizanur Rahman, **Mir Tafseer Nayeem**, and Enamul Hoque <br/> 
-👉 [![Paper](https://arxiv.org/abs/2508.09716)] [![Code](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/vis-nlp/visDeception)
+👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://arxiv.org/abs/2508.09716) [![Code](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/vis-nlp/visDeception)
 
 -----------
 
