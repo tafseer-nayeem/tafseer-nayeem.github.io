@@ -24,8 +24,6 @@ Proceedings of
 
 ## For Blinking NEW
 <span class="blinking">🆕</span>
--->
-
 
 ## Preprints
 <hr style="border: 1px solid #ddd;" />
@@ -35,6 +33,7 @@ Proceedings of
 📰 <span style ="color:Maroon"> Uploaded to arXiv **(cs.CL)** </span> <br/>
 👨‍💻  **Mir Tafseer Nayeem** and Davood Rafiei <br/>
 👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://arxiv.org/abs/2410.13037)
+-->
 
 
 ## 2025
@@ -42,7 +41,7 @@ Proceedings of
 
 ![ACL 2025](https://img.shields.io/badge/ACL%202025-dc3545?style=for-the-badge)
 * [**Judging the Judges: Can Large Vision-Language Models Fairly Evaluate Chart Comprehension and Reasoning?**](https://arxiv.org/abs/2505.08468)<br/>
-📰 <span style ="color:Maroon"> Accepted for publication at **ACL 2025** (Industry Track)</span> <br/>
+📰 <span style ="color:Maroon"> Published in **ACL 2025** (Industry Track)</span> <br/>
 👨‍💻 Md Tahmid Rahman Laskar, Mohammed Saidul Islam, Ridwan Mahbub, Ahmed Masry, Mizanur Rahman, Amran Bhuiyan, **Mir Tafseer Nayeem**, Shafiq Joty, Enamul Hoque, and Jimmy Huang <br/> 
 👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://arxiv.org/abs/2505.08468) [![Code & Dataset](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/tahmedge/chart_lvlm_judge)
 
