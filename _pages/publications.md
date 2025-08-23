@@ -40,6 +40,14 @@ Proceedings of
 <hr style="border: 1px solid #ddd;" />
 
 ![EMNLP 2025](https://img.shields.io/badge/EMNLP%202025-teal?style=for-the-badge)
+* [**SurveyGen: Quality-Aware Scientific Survey Generation with Large Language Models**](https://arxiv.org/abs/2508.09450)<br/>
+📰 <span style ="color:Maroon"> Accepted for publication at **EMNLP 2025**</span> <br/>
+👨‍💻  Tong Bao, **Mir Tafseer Nayeem**, Davood Rafiei, Chengzhi Zhang <br/>
+
+-----------
+
+
+![EMNLP 2025](https://img.shields.io/badge/EMNLP%202025-teal?style=for-the-badge)
 * [**From Charts to Fair Narratives: Uncovering and Mitigating Geo-Economic Biases in Chart-to-Text**](https://arxiv.org/abs/2508.09450)<br/>
 📰 <span style ="color:Maroon"> Accepted for publication at **EMNLP 2025**</span> <br/>
 👨‍💻  Ridwan Mahbub\*, Mohammed Saidul Islam\*, **Mir Tafseer Nayeem**, Md Tahmid Rahman Laskar, Mizanur Rahman, Shafiq Joty, and Enamul Hoque <br/>
