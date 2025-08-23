@@ -39,7 +39,7 @@ Proceedings of
 ## 2025
 <hr style="border: 1px solid #ddd;" />
 
-![EMNLP 2025](https://img.shields.io/badge/EMNLP%202024-teal?style=for-the-badge)
+![EMNLP 2025](https://img.shields.io/badge/EMNLP%202025-teal?style=for-the-badge)
 * [**From Charts to Fair Narratives: Uncovering and Mitigating Geo-Economic Biases in Chart-to-Text**](https://arxiv.org/abs/2508.09450)<br/>
 📰 <span style ="color:Maroon"> Accepted for publication **EMNLP 2025**</span> <br/>
 👨‍💻  Ridwan Mahbub, Mohammed Saidul Islam, **Mir Tafseer Nayeem**, Md Tahmid Rahman Laskar, Mizanur Rahman, Shafiq Joty, and Enamul Hoque <br/>
