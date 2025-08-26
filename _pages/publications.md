@@ -40,9 +40,10 @@ Proceedings of
 <hr style="border: 1px solid #ddd;" />
 
 ![COLM 2025](https://img.shields.io/badge/COLM%202025-4682B4?style=for-the-badge)
-* [**OpinioRAG: Towards Generating User-Centric Opinion Highlights from Large-scale Online Reviews**](https://colmweb.org/)<br/>
+* [**OpinioRAG: Towards Generating User-Centric Opinion Highlights from Large-scale Online Reviews**](https://openreview.net/forum?id=R94bCTckhV)<br/>
 📰 <span style ="color:Maroon"> Accepted for publication at **COLM 2025**</span> <br/>
 👨‍💻 **Mir Tafseer Nayeem** and Davood Rafiei <br/>
+👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://openreview.net/forum?id=R94bCTckhV) [![Website](https://img.shields.io/badge/Code-D3D3D3)](https://tafseer-nayeem.github.io/OpinioRAG/)
 
 -----------
 
