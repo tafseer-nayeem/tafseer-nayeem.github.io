@@ -45,7 +45,7 @@ author_profile: true
 
 # Awards
 ---------
-* [<span style="color:Red"> **Best Short Paper Award** </span>](https://ieeevis.org/year/2025/info/program/papers_list) at **IEEE VIS 2025**.
+* [<span style="color:Red"> **Best Short Paper Award** </span>](https://ieeevis.org/year/2025/info/program/papers_list) at **VIS 2025**.
 * [<span style="color:Red"> **Best Resource Paper Award** </span>](https://2024.emnlp.org/program/best_papers/) at **EMNLP 2024**.
 * <span style="color:Red"> **Huawei PhD Fellowship** </span> [2022 - 2027].
 * Nominated for **PhD Early Achievement Award** [2023].
