@@ -39,7 +39,7 @@ My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Scien
 -->
 
 ## Announcements
-* <span style="color:Blue"> [Nov 2024] </span> - 🏆 [ChartDeception](https://arxiv.org/abs/2508.09716) received the <span style="color:Red">Best Short Paper Award</span> at [VIS 2025](https://ieeevis.org/year/2025/info/program/papers_list).
+* <span style="color:Blue"> [Sep 2025] </span> - 🏆 [ChartDeception](https://arxiv.org/abs/2508.09716) received the <span style="color:Red">Best Short Paper Award</span> at [VIS 2025](https://ieeevis.org/year/2025/info/program/papers_list).
 * <span style="color:Blue"> [Aug 2025] </span> - 📌 Three papers accepted at [EMNLP 2025](https://2025.emnlp.org/).
 * <span style="color:Blue"> [July 2025] </span> - 📌 One paper accepted at [COLM 2025](https://colmweb.org/).
 * <span style="color:Blue"> [Jun 2025] </span> - 📌 One paper accepted at [VIS 2025](https://ieeevis.org/year/2025/welcome).
