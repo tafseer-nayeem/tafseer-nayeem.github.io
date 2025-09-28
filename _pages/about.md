@@ -15,7 +15,7 @@ I’m Mir <b>Tafseer</b> Nayeem, a PhD Candidate in <a href="https://www.ualbert
 </p>
 
 <p align="justify">
-My research is supported by the <span style="color:Red">Huawei PhD Fellowship</span>. My work received the <span style="color:Red">Best Resource Paper Award</span> at EMNLP 2024 and the <span style="color:Red">Area Chair Favorite Paper Award</span> at COLING 2018, and most recently, the <span style="color:Red">Best Short Paper Award</span> at VIS 2025.
+My research is supported by the <span style="color:Red">Huawei PhD Fellowship</span>. My work received the <span style="color:Red">Best Resource Paper Award</span> at EMNLP 2024, the <span style="color:Red">Area Chair Favorite Paper Award</span> at COLING 2018, and most recently, the <span style="color:Red">Best Short Paper Award</span> at VIS 2025.
 </p>
 
 <!--
