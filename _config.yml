@@ -90,6 +90,7 @@ author:
   semanticscholar  : "https://www.semanticscholar.org/author/Mir-Tafseer-Nayeem/1807355"
   DBLP             : "https://dblp.org/pers/hd/n/Nayeem:Mir_Tafseer"
   email            :  mnayeem@ualberta.ca
+  huggingface      : "tafseer-nayeem"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -115,7 +116,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "@MirTafseerNayeem"
+  youtube          : #"@MirTafseerNayeem"
   wikipedia        :
 
 
