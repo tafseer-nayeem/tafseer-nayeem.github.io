@@ -35,11 +35,11 @@
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
       {% endif %}
       {% if author.huggingface %}
-        <li>
-          <a href="https://huggingface.co/{{ author.huggingface }}" target="_blank" rel="noopener noreferrer">
+        <li class="author__urls-li">
+          <a href="https://huggingface.co/{{ author.huggingface }}" target="_blank" rel="noopener">
             <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" 
-              alt="Hugging Face" 
-              style="height:18px; vertical-align:middle; margin-right:6px;">
+                alt="Hugging Face" 
+                style="height:18px;width:auto;vertical-align:middle;margin-right:6px;">
             Hugging Face
           </a>
         </li>
