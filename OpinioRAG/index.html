@@ -378,15 +378,23 @@
         <h2 class="title is-3">Structured Verification Module</h2>
         <div class="content has-text-justified">
           <p>
-            We introduce a <b>novel, reference-free verification module</b> that evaluates whether LLM-generated highlights from the synthesizer stage are grounded in the retrieved user reviews. Both the evidence and the highlights are decomposed into 
+            We introduce a <b>novel, reference-free, and modular verification module</b> that systematically evaluates whether LLM-generated highlights are <i>faithfully grounded</i> in the retrieved user review evidence. 
+            This is achieved by decomposing both the retrieved sentences and the generated highlights into 
             <b>Aspect–Opinion–Sentiment (AOS)</b> triplets of the form 
-            <code>aspect:opinion:sentiment</code>, enabling structured, fine-grained alignment.
+            <code>aspect:opinion:sentiment</code>. 
+            This structured decomposition enables fine-grained, interpretable alignment between evidence and generated text.
+          </p>
+          <p>
+            The verification relies on three complementary metrics designed for sentiment-rich domains, capturing different facets of factual consistency:
           </p>
           <ul>
-            <li><b>Aspect Relevance (AR):</b> checks if key aspects from the evidence appear in the generated highlight.</li>
-            <li><b>Sentiment Factuality (SF):</b> verifies that the sentiment polarity matches the dominant sentiment in the evidence (non-neutral).</li>
-            <li><b>Opinion Faithfulness (OF):</b> measures whether the expressed opinions match or semantically align with the evidence for the same aspect/sentiment.</li>
+            <li><b>Aspect Relevance (AR):</b> checks whether key aspects mentioned in the evidence are preserved in the highlight.</li>
+            <li><b>Sentiment Factuality (SF):</b> verifies that the sentiment polarity of the highlight matches the dominant non-neutral sentiment expressed in the evidence.</li>
+            <li><b>Opinion Faithfulness (OF):</b> assesses whether the expressed opinion terms match—or semantically align with—those in the evidence for the same aspect and sentiment.</li>
           </ul>
+          <p>
+            Together, these metrics enable <b>fine-grained, interpretable, and reference-free evaluation</b>, making the verification module easily extensible to stronger AOS extractors in the future.
+          </p>
         </div>
 
         <div style="display: flex; justify-content: center; gap: 10px; margin-top: 1em;">
@@ -397,9 +405,12 @@
           </a>
 
           <a href="https://colab.research.google.com/drive/1mjEu3Iic81yWfMXwC1pklGmcdJWSGgEN" 
-             class="button is-link is-rounded" style="background-color: #4285F4;">
-            <span class="icon"><img src="https://colab.research.google.com/img/colab_favicon_256px.png" 
-              alt="Colab" style="height: 18px; width: 18px;"></span>
+             class="button is-rounded" 
+             style="background-color: #2D2D2D; color: white; border: 1px solid #444;">
+            <span class="icon">
+              <img src="https://colab.research.google.com/img/colab_favicon_256px.png" 
+                   alt="Colab" style="height: 18px; width: 18px;">
+            </span>
             <span>Open in Colab</span>
           </a>
         </div>
