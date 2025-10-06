@@ -318,6 +318,54 @@
   </div>
 </section>
 
+<section class="section">
+  <div class="container" style="margin-bottom: 2vh;">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">OpinioBank Dataset</h2>
+        <div class="content has-text-justified">
+          <p>
+            <b>OpinioBank</b> is a large-scale, high-quality dataset designed to support <b>user-centric opinion summarization</b> from extensive long-form reviews, such as those targeted by the <b>OpinioRAG</b> framework. 
+            Unlike existing datasets focusing on short-form or synthetic review–summary pairs, OpinioBank contains entities with <b>over a thousand user reviews each</b>, paired with unbiased expert reviews and <b>manually annotated queries</b>. 
+            This makes it the <b>first benchmark of its kind</b> for advancing model development and evaluation on noisy, repetitive, and stylistically diverse inputs. 
+            For details, see our <a href="https://arxiv.org/abs/2509.00285" target="_blank">COLM 2025 paper</a>.
+          </p>
+
+          <p align="center" style="margin-top: 1em;">
+            <a href="https://huggingface.co/datasets/tafseer-nayeem/OpinioBank" target="_blank" style="text-decoration: none;">
+              <span style="display: inline-flex; align-items: center; background-color: #f5f5f5; padding: 8px 16px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face Logo" style="height: 28px; margin-right: 10px;">
+                <span style="font-size: 1.1em; font-weight: 600; color: #333;">View on Hugging Face</span>
+              </span>
+            </a>
+          </p>
+
+          <h3 class="title is-4" style="margin-top: 2em;">Data Collection Pipeline</h3>
+
+          <p>
+            <b>Data Sources</b><br>
+            <b>User Reviews:</b> Collected from <b>TripAdvisor</b>, which provides reviews on average three times longer than other platforms—ideal for studying long-form summarization with book-length inputs exceeding 100K tokens.<br>
+            <b>Expert Reviews:</b> Collected from <b>Oyster</b>, which provides professional hotel reviews written after on-site inspections and multi-source evaluations, ensuring high factual quality.
+          </p>
+
+          <p>
+            <b>Data Preparation</b><br>
+            We paired entities across platforms using unique identifiers (e.g., addresses, postal codes) and crawled both user and expert reviews. 
+            Using a predefined list of gold query terms (e.g., <em>room</em>, <em>location</em>, <em>ocean views</em>), we manually annotated sentences to ensure query diversity and granularity. 
+            Queries without matches were removed to maintain alignment quality. 
+            Metadata from both review text (ratings, helpful votes, date) and reviewer profiles (number of reviews, cities visited, helpful votes) were integrated to support analyses of credibility and temporal trends.
+          </p>
+
+          <p style="text-align: center; font-style: italic;">
+            The full dataset, detailed statistics, and accompanying metadata are available through the Hugging Face link above.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 
 <section class="section" id="BibTeX">
