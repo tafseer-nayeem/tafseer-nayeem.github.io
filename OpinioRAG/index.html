@@ -371,6 +371,50 @@
 </section>
 
 
+<section class="section">
+  <div class="container" style="margin-bottom: 2vh;">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Structured Verification Module</h2>
+        <div class="content has-text-justified">
+          <p>
+            We introduce a <b>reference-free, modular verification module</b> that checks whether
+            LLM-generated highlights from the synthesizer stage are grounded in the retrieved user
+            reviews. Both the evidence and the highlight are decomposed into
+            <b>Aspect–Opinion–Sentiment (AOS)</b> triplets of the form
+            <code>aspect:opinion:sentiment</code>, enabling fine-grained, interpretable alignment.
+          </p>
+
+          <ul>
+            <li><b>Aspect Relevance (AR):</b> does the key aspect in the evidence appear in the highlight?</li>
+            <li><b>Sentiment Factuality (SF):</b> does the highlight’s sentiment match the dominant evidence sentiment (non-neutral)?</li>
+            <li><b>Opinion Faithfulness (OF):</b> does the expressed opinion match (or semantically align with) evidence opinions for the same aspect/sentiment?</li>
+          </ul>
+
+          <p class="has-text-centered" style="margin-top: 1rem;">
+            <!-- HF model button -->
+            <a href="https://huggingface.co/tafseer-nayeem/aspect-opinion-sentiment_AOS-triplet"
+               target="_blank" rel="noopener noreferrer"
+               class="external-link button is-normal is-rounded is-dark"
+               style="display:inline-flex;align-items:center;gap:8px;white-space:nowrap;margin-right:8px;">
+              <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+                   alt="Hugging Face" style="height:20px;width:auto;">
+              <span>Hugging Face Model</span>
+            </a>
+
+            <!-- Colab badge -->
+            <a href="https://colab.research.google.com/drive/1mjEu3Iic81yWfMXwC1pklGmcdJWSGgEN"
+               target="_blank" rel="noopener noreferrer"
+               style="display:inline-block;vertical-align:middle;">
+              <img src="https://colab.research.google.com/assets/colab-badge.svg"
+                   alt="Open in Colab" style="height:28px;">
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 <section class="section" id="BibTeX">
