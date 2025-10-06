@@ -35,6 +35,21 @@
 
   <script src="./visualizer/data/data_public.js" defer></script>
 </head>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const burgers = Array.from(document.querySelectorAll('.navbar-burger'));
+    burgers.forEach(burger => {
+      burger.addEventListener('click', () => {
+        const menu = document.querySelector('.navbar-menu');
+        burger.classList.toggle('is-active');
+        menu.classList.toggle('is-active');
+      });
+    });
+  });
+</script>
+
+
 <body>
 
 <nav class="navbar" role="navigation" aria-label="main navigation">
