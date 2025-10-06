@@ -378,43 +378,36 @@
         <h2 class="title is-3">Structured Verification Module</h2>
         <div class="content has-text-justified">
           <p>
-            We introduce a <b>reference-free, modular verification module</b> that checks whether
-            LLM-generated highlights from the synthesizer stage are grounded in the retrieved user
-            reviews. Both the evidence and the highlight are decomposed into
-            <b>Aspect–Opinion–Sentiment (AOS)</b> triplets of the form
-            <code>aspect:opinion:sentiment</code>, enabling fine-grained, interpretable alignment.
+            We introduce a <b>novel, reference-free verification module</b> that evaluates whether LLM-generated highlights from the synthesizer stage are grounded in the retrieved user reviews. Both the evidence and the highlights are decomposed into 
+            <b>Aspect–Opinion–Sentiment (AOS)</b> triplets of the form 
+            <code>aspect:opinion:sentiment</code>, enabling structured, fine-grained alignment.
           </p>
-
           <ul>
-            <li><b>Aspect Relevance (AR):</b> does the key aspect in the evidence appear in the highlight?</li>
-            <li><b>Sentiment Factuality (SF):</b> does the highlight’s sentiment match the dominant evidence sentiment (non-neutral)?</li>
-            <li><b>Opinion Faithfulness (OF):</b> does the expressed opinion match (or semantically align with) evidence opinions for the same aspect/sentiment?</li>
+            <li><b>Aspect Relevance (AR):</b> checks if key aspects from the evidence appear in the generated highlight.</li>
+            <li><b>Sentiment Factuality (SF):</b> verifies that the sentiment polarity matches the dominant sentiment in the evidence (non-neutral).</li>
+            <li><b>Opinion Faithfulness (OF):</b> measures whether the expressed opinions match or semantically align with the evidence for the same aspect/sentiment.</li>
           </ul>
+        </div>
 
-          <p class="has-text-centered" style="margin-top: 1rem;">
-            <!-- HF model button -->
-            <a href="https://huggingface.co/tafseer-nayeem/aspect-opinion-sentiment_AOS-triplet"
-               target="_blank" rel="noopener noreferrer"
-               class="external-link button is-normal is-rounded is-dark"
-               style="display:inline-flex;align-items:center;gap:8px;white-space:nowrap;margin-right:8px;">
-              <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
-                   alt="Hugging Face" style="height:20px;width:auto;">
-              <span>Hugging Face Model</span>
-            </a>
+        <div style="display: flex; justify-content: center; gap: 10px; margin-top: 1em;">
+          <a href="https://huggingface.co/tafseer-nayeem/aspect-opinion-sentiment_AOS-triplet" 
+             class="button is-dark is-rounded">
+            <span class="icon"><p style="font-size:18px;">🤗</p></span>
+            <span>Hugging Face Model</span>
+          </a>
 
-            <!-- Colab badge -->
-            <a href="https://colab.research.google.com/drive/1mjEu3Iic81yWfMXwC1pklGmcdJWSGgEN"
-               target="_blank" rel="noopener noreferrer"
-               style="display:inline-block;vertical-align:middle;">
-              <img src="https://colab.research.google.com/assets/colab-badge.svg"
-                   alt="Open in Colab" style="height:28px;">
-            </a>
-          </p>
+          <a href="https://colab.research.google.com/drive/1mjEu3Iic81yWfMXwC1pklGmcdJWSGgEN" 
+             class="button is-link is-rounded" style="background-color: #4285F4;">
+            <span class="icon"><img src="https://colab.research.google.com/img/colab_favicon_256px.png" 
+              alt="Colab" style="height: 18px; width: 18px;"></span>
+            <span>Open in Colab</span>
+          </a>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
 
 <section class="section" id="BibTeX">
