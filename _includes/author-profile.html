@@ -34,16 +34,6 @@
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
       {% endif %}
-      {% if author.huggingface %}
-        <li class="author__urls-li">
-          <a href="https://huggingface.co/{{author.huggingface}}" target="_blank" rel="noopener">
-            <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" 
-                alt="Hugging Face" 
-                style="height:16px;width:auto;position:relative;top:-2px;margin-right:6px;">
-            Hugging Face
-          </a>
-        </li>
-      {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-key" aria-hidden="true"></i> Keybase</a></li>
       {% endif %}
@@ -61,6 +51,16 @@
       {% endif %}
       {% if author.linkedin %}
         <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+      {% endif %}
+      {% if author.huggingface %}
+        <li class="author__urls-li">
+          <a href="https://huggingface.co/{{author.huggingface}}" target="_blank" rel="noopener">
+            <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" 
+                alt="Hugging Face" 
+                style="height:16px;width:auto;position:relative;top:-2px;margin-right:6px;">
+            Hugging Face
+          </a>
+        </li>
       {% endif %}
       {% if author.xing %}
         <li><a href="https://www.xing.com/profile/{{ author.xing }}"><i class="fab fa-xing-square" aria-hidden="true"></i> XING</a></li>
