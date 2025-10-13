@@ -39,68 +39,96 @@ https://jdf-prog.github.io/publications/
 -->
 
 <style>
-  /* minimal, local styles — safe to repeat on the page */
-  .pub-item {
-    display: grid;
-    grid-template-columns: 160px 1fr;
-    gap: 16px;
-    align-items: start;
-    padding: 16px;
-    margin: 20px 0;
-    border: 1px solid #e5e7eb;
-    border-radius: 12px;
-    background: #fff;
-    box-shadow: 0 1px 2px rgba(0,0,0,.04);
+  /* publication card */
+  .pub-item{
+    display:grid;
+    grid-template-columns: 220px 1fr; /* wider image column */
+    gap:18px;
+    align-items:stretch;             /* left column height = right column height */
+    padding:16px 18px;
+    margin:18px 0;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    background:#ffffff;
+    box-shadow:0 1px 2px rgba(0,0,0,.04);
+    transition:box-shadow .15s ease, transform .15s ease;
   }
-  .pub-left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
+  .pub-item:hover{ box-shadow:0 3px 14px rgba(0,0,0,.08); }
+
+  /* left: image + badge stacked, badge sits at the bottom */
+  .pub-left{
+    display:grid;
+    grid-template-rows: 1fr auto;    /* image grows, badge stays auto */
+    gap:10px;
+    height:100%;
   }
-  .pub-thumb {
-    width: 160px; height: 110px;
-    object-fit: cover;
-    border: 1px solid #e5e7eb;
-    border-radius: 10px;
+  .pub-thumb{
+    width:100%;
+    height:100%;
+    object-fit:cover;                /* 1) fill the box */
+    border:1px solid #e5e7eb;
+    border-radius:12px;
   }
-  .conf-badge {
-    display: inline-block;
-    padding: 6px 10px;
-    line-height: 1;
-    border-radius: 999px;
-    font-size: 12px; font-weight: 600; letter-spacing: .3px;
-    text-transform: uppercase;
-    color: #fff; background: #4682B4; /* COLM color */
+  .conf-badge{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:8px 16px;                /* 4) larger badge */
+    min-width:140px;
+    line-height:1;
+    border-radius:999px;
+    font-size:13px; font-weight:700; letter-spacing:.3px;
+    text-transform:uppercase;
+    color:#fff; background:#4682B4;  /* COLM color */
   }
-  .pub-title {
-    margin: 0 0 6px 0;
-    font-size: 1.05rem; line-height: 1.35;
+
+  /* right: compact vertical rhythm + smaller fonts (3) */
+  .pub-title{
+    margin:0 0 4px 0;                /* 2) tighter spacing above meta/authors */
+    font-size:1rem;                   /* smaller title */
+    line-height:1.3;
   }
-  .pub-title a { text-decoration: none; }
-  .pub-meta { margin: 2px 0 8px 0; color: #7a1f1f; }
-  .pub-authors { margin: 0 0 10px 0; }
-  .pub-links a {
-    display: inline-block;
-    padding: 6px 10px;
-    margin-right: 8px; margin-bottom: 6px;
-    border-radius: 8px;
-    border: 1px solid #d1d5db;
-    background: #f3f4f6;
-    text-decoration: none; font-size: 13px;
+  .pub-title a{ text-decoration:none; }
+  .pub-title a:hover{ text-decoration:underline; }
+
+  .pub-meta{
+    margin:0 0 4px 0;                /* tighter */
+    font-size:.95rem;                 /* smaller */
+    color:#7a1f1f;
   }
-  @media (max-width: 640px) {
-    .pub-item { grid-template-columns: 1fr; }
-    .pub-left { flex-direction: row; justify-content: flex-start; }
-    .pub-thumb { width: 120px; height: 82px; }
+  .pub-authors{
+    margin:0 0 8px 0;                /* tighter */
+    font-size:.95rem;                 /* smaller */
+    color:#374151;
+  }
+
+  .pub-links a{
+    display:inline-block;
+    padding:6px 10px;
+    margin-right:8px; margin-bottom:6px;
+    border-radius:8px;
+    border:1px solid #d1d5db;
+    background:#f3f4f6;
+    text-decoration:none; font-size:12px;
+    transition:background .12s ease, border-color .12s ease;
+  }
+  .pub-links a:hover{ background:#eef2f7; border-color:#cbd5e1; }
+
+  /* 5) ensure the image+badge column stays aligned with content height on small screens too */
+  @media (max-width: 640px){
+    .pub-item{ grid-template-columns:1fr; }
+    .pub-left{ grid-template-rows: 180px auto; } /* fixed image height on mobile */
+    .pub-thumb{ height:180px; }                  /* keep a pleasing thumbnail */
   }
 </style>
 
 <div class="pub-item">
   <div class="pub-left">
-    <!-- Replace src with your thumbnail path -->
     <a href="https://arxiv.org/abs/2509.00285" aria-label="OpinioRAG paper">
-      <img class="pub-thumb" src="https://tafseer-nayeem.github.io/images/publication/OpinioRAG-COLM2025.png" alt="OpinioRAG thumbnail">
+      <img class="pub-thumb"
+           src="https://tafseer-nayeem.github.io/images/publication/OpinioRAG-COLM2025.png"
+           alt="OpinioRAG thumbnail"
+           loading="lazy">
     </a>
     <span class="conf-badge">COLM 2025</span>
   </div>
@@ -113,15 +141,11 @@ https://jdf-prog.github.io/publications/
     </h3>
 
     <div class="pub-meta">Accepted for publication at COLM 2025</div>
-
-    <div class="pub-authors">
-      Mir Tafseer Nayeem and Davood Rafiei
-    </div>
+    <div class="pub-authors">Mir Tafseer Nayeem and Davood Rafiei</div>
 
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2509.00285">Paper</a>
       <a href="https://tafseer-nayeem.github.io/OpinioRAG/">Website</a>
-      <!-- Add more: Code, Data, Poster, Slides, BibTeX -->
     </div>
   </div>
 </div>
