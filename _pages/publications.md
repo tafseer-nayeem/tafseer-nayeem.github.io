@@ -100,7 +100,9 @@ https://jdf-prog.github.io/publications/
   <div class="pub-left">
     <!-- Replace src with your thumbnail path -->
     <a href="https://arxiv.org/abs/2509.00285" aria-label="OpinioRAG paper">
-      <img class="pub-thumb" src="./images/OpinioRAG-COLM2025.png" alt="OpinioRAG thumbnail">
+      <img class="pub-thumb"
+           src="{{ '/images/OpinioRAG-COLM2025.png' | relative_url }}"
+           alt="OpinioRAG thumbnail" width="160" height="110" loading="lazy">
     </a>
     <span class="conf-badge">COLM 2025</span>
   </div>
