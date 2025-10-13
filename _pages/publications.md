@@ -40,21 +40,17 @@ https://jdf-prog.github.io/publications/
 
 
 <style>
-  /* Global knobs (edit in one place) */
-  .pub-list{
-    --thumb-w: 180px;        /* thumbnail column width */
-    --thumb-ratio: 4/3;      /* 1:1, 4/3, 16/9, etc. */
-    --thumb-max-h: 140px;    /* cap image height inside the box */
-    --row-min-h: 180px;      /* baseline card height for consistency */
-  }
-
-  /* Card */
+  /* publication card with adaptive thumbnail */
   .pub-item{
+    /* TUNE THESE */
+    --thumb-w: 180px;        /* image column width */
+    --thumb-max-h: 130px;    /* max visible image height */
+    --badge-w: auto;         /* optional fixed width like 110px */
+
     display:grid;
     grid-template-columns: var(--thumb-w) 1fr;
     gap:18px;
-    align-items:stretch;                /* left column matches right column height */
-    min-height: var(--row-min-h);       /* keeps rows visually even */
+    align-items:start;
     padding:16px 18px;
     margin:18px 0;
     border:1px solid #e5e7eb;
@@ -63,52 +59,52 @@ https://jdf-prog.github.io/publications/
     box-shadow:0 1px 2px rgba(0,0,0,.04);
   }
 
-  /* Left: image + badge */
   .pub-left{
-    display:grid;
-    grid-template-rows: auto auto;      /* image box + badge */
-    align-content:start;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
     gap:10px;
   }
-  /* Uniform thumbnail box (no cropping by default) */
+
+  /* ADAPTIVE THUMBNAIL: centers image, no cropping */
   .thumb-wrap{
-    width:100%;
-    aspect-ratio: var(--thumb-ratio);
-    display:grid; place-items:center;
-    border:1px solid #e5e7eb; border-radius:12px;
-    overflow:hidden; background:#fff;
+    width: var(--thumb-w);
+    max-height: var(--thumb-max-h);
+    display:grid;
+    place-items:center;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    background:#fff;
+    overflow:hidden;  /* hides any tiny overflow while preserving aspect */
   }
   .thumb-wrap img{
-    max-width:100%; max-height: min(100%, var(--thumb-max-h));
-    width:auto; height:auto;            /* preserve aspect ratio; no cut */
+    max-width:100%;
+    max-height:100%;
+    width:auto;
+    height:auto;      /* preserves aspect ratio, never crops */
   }
 
   .conf-badge{
-    display:inline-flex; align-items:center; justify-content:center;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
     padding:7px 12px;
-    line-height:1; border-radius:999px;
+    width: var(--badge-w);   /* set to a number if you want a fixed width */
+    line-height:1;
+    border-radius:999px;
     font-size:12px; font-weight:700; letter-spacing:.3px;
-    text-transform:uppercase; white-space:nowrap;
-    color:#fff; background:#4682B4;     /* change per venue as needed */
+    text-transform:uppercase;
+    color:#fff; background:#4682B4;
+    white-space:nowrap;
   }
 
-  /* Right: compact typography */
+  /* compact text */
   .pub-title{ margin:0 0 4px 0; font-size:.95rem; line-height:1.28; }
   .pub-title a{ text-decoration:none; }
   .pub-title a:hover{ text-decoration:underline; }
   .pub-meta{ margin:0 0 4px 0; font-size:.9rem; color:#7a1f1f; }
-  .pub-authors{ margin:0 0 6px 0; font-size:.9rem; color:#374151; }
+  .pub-authors{ margin:0 0 8px 0; font-size:.9rem; color:#374151; }
   .pub-authors .me{ font-weight:700; }
-
-  /* Optional award row (include only when present) */
-  .pub-award{
-    display:inline-flex; align-items:center; gap:8px;
-    margin:2px 0 8px 0;
-    padding:6px 10px;
-    border-radius:8px;
-    background:#fff5f5; border:1px solid #fecaca;
-    color:#b91c1c; font-size:.9rem; font-weight:700;
-  }
 
   .pub-links a{
     display:inline-block; padding:6px 10px;
@@ -118,43 +114,40 @@ https://jdf-prog.github.io/publications/
   }
 
   /* Mobile */
-  @media (max-width:640px){
-    .pub-item{ grid-template-columns:1fr; }
-    .thumb-wrap{ width:100%; aspect-ratio: var(--thumb-ratio); }
+  @media (max-width: 640px){
+    .pub-item{
+      grid-template-columns:1fr;
+      --thumb-w: 100%;
+      --thumb-max-h: 180px;
+    }
+    .thumb-wrap{ width:100%; }
   }
 </style>
 
-<div class="pub-list">
-  <!-- Row example (add/remove .pub-award as needed; height stays consistent via --row-min-h) -->
-  <div class="pub-item">
-    <div class="pub-left">
-      <a href="https://arxiv.org/abs/2509.00285" class="thumb-wrap" aria-label="OpinioRAG paper">
-        <img src="{{ '/images/publication/OpinioRAG-COLM2025.png' | relative_url }}" alt="OpinioRAG thumbnail" loading="lazy">
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://arxiv.org/abs/2509.00285" aria-label="OpinioRAG paper" class="thumb-wrap">
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/OpinioRAG-COLM2025.png"
+        alt="OpinioRAG thumbnail" loading="lazy">
+    </a>
+    <span class="conf-badge">COLM 2025</span>
+  </div>
+
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://arxiv.org/abs/2509.00285">
+        OpinioRAG: Towards Generating User-Centric Opinion Highlights from Large-scale Online Reviews
       </a>
-      <span class="conf-badge">COLM 2025</span>
-    </div>
-
-    <div class="pub-right">
-      <h3 class="pub-title">
-        <a href="https://arxiv.org/abs/2509.00285">
-          OpinioRAG: Towards Generating User-Centric Opinion Highlights from Large-scale Online Reviews
-        </a>
-      </h3>
-      <div class="pub-meta">Accepted for publication at COLM 2025</div>
-      <div class="pub-authors"><span class="me">Mir Tafseer Nayeem</span> and Davood Rafiei</div>
-
-      <!-- Optional award line; remove if not applicable -->
-      <!-- <div class="pub-award">🏆 Best Resource Paper Award</div> -->
-
-      <div class="pub-links">
-        <a href="https://arxiv.org/abs/2509.00285">Paper</a>
-        <a href="https://tafseer-nayeem.github.io/OpinioRAG/">Website</a>
-      </div>
+    </h3>
+    <div class="pub-meta">Accepted for publication at COLM 2025</div>
+    <div class="pub-authors"><span class="me">Mir Tafseer Nayeem</span> and Davood Rafiei</div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2509.00285">Paper</a>
+      <a href="https://tafseer-nayeem.github.io/OpinioRAG/">Website</a>
     </div>
   </div>
 </div>
-
-
 
 
 
