@@ -39,13 +39,25 @@ https://jdf-prog.github.io/publications/
 -->
 
 
+
+
 <style>
-  /* publication card with adaptive thumbnail */
+  /* ===========================
+     Publication card (tunable)
+     Edit ONLY the variables below to tweak sizes/fonts site-wide.
+     =========================== */
   .pub-item{
-    /* TUNE THESE */
+    /* Thumb/badge size knobs */
     --thumb-w: 180px;        /* image column width */
     --thumb-max-h: 130px;    /* max visible image height */
-    --badge-w: auto;         /* optional fixed width like 110px */
+    --badge-w: 120px;        /* conference badge width (increase/decrease here) */
+
+    /* FONT SIZE knobs (change once here) */
+    --font-title: .95rem;    /* title font size */
+    --font-meta: .90rem;     /* "Accepted for..." font size */
+    --font-auth: .90rem;     /* authors font size */
+    --font-links: 12px;      /* link pill font size */
+    --font-badge: 12px;      /* conference badge text size */
 
     display:grid;
     grid-template-columns: var(--thumb-w) 1fr;
@@ -75,7 +87,7 @@ https://jdf-prog.github.io/publications/
     border:1px solid #e5e7eb;
     border-radius:12px;
     background:#fff;
-    overflow:hidden;  /* hides any tiny overflow while preserving aspect */
+    overflow:hidden;  /* hides tiny overflow while preserving aspect */
   }
   .thumb-wrap img{
     max-width:100%;
@@ -88,30 +100,31 @@ https://jdf-prog.github.io/publications/
     display:inline-flex;
     align-items:center;
     justify-content:center;
-    padding:7px 12px;
-    /* width: var(--badge-w);*/   /* set to a number if you want a fixed width */
-    width: 90px;   /* set to a number if you want a fixed width */
+    padding:8px 14px;                 /* adjust height/pill feel here if needed */
+    min-width: var(--badge-w);        /* <— badge width control */
     line-height:1;
     border-radius:999px;
-    font-size:12px; font-weight:700; letter-spacing:.3px;
+    font-size: var(--font-badge);     /* <— badge font size control */
+    font-weight:700; letter-spacing:.3px;
     text-transform:uppercase;
     color:#fff; background:#4682B4;
     white-space:nowrap;
   }
 
-  /* compact text */
-  .pub-title{ margin:0 0 4px 0; font-size:.95rem; line-height:1.28; }
+  /* compact text (uses variables above) */
+  .pub-title{ margin:0 0 4px 0; font-size: var(--font-title); line-height:1.28; }
   .pub-title a{ text-decoration:none; }
   .pub-title a:hover{ text-decoration:underline; }
-  .pub-meta{ margin:0 0 4px 0; font-size:.9rem; color:#7a1f1f; }
-  .pub-authors{ margin:0 0 8px 0; font-size:.9rem; color:#374151; }
+
+  .pub-meta{ margin:0 0 4px 0; font-size: var(--font-meta); color:#7a1f1f; }   /* <— "Accepted for..." size */
+  .pub-authors{ margin:0 0 8px 0; font-size: var(--font-auth); color:#374151; }/* <— authors size */
   .pub-authors .me{ font-weight:700; }
 
   .pub-links a{
     display:inline-block; padding:6px 10px;
     margin-right:8px; margin-bottom:6px;
     border-radius:8px; border:1px solid #d1d5db;
-    background:#f3f4f6; text-decoration:none; font-size:12px;
+    background:#f3f4f6; text-decoration:none; font-size: var(--font-links); /* <— link pill text */
   }
 
   /* Mobile */
@@ -119,7 +132,7 @@ https://jdf-prog.github.io/publications/
     .pub-item{
       grid-template-columns:1fr;
       --thumb-w: 100%;
-      --thumb-max-h: 180px;
+      --thumb-max-h: 180px;  /* mobile thumb height cap */
     }
     .thumb-wrap{ width:100%; }
   }
@@ -149,6 +162,7 @@ https://jdf-prog.github.io/publications/
     </div>
   </div>
 </div>
+
 
 
 
