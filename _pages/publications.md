@@ -112,18 +112,24 @@ https://jdf-prog.github.io/publications/
   /* generic tiny pill */
   .tag-badge{
     display:inline-flex; align-items:center; justify-content:center;
-    padding:4px 8px;
+    padding:3px 7px;                                /* slightly smaller for ergonomics */
     border-radius:999px;
-    line-height:1; letter-spacing:.2px; text-transform:uppercase;
+    line-height:1.05; letter-spacing:.2px; text-transform:uppercase;
     font-weight:700;
-    font-size: calc(var(--font-badge) - 1px); /* keep smaller than main badge */
+    font-size: calc(var(--font-badge) - 2px);       /* keep smaller than main badge */
     border: 1px solid transparent;
     white-space:nowrap;
+    transition: transform .16s ease, box-shadow .16s ease, filter .16s ease;
+  }
+  .tag-badge:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(0,0,0,.06);
+    filter: saturate(1.03);
   }
   /* color variants */
-  .tag-oral    { color:#fff; background:#b45309; border-color:#9a3f07; } /* amber */
+  .tag-oral     { color:#fff; background:#b45309; border-color:#9a3f07; } /* amber */
   .tag-spotlight{ color:#fff; background:#4f46e5; border-color:#4338ca; } /* indigo */
-  .tag-poster  { color:#111827; background:#e5e7eb; border-color:#d1d5db; } /* gray */
+  .tag-poster   { color:#111827; background:#e5e7eb; border-color:#d1d5db; } /* gray */
 
   .conf-badge-blue{
     display:inline-flex;
@@ -154,7 +160,7 @@ https://jdf-prog.github.io/publications/
     min-width: var(--badge-w);
     line-height:1;
     border-radius:999px;
-    font-size: var(--font-badge); 
+    font-size: var(--font-badge);
     font-weight:700; letter-spacing:.3px;
     text-transform:uppercase;
     color:#fff; background:#0F766E;
@@ -201,25 +207,53 @@ https://jdf-prog.github.io/publications/
   .pub-title a:focus-visible,
   .pub-links a:focus-visible,
   .conf-badge-blue:focus-visible,
+  .conf-badge-teal:focus-visible,
   .thumb-wrap:focus-visible{
     outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   }
 
   /* Respect reduced-motion preferences */
   @media (prefers-reduced-motion: reduce){
-    .pub-item, .thumb-wrap img, .pub-links a, .conf-badge-blue, .pub-title a{
+    .pub-item, .thumb-wrap img, .pub-links a,
+    .conf-badge-blue, .conf-badge-teal, .pub-title a{
       transition: none !important;
     }
   }
 
-  /* Mobile */
+  /* Device-friendly tweaks */
   @media (max-width: 640px){
     .pub-item{
       grid-template-columns:1fr;
       --thumb-w: 100%;
-      --thumb-max-h: 180px;  /* mobile thumb height cap */
+      --thumb-max-h: 150px;   /* lower than 180px for better above-the-fold */
+      gap:14px;
+      padding:12px 14px;
     }
     .thumb-wrap{ width:100%; }
+  }
+  @media (max-width: 480px){
+    .pub-item{
+      --thumb-max-h: 130px;   /* smaller phones */
+      gap:12px;
+      padding:10px 12px;
+    }
+    .conf-badge-blue,
+    .conf-badge-teal{
+      min-width: calc(var(--badge-w) - 12px);
+      padding:7px 12px;
+      font-size: calc(var(--font-badge) - 1px);
+    }
+    .tag-badge{
+      padding:2px 6px;
+      font-size: calc(var(--font-badge) - 3px);
+    }
+  }
+  @media (max-width: 360px){
+    .pub-item{
+      --thumb-max-h: 110px;   /* very small devices */
+      gap:10px;
+      padding:8px 10px;
+    }
   }
 </style>
 
@@ -248,7 +282,6 @@ https://jdf-prog.github.io/publications/
   </div>
 </div>
 
-
 <div class="pub-item">
   <div class="pub-left">
     <a href="https://arxiv.org/abs/2508.17647" aria-label="SurveyGen paper" class="thumb-wrap">
@@ -270,13 +303,13 @@ https://jdf-prog.github.io/publications/
         <span class="tag-badge tag-oral" aria-label="Oral presentation">Oral</span>
     </div>
     <div class="pub-authors">Tong Bao, <span class="me">Mir Tafseer Nayeem</span>, Davood Rafiei, and Chengzhi Zhang</div>
-
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2508.17647">Paper</a>
       <a href="https://github.com/tongbao96/SurveyGen">Code</a>
     </div>
   </div>
 </div>
+
 
 
 ![EMNLP 2025](https://img.shields.io/badge/EMNLP%202025-teal?style=for-the-badge)
