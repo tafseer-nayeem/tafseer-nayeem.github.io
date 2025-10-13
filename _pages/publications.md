@@ -130,6 +130,27 @@ https://jdf-prog.github.io/publications/
     filter:saturate(1.05);
   }
 
+  .conf-badge-teal{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:8px 14px;
+    min-width: var(--badge-w);
+    line-height:1;
+    border-radius:999px;
+    font-size: var(--font-badge); 
+    font-weight:700; letter-spacing:.3px;
+    text-transform:uppercase;
+    color:#fff; background:#0F766E;
+    white-space:nowrap;
+    transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
+  }
+  .conf-badge-emnlp:hover{
+    transform: translateY(-1px);
+    box-shadow:0 6px 16px rgba(15,118,110,.25);
+    filter:saturate(1.05);
+  }
+
   /* compact text (uses variables above) */
   .pub-title{ margin:0 0 4px 0; font-size: var(--font-title); line-height:1.28; }
   .pub-title a{
@@ -212,6 +233,32 @@ https://jdf-prog.github.io/publications/
 </div>
 
 
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://arxiv.org/abs/2508.17647" aria-label="SurveyGen paper" class="thumb-wrap">
+      <!-- replace the src path with your actual thumbnail if different -->
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/SurveyGen-EMNLP2025.png"
+        alt="SurveyGen thumbnail" loading="lazy">
+    </a>
+    <span class="conf-badge-teal">EMNLP 2025</span>
+  </div>
+
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://arxiv.org/abs/2508.17647">
+        SurveyGen: Quality-Aware Scientific Survey Generation with Large Language Models
+      </a>
+    </h3>
+    <div class="pub-meta">Accepted for publication at EMNLP 2025</div>
+    <div class="pub-authors">Tong Bao, <span class="me">Mir Tafseer Nayeem</span>, Davood Rafiei, and Chengzhi Zhang</div>
+
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2508.17647">Paper</a>
+      <a href="https://github.com/tongbao96/SurveyGen">Code</a>
+    </div>
+  </div>
+</div>
 
 
 ![EMNLP 2025](https://img.shields.io/badge/EMNLP%202025-teal?style=for-the-badge)
