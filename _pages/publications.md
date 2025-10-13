@@ -70,6 +70,14 @@ https://jdf-prog.github.io/publications/
     border-radius:12px;
     background:#fff;
     box-shadow:0 1px 2px rgba(0,0,0,.04);
+
+    /* hover elevation */
+    transition: box-shadow .22s ease, transform .22s ease, border-color .22s ease;
+  }
+  .pub-item:hover{
+    box-shadow:0 10px 28px rgba(0,0,0,.08);
+    transform: translateY(-2px);
+    border-color:#e2e8f0;
   }
 
   .pub-left{
@@ -89,13 +97,17 @@ https://jdf-prog.github.io/publications/
     border-radius:12px;
     background:#fff;
     overflow:hidden;  /* hides tiny overflow while preserving aspect */
+    transition: box-shadow .2s ease;
   }
   .thumb-wrap img{
     max-width:100%;
     max-height:100%;
     width:auto;
     height:auto;      /* preserves aspect ratio, never crops */
+    transition: transform .28s ease, filter .28s ease;
   }
+  /* subtle image zoom on card hover */
+  .pub-item:hover .thumb-wrap img{ transform: scale(1.03); }
 
   .conf-badge-blue{
     display:inline-flex;
@@ -110,12 +122,25 @@ https://jdf-prog.github.io/publications/
     text-transform:uppercase;
     color:#fff; background:#4682B4;
     white-space:nowrap;
+    transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
+  }
+  .conf-badge-blue:hover{
+    transform: translateY(-1px);
+    box-shadow:0 6px 16px rgba(70,130,180,.25);
+    filter:saturate(1.05);
   }
 
   /* compact text (uses variables above) */
   .pub-title{ margin:0 0 4px 0; font-size: var(--font-title); line-height:1.28; }
-  .pub-title a{ text-decoration:none; }
-  .pub-title a:hover{ text-decoration:underline; }
+  .pub-title a{
+    text-decoration:none;
+    background-image: linear-gradient(currentColor,currentColor);
+    background-size: 0% 2px;                 /* animated underline */
+    background-repeat:no-repeat;
+    background-position:0 100%;
+    transition: background-size .22s ease, color .22s ease;
+  }
+  .pub-title a:hover{ background-size: 100% 2px; }
 
   .pub-meta{ margin:0 0 4px 0; font-size: var(--font-meta); color:#7a1f1f; }   /* <— "Accepted for..." size */
   .pub-authors{ margin:0 0 8px 0; font-size: var(--font-auth); color:#374151; }/* <— authors size */
@@ -126,6 +151,28 @@ https://jdf-prog.github.io/publications/
     margin-right:8px; margin-bottom:6px;
     border-radius:8px; border:1px solid #d1d5db;
     background:#f3f4f6; text-decoration:none; font-size: var(--font-links); /* <— link pill text */
+    transition: background-color .16s ease, border-color .16s ease, transform .16s ease, box-shadow .16s ease;
+  }
+  .pub-links a:hover{
+    background:#eef2f7; border-color:#cbd5e1;
+    transform: translateY(-1px);
+    box-shadow:0 6px 14px rgba(0,0,0,.06);
+  }
+
+  /* Focus states for keyboard accessibility */
+  .pub-item:focus-within{ outline:2px solid #bfdbfe; outline-offset:2px; }
+  .pub-title a:focus-visible,
+  .pub-links a:focus-visible,
+  .conf-badge-blue:focus-visible,
+  .thumb-wrap:focus-visible{
+    outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
+  }
+
+  /* Respect reduced-motion preferences */
+  @media (prefers-reduced-motion: reduce){
+    .pub-item, .thumb-wrap img, .pub-links a, .conf-badge-blue, .pub-title a{
+      transition: none !important;
+    }
   }
 
   /* Mobile */
@@ -163,6 +210,7 @@ https://jdf-prog.github.io/publications/
     </div>
   </div>
 </div>
+
 
 
 
