@@ -250,7 +250,7 @@ https://jdf-prog.github.io/publications/
         SurveyGen: Quality-Aware Scientific Survey Generation with Large Language Models
       </a>
     </h3>
-    <div class="pub-meta">Accepted for publication at EMNLP 2025</div>
+    <div class="pub-meta">Published in <b>EMNLP 2025</b></div>
     <div class="pub-authors">Tong Bao, <span class="me">Mir Tafseer Nayeem</span>, Davood Rafiei, and Chengzhi Zhang</div>
 
     <div class="pub-links">
