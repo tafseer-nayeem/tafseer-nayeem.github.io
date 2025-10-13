@@ -25,15 +25,15 @@ Proceedings of
 ## For Blinking NEW
 <span class="blinking">🆕</span>
 
-## Preprints
-<hr style="border: 1px solid #ddd;" />
-
 ## Lines
 <hr style="border: 1px solid #ddd;" />
 -----------
 
 ## Sample Website 
 https://jdf-prog.github.io/publications/
+
+## Preprints
+<hr style="border: 1px solid #ddd;" />
 
 ![arXiv 2024](https://img.shields.io/badge/arXiv%202024-blue?style=for-the-badge)
 * [**LFOSum: Summarizing Long-form Opinions with Large Language Models**](https://arxiv.org/abs/2410.13037)<br/>
