@@ -223,7 +223,7 @@ https://jdf-prog.github.io/publications/
         OpinioRAG: Towards Generating User-Centric Opinion Highlights from Large-scale Online Reviews
       </a>
     </h3>
-    <div class="pub-meta">Published in <b>COLM 2025</b></div>
+    <div class="pub-meta">Published at <b>COLM 2025</b></div>
     <div class="pub-authors"><span class="me">Mir Tafseer Nayeem</span> and Davood Rafiei</div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2509.00285">Paper</a>
@@ -250,7 +250,7 @@ https://jdf-prog.github.io/publications/
         SurveyGen: Quality-Aware Scientific Survey Generation with Large Language Models
       </a>
     </h3>
-    <div class="pub-meta">Published in <b>EMNLP 2025</b></div>
+    <div class="pub-meta">Published at <b>EMNLP 2025</b></div>
     <div class="pub-authors">Tong Bao, <span class="me">Mir Tafseer Nayeem</span>, Davood Rafiei, and Chengzhi Zhang</div>
 
     <div class="pub-links">
