@@ -38,34 +38,38 @@ https://jdf-prog.github.io/publications/
 👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://arxiv.org/abs/2410.13037)
 -->
 
+
 <style>
-  /* publication card */
+  /* publication card (tunable sizes via CSS variables below) */
   .pub-item{
+    --thumb-w: 190px;   /* 1) EDIT HERE to change image width */
+    --thumb-h: 120px;   /* 1) EDIT HERE to change image height */
+    --badge-min-w: 110px; /* 2) EDIT HERE to change badge width */
+
     display:grid;
-    grid-template-columns: 220px 1fr; /* wider image column */
+    grid-template-columns: var(--thumb-w) 1fr;
     gap:18px;
-    align-items:stretch;             /* left column height = right column height */
+    align-items:start;              /* do not stretch image to full card height */
     padding:16px 18px;
     margin:18px 0;
     border:1px solid #e5e7eb;
     border-radius:12px;
-    background:#ffffff;
+    background:#fff;
     box-shadow:0 1px 2px rgba(0,0,0,.04);
     transition:box-shadow .15s ease, transform .15s ease;
   }
   .pub-item:hover{ box-shadow:0 3px 14px rgba(0,0,0,.08); }
 
-  /* left: image + badge stacked, badge sits at the bottom */
   .pub-left{
-    display:grid;
-    grid-template-rows: 1fr auto;    /* image grows, badge stays auto */
+    display:flex;
+    flex-direction:column;
+    align-items:center;
     gap:10px;
-    height:100%;
   }
   .pub-thumb{
-    width:100%;
-    height:100%;
-    object-fit:cover;                /* 1) fill the box */
+    width: var(--thumb-w);
+    height: var(--thumb-h);
+    object-fit: cover;              /* keep aspect while filling box */
     border:1px solid #e5e7eb;
     border-radius:12px;
   }
@@ -73,34 +77,35 @@ https://jdf-prog.github.io/publications/
     display:inline-flex;
     align-items:center;
     justify-content:center;
-    padding:8px 16px;                /* 4) larger badge */
-    min-width:140px;
+    padding:7px 14px;
+    min-width: var(--badge-min-w);  /* 2) narrower than before */
     line-height:1;
     border-radius:999px;
-    font-size:13px; font-weight:700; letter-spacing:.3px;
+    font-size:12px; font-weight:700; letter-spacing:.3px;
     text-transform:uppercase;
     color:#fff; background:#4682B4;  /* COLM color */
   }
 
-  /* right: compact vertical rhythm + smaller fonts (3) */
+  /* 4) slightly smaller text across title/meta/authors */
   .pub-title{
-    margin:0 0 4px 0;                /* 2) tighter spacing above meta/authors */
-    font-size:1rem;                   /* smaller title */
-    line-height:1.3;
+    margin:0 0 4px 0;
+    font-size:.95rem;
+    line-height:1.28;
   }
   .pub-title a{ text-decoration:none; }
   .pub-title a:hover{ text-decoration:underline; }
 
   .pub-meta{
-    margin:0 0 4px 0;                /* tighter */
-    font-size:.95rem;                 /* smaller */
+    margin:0 0 4px 0;
+    font-size:.9rem;
     color:#7a1f1f;
   }
   .pub-authors{
-    margin:0 0 8px 0;                /* tighter */
-    font-size:.95rem;                 /* smaller */
+    margin:0 0 8px 0;
+    font-size:.9rem;
     color:#374151;
   }
+  .pub-authors .me{ font-weight:700; }  /* 3) bold your name only */
 
   .pub-links a{
     display:inline-block;
@@ -114,11 +119,11 @@ https://jdf-prog.github.io/publications/
   }
   .pub-links a:hover{ background:#eef2f7; border-color:#cbd5e1; }
 
-  /* 5) ensure the image+badge column stays aligned with content height on small screens too */
+  /* Mobile: stack; keep a pleasant thumbnail size */
   @media (max-width: 640px){
     .pub-item{ grid-template-columns:1fr; }
-    .pub-left{ grid-template-rows: 180px auto; } /* fixed image height on mobile */
-    .pub-thumb{ height:180px; }                  /* keep a pleasing thumbnail */
+    .pub-left{ align-items:flex-start; }
+    .pub-thumb{ width:100%; height:160px; }
   }
 </style>
 
@@ -127,8 +132,7 @@ https://jdf-prog.github.io/publications/
     <a href="https://arxiv.org/abs/2509.00285" aria-label="OpinioRAG paper">
       <img class="pub-thumb"
            src="https://tafseer-nayeem.github.io/images/publication/OpinioRAG-COLM2025.png"
-           alt="OpinioRAG thumbnail"
-           loading="lazy">
+           alt="OpinioRAG thumbnail" loading="lazy">
     </a>
     <span class="conf-badge">COLM 2025</span>
   </div>
@@ -141,7 +145,7 @@ https://jdf-prog.github.io/publications/
     </h3>
 
     <div class="pub-meta">Accepted for publication at COLM 2025</div>
-    <div class="pub-authors">Mir Tafseer Nayeem and Davood Rafiei</div>
+    <div class="pub-authors"><span class="me">Mir Tafseer Nayeem</span> and Davood Rafiei</div>
 
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2509.00285">Paper</a>
@@ -149,6 +153,9 @@ https://jdf-prog.github.io/publications/
     </div>
   </div>
 </div>
+
+
+
 
 ## 2025
 <hr style="border: 1px solid #ddd;" />
