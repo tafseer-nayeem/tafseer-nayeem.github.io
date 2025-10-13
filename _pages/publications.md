@@ -28,6 +28,10 @@ Proceedings of
 ## Preprints
 <hr style="border: 1px solid #ddd;" />
 
+## Lines
+<hr style="border: 1px solid #ddd;" />
+-----------
+
 ## Sample Website 
 https://jdf-prog.github.io/publications/
 
@@ -39,12 +43,9 @@ https://jdf-prog.github.io/publications/
 -->
 
 
-
-
 <style>
   /* ===========================
-     Publication card (tunable)
-     Edit ONLY the variables below to tweak sizes/fonts site-wide.
+     Publication card
      =========================== */
   .pub-item{
     /* Thumb/badge size knobs */
@@ -154,7 +155,7 @@ https://jdf-prog.github.io/publications/
         OpinioRAG: Towards Generating User-Centric Opinion Highlights from Large-scale Online Reviews
       </a>
     </h3>
-    <div class="pub-meta">Accepted for publication at COLM 2025</div>
+    <div class="pub-meta">Published in <b>COLM 2025</b></div>
     <div class="pub-authors"><span class="me">Mir Tafseer Nayeem</span> and Davood Rafiei</div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2509.00285">Paper</a>
@@ -165,17 +166,13 @@ https://jdf-prog.github.io/publications/
 
 
 
-
-## 2025
-<hr style="border: 1px solid #ddd;" />
-
 ![COLM 2025](https://img.shields.io/badge/COLM%202025-4682B4?style=for-the-badge)
 * [**OpinioRAG: Towards Generating User-Centric Opinion Highlights from Large-scale Online Reviews**](https://arxiv.org/abs/2509.00285)<br/>
 📰 <span style ="color:Maroon"> Accepted for publication at **COLM 2025**</span> <br/>
 👨‍💻 **Mir Tafseer Nayeem** and Davood Rafiei <br/>
 👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://arxiv.org/abs/2509.00285) [![Website](https://img.shields.io/badge/Website-D3D3D3)](https://tafseer-nayeem.github.io/OpinioRAG/)
 
------------
+
 
 ![EMNLP 2025](https://img.shields.io/badge/EMNLP%202025-teal?style=for-the-badge)
 * [**SurveyGen: Quality-Aware Scientific Survey Generation with Large Language Models**](https://arxiv.org/abs/2508.17647)<br/>
