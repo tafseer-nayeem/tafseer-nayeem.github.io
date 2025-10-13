@@ -43,6 +43,8 @@ https://jdf-prog.github.io/publications/
 -->
 
 
+
+
 <style>
   /* ===========================
      Publication card
@@ -50,7 +52,7 @@ https://jdf-prog.github.io/publications/
   .pub-item{
     /* Thumb/badge size knobs */
     --thumb-w: 180px;        /* image column width */
-    --thumb-max-h: 130px;    /* max visible image height */
+    --thumb-max-h: 130px;    /* max visible image height (desktop/tablet) */
     --badge-w: 120px;        /* conference badge width (increase/decrease here) */
 
     /* FONT SIZE knobs (change once here) */
@@ -87,7 +89,7 @@ https://jdf-prog.github.io/publications/
     gap:10px;
   }
 
-  /* ADAPTIVE THUMBNAIL: centers image, no cropping */
+  /* ADAPTIVE THUMBNAIL (desktop/tablet): bounded box, rounded */
   .thumb-wrap{
     width: var(--thumb-w);
     max-height: var(--thumb-max-h);
@@ -96,14 +98,15 @@ https://jdf-prog.github.io/publications/
     border:1px solid #e5e7eb;
     border-radius:12px;
     background:#fff;
-    overflow:hidden;  /* hides tiny overflow while preserving aspect */
+    overflow:hidden;  /* clip tiny overflow while preserving radius */
     transition: box-shadow .2s ease;
   }
   .thumb-wrap img{
     max-width:100%;
     max-height:100%;
     width:auto;
-    height:auto;      /* preserves aspect ratio, never crops */
+    height:auto;      /* preserves aspect ratio */
+    border-radius: inherit;
     transition: transform .28s ease, filter .28s ease;
   }
   /* subtle image zoom on card hover */
@@ -112,7 +115,7 @@ https://jdf-prog.github.io/publications/
   /* generic tiny pill */
   .tag-badge{
     display:inline-flex; align-items:center; justify-content:center;
-    padding:3px 7px;                                /* slightly smaller for ergonomics */
+    padding:3px 7px;                                /* compact for ergonomics */
     border-radius:999px;
     line-height:1.05; letter-spacing:.2px; text-transform:uppercase;
     font-weight:700;
@@ -135,11 +138,11 @@ https://jdf-prog.github.io/publications/
     display:inline-flex;
     align-items:center;
     justify-content:center;
-    padding:8px 14px;                 /* adjust height/pill feel here if needed */
-    min-width: var(--badge-w);        /* <— badge width control */
+    padding:8px 14px;
+    min-width: var(--badge-w);
     line-height:1;
     border-radius:999px;
-    font-size: var(--font-badge);     /* <— badge font size control */
+    font-size: var(--font-badge);
     font-weight:700; letter-spacing:.3px;
     text-transform:uppercase;
     color:#fff; background:#4682B4;
@@ -185,15 +188,22 @@ https://jdf-prog.github.io/publications/
   }
   .pub-title a:hover{ background-size: 100% 2px; }
 
-  .pub-meta{ margin:0 0 4px 0; font-size: var(--font-meta); color:#7a1f1f; }   /* <— "Accepted for..." size */
-  .pub-authors{ margin:0 0 8px 0; font-size: var(--font-auth); color:#374151; }/* <— authors size */
+  /* Make the meta line flex so the ORAL pill aligns vertically */
+  .pub-meta{
+    margin:0 0 4px 0;
+    font-size: var(--font-meta);
+    color:#7a1f1f;
+    display:flex; align-items:center; gap:8px; flex-wrap:wrap;
+  }
+
+  .pub-authors{ margin:0 0 8px 0; font-size: var(--font-auth); color:#374151; }
   .pub-authors .me{ font-weight:700; }
 
   .pub-links a{
     display:inline-block; padding:6px 10px;
     margin-right:8px; margin-bottom:6px;
     border-radius:8px; border:1px solid #d1d5db;
-    background:#f3f4f6; text-decoration:none; font-size: var(--font-links); /* <— link pill text */
+    background:#f3f4f6; text-decoration:none; font-size: var(--font-links);
     transition: background-color .16s ease, border-color .16s ease, transform .16s ease, box-shadow .16s ease;
   }
   .pub-links a:hover{
@@ -220,20 +230,30 @@ https://jdf-prog.github.io/publications/
     }
   }
 
-  /* Device-friendly tweaks */
+  /* Device-friendly (no cropping on phones; full-width image with auto height) */
   @media (max-width: 640px){
     .pub-item{
       grid-template-columns:1fr;
       --thumb-w: 100%;
-      --thumb-max-h: 150px;   /* lower than 180px for better above-the-fold */
+      --thumb-max-h: none;   /* disable fixed cap on phones */
       gap:14px;
       padding:12px 14px;
     }
-    .thumb-wrap{ width:100%; }
+    .thumb-wrap{
+      width:100%;
+      max-height:none;       /* let the image define the height */
+      overflow:visible;      /* no clipping */
+      border: none;          /* move border to the image for clean corners */
+    }
+    .thumb-wrap img{
+      width:100%;
+      height:auto;
+      border:1px solid #e5e7eb;
+      border-radius:12px;
+    }
   }
   @media (max-width: 480px){
     .pub-item{
-      --thumb-max-h: 130px;   /* smaller phones */
       gap:12px;
       padding:10px 12px;
     }
@@ -250,7 +270,6 @@ https://jdf-prog.github.io/publications/
   }
   @media (max-width: 360px){
     .pub-item{
-      --thumb-max-h: 110px;   /* very small devices */
       gap:10px;
       padding:8px 10px;
     }
@@ -262,7 +281,8 @@ https://jdf-prog.github.io/publications/
     <a href="https://arxiv.org/abs/2509.00285" aria-label="OpinioRAG paper" class="thumb-wrap">
       <img
         src="https://tafseer-nayeem.github.io/images/publication/OpinioRAG-COLM2025.png"
-        alt="OpinioRAG thumbnail" loading="lazy">
+        alt="OpinioRAG thumbnail" loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
     </a>
     <span class="conf-badge-blue">COLM 2025</span>
   </div>
@@ -285,10 +305,10 @@ https://jdf-prog.github.io/publications/
 <div class="pub-item">
   <div class="pub-left">
     <a href="https://arxiv.org/abs/2508.17647" aria-label="SurveyGen paper" class="thumb-wrap">
-      <!-- replace the src path with your actual thumbnail if different -->
       <img
         src="https://tafseer-nayeem.github.io/images/publication/SurveyGen-EMNLP2025.png"
-        alt="SurveyGen thumbnail" loading="lazy">
+        alt="SurveyGen thumbnail" loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
     </a>
     <span class="conf-badge-teal">EMNLP 2025</span>
   </div>
@@ -299,8 +319,9 @@ https://jdf-prog.github.io/publications/
         SurveyGen: Quality-Aware Scientific Survey Generation with Large Language Models
       </a>
     </h3>
-    <div class="pub-meta">Published at <b>EMNLP 2025</b>
-        <span class="tag-badge tag-oral" aria-label="Oral presentation">Oral</span>
+    <div class="pub-meta">
+      Published at <b>EMNLP 2025</b>
+      <span class="tag-badge tag-oral" aria-label="Oral presentation">Oral</span>
     </div>
     <div class="pub-authors">Tong Bao, <span class="me">Mir Tafseer Nayeem</span>, Davood Rafiei, and Chengzhi Zhang</div>
     <div class="pub-links">
@@ -309,6 +330,8 @@ https://jdf-prog.github.io/publications/
     </div>
   </div>
 </div>
+
+
 
 
 
