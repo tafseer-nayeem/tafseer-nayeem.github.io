@@ -28,6 +28,9 @@ Proceedings of
 ## Preprints
 <hr style="border: 1px solid #ddd;" />
 
+## Sample Website 
+https://jdf-prog.github.io/publications/
+
 ![arXiv 2024](https://img.shields.io/badge/arXiv%202024-blue?style=for-the-badge)
 * [**LFOSum: Summarizing Long-form Opinions with Large Language Models**](https://arxiv.org/abs/2410.13037)<br/>
 📰 <span style ="color:Maroon"> Uploaded to arXiv **(cs.CL)** </span> <br/>
@@ -35,6 +38,93 @@ Proceedings of
 👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://arxiv.org/abs/2410.13037)
 -->
 
+<style>
+  /* minimal, local styles — safe to repeat on the page */
+  .pub-item {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 16px;
+    margin: 20px 0;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.04);
+  }
+  .pub-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  .pub-thumb {
+    width: 160px; height: 110px;
+    object-fit: cover;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+  }
+  .conf-badge {
+    display: inline-block;
+    padding: 6px 10px;
+    line-height: 1;
+    border-radius: 999px;
+    font-size: 12px; font-weight: 600; letter-spacing: .3px;
+    text-transform: uppercase;
+    color: #fff; background: #4682B4; /* COLM color */
+  }
+  .pub-title {
+    margin: 0 0 6px 0;
+    font-size: 1.05rem; line-height: 1.35;
+  }
+  .pub-title a { text-decoration: none; }
+  .pub-meta { margin: 2px 0 8px 0; color: #7a1f1f; }
+  .pub-authors { margin: 0 0 10px 0; }
+  .pub-links a {
+    display: inline-block;
+    padding: 6px 10px;
+    margin-right: 8px; margin-bottom: 6px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    background: #f3f4f6;
+    text-decoration: none; font-size: 13px;
+  }
+  @media (max-width: 640px) {
+    .pub-item { grid-template-columns: 1fr; }
+    .pub-left { flex-direction: row; justify-content: flex-start; }
+    .pub-thumb { width: 120px; height: 82px; }
+  }
+</style>
+
+<div class="pub-item">
+  <div class="pub-left">
+    <!-- Replace src with your thumbnail path -->
+    <a href="https://arxiv.org/abs/2509.00285" aria-label="OpinioRAG paper">
+      <img class="pub-thumb" src="./images/OpinioRAG-COLM2025.png" alt="OpinioRAG thumbnail">
+    </a>
+    <span class="conf-badge">COLM 2025</span>
+  </div>
+
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://arxiv.org/abs/2509.00285">
+        OpinioRAG: Towards Generating User-Centric Opinion Highlights from Large-scale Online Reviews
+      </a>
+    </h3>
+
+    <div class="pub-meta">Accepted for publication at COLM 2025</div>
+
+    <div class="pub-authors">
+      Mir Tafseer Nayeem and Davood Rafiei
+    </div>
+
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2509.00285">Paper</a>
+      <a href="https://tafseer-nayeem.github.io/OpinioRAG/">Website</a>
+      <!-- Add more: Code, Data, Poster, Slides, BibTeX -->
+    </div>
+  </div>
+</div>
 
 ## 2025
 <hr style="border: 1px solid #ddd;" />
