@@ -109,6 +109,22 @@ https://jdf-prog.github.io/publications/
   /* subtle image zoom on card hover */
   .pub-item:hover .thumb-wrap img{ transform: scale(1.03); }
 
+  /* generic tiny pill */
+  .tag-badge{
+    display:inline-flex; align-items:center; justify-content:center;
+    padding:4px 8px;
+    border-radius:999px;
+    line-height:1; letter-spacing:.2px; text-transform:uppercase;
+    font-weight:700;
+    font-size: calc(var(--font-badge) - 1px); /* keep smaller than main badge */
+    border: 1px solid transparent;
+    white-space:nowrap;
+  }
+  /* color variants */
+  .tag-oral    { color:#fff; background:#b45309; border-color:#9a3f07; } /* amber */
+  .tag-spotlight{ color:#fff; background:#4f46e5; border-color:#4338ca; } /* indigo */
+  .tag-poster  { color:#111827; background:#e5e7eb; border-color:#d1d5db; } /* gray */
+
   .conf-badge-blue{
     display:inline-flex;
     align-items:center;
@@ -250,7 +266,9 @@ https://jdf-prog.github.io/publications/
         SurveyGen: Quality-Aware Scientific Survey Generation with Large Language Models
       </a>
     </h3>
-    <div class="pub-meta">Published at <b>EMNLP 2025</b></div>
+    <div class="pub-meta">Published at <b>EMNLP 2025</b>
+        <span class="tag-badge tag-oral" aria-label="Oral presentation">Oral</span>
+    </div>
     <div class="pub-authors">Tong Bao, <span class="me">Mir Tafseer Nayeem</span>, Davood Rafiei, and Chengzhi Zhang</div>
 
     <div class="pub-links">
