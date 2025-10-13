@@ -331,19 +331,6 @@ https://jdf-prog.github.io/publications/
 </div>
 
 
-
-
-
-
-
-![EMNLP 2025](https://img.shields.io/badge/EMNLP%202025-teal?style=for-the-badge)
-* [**SurveyGen: Quality-Aware Scientific Survey Generation with Large Language Models**](https://arxiv.org/abs/2508.17647)<br/>
-📰 <span style ="color:Maroon"> Accepted for publication at **EMNLP 2025**</span> <br/>
-👨‍💻 Tong Bao, **Mir Tafseer Nayeem**, Davood Rafiei, and Chengzhi Zhang <br/>
-👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://arxiv.org/abs/2508.17647) [![Code](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/tongbao96/SurveyGen)
-
------------
-
 ![EMNLP 2025](https://img.shields.io/badge/EMNLP%202025-teal?style=for-the-badge)
 * [**From Charts to Fair Narratives: Uncovering and Mitigating Geo-Economic Biases in Chart-to-Text**](https://arxiv.org/abs/2508.09450)<br/>
 📰 <span style ="color:Maroon"> Accepted for publication at **EMNLP 2025**</span> <br/>
