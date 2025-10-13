@@ -89,7 +89,8 @@ https://jdf-prog.github.io/publications/
     align-items:center;
     justify-content:center;
     padding:7px 12px;
-    width: var(--badge-w);   /* set to a number if you want a fixed width */
+    /* width: var(--badge-w);*/   /* set to a number if you want a fixed width */
+    width: 90px;   /* set to a number if you want a fixed width */
     line-height:1;
     border-radius:999px;
     font-size:12px; font-weight:700; letter-spacing:.3px;
