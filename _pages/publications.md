@@ -96,7 +96,7 @@ https://jdf-prog.github.io/publications/
     height:auto;      /* preserves aspect ratio, never crops */
   }
 
-  .conf-badge{
+  .conf-badge-blue{
     display:inline-flex;
     align-items:center;
     justify-content:center;
@@ -145,7 +145,7 @@ https://jdf-prog.github.io/publications/
         src="https://tafseer-nayeem.github.io/images/publication/OpinioRAG-COLM2025.png"
         alt="OpinioRAG thumbnail" loading="lazy">
     </a>
-    <span class="conf-badge">COLM 2025</span>
+    <span class="conf-badge-blue">COLM 2025</span>
   </div>
 
   <div class="pub-right">
@@ -162,8 +162,6 @@ https://jdf-prog.github.io/publications/
     </div>
   </div>
 </div>
-
-
 
 
 
