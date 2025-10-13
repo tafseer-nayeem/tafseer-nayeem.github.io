@@ -96,19 +96,20 @@ https://jdf-prog.github.io/publications/
     border:1px solid #e5e7eb;
     border-radius:12px;
     background:#fff;
-    overflow:hidden;
+    overflow:hidden;                   /* clip tiny overflow while preserving radius */
   }
   .thumb-wrap img{
     max-width:100%;
     max-height:100%;
     width:auto;
-    height:auto;                 /* keep aspect; no crop */
+    height:auto;                       /* keep aspect; no crop */
     border-radius:inherit;
     transition: transform .28s ease, filter .28s ease;
+    display:block;                     /* remove baseline gap below image */
   }
   .pub-item:hover .thumb-wrap img{ transform: scale(1.03); }
 
-  /* small presentation pill */
+  /* tiny presentation pill */
   .tag-badge{
     display:inline-flex; align-items:center; justify-content:center;
     padding:3px 7px; border-radius:999px;
@@ -180,29 +181,25 @@ https://jdf-prog.github.io/publications/
   }
 
   /* ===========================
-     Device-friendly tweaks
-     - No cropping on phones.
-     - Scale DOWN aggressively with width/height clamps.
+     Device-friendly: scale DOWN on phones, no overflow
      =========================== */
   @media (max-width: 640px){
     .pub-item{
       grid-template-columns:1fr;
       --thumb-w: 100%;
-      /* let image control height, but we still clamp in the wrapper below */
       gap:14px; padding:12px 14px;
     }
     .thumb-wrap{
-      /* Smaller than container; sits centered */
-      width: clamp(260px, 92vw, 520px);
-      max-height: clamp(120px, 45vh, 220px); /* upper bound for phone height */
-      border: none;              /* move border to img for clean corners */
-      overflow: hidden;          /* contain any rounding errors */
-      display:grid; place-items:center;
+      width:100%;                 /* never exceed card width */
+      max-width:100%;
+      border:none;                /* put border on img so radius matches card */
+      overflow:visible;           /* avoid clipping the img border */
     }
     .thumb-wrap img{
-      max-width:100%;
-      max-height:100%;           /* scales down to fit BOTH width and height */
-      width:auto; height:auto;
+      width:100%;                 /* shrink to container width */
+      height:auto;                /* keep aspect ratio */
+      max-height:40vh;            /* guardrail: never taller than 40% of viewport */
+      object-fit:contain;         /* ensure full image is visible (no crop) */
       border:1px solid #e5e7eb;
       border-radius:12px;
     }
@@ -215,10 +212,11 @@ https://jdf-prog.github.io/publications/
       font-size: calc(var(--font-badge) - 1px);
     }
     .tag-badge{ padding:2px 6px; font-size: calc(var(--font-badge) - 3px); }
+    .thumb-wrap img{ max-height:36vh; } /* slightly smaller on narrow phones */
   }
   @media (max-width: 360px){
     .pub-item{ gap:10px; padding:8px 10px; }
-    .thumb-wrap{ width: clamp(240px, 90vw, 520px); max-height: clamp(110px, 40vh, 200px); }
+    .thumb-wrap img{ max-height:32vh; } /* very small devices */
   }
 </style>
 
@@ -229,7 +227,7 @@ https://jdf-prog.github.io/publications/
       <img
         src="https://tafseer-nayeem.github.io/images/publication/OpinioRAG-COLM2025.png"
         alt="OpinioRAG thumbnail" loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 92vw, var(--thumb-w)">
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
     </a>
     <span class="conf-badge-blue">COLM 2025</span>
   </div>
@@ -256,7 +254,7 @@ https://jdf-prog.github.io/publications/
       <img
         src="https://tafseer-nayeem.github.io/images/publication/SurveyGen-EMNLP2025.png"
         alt="SurveyGen thumbnail" loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 92vw, var(--thumb-w)">
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
     </a>
     <span class="conf-badge-teal">EMNLP 2025</span>
   </div>
@@ -278,6 +276,7 @@ https://jdf-prog.github.io/publications/
     </div>
   </div>
 </div>
+
 
 
 
