@@ -72,8 +72,6 @@ https://jdf-prog.github.io/publications/
     border-radius:12px;
     background:#fff;
     box-shadow:0 1px 2px rgba(0,0,0,.04);
-
-    /* hover elevation */
     transition: box-shadow .22s ease, transform .22s ease, border-color .22s ease;
   }
   .pub-item:hover{
@@ -89,7 +87,7 @@ https://jdf-prog.github.io/publications/
     gap:10px;
   }
 
-  /* ADAPTIVE THUMBNAIL (desktop/tablet): bounded box, rounded */
+  /* Desktop/tablet thumbnail: bounded box */
   .thumb-wrap{
     width: var(--thumb-w);
     max-height: var(--thumb-max-h);
@@ -98,101 +96,60 @@ https://jdf-prog.github.io/publications/
     border:1px solid #e5e7eb;
     border-radius:12px;
     background:#fff;
-    overflow:hidden;  /* clip tiny overflow while preserving radius */
-    transition: box-shadow .2s ease;
+    overflow:hidden;
   }
   .thumb-wrap img{
     max-width:100%;
     max-height:100%;
     width:auto;
-    height:auto;      /* preserves aspect ratio */
-    border-radius: inherit;
+    height:auto;                 /* keep aspect; no crop */
+    border-radius:inherit;
     transition: transform .28s ease, filter .28s ease;
   }
-  /* subtle image zoom on card hover */
   .pub-item:hover .thumb-wrap img{ transform: scale(1.03); }
 
-  /* generic tiny pill */
+  /* small presentation pill */
   .tag-badge{
     display:inline-flex; align-items:center; justify-content:center;
-    padding:3px 7px;                                /* compact for ergonomics */
-    border-radius:999px;
+    padding:3px 7px; border-radius:999px;
     line-height:1.05; letter-spacing:.2px; text-transform:uppercase;
     font-weight:700;
-    font-size: calc(var(--font-badge) - 2px);       /* keep smaller than main badge */
-    border: 1px solid transparent;
-    white-space:nowrap;
+    font-size: calc(var(--font-badge) - 2px);
+    border: 1px solid transparent; white-space:nowrap;
     transition: transform .16s ease, box-shadow .16s ease, filter .16s ease;
   }
-  .tag-badge:hover{
-    transform: translateY(-1px);
-    box-shadow: 0 4px 10px rgba(0,0,0,.06);
-    filter: saturate(1.03);
-  }
-  /* color variants */
+  .tag-badge:hover{ transform: translateY(-1px); box-shadow: 0 4px 10px rgba(0,0,0,.06); filter: saturate(1.03); }
   .tag-oral     { color:#fff; background:#b45309; border-color:#9a3f07; } /* amber */
   .tag-spotlight{ color:#fff; background:#4f46e5; border-color:#4338ca; } /* indigo */
   .tag-poster   { color:#111827; background:#e5e7eb; border-color:#d1d5db; } /* gray */
 
-  .conf-badge-blue{
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    padding:8px 14px;
-    min-width: var(--badge-w);
-    line-height:1;
-    border-radius:999px;
-    font-size: var(--font-badge);
-    font-weight:700; letter-spacing:.3px;
-    text-transform:uppercase;
-    color:#fff; background:#4682B4;
-    white-space:nowrap;
-    transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
-  }
-  .conf-badge-blue:hover{
-    transform: translateY(-1px);
-    box-shadow:0 6px 16px rgba(70,130,180,.25);
-    filter:saturate(1.05);
-  }
-
+  .conf-badge-blue,
   .conf-badge-teal{
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    padding:8px 14px;
-    min-width: var(--badge-w);
-    line-height:1;
-    border-radius:999px;
-    font-size: var(--font-badge);
-    font-weight:700; letter-spacing:.3px;
-    text-transform:uppercase;
-    color:#fff; background:#0F766E;
-    white-space:nowrap;
+    display:inline-flex; align-items:center; justify-content:center;
+    padding:8px 14px; min-width: var(--badge-w);
+    line-height:1; border-radius:999px;
+    font-size: var(--font-badge); font-weight:700; letter-spacing:.3px;
+    text-transform:uppercase; color:#fff; white-space:nowrap;
     transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
   }
-  .conf-badge-teal:hover{
-    transform: translateY(-1px);
-    box-shadow:0 6px 16px rgba(15,118,110,.25);
-    filter:saturate(1.05);
-  }
+  .conf-badge-blue{ background:#4682B4; }
+  .conf-badge-teal{ background:#0F766E; }
+  .conf-badge-blue:hover{ transform: translateY(-1px); box-shadow:0 6px 16px rgba(70,130,180,.25); filter:saturate(1.05); }
+  .conf-badge-teal:hover{ transform: translateY(-1px); box-shadow:0 6px 16px rgba(15,118,110,.25); filter:saturate(1.05); }
 
-  /* compact text (uses variables above) */
+  /* text */
   .pub-title{ margin:0 0 4px 0; font-size: var(--font-title); line-height:1.28; }
   .pub-title a{
     text-decoration:none;
     background-image: linear-gradient(currentColor,currentColor);
-    background-size: 0% 2px;                 /* animated underline */
-    background-repeat:no-repeat;
-    background-position:0 100%;
+    background-size: 0% 2px; background-repeat:no-repeat; background-position:0 100%;
     transition: background-size .22s ease, color .22s ease;
   }
   .pub-title a:hover{ background-size: 100% 2px; }
 
-  /* Make the meta line flex so the ORAL pill aligns vertically */
+  /* align ORAL pill with meta text */
   .pub-meta{
-    margin:0 0 4px 0;
-    font-size: var(--font-meta);
-    color:#7a1f1f;
+    margin:0 0 4px 0; font-size: var(--font-meta); color:#7a1f1f;
     display:flex; align-items:center; gap:8px; flex-wrap:wrap;
   }
 
@@ -206,83 +163,73 @@ https://jdf-prog.github.io/publications/
     background:#f3f4f6; text-decoration:none; font-size: var(--font-links);
     transition: background-color .16s ease, border-color .16s ease, transform .16s ease, box-shadow .16s ease;
   }
-  .pub-links a:hover{
-    background:#eef2f7; border-color:#cbd5e1;
-    transform: translateY(-1px);
-    box-shadow:0 6px 14px rgba(0,0,0,.06);
-  }
+  .pub-links a:hover{ background:#eef2f7; border-color:#cbd5e1; transform: translateY(-1px); box-shadow:0 6px 14px rgba(0,0,0,.06); }
 
-  /* Focus states for keyboard accessibility */
+  /* focus */
   .pub-item:focus-within{ outline:2px solid #bfdbfe; outline-offset:2px; }
   .pub-title a:focus-visible,
   .pub-links a:focus-visible,
   .conf-badge-blue:focus-visible,
   .conf-badge-teal:focus-visible,
-  .thumb-wrap:focus-visible{
-    outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
-  }
+  .thumb-wrap:focus-visible{ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px; }
 
-  /* Respect reduced-motion preferences */
+  /* reduced motion */
   @media (prefers-reduced-motion: reduce){
     .pub-item, .thumb-wrap img, .pub-links a,
-    .conf-badge-blue, .conf-badge-teal, .pub-title a{
-      transition: none !important;
-    }
+    .conf-badge-blue, .conf-badge-teal, .pub-title a{ transition: none !important; }
   }
 
-  /* Device-friendly (no cropping on phones; full-width image with auto height) */
+  /* ===========================
+     Device-friendly tweaks
+     - No cropping on phones.
+     - Scale DOWN aggressively with width/height clamps.
+     =========================== */
   @media (max-width: 640px){
     .pub-item{
       grid-template-columns:1fr;
       --thumb-w: 100%;
-      --thumb-max-h: none;   /* disable fixed cap on phones */
-      gap:14px;
-      padding:12px 14px;
+      /* let image control height, but we still clamp in the wrapper below */
+      gap:14px; padding:12px 14px;
     }
     .thumb-wrap{
-      width:100%;
-      max-height:none;       /* let the image define the height */
-      overflow:visible;      /* no clipping */
-      border: none;          /* move border to the image for clean corners */
+      /* Smaller than container; sits centered */
+      width: clamp(260px, 92vw, 520px);
+      max-height: clamp(120px, 45vh, 220px); /* upper bound for phone height */
+      border: none;              /* move border to img for clean corners */
+      overflow: hidden;          /* contain any rounding errors */
+      display:grid; place-items:center;
     }
     .thumb-wrap img{
-      width:100%;
-      height:auto;
+      max-width:100%;
+      max-height:100%;           /* scales down to fit BOTH width and height */
+      width:auto; height:auto;
       border:1px solid #e5e7eb;
       border-radius:12px;
     }
   }
   @media (max-width: 480px){
-    .pub-item{
-      gap:12px;
-      padding:10px 12px;
-    }
-    .conf-badge-blue,
-    .conf-badge-teal{
+    .pub-item{ gap:12px; padding:10px 12px; }
+    .conf-badge-blue, .conf-badge-teal{
       min-width: calc(var(--badge-w) - 12px);
       padding:7px 12px;
       font-size: calc(var(--font-badge) - 1px);
     }
-    .tag-badge{
-      padding:2px 6px;
-      font-size: calc(var(--font-badge) - 3px);
-    }
+    .tag-badge{ padding:2px 6px; font-size: calc(var(--font-badge) - 3px); }
   }
   @media (max-width: 360px){
-    .pub-item{
-      gap:10px;
-      padding:8px 10px;
-    }
+    .pub-item{ gap:10px; padding:8px 10px; }
+    .thumb-wrap{ width: clamp(240px, 90vw, 520px); max-height: clamp(110px, 40vh, 200px); }
   }
 </style>
 
+<!-- Card 1 -->
 <div class="pub-item">
   <div class="pub-left">
     <a href="https://arxiv.org/abs/2509.00285" aria-label="OpinioRAG paper" class="thumb-wrap">
       <img
         src="https://tafseer-nayeem.github.io/images/publication/OpinioRAG-COLM2025.png"
         alt="OpinioRAG thumbnail" loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) 92vw, var(--thumb-w)">
     </a>
     <span class="conf-badge-blue">COLM 2025</span>
   </div>
@@ -302,13 +249,14 @@ https://jdf-prog.github.io/publications/
   </div>
 </div>
 
+<!-- Card 2 -->
 <div class="pub-item">
   <div class="pub-left">
     <a href="https://arxiv.org/abs/2508.17647" aria-label="SurveyGen paper" class="thumb-wrap">
       <img
         src="https://tafseer-nayeem.github.io/images/publication/SurveyGen-EMNLP2025.png"
         alt="SurveyGen thumbnail" loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) 92vw, var(--thumb-w)">
     </a>
     <span class="conf-badge-teal">EMNLP 2025</span>
   </div>
@@ -330,6 +278,7 @@ https://jdf-prog.github.io/publications/
     </div>
   </div>
 </div>
+
 
 
 
