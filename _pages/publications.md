@@ -145,7 +145,7 @@ https://jdf-prog.github.io/publications/
     white-space:nowrap;
     transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
   }
-  .conf-badge-emnlp:hover{
+  .conf-badge-teal:hover{
     transform: translateY(-1px);
     box-shadow:0 6px 16px rgba(15,118,110,.25);
     filter:saturate(1.05);
