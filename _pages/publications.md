@@ -48,8 +48,8 @@ https://jdf-prog.github.io/publications/
      =========================== */
   .pub-item{
     /* Thumb/badge size knobs */
-    --thumb-w: 175px;        /* image column width */
-    --thumb-max-h: 125px;    /* max visible image height (desktop/tablet) */
+    --thumb-w: 170px;        /* image column width */
+    --thumb-max-h: 120px;    /* max visible image height (desktop/tablet) */
     --badge-w: 120px;        /* conference badge width */
 
     /* FONT SIZE knobs */
