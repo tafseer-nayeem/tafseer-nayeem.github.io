@@ -131,40 +131,50 @@ https://jdf-prog.github.io/publications/
   .tag-spotlight{ color:#fff; background:#4f46e5; border-color:#4338ca; } /* indigo */
   .tag-poster   { color:#111827; background:#e5e7eb; border-color:#d1d5db; } /* gray */
   
-  /* award line and badge */
-  .pub-award-line{
-    display:block;
-    margin:6px 0 8px;                /* space between meta ↔ award ↔ authors */
-  }
-
- .award-badge{
-    display:inline-flex; align-items:center; gap:6px; justify-content:center;
-    padding:5px 12px;
-    border-radius:999px; line-height:1.05;
-    font-weight:800; letter-spacing:.2px; /* sentence case by default */
-    text-transform:none;
-    font-size: calc(var(--font-badge, 12px) - 1px);
-    border:1px solid transparent; white-space:nowrap;
-    transition: transform .16s ease, box-shadow .16s ease, filter .16s ease;
-  }
- .award-badge:hover{ transform: translateY(-1px); box-shadow:0 6px 14px rgba(0,0,0,.06); filter:saturate(1.03); }
-
-/* Academic, restrained outline gold */
-  .award-outline-gold{
-    color:#7A5A00;
-    background:#FFF8E6;
-    border-color:#E7C76A;
+  /* --- award line and badge --- */
+.pub-award-line{
+  display:block;
+  margin:6px 0 8px;             /* spacing between meta ↔ award ↔ authors (tune here) */
 }
 
-  /* (optional) solid gold if you want stronger emphasis later */
-  .award-solid-gold{
-    color:#fff; background:#B58500; border-color:#9A6F00;
+/* Pill itself */
+.award-badge{
+  display:inline-flex; align-items:center; justify-content:center; gap:6px;
+  padding:4px 10px;             /* ← TUNE height/width of the pill */
+  border-radius:999px; line-height:1.05;
+  font-weight:800; letter-spacing:.2px;
+  text-transform:none;          /* sentence case (academic) */
+  font-size: calc(var(--font-badge, 12px) - 1px); /* ← TUNE via --font-badge; or replace with var(--font-badge) to match venue badge size exactly */
+  border:1px solid transparent; white-space:nowrap;
+  transition: transform .16s ease, box-shadow .16s ease, filter .16s ease;
+}
+.award-badge:hover{
+  transform: translateY(-1px);
+  box-shadow:0 6px 14px rgba(0,0,0,.06);
+  filter:saturate(1.03);
 }
 
-  /* Mobile: keep badge compact */
-  @media (max-width: 480px){
-    .pub-award-line{ margin:4px 0 8px; }
-    .award-badge{ padding:3px 8px; font-size: calc(var(--font-badge, 12px) - 2px); }
+/* Academic, restrained outline gold (recommended default) */
+.award-outline-gold{
+  color:#7A5A00;
+  background:#FFF8E6;
+  border-color:#E7C76A;
+}
+
+/* Optional stronger emphasis (solid gold) */
+.award-solid-gold{
+  color:#fff;
+  background:#B58500;
+  border-color:#9A6F00;
+}
+
+/* Mobile: keep badge compact (safe on narrow screens) */
+@media (max-width: 480px){
+  .pub-award-line{ margin:4px 0 8px; }                       /* tighten vertical rhythm */
+  .award-badge{
+    padding:3px 8px;                                         /* smaller pill on phones */
+    font-size: calc(var(--font-badge, 12px) - 2px);          /* slightly smaller text */
+  }
 }
 
   .conf-badge-blue{
