@@ -363,6 +363,42 @@ https://jdf-prog.github.io/publications/
   </div>
 </div>
 
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://arxiv.org/abs/2510.07545" aria-label="Chart Judge paper" class="thumb-wrap">
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/ChartJudge-EMNLP2025.png"
+        alt="Chart Judge thumbnail" loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-teal">EMNLP 2025</span>
+  </div>
+
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://arxiv.org/abs/2510.07545">
+        Deploying Tiny LVLM Judges for Real-World Evaluation of Chart Models: Lessons Learned and Best Practices
+      </a>
+    </h3>
+    <div class="pub-meta">Published at <b>EMNLP 2025</b> (Industry Track)</div>
+    <div class="pub-authors">
+      Md Tahmid Rahman Laskar, 
+      Mohammed Saidul Islam, 
+      Ridwan Mahbub, 
+      Mizanur Rahman, 
+      Amran Bhuiyan, 
+      Israt Jahan,
+      <span class="me">Mir Tafseer Nayeem</span>,
+      Shafiq Joty,
+      Enamul Hoque,
+      and Jimmy Huang
+    </div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2510.07545">Paper</a>
+    </div>
+  </div>
+</div>
+
 
 -----------
 
