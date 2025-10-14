@@ -177,7 +177,7 @@ https://jdf-prog.github.io/publications/
   }
 }
 
-  .conf-badge-blue{
+.conf-badge-blue{
     display:inline-flex;
     align-items:center;
     justify-content:center;
@@ -192,13 +192,13 @@ https://jdf-prog.github.io/publications/
     white-space:nowrap;
     transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
   }
-  .conf-badge-blue:hover{
+.conf-badge-blue:hover{
     transform: translateY(-1px);
     box-shadow:0 6px 16px rgba(70,130,180,.25);
     filter:saturate(1.05);
   }
 
-  .conf-badge-teal{
+.conf-badge-teal{
     display:inline-flex;
     align-items:center;
     justify-content:center;
@@ -213,26 +213,26 @@ https://jdf-prog.github.io/publications/
     white-space:nowrap;
     transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
   }
-  .conf-badge-teal:hover{
+.conf-badge-teal:hover{
     transform: translateY(-1px);
     box-shadow:0 6px 16px rgba(15,118,110,.25);
     filter:saturate(1.05);
   }
 
-  .conf-badge-green{
+.conf-badge-green{
   display:inline-flex;align-items:center;justify-content:center;
   padding:8px 14px;min-width:var(--badge-w);line-height:1;border-radius:999px;
   font-size:var(--font-badge);font-weight:700;letter-spacing:.3px;text-transform:uppercase;
   color:#fff;background:#28a745;white-space:nowrap;
   transition:transform .18s ease,box-shadow .18s ease,filter .18s ease;
   }
-  .conf-badge-green:hover{
+.conf-badge-green:hover{
     transform:translateY(-1px);box-shadow:0 6px 16px rgba(40,167,69,.25);filter:saturate(1.05);
   }
 
   /* compact text (uses variables above) */
-  .pub-title{ margin:0 0 4px 0; font-size: var(--font-title); line-height:1.28; }
-  .pub-title a{
+.pub-title{ margin:0 0 4px 0; font-size: var(--font-title); line-height:1.28; }
+.pub-title a{
     text-decoration:none;
     background-image: linear-gradient(currentColor,currentColor);
     background-size: 0% 2px;                 /* animated underline */
@@ -240,52 +240,52 @@ https://jdf-prog.github.io/publications/
     background-position:0 100%;
     transition: background-size .22s ease, color .22s ease;
   }
-  .pub-title a:hover{ background-size: 100% 2px; }
+.pub-title a:hover{ background-size: 100% 2px; }
 
   /* Make the meta line flex so the ORAL pill aligns vertically */
-  .pub-meta{
+.pub-meta{
     margin:0 0 4px 0;
     font-size: var(--font-meta);
     color:#7a1f1f;
     display:flex; align-items:center; gap:8px; flex-wrap:wrap;
   }
 
-  .pub-authors{ margin:0 0 8px 0; font-size: var(--font-auth); color:#374151; }
-  .pub-authors .me{ font-weight:700; }
+.pub-authors{ margin:0 0 8px 0; font-size: var(--font-auth); color:#374151; }
+.pub-authors .me{ font-weight:700; }
 
-  .pub-links a{
+.pub-links a{
     display:inline-block; padding:6px 10px;
     margin-right:8px; margin-bottom:6px;
     border-radius:8px; border:1px solid #d1d5db;
     background:#f3f4f6; text-decoration:none; font-size: var(--font-links);
     transition: background-color .16s ease, border-color .16s ease, transform .16s ease, box-shadow .16s ease;
   }
-  .pub-links a:hover{
+.pub-links a:hover{
     background:#eef2f7; border-color:#cbd5e1;
     transform: translateY(-1px);
     box-shadow:0 6px 14px rgba(0,0,0,.06);
   }
 
-  /* Focus states for keyboard accessibility */
-  .pub-item:focus-within{ outline:2px solid #bfdbfe; outline-offset:2px; }
-  .pub-title a:focus-visible,
-  .pub-links a:focus-visible,
-  .conf-badge-blue:focus-visible,
-  .conf-badge-teal:focus-visible,
-  .thumb-wrap:focus-visible{
-    outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
-  }
+/* Focus states for keyboard accessibility */
+.pub-item:focus-within{ outline:2px solid #bfdbfe; outline-offset:2px; }
+.pub-title a:focus-visible,
+.pub-links a:focus-visible,
+.conf-badge-blue:focus-visible,
+.conf-badge-teal:focus-visible,
+.thumb-wrap:focus-visible{
+outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
+}
 
-  /* Respect reduced-motion preferences */
-  @media (prefers-reduced-motion: reduce){
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce){
     .pub-item, .thumb-wrap img, .pub-links a,
     .conf-badge-blue, .conf-badge-teal, .pub-title a{
       transition: none !important;
     }
-  }
+}
 
   /* Device-friendly (no cropping on phones; full-width image with auto height) */
-  @media (max-width: 640px){
+@media (max-width: 640px){
     .pub-item{
       grid-template-columns:1fr;
       --thumb-w: 100%;
@@ -306,7 +306,7 @@ https://jdf-prog.github.io/publications/
       border-radius:12px;
     }
   }
-  @media (max-width: 480px){
+@media (max-width: 480px){
     .pub-item{
       gap:12px;
       padding:10px 12px;
@@ -322,7 +322,7 @@ https://jdf-prog.github.io/publications/
       font-size: calc(var(--font-badge) - 3px);
     }
   }
-  @media (max-width: 360px){
+@media (max-width: 360px){
     .pub-item{
       gap:10px;
       padding:8px 10px;
