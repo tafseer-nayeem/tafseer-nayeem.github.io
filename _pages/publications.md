@@ -52,7 +52,7 @@ https://jdf-prog.github.io/publications/
     --thumb-max-h: 125px;    /* max visible image height (desktop/tablet) */
     --badge-w: 120px;        /* conference badge width */
 
-    /* FONT SIZE knobs (change once here) */
+    /* FONT SIZE knobs */
     --font-title: .95rem;    /* title font size */
     --font-meta: .90rem;     /* "Accepted for..." font size */
     --font-auth: .90rem;     /* authors font size */
