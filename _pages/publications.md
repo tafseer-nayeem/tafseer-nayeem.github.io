@@ -143,8 +143,8 @@ https://jdf-prog.github.io/publications/
   padding:5px 12px;             /* ← TUNE height/width of the pill */
   border-radius:999px; line-height:1.05;
   font-weight:800; letter-spacing:.2px;
-  text-transform:none;          /* sentence case (academic) */
-  font-size: calc(var(--font-badge, 12px)); /* ← TUNE via --font-badge; or replace with var(--font-badge) to match venue badge size exactly */
+  text-transform:none;          /* sentence case */
+  font-size: var(--font-badge); 
   border:1px solid transparent; white-space:nowrap;
   transition: transform .16s ease, box-shadow .16s ease, filter .16s ease;
 }
