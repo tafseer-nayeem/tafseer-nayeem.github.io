@@ -130,30 +130,42 @@ https://jdf-prog.github.io/publications/
   .tag-oral     { color:#fff; background:#b45309; border-color:#9a3f07; } /* amber */
   .tag-spotlight{ color:#fff; background:#4f46e5; border-color:#4338ca; } /* indigo */
   .tag-poster   { color:#111827; background:#e5e7eb; border-color:#d1d5db; } /* gray */
-
-  /* Award line (recommended: text-only, sentence case) */
+  
+  /* award line and badge */
   .pub-award-line{
     display:block;
-    margin:6px 0 10px;
-  }
-  .pub-award-text{
-    display:inline-block;
-    font-size: var(--font-meta);    /* matches your meta size */
-    color:#374151;                  /* neutral body tone */
-    font-weight:600;                /* subtle emphasis */
-  }
-  .pub-award-text .emph{
-    color:#7a1f1f;                  /* aligns with your meta maroon */
-    font-weight:800;                /* emphasize award type */
-  }
-  .pub-award-text .emoji{           /* optional: keep or remove trophy */
-    margin-right:6px;
+    margin:6px 0 8px;                /* space between meta ↔ award ↔ authors */
   }
 
-  /* Mobile spacing tweak */
+ .award-badge{
+    display:inline-flex; align-items:center; gap:6px; justify-content:center;
+    padding:4px 10px;
+    border-radius:999px; line-height:1.05;
+    font-weight:800; letter-spacing:.2px; /* sentence case by default */
+    text-transform:none;
+    font-size: calc(var(--font-badge, 12px) - 1px);
+    border:1px solid transparent; white-space:nowrap;
+    transition: transform .16s ease, box-shadow .16s ease, filter .16s ease;
+  }
+ .award-badge:hover{ transform: translateY(-1px); box-shadow:0 6px 14px rgba(0,0,0,.06); filter:saturate(1.03); }
+
+/* Academic, restrained outline gold */
+  .award-outline-gold{
+    color:#7A5A00;
+    background:#FFF8E6;
+    border-color:#E7C76A;
+}
+
+  /* (optional) solid gold if you want stronger emphasis later */
+  .award-solid-gold{
+    color:#fff; background:#B58500; border-color:#9A6F00;
+}
+
+  /* Mobile: keep badge compact */
   @media (max-width: 480px){
     .pub-award-line{ margin:4px 0 8px; }
-  }
+    .award-badge{ padding:3px 8px; font-size: calc(var(--font-badge, 12px) - 2px); }
+}
 
   .conf-badge-blue{
     display:inline-flex;
@@ -432,10 +444,10 @@ https://jdf-prog.github.io/publications/
   </div>
 </div>
 
+
 <div class="pub-item">
   <div class="pub-left">
     <a href="https://arxiv.org/abs/2508.09716" aria-label="Chart Deception paper" class="thumb-wrap">
-      <!-- replace the src path with your actual thumbnail if different -->
       <img
         src="https://tafseer-nayeem.github.io/images/publication/VisDeception-VIS2025.png"
         alt="The Perils of Chart Deception thumbnail" loading="lazy" decoding="async"
@@ -452,21 +464,17 @@ https://jdf-prog.github.io/publications/
     </h3>
 
     <div class="pub-meta">Accepted for publication at <b>VIS 2025</b></div>
-    
+
+    <!-- NEW: distinctive but academic award badge on its own line -->
     <div class="pub-award-line">
-    <span class="pub-award-text">
-        <span class="emoji" aria-hidden="true">🏆</span>
-        <span class="emph">Best short paper award</span>
-    </span>
+      <span class="award-badge award-outline-gold" aria-label="Best short paper award">
+        🏆 Best short paper award
+      </span>
     </div>
 
     <div class="pub-authors">
-      Ridwan Mahbub,
-      Mohammed Saidul Islam,
-      Md Tahmid Rahman Laskar,
-      Mizanur Rahman,
-      <span class="me">Mir Tafseer Nayeem</span>,
-      and Enamul Hoque
+      Ridwan Mahbub, Mohammed Saidul Islam, Md Tahmid Rahman Laskar,
+      Mizanur Rahman, <span class="me">Mir Tafseer Nayeem</span>, and Enamul Hoque
     </div>
 
     <div class="pub-links">
