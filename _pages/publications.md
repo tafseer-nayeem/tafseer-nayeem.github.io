@@ -140,7 +140,7 @@ https://jdf-prog.github.io/publications/
 /* Pill itself */
 .award-badge{
   display:inline-flex; align-items:center; justify-content:center; gap:6px;
-  padding:4px 10px;             /* ← TUNE height/width of the pill */
+  padding:5px 12px;             /* ← TUNE height/width of the pill */
   border-radius:999px; line-height:1.05;
   font-weight:800; letter-spacing:.2px;
   text-transform:none;          /* sentence case (academic) */
