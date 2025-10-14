@@ -131,6 +131,30 @@ https://jdf-prog.github.io/publications/
   .tag-spotlight{ color:#fff; background:#4f46e5; border-color:#4338ca; } /* indigo */
   .tag-poster   { color:#111827; background:#e5e7eb; border-color:#d1d5db; } /* gray */
 
+  /* Award line (recommended: text-only, sentence case) */
+  .pub-award-line{
+    display:block;
+    margin:6px 0 10px;
+  }
+  .pub-award-text{
+    display:inline-block;
+    font-size: var(--font-meta);    /* matches your meta size */
+    color:#374151;                  /* neutral body tone */
+    font-weight:600;                /* subtle emphasis */
+  }
+  .pub-award-text .emph{
+    color:#7a1f1f;                  /* aligns with your meta maroon */
+    font-weight:800;                /* emphasize award type */
+  }
+  .pub-award-text .emoji{           /* optional: keep or remove trophy */
+    margin-right:6px;
+  }
+
+  /* Mobile spacing tweak */
+  @media (max-width: 480px){
+    .pub-award-line{ margin:4px 0 8px; }
+  }
+
   .conf-badge-blue{
     display:inline-flex;
     align-items:center;
@@ -428,7 +452,13 @@ https://jdf-prog.github.io/publications/
     </h3>
 
     <div class="pub-meta">Accepted for publication at <b>VIS 2025</b></div>
-    <div class="pub-meta">🏆 <span style="color:#b91c1c;font-weight:700">Best Short Paper Award</span></div>
+    
+    <div class="pub-award-line">
+    <span class="pub-award-text">
+        <span class="emoji" aria-hidden="true">🏆</span>
+        <span class="emph">Best short paper award</span>
+    </span>
+    </div>
 
     <div class="pub-authors">
       Ridwan Mahbub,
