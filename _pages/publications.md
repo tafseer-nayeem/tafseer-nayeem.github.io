@@ -473,9 +473,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       </a>
     </h3>
 
-    <div class="pub-meta">Accepted for publication at <b>VIS 2025</b></div>
-
-    <!-- NEW: distinctive but academic award badge on its own line -->
+    <div class="pub-meta">Published at <b>VIS 2025</b></div>
     <div class="pub-award-line">
       <span class="award-badge award-outline-gold" aria-label="Best short paper award">
         🏆 Best short paper award
