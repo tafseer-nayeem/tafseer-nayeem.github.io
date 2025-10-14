@@ -495,15 +495,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 
 -----------
 
-![IEEE VIS 2025](https://img.shields.io/badge/IEEE%20VIS%202025-28a745?style=for-the-badge)
-* [**The Perils of Chart Deception: How Misleading Visualizations Affect Vision-Language Models**](https://arxiv.org/abs/2508.09716)<br/>
-📰 <span style ="color:Maroon"> Accepted for publication at **VIS 2025**</span> <br/>
-👨‍💻 Ridwan Mahbub, Mohammed Saidul Islam, Md Tahmid Rahman Laskar, Mizanur Rahman, **Mir Tafseer Nayeem**, and Enamul Hoque <br/> 
-👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://arxiv.org/abs/2508.09716) [![Code](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/vis-nlp/visDeception) <br/> 
-🏆 <span style="color:Red"> **Best Short Paper Award** </span> <br/>
-
------------
-
 ![ACL 2025](https://img.shields.io/badge/ACL%202025-dc3545?style=for-the-badge)
 * [**Judging the Judges: Can Large Vision-Language Models Fairly Evaluate Chart Comprehension and Reasoning?**](https://aclanthology.org/2025.acl-industry.83/)<br/>
 📰 <span style ="color:Maroon"> Published in **ACL 2025** (Industry Track)</span> <br/>
