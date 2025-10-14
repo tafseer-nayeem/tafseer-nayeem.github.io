@@ -139,7 +139,7 @@ https://jdf-prog.github.io/publications/
 
  .award-badge{
     display:inline-flex; align-items:center; gap:6px; justify-content:center;
-    padding:4px 10px;
+    padding:5px 12px;
     border-radius:999px; line-height:1.05;
     font-weight:800; letter-spacing:.2px; /* sentence case by default */
     text-transform:none;
