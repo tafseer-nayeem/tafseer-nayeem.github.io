@@ -42,8 +42,6 @@ https://jdf-prog.github.io/publications/
 👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://arxiv.org/abs/2410.13037)
 -->
 
-
-
 <style>
   /* ===========================
      Publication card
@@ -52,7 +50,7 @@ https://jdf-prog.github.io/publications/
     /* Thumb/badge size knobs */
     --thumb-w: 180px;        /* image column width */
     --thumb-max-h: 130px;    /* max visible image height (desktop/tablet) */
-    --badge-w: 120px;        /* conference badge width (increase/decrease here) */
+    --badge-w: 120px;        /* conference badge width */
 
     /* FONT SIZE knobs (change once here) */
     --font-title: .95rem;    /* title font size */
