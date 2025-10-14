@@ -347,7 +347,7 @@ https://jdf-prog.github.io/publications/
         From Charts to Fair Narratives: Uncovering and Mitigating Geo-Economic Biases in Chart-to-Text
       </a>
     </h3>
-    <div class="pub-meta">Accepted for publication at <b>EMNLP 2025</b></div>
+    <div class="pub-meta">Published at <b>EMNLP 2025</b></div>
     <div class="pub-authors">
       Ridwan Mahbub*,
       Mohammed Saidul Islam*,
