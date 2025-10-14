@@ -467,7 +467,7 @@ https://jdf-prog.github.io/publications/
 
     <!-- NEW: distinctive but academic award badge on its own line -->
     <div class="pub-award-line">
-      <span class="award-badge award-solid-gold" aria-label="Best short paper award">
+      <span class="award-badge award-outline-gold" aria-label="Best short paper award">
         🏆 Best short paper award
       </span>
     </div>
