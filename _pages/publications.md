@@ -173,6 +173,17 @@ https://jdf-prog.github.io/publications/
     filter:saturate(1.05);
   }
 
+  .conf-badge-green{
+  display:inline-flex;align-items:center;justify-content:center;
+  padding:8px 14px;min-width:var(--badge-w);line-height:1;border-radius:999px;
+  font-size:var(--font-badge);font-weight:700;letter-spacing:.3px;text-transform:uppercase;
+  color:#fff;background:#28a745;white-space:nowrap;
+  transition:transform .18s ease,box-shadow .18s ease,filter .18s ease;
+  }
+  .conf-badge-green:hover{
+    transform:translateY(-1px);box-shadow:0 6px 16px rgba(40,167,69,.25);filter:saturate(1.05);
+  }
+
   /* compact text (uses variables above) */
   .pub-title{ margin:0 0 4px 0; font-size: var(--font-title); line-height:1.28; }
   .pub-title a{
@@ -393,6 +404,44 @@ https://jdf-prog.github.io/publications/
     </div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2510.07545">Paper</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://arxiv.org/abs/2508.09716" aria-label="Chart Deception paper" class="thumb-wrap">
+      <!-- replace the src path with your actual thumbnail if different -->
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/VisDeception-VIS2025.png"
+        alt="The Perils of Chart Deception thumbnail" loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-green">VIS 2025</span>
+  </div>
+
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://arxiv.org/abs/2508.09716">
+        The Perils of Chart Deception: How Misleading Visualizations Affect Vision-Language Models
+      </a>
+    </h3>
+
+    <div class="pub-meta">Accepted for publication at <b>VIS 2025</b></div>
+    <div class="pub-meta">🏆 <span style="color:#b91c1c;font-weight:700">Best Short Paper Award</span></div>
+
+    <div class="pub-authors">
+      Ridwan Mahbub,
+      Mohammed Saidul Islam,
+      Md Tahmid Rahman Laskar,
+      Mizanur Rahman,
+      <span class="me">Mir Tafseer Nayeem</span>,
+      and Enamul Hoque
+    </div>
+
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2508.09716">Paper</a>
+      <a href="https://github.com/vis-nlp/visDeception">Code</a>
     </div>
   </div>
 </div>
