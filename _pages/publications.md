@@ -144,7 +144,7 @@ https://jdf-prog.github.io/publications/
   border-radius:999px; line-height:1.05;
   font-weight:800; letter-spacing:.2px;
   text-transform:none;          /* sentence case (academic) */
-  font-size: calc(var(--font-badge, 12px) - 1px); /* ← TUNE via --font-badge; or replace with var(--font-badge) to match venue badge size exactly */
+  font-size: calc(var(--font-badge, 12px)); /* ← TUNE via --font-badge; or replace with var(--font-badge) to match venue badge size exactly */
   border:1px solid transparent; white-space:nowrap;
   transition: transform .16s ease, box-shadow .16s ease, filter .16s ease;
 }
