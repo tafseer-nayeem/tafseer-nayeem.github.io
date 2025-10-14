@@ -230,6 +230,20 @@ https://jdf-prog.github.io/publications/
     transform:translateY(-1px);box-shadow:0 6px 16px rgba(40,167,69,.25);filter:saturate(1.05);
   }
 
+.conf-badge-red{
+    display:inline-flex; align-items:center; justify-content:center;
+    padding:8px 14px; min-width: var(--badge-w, 120px);
+    line-height:1; border-radius:999px;
+    font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
+    text-transform:uppercase; color:#fff; background:#dc3545; white-space:nowrap;
+    transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
+  }
+.conf-badge-red:hover{
+    transform: translateY(-1px);
+    box-shadow:0 6px 16px rgba(220,53,69,.25);
+    filter:saturate(1.05);
+  }
+
   /* compact text (uses variables above) */
 .pub-title{ margin:0 0 4px 0; font-size: var(--font-title); line-height:1.28; }
 .pub-title a{
@@ -492,8 +506,39 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   </div>
 </div>
 
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://aclanthology.org/2025.acl-industry.83/" aria-label="Judging the Judges (ACL 2025)" class="thumb-wrap">
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/ChartJudge-ACL2025.png"
+        alt="Judging the Judges thumbnail" loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-red">ACL 2025</span>
+  </div>
 
------------
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://aclanthology.org/2025.acl-industry.83/">
+        Judging the Judges: Can Large Vision-Language Models Fairly Evaluate Chart Comprehension and Reasoning?
+      </a>
+    </h3>
+
+    <div class="pub-meta">Published in <b>ACL 2025</b> (Industry Track)</div>
+
+    <div class="pub-authors">
+      Md Tahmid Rahman Laskar, Mohammed Saidul Islam, Ridwan Mahbub, Ahmed Masry,
+      Mizanur Rahman, Amran Bhuiyan, <span class="me">Mir Tafseer Nayeem</span>,
+      Shafiq Joty, Enamul Hoque, and Jimmy Huang
+    </div>
+
+    <div class="pub-links">
+      <a href="https://aclanthology.org/2025.acl-industry.83/">Paper</a>
+      <a href="https://github.com/tahmedge/chart_lvlm_judge">Code &amp; Dataset</a>
+    </div>
+  </div>
+</div>
+
 
 ![ACL 2025](https://img.shields.io/badge/ACL%202025-dc3545?style=for-the-badge)
 * [**Judging the Judges: Can Large Vision-Language Models Fairly Evaluate Chart Comprehension and Reasoning?**](https://aclanthology.org/2025.acl-industry.83/)<br/>
