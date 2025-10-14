@@ -330,6 +330,40 @@ https://jdf-prog.github.io/publications/
   </div>
 </div>
 
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://arxiv.org/abs/2508.09450" aria-label="Fair Narratives paper" class="thumb-wrap">
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/ChartEthics-EMNLP2025.png"
+        alt="From Charts to Fair Narratives thumbnail" loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-teal">EMNLP 2025</span>
+  </div>
+
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://arxiv.org/abs/2508.09450">
+        From Charts to Fair Narratives: Uncovering and Mitigating Geo-Economic Biases in Chart-to-Text
+      </a>
+    </h3>
+    <div class="pub-meta">Accepted for publication at <b>EMNLP 2025</b></div>
+    <div class="pub-authors">
+      Ridwan Mahbub*,
+      Mohammed Saidul Islam*,
+      <span class="me">Mir Tafseer Nayeem</span>,
+      Md Tahmid Rahman Laskar,
+      Mizanur Rahman,
+      Shafiq Joty,
+      and Enamul Hoque
+    </div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2508.09450">Paper</a>
+    </div>
+  </div>
+</div>
+
+
 
 ![EMNLP 2025](https://img.shields.io/badge/EMNLP%202025-teal?style=for-the-badge)
 * [**From Charts to Fair Narratives: Uncovering and Mitigating Geo-Economic Biases in Chart-to-Text**](https://arxiv.org/abs/2508.09450)<br/>
@@ -514,8 +548,6 @@ https://jdf-prog.github.io/publications/
     }
 }
 </style>
-
-
 
 
 <!--
