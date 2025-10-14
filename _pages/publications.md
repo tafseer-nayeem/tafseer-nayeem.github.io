@@ -53,9 +53,9 @@ https://jdf-prog.github.io/publications/
     --badge-w: 120px;        /* conference badge width */
 
     /* FONT SIZE knobs */
-    --font-title: .95rem;    /* title font size */
-    --font-meta: .90rem;     /* "Accepted for..." font size */
-    --font-auth: .90rem;     /* authors font size */
+    --font-title: .90rem;    /* title font size */
+    --font-meta: .85rem;     /* "Accepted for..." font size */
+    --font-auth: .85rem;     /* authors font size */
     --font-links: 12px;      /* link pill font size */
     --font-badge: 12px;      /* conference badge text size */
 
