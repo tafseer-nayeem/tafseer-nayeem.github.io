@@ -531,7 +531,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         alt="Judging the Judges thumbnail" loading="lazy" decoding="async"
         sizes="(max-width: 640px) 100vw, var(--thumb-w)">
     </a>
-    <span class="conf-badge-sienna">ACL 2025</span>
+    <span class="conf-badge-navy">ACL 2025</span>
   </div>
 
   <div class="pub-right">
@@ -564,7 +564,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         alt="eC-Tab2Text thumbnail" loading="lazy" decoding="async"
         sizes="(max-width: 640px) 100vw, var(--thumb-w)">
     </a>
-    <span class="conf-badge-navy">NAACL 2025</span>
+    <span class="conf-badge-sienna">NAACL 2025</span>
   </div>
 
   <div class="pub-right">
