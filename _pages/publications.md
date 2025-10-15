@@ -231,25 +231,18 @@ https://jdf-prog.github.io/publications/
   }
 
 .conf-badge-red{
-    display:inline-flex; align-items:center; justify-content:center;
-    padding:8px 14px; min-width: var(--badge-w, 120px);
-    line-height:1; border-radius:999px;
-    font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
-    text-transform:uppercase; color:#fff; background:#dc3545; white-space:nowrap;
-    transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
-  }
-.conf-badge-red{
-  background: #dc3545;                                    /* fallback */
-  /* TUNE THIS %: lower = softer (more white), higher = closer to original */
-  background: color-mix(in srgb, #dc3545 82%, white);     /* 92% red, 8% white */
+  display:inline-flex; align-items:center; justify-content:center;
+  padding:8px 14px; min-width: var(--badge-w, 120px);
+  line-height:1; border-radius:999px;
+  font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
+  text-transform:uppercase; color:#fff; background:#4B2E83; /* Oxford Purple */
+  white-space:nowrap;
+  transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
 }
 .conf-badge-red:hover{
-    transform: translateY(-1px);
-    box-shadow:0 6px 16px rgba(220,53,69,.25);
-    filter:saturate(1.05);
-  }
-.conf-badge-red:hover{
-  box-shadow: 0 6px 16px color-mix(in srgb, #dc3545 28%, transparent);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(75, 46, 131, 0.28); /* tinted shadow */
+  filter: saturate(1.05);
 }
 
   /* compact text (uses variables above) */
