@@ -690,7 +690,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       </a>
     </h3>
 
-    <div class="pub-meta">Published in <b>ACL 2024</b> (Findings)</div>
+    <div class="pub-meta">Published at <b>ACL 2024</b> (Findings)</div>
 
     <div class="pub-authors">
       <span class="me">Mir Tafseer Nayeem</span>*,
