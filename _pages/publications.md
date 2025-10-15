@@ -587,6 +587,51 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   </div>
 </div>
 
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://aclanthology.org/2024.emnlp-main.277/" aria-label="KidLM (EMNLP 2024)" class="thumb-wrap">
+      <!-- replace src if your thumbnail path differs -->
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/KidLM-EMNLP2024.png"
+        alt="KidLM: Advancing Language Models for Children — thumbnail"
+        loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-teal">EMNLP 2024</span>
+  </div>
+
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://aclanthology.org/2024.emnlp-main.277/">
+        KidLM: Advancing Language Models for Children – Early Insights and Future Directions
+      </a>
+    </h3>
+
+    <div class="pub-meta">Published in <b>EMNLP 2024</b></div>
+
+    <!-- Award (uses your .award-badge + .award-outline-gold styles) -->
+    <div class="pub-award-line">
+      <span class="award-badge award-outline-gold" aria-label="Best resource paper award">
+        🏆 Best resource paper award
+      </span>
+    </div>
+
+    <div class="pub-authors">
+      <span class="me">Mir Tafseer Nayeem</span> and Davood Rafiei
+    </div>
+
+    <div class="pub-links">
+      <a href="https://huggingface.co/datasets/tafseer-nayeem/KidLM-corpus">Corpus</a>
+      <a href="https://huggingface.co/collections/tafseer-nayeem/kidlm-672e5afcdc68cedc1c5df812">Models &amp; Collection</a>
+      <a href="https://www.ualberta.ca/en/computing-science/news-and-events/news/2024/november/best-paper-award-at-emnlp-2024.html">Media Coverage</a>
+      <a href="https://tafseer-nayeem.github.io/files/EMNLP2024/EMNLP2024_KidLM_presentation.pdf">Slides</a>
+      <a href="https://tafseer-nayeem.github.io/files/EMNLP2024/EMNLP2024_KidLM_poster.pdf">Poster</a>
+      <a href="https://x.com/mtnayeem/status/1855726698324742581">X Thread</a>
+    </div>
+  </div>
+</div>
+
+
 
 ## 2024
 <hr style="border: 1px solid #ddd;" />
