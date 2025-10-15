@@ -607,7 +607,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       </a>
     </h3>
 
-    <div class="pub-meta">Published in <b>EMNLP 2024</b></div>
+    <div class="pub-meta">Published at <b>EMNLP 2024</b></div>
 
     <!-- Award (uses your .award-badge + .award-outline-gold styles) -->
     <div class="pub-award-line">
