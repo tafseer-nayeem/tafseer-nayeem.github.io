@@ -241,7 +241,7 @@ https://jdf-prog.github.io/publications/
 .conf-badge-red{
   background: #dc3545;                                    /* fallback */
   /* TUNE THIS %: lower = softer (more white), higher = closer to original */
-  background: color-mix(in srgb, #dc3545 92%, white);     /* 92% red, 8% white */
+  background: color-mix(in srgb, #dc3545 82%, white);     /* 92% red, 8% white */
 }
 .conf-badge-red:hover{
     transform: translateY(-1px);
