@@ -612,7 +612,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     <!-- Award (uses your .award-badge + .award-outline-gold styles) -->
     <div class="pub-award-line">
       <span class="award-badge award-outline-gold" aria-label="Best resource paper award">
-        🏆 Best resource paper award
+        🏆 Best Resource Paper Award
       </span>
     </div>
 
