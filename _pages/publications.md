@@ -551,7 +551,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 
     <div class="pub-links">
       <a href="https://aclanthology.org/2025.acl-industry.83/">Paper</a>
-      <a href="https://github.com/tahmedge/chart_lvlm_judge">Code &amp; Dataset</a>
+      <a href="https://github.com/tahmedge/chart_lvlm_judge">Code</a>
     </div>
   </div>
 </div>
