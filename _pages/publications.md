@@ -587,12 +587,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   </div>
 </div>
 
-![NAACL 2025](https://img.shields.io/badge/NAACL%202025-242D8C?style=for-the-badge)
-* [**eC-Tab2Text: Aspect-Based Text Generation from e-Commerce Product Tables**](https://aclanthology.org/2025.naacl-industry.65/)<br/>
-📰 <span style ="color:Maroon"> Published in **NAACL 2025** (Industry Track) </span> <br/>
-👨‍💻 Luis Antonio Gutiérrez Guanilo, **Mir Tafseer Nayeem**, Cristian López, and Davood Rafiei <br/>
-👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://aclanthology.org/2025.naacl-industry.65/) [![Code & Dataset](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/Luis-ntonio/eC-Tab2Text)
-
 
 ## 2024
 <hr style="border: 1px solid #ddd;" />
