@@ -235,13 +235,13 @@ https://jdf-prog.github.io/publications/
   padding:8px 14px; min-width: var(--badge-w, 120px);
   line-height:1; border-radius:999px;
   font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
-  text-transform:uppercase; color:#fff; background:#4B2E83; /* Oxford Purple */
+  text-transform:uppercase; color:#fff; background:#334155; /* Slate (academic, not previously used) */
   white-space:nowrap;
   transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
 }
 .conf-badge-red:hover{
   transform: translateY(-1px);
-  box-shadow: 0 6px 16px rgba(75, 46, 131, 0.28); /* tinted shadow */
+  box-shadow: 0 6px 16px rgba(51, 65, 85, 0.28); /* tinted shadow for #334155 */
   filter: saturate(1.05);
 }
 
