@@ -693,8 +693,8 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     <div class="pub-meta">Published in <b>ACL 2024</b> (Findings)</div>
 
     <div class="pub-authors">
-      <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
-      Faisal Tareque Shohan<sup>*</sup>,
+      <span class="me">Mir Tafseer Nayeem</span>,
+      Faisal Tareque Shohan,
       Samsul Islam,
       Abu Ubaida Akash,
       and Shafiq Joty
