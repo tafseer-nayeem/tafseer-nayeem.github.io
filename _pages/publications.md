@@ -235,15 +235,16 @@ https://jdf-prog.github.io/publications/
   padding:8px 14px; min-width: var(--badge-w, 120px);
   line-height:1; border-radius:999px;
   font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
-  text-transform:uppercase; color:#fff; background:#334155; /* Slate (academic, not previously used) */
+  text-transform:uppercase; color:#fff; background:#A0522D; /* Sienna (academic brown) */
   white-space:nowrap;
   transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
 }
 .conf-badge-red:hover{
   transform: translateY(-1px);
-  box-shadow: 0 6px 16px rgba(51, 65, 85, 0.28); /* tinted shadow for #334155 */
+  box-shadow: 0 6px 16px rgba(160, 82, 45, 0.28); /* tinted shadow for #A0522D */
   filter: saturate(1.05);
 }
+
 
   /* compact text (uses variables above) */
 .pub-title{ margin:0 0 4px 0; font-size: var(--font-title); line-height:1.28; }
