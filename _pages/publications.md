@@ -230,6 +230,21 @@ https://jdf-prog.github.io/publications/
     transform:translateY(-1px);box-shadow:0 6px 16px rgba(40,167,69,.25);filter:saturate(1.05);
   }
 
+  .conf-badge-navy{
+    display:inline-flex; align-items:center; justify-content:center;
+    padding:8px 14px; min-width: var(--badge-w, 120px);
+    line-height:1; border-radius:999px;
+    font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
+    text-transform:uppercase; color:#fff; background:#242D8C; /* NAACL navy */
+    white-space:nowrap;
+    transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
+  }
+  .conf-badge-navy:hover{
+    transform: translateY(-1px);
+    box-shadow:0 6px 16px rgba(36,45,140,0.28);
+    filter:saturate(1.05);
+  }
+
 .conf-badge-sienna{
   display:inline-flex; align-items:center; justify-content:center;
   padding:8px 14px; min-width: var(--badge-w, 120px);
@@ -241,7 +256,7 @@ https://jdf-prog.github.io/publications/
 }
 .conf-badge-sienna:hover{
   transform: translateY(-1px);
-  box-shadow: 0 6px 16px rgba(160, 82, 45, 0.28); /* tinted shadow for #A0522D */
+  box-shadow: 0 6px 16px rgba(160, 82, 45, 0.28); /* tinted shadow for #df7d4fff */
   filter: saturate(1.05);
 }
 
@@ -541,7 +556,35 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   </div>
 </div>
 
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://aclanthology.org/2025.naacl-industry.65/" aria-label="eC-Tab2Text (NAACL 2025)" class="thumb-wrap">
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/eC-Tab2Text-NAACL2025.png"
+        alt="eC-Tab2Text thumbnail" loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-navy">NAACL 2025</span>
+  </div>
 
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://aclanthology.org/2025.naacl-industry.65/">
+        eC-Tab2Text: Aspect-Based Text Generation from e-Commerce Product Tables
+      </a>
+    </h3>
+    <div class="pub-meta">Published in <b>NAACL 2025</b> (Industry Track)</div>
+    <div class="pub-authors">
+      Luis Antonio Gutiérrez Guanilo,
+      <span class="me">Mir Tafseer Nayeem</span>,
+      Cristian López, and Davood Rafiei
+    </div>
+    <div class="pub-links">
+      <a href="https://aclanthology.org/2025.naacl-industry.65/">Paper</a>
+      <a href="https://github.com/Luis-ntonio/eC-Tab2Text">Code &amp; Dataset</a>
+    </div>
+  </div>
+</div>
 
 ![NAACL 2025](https://img.shields.io/badge/NAACL%202025-242D8C?style=for-the-badge)
 * [**eC-Tab2Text: Aspect-Based Text Generation from e-Commerce Product Tables**](https://aclanthology.org/2025.naacl-industry.65/)<br/>
