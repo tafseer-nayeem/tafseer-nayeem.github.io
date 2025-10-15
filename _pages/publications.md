@@ -632,19 +632,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 </div>
 
 
-
-## 2024
-<hr style="border: 1px solid #ddd;" />
-
-![EMNLP 2024](https://img.shields.io/badge/EMNLP%202024-teal?style=for-the-badge)
-* [**KidLM: Advancing Language Models for Children – Early Insights and Future Directions**](https://aclanthology.org/2024.emnlp-main.277/)<br/>
-📰 <span style ="color:Maroon"> Published in **EMNLP 2024**</span> <br/>
-👨‍💻 **Mir Tafseer Nayeem** and Davood Rafiei <br/>
-👉 [![Corpus](https://img.shields.io/badge/Corpus-D3D3D3)](https://huggingface.co/datasets/tafseer-nayeem/KidLM-corpus) [![Models & Collection](https://img.shields.io/badge/Models%20&%20Collection-D3D3D3)](https://huggingface.co/collections/tafseer-nayeem/kidlm-672e5afcdc68cedc1c5df812) [![Media Coverage](https://img.shields.io/badge/Media%20Coverage-D3D3D3)](https://www.ualberta.ca/en/computing-science/news-and-events/news/2024/november/best-paper-award-at-emnlp-2024.html) [![Slides](https://img.shields.io/badge/Slides-D3D3D3)](https://tafseer-nayeem.github.io/files/EMNLP2024/EMNLP2024_KidLM_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-D3D3D3)](https://tafseer-nayeem.github.io/files/EMNLP2024/EMNLP2024_KidLM_poster.pdf) [![X Thread](https://img.shields.io/badge/X%20Thread-D3D3D3)](https://x.com/mtnayeem/status/1855726698324742581) <br/>
-🏆 <span style="color:Red"> **Best Resource Paper Award** </span> <br/>
-
------------
-
 ![EMNLP 2024](https://img.shields.io/badge/EMNLP%202024-teal?style=for-the-badge)
 * [**Are Large Vision Language Models up to the Challenge of Chart Comprehension and Reasoning**](https://aclanthology.org/2024.findings-emnlp.191/)<br/>
 📰 <span style ="color:Maroon"> Published in **EMNLP 2024** (Findings)</span> <br/>
