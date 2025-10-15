@@ -574,7 +574,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         eC-Tab2Text: Aspect-Based Text Generation from e-Commerce Product Tables
       </a>
     </h3>
-    <div class="pub-meta">Published in <b>NAACL 2025</b> (Industry Track)</div>
+    <div class="pub-meta">Published at <b>NAACL 2025</b> (Industry Track)</div>
     <div class="pub-authors">
       Luis Antonio Gutiérrez Guanilo,
       <span class="me">Mir Tafseer Nayeem</span>,
