@@ -230,7 +230,7 @@ https://jdf-prog.github.io/publications/
     transform:translateY(-1px);box-shadow:0 6px 16px rgba(40,167,69,.25);filter:saturate(1.05);
   }
 
-.conf-badge-red{
+.conf-badge-sienna{
   display:inline-flex; align-items:center; justify-content:center;
   padding:8px 14px; min-width: var(--badge-w, 120px);
   line-height:1; border-radius:999px;
@@ -239,7 +239,7 @@ https://jdf-prog.github.io/publications/
   white-space:nowrap;
   transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
 }
-.conf-badge-red:hover{
+.conf-badge-sienna:hover{
   transform: translateY(-1px);
   box-shadow: 0 6px 16px rgba(160, 82, 45, 0.28); /* tinted shadow for #A0522D */
   filter: saturate(1.05);
@@ -516,7 +516,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         alt="Judging the Judges thumbnail" loading="lazy" decoding="async"
         sizes="(max-width: 640px) 100vw, var(--thumb-w)">
     </a>
-    <span class="conf-badge-red">ACL 2025</span>
+    <span class="conf-badge-sienna">ACL 2025</span>
   </div>
 
   <div class="pub-right">
@@ -542,13 +542,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 </div>
 
 
-![ACL 2025](https://img.shields.io/badge/ACL%202025-dc3545?style=for-the-badge)
-* [**Judging the Judges: Can Large Vision-Language Models Fairly Evaluate Chart Comprehension and Reasoning?**](https://aclanthology.org/2025.acl-industry.83/)<br/>
-📰 <span style ="color:Maroon"> Published in **ACL 2025** (Industry Track)</span> <br/>
-👨‍💻 Md Tahmid Rahman Laskar, Mohammed Saidul Islam, Ridwan Mahbub, Ahmed Masry, Mizanur Rahman, Amran Bhuiyan, **Mir Tafseer Nayeem**, Shafiq Joty, Enamul Hoque, and Jimmy Huang <br/> 
-👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://aclanthology.org/2025.acl-industry.83/) [![Code & Dataset](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/tahmedge/chart_lvlm_judge)
-
------------
 
 ![NAACL 2025](https://img.shields.io/badge/NAACL%202025-242D8C?style=for-the-badge)
 * [**eC-Tab2Text: Aspect-Based Text Generation from e-Commerce Product Tables**](https://aclanthology.org/2025.naacl-industry.65/)<br/>
