@@ -632,11 +632,53 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 </div>
 
 
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://aclanthology.org/2024.findings-emnlp.191/" aria-label="LVLM Chart Comprehension (EMNLP 2024 Findings)" class="thumb-wrap">
+      <!-- replace src if your thumbnail path differs -->
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/ChartEval-EMNLP2024.png"
+        alt="Are Large Vision Language Models up to the Challenge of Chart Comprehension and Reasoning? — thumbnail"
+        loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-teal">EMNLP 2024</span>
+  </div>
+
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://aclanthology.org/2024.findings-emnlp.191/">
+        Are Large Vision Language Models up to the Challenge of Chart Comprehension and Reasoning
+      </a>
+    </h3>
+
+    <div class="pub-meta">Published in <b>EMNLP 2024</b> (Findings)</div>
+
+    <div class="pub-authors">
+      Mohammed Saidul Islam,
+      Raian Rahman,
+      Ahmed Masry<sup>*</sup>,
+      Md Tahmid Rahman Laskar<sup>*</sup>,
+      <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
+      and Enamul Hoque
+    </div>
+
+    <div class="pub-links">
+      <a href="https://github.com/saidul-islam98/LVLM-ChartEval">Code</a>
+      <a href="https://tafseer-nayeem.github.io/files/EMNLP2024/EMNLP2024_ChartEval_presentation.pdf">Slides</a>
+      <a href="https://tafseer-nayeem.github.io/files/EMNLP2024/EMNLP2024_ChartEval_poster.pdf">Poster</a>
+    </div>
+  </div>
+</div>
+
+
+
 ![EMNLP 2024](https://img.shields.io/badge/EMNLP%202024-teal?style=for-the-badge)
 * [**Are Large Vision Language Models up to the Challenge of Chart Comprehension and Reasoning**](https://aclanthology.org/2024.findings-emnlp.191/)<br/>
 📰 <span style ="color:Maroon"> Published in **EMNLP 2024** (Findings)</span> <br/>
 👨‍💻 Mohammed Saidul Islam, Raian Rahman, Ahmed Masry\*, Md Tahmid Rahman Laskar\*, **Mir Tafseer Nayeem\***, and Enamul Hoque <br/>
 👉 [![Code](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/saidul-islam98/LVLM-ChartEval) [![Slides](https://img.shields.io/badge/Slides-D3D3D3)](https://tafseer-nayeem.github.io/files/EMNLP2024/EMNLP2024_ChartEval_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-D3D3D3)](https://tafseer-nayeem.github.io/files/EMNLP2024/EMNLP2024_ChartEval_poster.pdf)
+
 
 -----------
 
