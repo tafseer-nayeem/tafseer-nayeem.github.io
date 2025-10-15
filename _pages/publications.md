@@ -671,7 +671,44 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   </div>
 </div>
 
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://aclanthology.org/2024.findings-acl.771/" aria-label="XL-HeadTags (ACL 2024 Findings)" class="thumb-wrap">
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/XL-HeadTags-ACL2024.png"
+        alt="XL-HeadTags: Leveraging Multimodal Retrieval Augmentation — thumbnail"
+        loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-red">ACL 2024</span>
+  </div>
 
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://aclanthology.org/2024.findings-acl.771/">
+        XL-HeadTags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags
+      </a>
+    </h3>
+
+    <div class="pub-meta">Published in <b>ACL 2024</b> (Findings)</div>
+
+    <div class="pub-authors">
+      <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
+      Faisal Tareque Shohan<sup>*</sup>,
+      Samsul Islam,
+      Abu Ubaida Akash,
+      and Shafiq Joty
+    </div>
+
+    <div class="pub-links">
+      <a href="https://github.com/faisaltareque/XL-HeadTags">Code</a>
+      <a href="https://huggingface.co/datasets/faisaltareque/XL-HeadTags">Dataset &amp; Models</a>
+      <a href="https://tafseer-nayeem.github.io/files/ACL2024/ACL2024_XL-HeadTags_presentation.pdf">Slides</a>
+      <a href="https://tafseer-nayeem.github.io/files/ACL2024/ACL2024_XL-HeadTags_poster.pdf">Poster</a>
+      <a href="https://x.com/mtnayeem/status/1853936728408809835">X Thread</a>
+    </div>
+  </div>
+</div>
 
 
 -----------
