@@ -729,7 +729,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       </a>
     </h3>
 
-    <div class="pub-meta">Published in <b>COLING 2024</b></div>
+    <div class="pub-meta">Published at <b>COLING 2024</b></div>
 
     <div class="pub-authors">
       Mohsinul Kabir<sup>*</sup>,
@@ -748,13 +748,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   </div>
 </div>
 
-
-
-![COLING 2024](https://img.shields.io/badge/COLING%202024-orange?style=for-the-badge)
-* [**BenLLM-Eval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP**](https://aclanthology.org/2024.lrec-main.201/)<br/>
-📰 <span style ="color:Maroon"> Published in **COLING 2024** </span> <br/>
-👨‍💻 Mohsinul Kabir\*, Mohammed Saidul Islam\*, Md Tahmid Rahman Laskar, **Mir Tafseer Nayeem**, M Saiful Bari, and Enamul Hoque <br/>
-👉 [![Code](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/saidul-islam98/BenLLMeval) [![Slides](https://img.shields.io/badge/Slides-D3D3D3)](https://tafseer-nayeem.github.io/files/LREC-COLING-2024/LREC-COLING-2024_BenLLM-Eval_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-D3D3D3)](https://tafseer-nayeem.github.io/files/LREC-COLING-2024/LREC-COLING-2024_BenLLM-Eval_poster.pdf)  
 
 
 ## 2023
