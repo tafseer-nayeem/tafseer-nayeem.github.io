@@ -749,9 +749,41 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 </div>
 
 
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://dl.acm.org/doi/10.1145/3583780.3615172" aria-label="Product Entity Matching via Tabular Data (CIKM 2023)" class="thumb-wrap">
+      <!-- replace src if your thumbnail path differs -->
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/PEM-CIKM2023.png"
+        alt="Product Entity Matching via Tabular Data — thumbnail"
+        loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-green">CIKM 2023</span>
+  </div>
 
-## 2023
-<hr style="border: 1px solid #ddd;" />
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://dl.acm.org/doi/10.1145/3583780.3615172">
+        Product Entity Matching via Tabular Data
+      </a>
+    </h3>
+
+    <div class="pub-meta">Published in <b>ACM CIKM 2023</b></div>
+
+    <div class="pub-authors">
+      Ali Naeimabadi,
+      <span class="me">Mir Tafseer Nayeem</span>,
+      and Davood Rafiei
+    </div>
+
+    <div class="pub-links">
+      <a href="https://tafseer-nayeem.github.io/files/CIKM2023/CIKM2023_PEM_paper.pdf">Paper</a>
+      <a href="https://tafseer-nayeem.github.io/files/CIKM2023/CIKM2023_PEM_poster.pdf">Poster</a>
+    </div>
+  </div>
+</div>
+
 
 ![CIKM 2023](https://img.shields.io/badge/CIKM%202023-28a745?style=for-the-badge)
 * [**Product Entity Matching via Tabular Data**](https://dl.acm.org/doi/10.1145/3583780.3615172)<br/>
