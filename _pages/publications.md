@@ -833,7 +833,43 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   </div>
 </div>
 
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://aclanthology.org/2023.eacl-main.4/" aria-label="Shironaam (EACL 2023)" class="thumb-wrap">
+      <!-- replace src if your thumbnail path differs -->
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/Shironaam-EACL2023.png"
+        alt="Shironaam: Bengali News Headline Generation using Auxiliary Information — thumbnail"
+        loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-violet">EACL 2023</span>
+  </div>
 
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://aclanthology.org/2023.eacl-main.4/">
+        Shironaam: Bengali News Headline Generation using Auxiliary Information
+      </a>
+    </h3>
+
+    <div class="pub-meta">Published in <b>EACL 2023</b></div>
+
+    <div class="pub-authors">
+      <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
+      Abu Ubaida Akash<sup>*</sup>,
+      Faisal Tareque Shohan,
+      and Tanvir Islam
+    </div>
+
+    <div class="pub-links">
+      <a href="https://github.com/dialect-ai/BenHeadGen">Code</a>
+      <a href="https://huggingface.co/datasets/dialect-ai/shironaam">Dataset</a>
+      <a href="https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_presentation.pdf">Slides</a>
+      <a href="https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_poster.pdf">Poster</a>
+    </div>
+  </div>
+</div>
 
 ![EACL 2023](https://img.shields.io/badge/EACL%202023-blueviolet?style=for-the-badge)
 * [**Shironaam: Bengali News Headline Generation using Auxiliary Information**](https://aclanthology.org/2023.eacl-main.4/)<br/>
