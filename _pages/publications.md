@@ -230,7 +230,7 @@ https://jdf-prog.github.io/publications/
     transform:translateY(-1px);box-shadow:0 6px 16px rgba(40,167,69,.25);filter:saturate(1.05);
   }
 
-  .conf-badge-navy{
+.conf-badge-navy{
     display:inline-flex; align-items:center; justify-content:center;
     padding:8px 14px; min-width: var(--badge-w, 120px);
     line-height:1; border-radius:999px;
@@ -238,12 +238,12 @@ https://jdf-prog.github.io/publications/
     text-transform:uppercase; color:#fff; background:#242D8C; /* NAACL navy */
     white-space:nowrap;
     transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
-  }
-  .conf-badge-navy:hover{
+}
+.conf-badge-navy:hover{
     transform: translateY(-1px);
     box-shadow:0 6px 16px rgba(36,45,140,0.28);
     filter:saturate(1.05);
-  }
+}
 
 .conf-badge-sienna{
   display:inline-flex; align-items:center; justify-content:center;
@@ -258,6 +258,21 @@ https://jdf-prog.github.io/publications/
   transform: translateY(-1px);
   box-shadow: 0 6px 16px rgba(160, 82, 45, 0.28); /* tinted shadow for #df7d4fff */
   filter: saturate(1.05);
+}
+
+.conf-badge-violet{
+    display:inline-flex; align-items:center; justify-content:center;
+    padding:8px 14px; min-width: var(--badge-w, 120px);
+    line-height:1; border-radius:999px;
+    font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
+    text-transform:uppercase; color:#fff; background:#8A2BE2; /* BlueViolet */
+    white-space:nowrap;
+    transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
+}
+.conf-badge-violet:hover{
+    transform: translateY(-1px);
+    box-shadow:0 6px 16px rgba(138,43,226,0.28);
+    filter:saturate(1.05);
 }
 
 
@@ -780,6 +795,40 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     <div class="pub-links">
       <a href="https://tafseer-nayeem.github.io/files/CIKM2023/CIKM2023_PEM_paper.pdf">Paper</a>
       <a href="https://tafseer-nayeem.github.io/files/CIKM2023/CIKM2023_PEM_poster.pdf">Poster</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://aclanthology.org/2023.findings-eacl.125/" aria-label="Reviewer Expertise & Temporal Helpfulness (EACL 2023 Findings)" class="thumb-wrap">
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/EACL2023-RHP.png"
+        alt="On the Role of Reviewer Expertise in Temporal Review Helpfulness Prediction — thumbnail"
+        loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-violet">EACL 2023</span>
+  </div>
+
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://aclanthology.org/2023.findings-eacl.125/">
+        On the Role of Reviewer Expertise in Temporal Review Helpfulness Prediction
+      </a>
+    </h3>
+
+    <div class="pub-meta">Published in <b>EACL 2023</b> (Findings)</div>
+
+    <div class="pub-authors">
+      <span class="me">Mir Tafseer Nayeem</span> and Davood Rafiei
+    </div>
+
+    <div class="pub-links">
+      <a href="https://github.com/tafseer-nayeem/RHP">Code</a>
+      <a href="https://huggingface.co/datasets/tafseer-nayeem/review_helpfulness_prediction">Dataset</a>
+      <a href="https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_presentation.pdf">Slides</a>
+      <a href="https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_poster.pdf">Poster</a>
     </div>
   </div>
 </div>
