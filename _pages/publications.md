@@ -834,13 +834,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 </div>
 
 
-![EACL 2023](https://img.shields.io/badge/EACL%202023-blueviolet?style=for-the-badge)
-* [**On the Role of Reviewer Expertise in Temporal Review Helpfulness Prediction**](https://aclanthology.org/2023.findings-eacl.125/)<br/>
-📰 <span style ="color:Maroon"> Published in **EACL 2023** (Findings)</span> <br/>
-👨‍💻 **Mir Tafseer Nayeem** and Davood Rafiei <br/>
-👉 [![Code](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/tafseer-nayeem/RHP) [![Dataset](https://img.shields.io/badge/Dataset-D3D3D3)](https://huggingface.co/datasets/tafseer-nayeem/review_helpfulness_prediction) [![Slides](https://img.shields.io/badge/Slides-D3D3D3)](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-D3D3D3)](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_RHP_poster.pdf)
-
------------
 
 ![EACL 2023](https://img.shields.io/badge/EACL%202023-blueviolet?style=for-the-badge)
 * [**Shironaam: Bengali News Headline Generation using Auxiliary Information**](https://aclanthology.org/2023.eacl-main.4/)<br/>
