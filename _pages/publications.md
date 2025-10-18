@@ -836,7 +836,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 <div class="pub-item">
   <div class="pub-left">
     <a href="https://aclanthology.org/2023.eacl-main.4/" aria-label="Shironaam (EACL 2023)" class="thumb-wrap">
-      <!-- replace src if your thumbnail path differs -->
       <img
         src="https://tafseer-nayeem.github.io/images/publication/Shironaam-EACL2023.png"
         alt="Shironaam: Bengali News Headline Generation using Auxiliary Information — thumbnail"
