@@ -785,12 +785,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 </div>
 
 
-![CIKM 2023](https://img.shields.io/badge/CIKM%202023-28a745?style=for-the-badge)
-* [**Product Entity Matching via Tabular Data**](https://dl.acm.org/doi/10.1145/3583780.3615172)<br/>
-📰 <span style ="color:Maroon"> Published in **ACM CIKM 2023** </span> <br/>
-👨‍💻 Ali Naeimabadi, **Mir Tafseer Nayeem**, and Davood Rafiei <br/>
-👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://tafseer-nayeem.github.io/files/CIKM2023/CIKM2023_PEM_paper.pdf) [![Poster](https://img.shields.io/badge/Poster-D3D3D3)](https://tafseer-nayeem.github.io/files/CIKM2023/CIKM2023_PEM_poster.pdf)
-
 -----------
 
 ![EACL 2023](https://img.shields.io/badge/EACL%202023-blueviolet?style=for-the-badge)
