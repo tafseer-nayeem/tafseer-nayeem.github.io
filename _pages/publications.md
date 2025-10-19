@@ -913,7 +913,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 <div class="pub-item">
   <div class="pub-left">
     <a href="https://www.aclweb.org/anthology/2021.eacl-main.224" aria-label="Unsupervised Abstractive Summarization of Bengali Text Documents (EACL 2021)" class="thumb-wrap">
-      <!-- replace src if your thumbnail path differs -->
       <img
         src="https://tafseer-nayeem.github.io/images/publication/EACL2021-Summarization.png"
         alt="Unsupervised Abstractive Summarization of Bengali Text Documents — thumbnail"
