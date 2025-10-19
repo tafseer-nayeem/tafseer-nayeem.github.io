@@ -870,12 +870,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   </div>
 </div>
 
-![EACL 2023](https://img.shields.io/badge/EACL%202023-blueviolet?style=for-the-badge)
-* [**Shironaam: Bengali News Headline Generation using Auxiliary Information**](https://aclanthology.org/2023.eacl-main.4/)<br/>
-📰 <span style ="color:Maroon"> Published in **EACL 2023** </span> <br/>
-👨‍💻 **Mir Tafseer Nayeem\***, Abu Ubaida Akash\*, Faisal Tareque Shohan, and Tanvir Islam <br/>
-👉 [![Code](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/dialect-ai/BenHeadGen) [![Dataset](https://img.shields.io/badge/Dataset-D3D3D3)](https://huggingface.co/datasets/dialect-ai/shironaam) [![Slides](https://img.shields.io/badge/Slides-D3D3D3)](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-D3D3D3)](https://tafseer-nayeem.github.io/files/EACL2023/EACL2023_Shironaam_poster.pdf)
-
 
 ## 2021
 <hr style="border: 1px solid #ddd;" />
