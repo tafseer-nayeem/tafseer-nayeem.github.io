@@ -912,9 +912,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 
 
 
-## 2021
-<hr style="border: 1px solid #ddd;" />
-
 ![AAAI 2021](https://img.shields.io/badge/AAAI%202021-4682B4?style=for-the-badge)
 * [**Simple or Complex? Learning to Predict Readability of Bengali Texts**](https://ojs.aaai.org/index.php/AAAI/article/view/17495)<br/>
 📰 <span style ="color:Maroon"> Published in **AAAI 2021** </span> <br/>
