@@ -899,7 +899,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     </div>
 
     <div class="pub-links">
-      <a href="https://tafseer-nayeem.github.io/files/AAAI2021/AAAI2021_paper.pdf">Paper</a>
+      <a href="https://arxiv.org/abs/2012.07701">Paper</a>
       <a href="https://github.com/tafseer-nayeem/BengaliReadability">Code</a>
       <a href="https://github.com/tafseer-nayeem/BengaliReadability/tree/main/Data">Dataset</a>
       <a href="https://tafseer-nayeem.github.io/files/AAAI2021/AAAI2021_presentation.pdf">Slides</a>
