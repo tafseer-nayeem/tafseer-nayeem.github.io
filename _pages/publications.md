@@ -916,22 +916,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 </div>
 
 
-
-![AAAI 2021](https://img.shields.io/badge/AAAI%202021-4682B4?style=for-the-badge)
-* [**Simple or Complex? Learning to Predict Readability of Bengali Texts**](https://ojs.aaai.org/index.php/AAAI/article/view/17495)<br/>
-📰 <span style ="color:Maroon"> Published in **AAAI 2021** </span> <br/>
-👨‍💻 **Mir Tafseer Nayeem\***, Susmoy Chakraborty\*, and Wasi Uddin Ahmad <br/>
-👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://tafseer-nayeem.github.io/files/AAAI2021/AAAI2021_paper.pdf) [![Code](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/tafseer-nayeem/BengaliReadability) [![Dataset](https://img.shields.io/badge/Dataset-D3D3D3)](https://github.com/tafseer-nayeem/BengaliReadability/tree/main/Data) [![Slides](https://img.shields.io/badge/Slides-D3D3D3)](https://tafseer-nayeem.github.io/files/AAAI2021/AAAI2021_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-D3D3D3)](https://tafseer-nayeem.github.io/files/AAAI2021/AAAI2021_poster.pdf) [![Demo Video](https://img.shields.io/badge/Demo%20Video-D3D3D3)](https://youtu.be/U05Pf9Y4tCQ) [![X Thread](https://img.shields.io/badge/X%20Thread-D3D3D3)](https://x.com/mtnayeem/status/1334590638105378817)
-
------------
-
-![EACL 2021](https://img.shields.io/badge/EACL%202021-blueviolet?style=for-the-badge)
-* [**Unsupervised Abstractive Summarization of Bengali Text Documents**](https://www.aclweb.org/anthology/2021.eacl-main.224)<br/>
-📰 <span style ="color:Maroon"> Published in **EACL 2021** </span> <br/>
-👨‍💻 **Mir Tafseer Nayeem\***, Radia Rayan Chowdhury\*, TT Mim, MSR Chowdhury, and T Jannat <br/>
-👉 [![Code](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/tafseer-nayeem/BengaliSummarization) [![Dataset](https://img.shields.io/badge/Dataset-D3D3D3)](https://github.com/tafseer-nayeem/BengaliSummarization/tree/main/Dataset) [![Slides](https://img.shields.io/badge/Slides-D3D3D3)](https://tafseer-nayeem.github.io/files/EACL2021/EACL2021_presentation.pdf) [![Poster](https://img.shields.io/badge/Poster-D3D3D3)](https://tafseer-nayeem.github.io/files/EACL2021/EACL2021_poster.pdf) [![Demo Video](https://img.shields.io/badge/Demo%20Video-D3D3D3)](https://youtu.be/LrnskktiXcg) [![X Thread](https://img.shields.io/badge/X%20Thread-D3D3D3)](https://x.com/mtnayeem/status/1350551479283662848)
-
-
 ## 2019
 <hr style="border: 1px solid #ddd;" />
 
