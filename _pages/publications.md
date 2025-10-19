@@ -520,10 +520,9 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       </a>
     </h3>
     <div class="pub-meta">
-      Published at <b>EMNLP 2025</b>
+       Published at <b>VIS 2025</b>
       <span class="tag-badge tag-oral" aria-label="Oral presentation">Oral</span>
     </div>
-    <div class="pub-meta">Published at <b>VIS 2025</b></div>
     <div class="pub-award-line">
       <span class="award-badge award-outline-gold" aria-label="Best short paper award">
         🏆 Best Short Paper Award
