@@ -916,6 +916,36 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 </div>
 
 
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://link.springer.com/chapter/10.1007/978-3-030-15719-7_14" aria-label="Neural Diverse Abstractive Sentence Compression (ECIR 2019)" class="thumb-wrap">
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/ECIR2019-Compression.png"
+        alt="Neural Diverse Abstractive Sentence Compression Generation — thumbnail"
+        loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-green">ECIR 2019</span>
+  </div>
+
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://link.springer.com/chapter/10.1007/978-3-030-15719-7_14">
+        Neural Diverse Abstractive Sentence Compression Generation
+      </a>
+    </h3>
+    <div class="pub-meta">Published in <b>ECIR 2019</b></div>
+    <div class="pub-authors">
+      <span class="me">Mir Tafseer Nayeem</span>,
+      Tanvir Ahmed Fuad,
+      and Yllias Chali
+    </div>
+    <div class="pub-links">
+      <a href="https://tafseer-nayeem.github.io/files/ECIR_2019_paper.pdf">Paper</a>
+    </div>
+  </div>
+</div>
+
 
 ![ECIR 2019](https://img.shields.io/badge/ECIR%202019-28a745?style=for-the-badge)
 * [**Neural Diverse Abstractive Sentence Compression Generation**](https://link.springer.com/chapter/10.1007/978-3-030-15719-7_14)<br/>
