@@ -784,7 +784,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       </a>
     </h3>
 
-    <div class="pub-meta">Published in <b>ACM CIKM 2023</b></div>
+    <div class="pub-meta">Published at <b>ACM CIKM 2023</b></div>
 
     <div class="pub-authors">
       Ali Naeimabadi,
@@ -818,7 +818,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       </a>
     </h3>
 
-    <div class="pub-meta">Published in <b>EACL 2023</b> (Findings)</div>
+    <div class="pub-meta">Published at <b>EACL 2023</b> (Findings)</div>
 
     <div class="pub-authors">
       <span class="me">Mir Tafseer Nayeem</span> and Davood Rafiei
@@ -852,7 +852,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       </a>
     </h3>
 
-    <div class="pub-meta">Published in <b>EACL 2023</b></div>
+    <div class="pub-meta">Published at <b>EACL 2023</b></div>
 
     <div class="pub-authors">
       <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
@@ -890,7 +890,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       </a>
     </h3>
 
-    <div class="pub-meta">Published in <b>AAAI 2021</b></div>
+    <div class="pub-meta">Published at <b>AAAI 2021</b></div>
 
     <div class="pub-authors">
       <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
