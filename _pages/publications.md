@@ -602,7 +602,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 <div class="pub-item">
   <div class="pub-left">
     <a href="https://aclanthology.org/2024.emnlp-main.277/" aria-label="KidLM (EMNLP 2024)" class="thumb-wrap">
-      <!-- replace src if your thumbnail path differs -->
       <img
         src="https://tafseer-nayeem.github.io/images/publication/KidLM-EMNLP2024.png"
         alt="KidLM: Advancing Language Models for Children — thumbnail"
@@ -749,7 +748,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 <div class="pub-item">
   <div class="pub-left">
     <a href="https://dl.acm.org/doi/10.1145/3583780.3615172" aria-label="Product Entity Matching via Tabular Data (CIKM 2023)" class="thumb-wrap">
-      <!-- replace src if your thumbnail path differs -->
       <img
         src="https://tafseer-nayeem.github.io/images/publication/PEM-CIKM2023.png"
         alt="Product Entity Matching via Tabular Data — thumbnail"
