@@ -519,19 +519,20 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         The Perils of Chart Deception: How Misleading Visualizations Affect Vision-Language Models
       </a>
     </h3>
-
+    <div class="pub-meta">
+      Published at <b>EMNLP 2025</b>
+      <span class="tag-badge tag-oral" aria-label="Oral presentation">Oral</span>
+    </div>
     <div class="pub-meta">Published at <b>VIS 2025</b></div>
     <div class="pub-award-line">
       <span class="award-badge award-outline-gold" aria-label="Best short paper award">
         🏆 Best Short Paper Award
       </span>
     </div>
-
     <div class="pub-authors">
       Ridwan Mahbub, Mohammed Saidul Islam, Md Tahmid Rahman Laskar,
       Mizanur Rahman, <span class="me">Mir Tafseer Nayeem</span>, and Enamul Hoque
     </div>
-
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2508.09716">Paper</a>
       <a href="https://github.com/vis-nlp/visDeception">Code</a>
@@ -556,15 +557,12 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         Judging the Judges: Can Large Vision-Language Models Fairly Evaluate Chart Comprehension and Reasoning?
       </a>
     </h3>
-
     <div class="pub-meta">Published at <b>ACL 2025</b> (Industry Track)</div>
-
     <div class="pub-authors">
       Md Tahmid Rahman Laskar, Mohammed Saidul Islam, Ridwan Mahbub, Ahmed Masry,
       Mizanur Rahman, Amran Bhuiyan, <span class="me">Mir Tafseer Nayeem</span>,
       Shafiq Joty, Enamul Hoque, and Jimmy Huang
     </div>
-
     <div class="pub-links">
       <a href="https://aclanthology.org/2025.acl-industry.83/">Paper</a>
       <a href="https://github.com/tahmedge/chart_lvlm_judge">Code</a>
@@ -621,20 +619,15 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         KidLM: Advancing Language Models for Children – Early Insights and Future Directions
       </a>
     </h3>
-
     <div class="pub-meta">Published at <b>EMNLP 2024</b></div>
-
-    <!-- Award (uses your .award-badge + .award-outline-gold styles) -->
     <div class="pub-award-line">
       <span class="award-badge award-outline-gold" aria-label="Best resource paper award">
         🏆 Best Resource Paper Award
       </span>
     </div>
-
     <div class="pub-authors">
       <span class="me">Mir Tafseer Nayeem</span> and Davood Rafiei
     </div>
-
     <div class="pub-links">
       <a href="https://huggingface.co/datasets/tafseer-nayeem/KidLM-corpus">Corpus</a>
       <a href="https://huggingface.co/collections/tafseer-nayeem/kidlm-672e5afcdc68cedc1c5df812">Models &amp; Collection</a>
@@ -645,7 +638,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     </div>
   </div>
 </div>
-
 
 <div class="pub-item">
   <div class="pub-left">
@@ -665,9 +657,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         Are Large Vision Language Models up to the Challenge of Chart Comprehension and Reasoning
       </a>
     </h3>
-
     <div class="pub-meta">Published at <b>EMNLP 2024</b> (Findings)</div>
-
     <div class="pub-authors">
       Mohammed Saidul Islam,
       Raian Rahman,
@@ -676,7 +666,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
       and Enamul Hoque
     </div>
-
     <div class="pub-links">
       <a href="https://github.com/saidul-islam98/LVLM-ChartEval">Code</a>
       <a href="https://tafseer-nayeem.github.io/files/EMNLP2024/EMNLP2024_ChartEval_presentation.pdf">Slides</a>
@@ -703,9 +692,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         XL-HeadTags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags
       </a>
     </h3>
-
     <div class="pub-meta">Published at <b>ACL 2024</b> (Findings)</div>
-
     <div class="pub-authors">
       <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
       Faisal Tareque Shohan<sup>*</sup>,
@@ -713,7 +700,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       Abu Ubaida Akash,
       and Shafiq Joty
     </div>
-
     <div class="pub-links">
       <a href="https://github.com/faisaltareque/XL-HeadTags">Code</a>
       <a href="https://huggingface.co/datasets/faisaltareque/XL-HeadTags">Dataset &amp; Models</a>
@@ -743,9 +729,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         BenLLM-Eval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP
       </a>
     </h3>
-
     <div class="pub-meta">Published at <b>COLING 2024</b></div>
-
     <div class="pub-authors">
       Mohsinul Kabir<sup>*</sup>,
       Mohammed Saidul Islam<sup>*</sup>,
@@ -754,7 +738,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       M Saiful Bari,
       and Enamul Hoque
     </div>
-
     <div class="pub-links">
       <a href="https://github.com/saidul-islam98/BenLLMeval">Code</a>
       <a href="https://tafseer-nayeem.github.io/files/LREC-COLING-2024/LREC-COLING-2024_BenLLM-Eval_presentation.pdf">Slides</a>
@@ -783,15 +766,12 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         Product Entity Matching via Tabular Data
       </a>
     </h3>
-
     <div class="pub-meta">Published at <b>ACM CIKM 2023</b></div>
-
     <div class="pub-authors">
       Ali Naeimabadi,
       <span class="me">Mir Tafseer Nayeem</span>,
       and Davood Rafiei
     </div>
-
     <div class="pub-links">
       <a href="https://tafseer-nayeem.github.io/files/CIKM2023/CIKM2023_PEM_paper.pdf">Paper</a>
       <a href="https://tafseer-nayeem.github.io/files/CIKM2023/CIKM2023_PEM_poster.pdf">Poster</a>
@@ -817,13 +797,10 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         On the Role of Reviewer Expertise in Temporal Review Helpfulness Prediction
       </a>
     </h3>
-
     <div class="pub-meta">Published at <b>EACL 2023</b> (Findings)</div>
-
     <div class="pub-authors">
       <span class="me">Mir Tafseer Nayeem</span> and Davood Rafiei
     </div>
-
     <div class="pub-links">
       <a href="https://github.com/tafseer-nayeem/RHP">Code</a>
       <a href="https://huggingface.co/datasets/tafseer-nayeem/review_helpfulness_prediction">Dataset</a>
@@ -851,16 +828,13 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         Shironaam: Bengali News Headline Generation using Auxiliary Information
       </a>
     </h3>
-
     <div class="pub-meta">Published at <b>EACL 2023</b></div>
-
     <div class="pub-authors">
       <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
       Abu Ubaida Akash<sup>*</sup>,
       Faisal Tareque Shohan,
       and Tanvir Islam
     </div>
-
     <div class="pub-links">
       <a href="https://github.com/dialect-ai/BenHeadGen">Code</a>
       <a href="https://huggingface.co/datasets/dialect-ai/shironaam">Dataset</a>
@@ -889,15 +863,12 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         Simple or Complex? Learning to Predict Readability of Bengali Texts
       </a>
     </h3>
-
     <div class="pub-meta">Published at <b>AAAI 2021</b></div>
-
     <div class="pub-authors">
       <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
       Susmoy Chakraborty<sup>*</sup>,
       and Wasi Uddin Ahmad
     </div>
-
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2012.07701">Paper</a>
       <a href="https://github.com/tafseer-nayeem/BengaliReadability">Code</a>
@@ -928,9 +899,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         Unsupervised Abstractive Summarization of Bengali Text Documents
       </a>
     </h3>
-
     <div class="pub-meta">Published at <b>EACL 2021</b></div>
-
     <div class="pub-authors">
       <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
       Radia Rayan Chowdhury<sup>*</sup>,
@@ -938,7 +907,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       MSR Chowdhury,
       and T Jannat
     </div>
-
     <div class="pub-links">
       <a href="https://github.com/tafseer-nayeem/BengaliSummarization">Code</a>
       <a href="https://github.com/tafseer-nayeem/BengaliSummarization/tree/main/Dataset">Dataset</a>
