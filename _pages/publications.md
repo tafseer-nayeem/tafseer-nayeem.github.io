@@ -871,6 +871,47 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 </div>
 
 
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/17495" aria-label="Simple or Complex? (AAAI 2021)" class="thumb-wrap">
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/AAAI2021-Readability.png"
+        alt="Simple or Complex? Learning to Predict Readability of Bengali Texts — thumbnail"
+        loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-blue">AAAI 2021</span>
+  </div>
+
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/17495">
+        Simple or Complex? Learning to Predict Readability of Bengali Texts
+      </a>
+    </h3>
+
+    <div class="pub-meta">Published in <b>AAAI 2021</b></div>
+
+    <div class="pub-authors">
+      <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
+      Susmoy Chakraborty<sup>*</sup>,
+      and Wasi Uddin Ahmad
+    </div>
+
+    <div class="pub-links">
+      <a href="https://tafseer-nayeem.github.io/files/AAAI2021/AAAI2021_paper.pdf">Paper</a>
+      <a href="https://github.com/tafseer-nayeem/BengaliReadability">Code</a>
+      <a href="https://github.com/tafseer-nayeem/BengaliReadability/tree/main/Data">Dataset</a>
+      <a href="https://tafseer-nayeem.github.io/files/AAAI2021/AAAI2021_presentation.pdf">Slides</a>
+      <a href="https://tafseer-nayeem.github.io/files/AAAI2021/AAAI2021_poster.pdf">Poster</a>
+      <a href="https://youtu.be/U05Pf9Y4tCQ">Demo Video</a>
+      <a href="https://x.com/mtnayeem/status/1334590638105378817">X Thread</a>
+    </div>
+  </div>
+</div>
+
+
+
 ## 2021
 <hr style="border: 1px solid #ddd;" />
 
