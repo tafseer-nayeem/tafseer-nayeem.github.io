@@ -916,8 +916,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 </div>
 
 
-## 2019
-<hr style="border: 1px solid #ddd;" />
 
 ![ECIR 2019](https://img.shields.io/badge/ECIR%202019-28a745?style=for-the-badge)
 * [**Neural Diverse Abstractive Sentence Compression Generation**](https://link.springer.com/chapter/10.1007/978-3-030-15719-7_14)<br/>
