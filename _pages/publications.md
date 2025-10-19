@@ -910,6 +910,47 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   </div>
 </div>
 
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://www.aclweb.org/anthology/2021.eacl-main.224" aria-label="Unsupervised Abstractive Summarization of Bengali Text Documents (EACL 2021)" class="thumb-wrap">
+      <!-- replace src if your thumbnail path differs -->
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/EACL2021-Summarization.png"
+        alt="Unsupervised Abstractive Summarization of Bengali Text Documents — thumbnail"
+        loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-violet">EACL 2021</span>
+  </div>
+
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://www.aclweb.org/anthology/2021.eacl-main.224">
+        Unsupervised Abstractive Summarization of Bengali Text Documents
+      </a>
+    </h3>
+
+    <div class="pub-meta">Published in <b>EACL 2021</b></div>
+
+    <div class="pub-authors">
+      <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
+      Radia Rayan Chowdhury<sup>*</sup>,
+      TT Mim,
+      MSR Chowdhury,
+      and T Jannat
+    </div>
+
+    <div class="pub-links">
+      <a href="https://github.com/tafseer-nayeem/BengaliSummarization">Code</a>
+      <a href="https://github.com/tafseer-nayeem/BengaliSummarization/tree/main/Dataset">Dataset</a>
+      <a href="https://tafseer-nayeem.github.io/files/EACL2021/EACL2021_presentation.pdf">Slides</a>
+      <a href="https://tafseer-nayeem.github.io/files/EACL2021/EACL2021_poster.pdf">Poster</a>
+      <a href="https://youtu.be/LrnskktiXcg">Demo Video</a>
+      <a href="https://x.com/mtnayeem/status/1350551479283662848">X Thread</a>
+    </div>
+  </div>
+</div>
+
 
 
 ![AAAI 2021](https://img.shields.io/badge/AAAI%202021-4682B4?style=for-the-badge)
