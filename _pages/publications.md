@@ -967,7 +967,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       </a>
     </h3>
     <div class="pub-meta">
-      Published in <b>Computer Speech &amp; Language</b>, Elsevier &mdash; 58 (2019): 216&ndash;230
+      Published in <b>Computer Speech &amp; Language</b>, Elsevier&mdash;58 (2019): 216&ndash;230
     </div>
     <div class="pub-authors">
       <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
