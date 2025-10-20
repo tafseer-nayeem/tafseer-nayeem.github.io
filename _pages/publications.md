@@ -982,9 +982,47 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   </div>
 </div>
 
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="http://aclweb.org/anthology/C18-1102"
+       aria-label="COLING 2018 — Paraphrastic Sentence Fusion" class="thumb-wrap">
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/COLING2018-Fusion.png"
+        alt="Abstractive Unsupervised Multi-Document Summarization using Paraphrastic Sentence Fusion — thumbnail"
+        loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-orange">COLING 2018</span>
+  </div>
 
-## 2018
-<hr style="border: 1px solid #ddd;" />
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="http://aclweb.org/anthology/C18-1102">
+        Abstractive Unsupervised Multi-Document Summarization using Paraphrastic Sentence Fusion
+      </a>
+    </h3>
+    <div class="pub-meta">
+      Published in <b>COLING 2018</b>
+      <span class="tag-badge tag-oral" aria-label="Oral presentation">Oral</span>
+    </div>
+    <div class="pub-award-line">
+      <span class="award-badge award-outline-gold" aria-label="Area Chair Favorite Paper Award">
+        🏆 Area chair favorite paper award
+      </span>
+    </div>
+    <div class="pub-authors">
+      <span class="me">Mir Tafseer Nayeem</span>,
+      Tanvir Ahmed Fuad,
+      and Yllias Chali
+    </div>
+    <div class="pub-links">
+      <a href="https://tafseer-nayeem.github.io/files/COLING_2018_Presentation.pdf">Slides</a>
+      <a href="https://twitter.com/mtnayeem/status/1007565988047409152?s=20">Twitter Thread</a>
+    </div>
+  </div>
+</div>
+
+
 
 ![COLING 2018](https://img.shields.io/badge/COLING%202018-orange?style=for-the-badge)
 * [**Abstractive Unsupervised Multi-Document Summarization using Paraphrastic Sentence Fusion**](http://aclweb.org/anthology/C18-1102) <br/>
