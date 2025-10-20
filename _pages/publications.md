@@ -1007,7 +1007,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     </div>
     <div class="pub-award-line">
       <span class="award-badge award-outline-gold" aria-label="Area Chair Favorite Paper Award">
-        🏆 Area chair favorite paper award
+        🏆 Area Chair Favorite Paper Award
       </span>
     </div>
     <div class="pub-authors">
@@ -1021,17 +1021,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       <a href="https://twitter.com/mtnayeem/status/1007565988047409152?s=20">Twitter Thread</a>
     </div>
   </div>
-</div>
-
-
-
-![COLING 2018](https://img.shields.io/badge/COLING%202018-orange?style=for-the-badge)
-* [**Abstractive Unsupervised Multi-Document Summarization using Paraphrastic Sentence Fusion**](http://aclweb.org/anthology/C18-1102) <br/>
-📰 <span style ="color:Maroon"> Published in **COLING 2018** (Oral) </span> <br/>
-👨‍💻 **Mir Tafseer Nayeem**, Tanvir Ahmed Fuad, and Yllias Chali <br/>
-👉 [![Slides](https://img.shields.io/badge/Slides-D3D3D3)](https://tafseer-nayeem.github.io/files/COLING_2018_Presentation.pdf) [![Twitter Thread](https://img.shields.io/badge/Twitter%20Thread-D3D3D3)](https://twitter.com/mtnayeem/status/1007565988047409152?s=20) <br/>
-🏆 [<span style="color:Red"> **Area Chair Favorite Paper Award** </span>](http://coling2018.org/coling-2018-best-papers/) <br/>
-<!-- 🏆 [<span style="color:Red"> **Best Paper Nomination** </span>](http://coling2018.org/coling-2018-best-papers/) -->   
+</div>   
 
 
 ## 2017
