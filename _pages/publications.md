@@ -946,6 +946,41 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   </div>
 </div>
 
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://www.sciencedirect.com/science/article/pii/S0885230818303449"
+       aria-label="Neural Sentence Fusion for Diversity Driven Abstractive Multi-Document Summarization (CSL 2019)"
+       class="thumb-wrap">
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/CSL2019-NeuFuse.png"
+        alt="Neural Sentence Fusion for Diversity Driven Abstractive Multi-Document Summarization — thumbnail"
+        loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-sienna">CS&L 2019</span>
+  </div>
+
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://www.sciencedirect.com/science/article/pii/S0885230818303449">
+        Neural Sentence Fusion for Diversity Driven Abstractive Multi-Document Summarization
+      </a>
+    </h3>
+    <div class="pub-meta">
+      Published in <b>Computer Speech &amp; Language</b>, Elsevier &mdash; 58 (2019): 216&ndash;230
+    </div>
+    <div class="pub-authors">
+      <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
+      Tanvir Ahmed Fuad<sup>*</sup>,
+      Asif Mahmud,
+      and Yllias Chali
+    </div>
+    <div class="pub-links">
+      <a href="https://tafseer-nayeem.github.io/files/CSL_Journal_2019.pdf">Paper</a>
+      <a href="https://github.com/tafseer-nayeem/NeuFuse">Code</a>
+    </div>
+  </div>
+</div>
 
 ![Computer Speech & Language](https://img.shields.io/badge/Computer%20Speech%20&%20Language-critical?style=for-the-badge)
 * [**Neural Sentence Fusion for Diversity Driven Abstractive Multi-Document Summarization**](https://www.sciencedirect.com/science/article/pii/S0885230818303449) <br/>
