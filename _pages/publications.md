@@ -1017,6 +1017,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     </div>
     <div class="pub-links">
       <a href="https://tafseer-nayeem.github.io/files/COLING_2018_Presentation.pdf">Slides</a>
+      <a href="https://github.com/tafseer-nayeem/NeuFuse">Code</a>
       <a href="https://twitter.com/mtnayeem/status/1007565988047409152?s=20">Twitter Thread</a>
     </div>
   </div>
