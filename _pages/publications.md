@@ -934,7 +934,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         Neural Diverse Abstractive Sentence Compression Generation
       </a>
     </h3>
-    <div class="pub-meta">Published in <b>ECIR 2019</b></div>
+    <div class="pub-meta">Published at <b>ECIR 2019</b></div>
     <div class="pub-authors">
       <span class="me">Mir Tafseer Nayeem</span>,
       Tanvir Ahmed Fuad,
@@ -945,6 +945,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     </div>
   </div>
 </div>
+
 
 ![Computer Speech & Language](https://img.shields.io/badge/Computer%20Speech%20&%20Language-critical?style=for-the-badge)
 * [**Neural Sentence Fusion for Diversity Driven Abstractive Multi-Document Summarization**](https://www.sciencedirect.com/science/article/pii/S0885230818303449) <br/>
