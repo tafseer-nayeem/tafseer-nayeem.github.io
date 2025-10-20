@@ -992,7 +992,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         loading="lazy" decoding="async"
         sizes="(max-width: 640px) 100vw, var(--thumb-w)">
     </a>
-    <span class="conf-badge-orange">COLING 2018</span>
+    <span class="conf-badge-sienna">COLING 2018</span>
   </div>
 
   <div class="pub-right">
