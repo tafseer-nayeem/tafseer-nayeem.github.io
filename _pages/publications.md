@@ -982,12 +982,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   </div>
 </div>
 
-![Computer Speech & Language](https://img.shields.io/badge/Computer%20Speech%20&%20Language-critical?style=for-the-badge)
-* [**Neural Sentence Fusion for Diversity Driven Abstractive Multi-Document Summarization**](https://www.sciencedirect.com/science/article/pii/S0885230818303449) <br/>
-📰 <span style ="color:Maroon"> Published in **Computer Speech & Language**, Elsevier 58 (2019): 216-230. </span> <br/>
-👨‍💻 **Mir Tafseer Nayeem\***, Tanvir Ahmed Fuad\*, Asif Mahmud, and Yllias Chali <br/>
-👉 [![Paper](https://img.shields.io/badge/Paper-D3D3D3)](https://tafseer-nayeem.github.io/files/CSL_Journal_2019.pdf) [![Code](https://img.shields.io/badge/Code-D3D3D3)](https://github.com/tafseer-nayeem/NeuFuse)
-
 
 ## 2018
 <hr style="border: 1px solid #ddd;" />
