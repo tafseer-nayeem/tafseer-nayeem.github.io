@@ -245,18 +245,20 @@ https://jdf-prog.github.io/publications/
     filter:saturate(1.05);
 }
 
+:root{ --sienna-new: #6E3B6E; } /* dusty plum (distinct from amber/orange) */
+
 .conf-badge-sienna{
   display:inline-flex; align-items:center; justify-content:center;
   padding:8px 14px; min-width: var(--badge-w, 120px);
   line-height:1; border-radius:999px;
   font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
-  text-transform:uppercase; color:#fff; background:#A0522D; /* Sienna (academic brown) */
+  text-transform:uppercase; color:#fff; background: var(--sienna-new);
   white-space:nowrap;
   transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
 }
 .conf-badge-sienna:hover{
   transform: translateY(-1px);
-  box-shadow: 0 6px 16px rgba(160, 82, 45, 0.28); /* tinted shadow for #df7d4fff */
+  box-shadow: 0 6px 16px color-mix(in srgb, var(--sienna-new) 28%, transparent);
   filter: saturate(1.05);
 }
 
