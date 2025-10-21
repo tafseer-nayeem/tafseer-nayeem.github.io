@@ -1024,9 +1024,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 </div>   
 
 
-## 2017
-<hr style="border: 1px solid #ddd;" />
-
 ![CIKM 2017](https://img.shields.io/badge/CIKM%202017-28a745?style=for-the-badge)
 * [**Paraphrastic Fusion for Abstractive Multi-Sentence Compression Generation**](https://dl.acm.org/citation.cfm?id=3133106) <br/>
 📰 <span style ="color:Maroon"> Published in **ACM CIKM 2017** </span> <br/>
