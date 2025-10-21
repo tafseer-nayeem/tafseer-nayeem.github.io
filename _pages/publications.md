@@ -245,7 +245,7 @@ https://jdf-prog.github.io/publications/
     filter:saturate(1.05);
 }
 
-:root{ --sienna-new: #6E3B6E; } /* dusty plum (distinct from amber/orange) */
+:root{ --sienna-new: #7A4A79; } /* lighter/darker, just tweak --sienna-new (e.g., #7A4A79 lighter, #5A315A darker). */
 
 .conf-badge-sienna{
   display:inline-flex; align-items:center; justify-content:center;
