@@ -619,7 +619,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         KidLM: Advancing Language Models for Children – Early Insights and Future Directions
       </a>
     </h3>
-    <div class="pub-meta">Published at <b>EMNLP 2024</b></div>
+    <div class="pub-meta">Published at <b>EMNLP 2024</b> (Main) </div>
     <div class="pub-award-line">
       <span class="award-badge award-outline-gold" aria-label="Best resource paper award">
         🏆 Best Resource Paper Award
@@ -827,7 +827,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         Shironaam: Bengali News Headline Generation using Auxiliary Information
       </a>
     </h3>
-    <div class="pub-meta">Published at <b>EACL 2023</b></div>
+    <div class="pub-meta">Published at <b>EACL 2023</b>(Main)</div>
     <div class="pub-authors">
       <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
       Abu Ubaida Akash<sup>*</sup>,
@@ -898,7 +898,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         Unsupervised Abstractive Summarization of Bengali Text Documents
       </a>
     </h3>
-    <div class="pub-meta">Published at <b>EACL 2021</b></div>
+    <div class="pub-meta">Published at <b>EACL 2021</b>(Main)</div>
     <div class="pub-authors">
       <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
       Radia Rayan Chowdhury<sup>*</sup>,
