@@ -422,7 +422,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       </a>
     </h3>
     <div class="pub-meta">
-      Published at <b>EMNLP 2025</b> (Main)
+      Published at <b>EMNLP 2025</b>(Main)
       <span class="tag-badge tag-oral" aria-label="Oral presentation">Oral</span>
     </div>
     <div class="pub-authors">Tong Bao, <span class="me">Mir Tafseer Nayeem</span>, Davood Rafiei, and Chengzhi Zhang</div>
@@ -450,7 +450,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         From Charts to Fair Narratives: Uncovering and Mitigating Geo-Economic Biases in Chart-to-Text
       </a>
     </h3>
-    <div class="pub-meta">Published at <b>EMNLP 2025</b> (Main)</div>
+    <div class="pub-meta">Published at <b>EMNLP 2025</b>(Main)</div>
     <div class="pub-authors">
       Ridwan Mahbub<sup>*</sup>,
       Mohammed Saidul Islam<sup>*</sup>,
@@ -483,7 +483,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         Deploying Tiny LVLM Judges for Real-World Evaluation of Chart Models: Lessons Learned and Best Practices
       </a>
     </h3>
-    <div class="pub-meta">Published at <b>EMNLP 2025</b> (Industry Track)</div>
+    <div class="pub-meta">Published at <b>EMNLP 2025</b>(Industry Track)</div>
     <div class="pub-authors">
       Md Tahmid Rahman Laskar, 
       Mohammed Saidul Islam, 
