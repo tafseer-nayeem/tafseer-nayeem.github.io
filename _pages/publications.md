@@ -558,7 +558,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         Judging the Judges: Can Large Vision-Language Models Fairly Evaluate Chart Comprehension and Reasoning?
       </a>
     </h3>
-    <div class="pub-meta">Published at <b>ACL 2025</b> (Industry Track)</div>
+    <div class="pub-meta">Published at <b>ACL 2025</b>(Industry Track)</div>
     <div class="pub-authors">
       Md Tahmid Rahman Laskar, Mohammed Saidul Islam, Ridwan Mahbub, Ahmed Masry,
       Mizanur Rahman, Amran Bhuiyan, <span class="me">Mir Tafseer Nayeem</span>,
@@ -588,7 +588,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         eC-Tab2Text: Aspect-Based Text Generation from e-Commerce Product Tables
       </a>
     </h3>
-    <div class="pub-meta">Published at <b>NAACL 2025</b> (Industry Track)</div>
+    <div class="pub-meta">Published at <b>NAACL 2025</b>(Industry Track)</div>
     <div class="pub-authors">
       Luis Antonio Gutiérrez Guanilo,
       <span class="me">Mir Tafseer Nayeem</span>,
@@ -619,7 +619,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         KidLM: Advancing Language Models for Children – Early Insights and Future Directions
       </a>
     </h3>
-    <div class="pub-meta">Published at <b>EMNLP 2024</b> (Main) </div>
+    <div class="pub-meta">Published at <b>EMNLP 2024</b>(Main)</div>
     <div class="pub-award-line">
       <span class="award-badge award-outline-gold" aria-label="Best resource paper award">
         🏆 Best Resource Paper Award
@@ -657,7 +657,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         Are Large Vision Language Models up to the Challenge of Chart Comprehension and Reasoning
       </a>
     </h3>
-    <div class="pub-meta">Published at <b>EMNLP 2024</b> (Findings)</div>
+    <div class="pub-meta">Published at <b>EMNLP 2024</b>(Findings)</div>
     <div class="pub-authors">
       Mohammed Saidul Islam,
       Raian Rahman,
@@ -692,7 +692,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         XL-HeadTags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags
       </a>
     </h3>
-    <div class="pub-meta">Published at <b>ACL 2024</b> (Findings)</div>
+    <div class="pub-meta">Published at <b>ACL 2024</b>(Findings)</div>
     <div class="pub-authors">
       <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
       Faisal Tareque Shohan<sup>*</sup>,
@@ -796,7 +796,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         On the Role of Reviewer Expertise in Temporal Review Helpfulness Prediction
       </a>
     </h3>
-    <div class="pub-meta">Published at <b>EACL 2023</b> (Findings)</div>
+    <div class="pub-meta">Published at <b>EACL 2023</b>(Findings)</div>
     <div class="pub-authors">
       <span class="me">Mir Tafseer Nayeem</span> and Davood Rafiei
     </div>
@@ -862,7 +862,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         Simple or Complex? Learning to Predict Readability of Bengali Texts
       </a>
     </h3>
-    <div class="pub-meta">Published at <b>AAAI 2021</b></div>
+    <div class="pub-meta">Published at <b>AAAI 2021</b>(Main)</div>
     <div class="pub-authors">
       <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
       Susmoy Chakraborty<sup>*</sup>,
