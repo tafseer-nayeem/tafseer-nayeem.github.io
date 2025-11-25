@@ -1008,9 +1008,10 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       <span class="tag-badge tag-oral" aria-label="Oral presentation">Oral</span>
     </div>
     <div class="pub-award-line">
-      <span class="award-badge award-outline-gold" aria-label="Area Chair Favorite Paper Award">
-        🏆 Area Chair Favorite Paper Award
-      </span>
+      <a href="https://coling2018.org/coling-2018-best-papers/" aria-label="Area Chair Favorite Paper Award — COLING 2018 best papers"
+         target="_blank" rel="noopener noreferrer">
+      <span class="award-badge award-outline-gold"> 🏆 Area Chair Favorite Paper Award </span>
+      </a>
     </div>
     <div class="pub-authors">
       <span class="me">Mir Tafseer Nayeem</span>,
