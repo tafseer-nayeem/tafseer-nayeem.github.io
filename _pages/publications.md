@@ -621,9 +621,10 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     </h3>
     <div class="pub-meta">Published at <b>EMNLP 2024</b>(Main)</div>
     <div class="pub-award-line">
-      <span class="award-badge award-outline-gold" aria-label="Best resource paper award">
-        🏆 Best Resource Paper Award
-      </span>
+      <a href="https://2024.emnlp.org/program/best_papers/" aria-label="Best Resource Paper Award — EMNLP 2024 best papers"
+         target="_blank" rel="noopener noreferrer">
+      <span class="award-badge award-outline-gold"> 🏆 Best Resource Paper Award </span>
+      </a>
     </div>
     <div class="pub-authors">
       <span class="me">Mir Tafseer Nayeem</span> and Davood Rafiei
