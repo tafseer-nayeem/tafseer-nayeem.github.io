@@ -526,9 +526,10 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       <span class="tag-badge tag-oral" aria-label="Oral presentation">Oral</span>
     </div>
     <div class="pub-award-line">
-      <span class="award-badge award-outline-gold" aria-label="Best short paper award">
-        🏆 Best Short Paper Award
-      </span>
+      <a href="https://ieeevis.org/year/2025/info/awards/best-paper-awards" aria-label="Best Short Paper Award — IEEE VIS 2025 best paper awards"
+         target="_blank" rel="noopener noreferrer">
+      <span class="award-badge award-outline-gold"> 🏆 Best Short Paper Award </span>
+      </a>
     </div>
     <div class="pub-authors">
       Ridwan Mahbub, Mohammed Saidul Islam, Md Tahmid Rahman Laskar,
