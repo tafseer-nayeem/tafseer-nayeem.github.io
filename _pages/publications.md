@@ -1025,6 +1025,44 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   </div>
 </div>   
 
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://dl.acm.org/citation.cfm?id=3133106"
+       aria-label="Paraphrastic Fusion for Abstractive Multi-Sentence Compression Generation (CIKM 2017)"
+       class="thumb-wrap">
+      <!-- replace src if your thumbnail path differs -->
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/CIKM2017-ParaphrasticFusion.png"
+        alt="Paraphrastic Fusion for Abstractive Multi-Sentence Compression Generation — thumbnail"
+        loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-green">CIKM 2017</span>
+  </div>
+
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://dl.acm.org/citation.cfm?id=3133106">
+        Paraphrastic Fusion for Abstractive Multi-Sentence Compression Generation
+      </a>
+    </h3>
+    <div class="pub-meta">Published in <b>ACM CIKM 2017</b></div>
+    <!-- Award line -->
+    <div class="pub-award-line">
+      <a href="https://sigir.org/general-information/travel-grants/" aria-label="ACM SIGIR Student Travel Grant">
+        <span class="award-badge award-outline-gold">🏆 ACM SIGIR student travel grant</span>
+      </a>
+    </div>
+    <div class="pub-authors">
+      <span class="me">Mir Tafseer Nayeem</span> and Yllias Chali
+    </div>
+    <div class="pub-links">
+      <a href="https://tafseer-nayeem.github.io/files/CIKM_2017_paper.pdf">Paper</a>
+    </div>
+  </div>
+</div>
+
+
 
 ![CIKM 2017](https://img.shields.io/badge/CIKM%202017-28a745?style=for-the-badge)
 * [**Paraphrastic Fusion for Abstractive Multi-Sentence Compression Generation**](https://dl.acm.org/citation.cfm?id=3133106) <br/>
