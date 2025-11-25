@@ -1050,10 +1050,9 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       </a>
     </h3>
     <div class="pub-meta">Published at <b>ACM CIKM 2017</b></div>
-    <!-- Award line -->
     <div class="pub-award-line">
       <a href="https://sigir.org/general-information/travel-grants/" aria-label="ACM SIGIR Student Travel Grant">
-        <span class="award-badge award-outline-gold"> 🏆 ACM SIGIR student travel grant </span>
+        <span class="award-badge award-outline-gold"> 🏆 ACM SIGIR Student Travel Grant </span>
       </a>
     </div>
     <div class="pub-authors">
