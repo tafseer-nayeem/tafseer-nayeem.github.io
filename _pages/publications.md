@@ -1004,7 +1004,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       </a>
     </h3>
     <div class="pub-meta">
-      Published in <b>COLING 2018</b>
+      Published at <b>COLING 2018</b>
       <span class="tag-badge tag-oral" aria-label="Oral presentation">Oral</span>
     </div>
     <div class="pub-award-line">
@@ -1046,7 +1046,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         Paraphrastic Fusion for Abstractive Multi-Sentence Compression Generation
       </a>
     </h3>
-    <div class="pub-meta">Published in <b>ACM CIKM 2017</b></div>
+    <div class="pub-meta">Published at <b>ACM CIKM 2017</b></div>
     <!-- Award line -->
     <div class="pub-award-line">
       <a href="https://sigir.org/general-information/travel-grants/" aria-label="ACM SIGIR Student Travel Grant">
