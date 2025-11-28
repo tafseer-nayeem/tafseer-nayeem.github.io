@@ -1064,6 +1064,37 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   </div>
 </div>
 
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://aclanthology.org/I17-2071" aria-label="IJCNLP 2017 — Submodular + Compression + Merging" class="thumb-wrap">
+      <!-- replace src if your thumbnail path differs -->
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/IJCNLP2017-Submodular.png"
+        alt="Towards Abstractive Multi-Document Summarization Using Submodular Function-Based Framework, Sentence Compression and Merging — thumbnail"
+        loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-blue">IJCNLP 2017</span>
+  </div>
+
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://aclanthology.org/I17-2071">
+        Towards Abstractive Multi-Document Summarization Using Submodular Function-Based Framework, Sentence Compression and Merging
+      </a>
+    </h3>
+    <div class="pub-meta">Published in <b>IJCNLP 2017</b></div>
+    <div class="pub-authors">
+      Yllias Chali,
+      Moin Mahmud Tanvee,
+      and <span class="me">Mir Tafseer Nayeem</span>
+    </div>
+    <div class="pub-links">
+      <a href="https://aclanthology.org/I17-2071">Paper</a>
+    </div>
+  </div>
+</div>
+
 
 -----------
 
