@@ -1076,7 +1076,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     </a>
     <span class="conf-badge-blue">IJCNLP 2017</span>
   </div>
-
   <div class="pub-right">
     <h3 class="pub-title">
       <a href="https://aclanthology.org/I17-2071">
