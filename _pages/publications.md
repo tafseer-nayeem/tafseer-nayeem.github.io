@@ -1067,7 +1067,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 <div class="pub-item">
   <div class="pub-left">
     <a href="https://aclanthology.org/I17-2071" aria-label="IJCNLP 2017 — Submodular + Compression + Merging" class="thumb-wrap">
-      <!-- replace src if your thumbnail path differs -->
       <img
         src="https://tafseer-nayeem.github.io/images/publication/IJCNLP2017-Submodular.png"
         alt="Towards Abstractive Multi-Document Summarization Using Submodular Function-Based Framework, Sentence Compression and Merging — thumbnail"
@@ -1082,7 +1081,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         Towards Abstractive Multi-Document Summarization Using Submodular Function-Based Framework, Sentence Compression and Merging
       </a>
     </h3>
-    <div class="pub-meta">Published in <b>IJCNLP 2017</b></div>
+    <div class="pub-meta">Published at <b>IJCNLP 2017</b></div>
     <div class="pub-authors">
       Yllias Chali,
       Moin Mahmud Tanvee,
@@ -1093,14 +1092,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     </div>
   </div>
 </div>
-
-
------------
-
-![IJCNLP 2017](https://img.shields.io/badge/IJCNLP%202017-4682B4?style=for-the-badge)
-* [**Towards Abstractive Multi-Document Summarization Using Submodular Function-Based Framework, Sentence Compression and Merging**](http://www.aclweb.org/anthology/I17-2071) <br/>
-📰 <span style ="color:Maroon"> Published in **IJCNLP 2017** </span> <br/>
-👨‍💻 Yllias Chali, Moin Mahmud Tanvee, and **Mir Tafseer Nayeem** <br/>
 
 -----------
 
