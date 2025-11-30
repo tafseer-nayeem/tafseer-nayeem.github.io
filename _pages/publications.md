@@ -277,20 +277,20 @@ https://jdf-prog.github.io/publications/
     filter:saturate(1.05);
 }
 
-.conf-badge-prussian{
+.conf-badge-wine{
     display:inline-flex; align-items:center; justify-content:center;
     padding:8px 14px; min-width: var(--badge-w, 120px);
     line-height:1; border-radius:999px;
     font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
-    text-transform:uppercase; color:#fff; background:#0F4C5C; /* deep cyan */
+    text-transform:uppercase; color:#fff; background:#5C2751; /* Deep Wine */
     white-space:nowrap;
     transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
-}
-  .conf-badge-prussian:hover{
+  }
+  .conf-badge-wine:hover{
     transform: translateY(-1px);
-    box-shadow: 0 6px 16px rgba(15, 76, 92, 0.28);
+    box-shadow: 0 6px 16px rgba(92, 39, 81, 0.28);
     filter: saturate(1.05);
-}
+  }
 
   /* compact text (uses variables above) */
 .pub-title{ margin:0 0 4px 0; font-size: var(--font-title); line-height:1.28; }
@@ -463,7 +463,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         sizes="(max-width: 640px) 100vw, var(--thumb-w)">
     </a>
     <div class="badge-stack">
-      <span class="conf-badge-prussian">NeurIPS 2025</span>
+      <span class="conf-badge-wine">NeurIPS 2025</span>
       <span class="sub-badge sub-badge-workshop" aria-label="Workshop">Workshop</span>
     </div>
   </div>
@@ -480,7 +480,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     </div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2510.09947">Paper</a>
-      <a href="https://arxiv.org/abs/2510.09947">PDF</a>
+      <a href="https://github.com/tafseer-nayeem/STRR">Code</a>
     </div>
   </div>
 </div>
