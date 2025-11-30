@@ -277,6 +277,20 @@ https://jdf-prog.github.io/publications/
     filter:saturate(1.05);
 }
 
+.conf-badge-prussian{
+    display:inline-flex; align-items:center; justify-content:center;
+    padding:8px 14px; min-width: var(--badge-w, 120px);
+    line-height:1; border-radius:999px;
+    font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
+    text-transform:uppercase; color:#fff; background:#0F4C5C; /* deep cyan */
+    white-space:nowrap;
+    transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
+}
+  .conf-badge-prussian:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(15, 76, 92, 0.28);
+    filter: saturate(1.05);
+}
 
   /* compact text (uses variables above) */
 .pub-title{ margin:0 0 4px 0; font-size: var(--font-title); line-height:1.28; }
@@ -435,6 +449,38 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2509.00285">Paper</a>
       <a href="https://tafseer-nayeem.github.io/OpinioRAG/">Website</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://arxiv.org/abs/2510.09947" aria-label="Beyond Fertility (NeurIPS 2025 Workshop)" class="thumb-wrap">
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/NeurIPS2025-STRR.png"
+        alt="Beyond Fertility: Analyzing STRR as a Metric for Multilingual Tokenization Evaluation — thumbnail"
+        loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <div class="badge-stack">
+      <span class="conf-badge-prussian">NeurIPS 2025</span>
+      <span class="sub-badge sub-badge-workshop" aria-label="Workshop">Workshop</span>
+    </div>
+  </div>
+
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://arxiv.org/abs/2510.09947">
+        Beyond Fertility: Analyzing STRR as a Metric for Multilingual Tokenization Evaluation
+      </a>
+    </h3>
+    <div class="pub-meta">Published at <b>NeurIPS 2025 Workshop</b></div>
+    <div class="pub-authors">
+      <span class="me">Mir Tafseer Nayeem</span>, Sawsan Alqahtani, Md Tahmid Rahman Laskar, Tasnim Mohiuddin, M Saiful Bari
+    </div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2510.09947">Paper</a>
+      <a href="https://arxiv.org/abs/2510.09947">PDF</a>
     </div>
   </div>
 </div>
