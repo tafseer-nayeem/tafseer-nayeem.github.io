@@ -376,6 +376,45 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       padding:8px 10px;
     }
   }
+
+/* Workshop Badge */
+  /* Stack the main venue badge and the sub-badge vertically */
+  .badge-stack{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:6px; /* space between ACL 2017 and Workshop */
+  }
+
+/* Sub-badge: smaller pill */
+  .sub-badge{
+    display:inline-flex; align-items:center; justify-content:center;
+    padding:3px 8px;                 /* TUNE: pill size */
+    border-radius:999px; line-height:1;
+    font-weight:700; letter-spacing:.2px; text-transform:uppercase;
+    font-size: calc(var(--font-badge, 12px) - 3px); /* TUNE: sub-badge text size */
+    border:1px solid transparent; white-space:nowrap;
+  }
+
+/* Color for "Workshop" sub-badge (distinct from your ORAL amber) */
+  .sub-badge-workshop{
+    color:#fff;
+    background:#4F46E5;  /* indigo */
+    border-color:#4338CA;
+  }
+
+/* Optional hover polish */
+  .sub-badge-workshop:hover{
+    filter:saturate(1.05);
+    transform: translateY(-1px);
+    box-shadow:0 6px 14px rgba(79,70,229,0.18);
+    transition: transform .16s ease, box-shadow .16s ease, filter .16s ease;
+  }
+
+/* Mobile: keep it compact */
+  @media (max-width:640px){
+    .sub-badge{ font-size: calc(var(--font-badge, 12px) - 4px); padding:2px 7px; }
+  }
 </style>
 
 <div class="pub-item">
@@ -1093,6 +1132,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   </div>
 </div>
 
+
 <div class="pub-item">
   <div class="pub-left">
     <a href="https://aclanthology.org/W17-2407" aria-label="Extract with Order (ACL 2017 Workshop, Oral)" class="thumb-wrap">
@@ -1102,7 +1142,10 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         loading="lazy" decoding="async"
         sizes="(max-width: 640px) 100vw, var(--thumb-w)">
     </a>
-    <span class="conf-badge-navy">ACL 2017</span>
+    <div class="badge-stack">
+      <span class="conf-badge-navy">ACL 2017</span>
+      <span class="sub-badge sub-badge-workshop" aria-label="Workshop">Workshop</span>
+    </div>
   </div>
   <div class="pub-right">
     <h3 class="pub-title">
@@ -1122,7 +1165,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     </div>
   </div>
 </div>
-
 
 -----------
 
