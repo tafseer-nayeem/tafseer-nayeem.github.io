@@ -391,7 +391,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     padding:3px 8px;                 /* TUNE: pill size */
     border-radius:999px; line-height:1;
     font-weight:700; letter-spacing:.2px; text-transform:uppercase;
-    font-size: calc(var(--font-badge, 12px) - 4px); /* TUNE: sub-badge text size */
+    font-size: calc(var(--font-badge, 12px) - 5px); /* TUNE: sub-badge text size */
     border:1px solid transparent; white-space:nowrap;
   }
 /* Color for "Workshop" sub-badge */
