@@ -292,6 +292,10 @@ https://jdf-prog.github.io/publications/
     filter: saturate(1.05);
   }
 
+.badge-nocaps{
+  text-transform: none;
+  letter-spacing: .15px; /* a touch tighter than all-caps spacing */
+}
   /* compact text (uses variables above) */
 .pub-title{ margin:0 0 4px 0; font-size: var(--font-title); line-height:1.28; }
 .pub-title a{
@@ -463,7 +467,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         sizes="(max-width: 640px) 100vw, var(--thumb-w)">
     </a>
     <div class="badge-stack">
-      <span class="conf-badge-wine">NeurIPS 2025</span>
+      <span class="conf-badge-wine badge-nocaps">NeurIPS 2025</span>
       <span class="sub-badge sub-badge-workshop" aria-label="Workshop">Workshop</span>
     </div>
   </div>
@@ -476,7 +480,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     </h3>
     <div class="pub-meta">Published at <b>NeurIPS 2025 Workshop</b></div>
     <div class="pub-authors">
-      <span class="me">Mir Tafseer Nayeem</span>, Sawsan Alqahtani, Md Tahmid Rahman Laskar, Tasnim Mohiuddin, M Saiful Bari
+      <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>, Sawsan Alqahtani<sup>*</sup>, Md Tahmid Rahman Laskar, Tasnim Mohiuddin, M Saiful Bari
     </div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2510.09947">Paper</a>
