@@ -1096,7 +1096,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 <div class="pub-item">
   <div class="pub-left">
     <a href="https://aclanthology.org/W17-2407" aria-label="Extract with Order (ACL 2017 Workshop, Oral)" class="thumb-wrap">
-      <!-- replace src if your thumbnail path differs -->
       <img
         src="https://tafseer-nayeem.github.io/images/publication/ACL2017-ExtractWithOrder.png"
         alt="Extract with Order for Coherent Multi-Document Summarization — thumbnail"
