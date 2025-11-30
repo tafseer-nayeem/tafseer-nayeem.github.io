@@ -1162,15 +1162,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   </div>
 </div>
 
------------
-
-![ACL 2017](https://img.shields.io/badge/ACL%202017-dc3545?style=for-the-badge)
-* [**Extract with Order for Coherent Multi-Document Summarization**](http://www.aclweb.org/anthology/W17-2407) <br/>
-📰 <span style ="color:Maroon"> Published in **ACL 2017** (Workshop, Oral) </span> <br/>
-👨‍💻 **Mir Tafseer Nayeem** and Yllias Chali <br/>
-👉 [![Slides](https://img.shields.io/badge/Slides-D3D3D3)](https://tafseer-nayeem.github.io/files/ACL_Workshop_2017_Presentation.pdf)
-
-
 <style>
 .blinking {
     color: red;           /* Set the color of the symbol */
