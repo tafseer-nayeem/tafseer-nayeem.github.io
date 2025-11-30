@@ -385,24 +385,21 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     align-items:center;
     gap:6px; /* space between ACL 2017 and Workshop */
   }
-
 /* Sub-badge: smaller pill */
   .sub-badge{
     display:inline-flex; align-items:center; justify-content:center;
     padding:3px 8px;                 /* TUNE: pill size */
     border-radius:999px; line-height:1;
     font-weight:700; letter-spacing:.2px; text-transform:uppercase;
-    font-size: calc(var(--font-badge, 12px) - 3px); /* TUNE: sub-badge text size */
+    font-size: calc(var(--font-badge, 12px) - 5px); /* TUNE: sub-badge text size */
     border:1px solid transparent; white-space:nowrap;
   }
-
-/* Color for "Workshop" sub-badge (distinct from your ORAL amber) */
+/* Color for "Workshop" sub-badge */
   .sub-badge-workshop{
     color:#fff;
     background:#4F46E5;  /* indigo */
     border-color:#4338CA;
   }
-
 /* Optional hover polish */
   .sub-badge-workshop:hover{
     filter:saturate(1.05);
@@ -410,7 +407,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     box-shadow:0 6px 14px rgba(79,70,229,0.18);
     transition: transform .16s ease, box-shadow .16s ease, filter .16s ease;
   }
-
 /* Mobile: keep it compact */
   @media (max-width:640px){
     .sub-badge{ font-size: calc(var(--font-badge, 12px) - 4px); padding:2px 7px; }
