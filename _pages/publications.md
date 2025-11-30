@@ -1093,6 +1093,38 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   </div>
 </div>
 
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://aclanthology.org/W17-2407" aria-label="Extract with Order (ACL 2017 Workshop, Oral)" class="thumb-wrap">
+      <!-- replace src if your thumbnail path differs -->
+      <img
+        src="https://tafseer-nayeem.github.io/images/publication/ACL2017-ExtractWithOrder.png"
+        alt="Extract with Order for Coherent Multi-Document Summarization — thumbnail"
+        loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-red">ACL 2017</span>
+  </div>
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://aclanthology.org/W17-2407">
+        Extract with Order for Coherent Multi-Document Summarization
+      </a>
+    </h3>
+    <div class="pub-meta">
+      Published in <b>ACL 2017</b> (Workshop)
+      <span class="tag-badge tag-oral" aria-label="Oral presentation">Oral</span>
+    </div>
+    <div class="pub-authors">
+      <span class="me">Mir Tafseer Nayeem</span> and Yllias Chali
+    </div>
+    <div class="pub-links">
+      <a href="https://tafseer-nayeem.github.io/files/ACL_Workshop_2017_Presentation.pdf">Slides</a>
+    </div>
+  </div>
+</div>
+
+
 -----------
 
 ![ACL 2017](https://img.shields.io/badge/ACL%202017-dc3545?style=for-the-badge)
