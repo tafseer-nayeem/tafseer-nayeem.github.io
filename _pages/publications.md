@@ -1102,7 +1102,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         loading="lazy" decoding="async"
         sizes="(max-width: 640px) 100vw, var(--thumb-w)">
     </a>
-    <span class="conf-badge-navy">ACL 2017</span>
+    <span class="conf-badge-navy">ACL 2017 (W)</span>
   </div>
   <div class="pub-right">
     <h3 class="pub-title">
