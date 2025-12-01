@@ -10,7 +10,7 @@ author_profile: true
 ## 🎓 PhD in Computing Science
 ---------------------------------
 * [University of Alberta (UofA)](https://www.ualberta.ca/index.html), Edmonton, Canada.
-* **Tentative Thesis Title:** *"Human-Centric Modeling of Content"*
+* **Tentative Thesis Title:** *"User-Centric Modeling and Synthesis in Language Technologies"*
 * **Supervisor:** [Prof. Davood Rafiei](https://webdocs.cs.ualberta.ca/~drafiei/)
 * **Committee Members:** [Prof. Osmar Zaiane](https://webdocs.cs.ualberta.ca/~zaiane/) and [Prof. Lili Mou ](https://lili-mou.github.io/)
 
