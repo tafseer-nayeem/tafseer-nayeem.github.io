@@ -277,20 +277,23 @@ https://jdf-prog.github.io/publications/
     filter:saturate(1.05);
 }
 
-.conf-badge-wine{
-    display:inline-flex; align-items:center; justify-content:center;
-    padding:8px 14px; min-width: var(--badge-w, 120px);
-    line-height:1; border-radius:999px;
-    font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
-    text-transform:uppercase; color:#fff; background:#5C2751; /* Deep Wine */
-    white-space:nowrap;
-    transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
-  }
-  .conf-badge-wine:hover{
-    transform: translateY(-1px);
-    box-shadow: 0 6px 16px rgba(92, 39, 81, 0.28);
-    filter: saturate(1.05);
-  }
+/* NeurIPS badge — distinct cool tone (Aegean blue) */
+:root { --neurips-badge: #1F6CAB; } /* TUNE this if you want a different shade */
+
+.conf-badge-aegean{
+  display:inline-flex; align-items:center; justify-content:center;
+  padding:8px 14px; min-width: var(--badge-w, 120px);
+  line-height:1; border-radius:999px;
+  font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
+  text-transform:uppercase; color:#fff; background: var(--neurips-badge);
+  white-space:nowrap;
+  transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
+}
+.conf-badge-aegean:hover{
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px color-mix(in srgb, var(--neurips-badge) 28%, transparent);
+  filter: saturate(1.05);
+}
 
 .badge-nocaps{
   text-transform: none;
@@ -467,7 +470,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         sizes="(max-width: 640px) 100vw, var(--thumb-w)">
     </a>
     <div class="badge-stack">
-      <span class="conf-badge-wine badge-nocaps">NeurIPS 2025</span>
+      <span class="conf-badge-aegean badge-nocaps">NeurIPS 2025</span>
       <span class="sub-badge sub-badge-workshop" aria-label="Workshop">Workshop</span>
     </div>
   </div>
