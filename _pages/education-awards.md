@@ -55,9 +55,9 @@ author_profile: true
 * **ACM SIGIR** Student Travel Grant [2017]
 * School of Graduate Studies (**S.G.S**) Research Dissemination Travel Award [2017]
 * Graduate Student’s Association (**GSA**) Travel Award [2017]
-* School of Graduate Studies (**S.G.S**) Dean’s Scholarship, UofL [2015 - 2017]
-* School of Graduate Studies (**S.G.S**) International Tuition Award, UofL [2015 - 2017]
-* **IUT-OIC** Full Free Scholarship [2008 - 2012]
+* School of Graduate Studies (**S.G.S**) Dean’s Scholarship, UofL.
+* School of Graduate Studies (**S.G.S**) International Tuition Award, UofL.
+* **IUT-OIC** Full Free Scholarship
 
 <!-- 
 <a href="https://tafseer-nayeem.github.io/education-awards/"> <img src="https://tafseer-nayeem.github.io/images/awards.png" alt="Awards"
