@@ -44,15 +44,15 @@ High-quality reviews that are strong, decisive, helpful, and well-written are re
 
 ## 👨‍⚖️ Leadership Activities
 ------------------------
-- **Lab Manager**, Database Lab, University of Alberta, Edmonton, AB, Canada. `[2022 – Current]`
+- **Lab Manager**, [Data & Language Intelligence (DaLI) Lab](https://uofadblab.github.io/), University of Alberta. `[2022 – Current]`
 - **Founding Admin** of a Discord server comprising approximately **5,000+ members** dedicated to assisting prospective students with grad school applications. `[2021 - Current]`
 - **Member**, Logistics & IT Support Committee, [ICCIT 2020](http://iccit.org.bd/2020/) Conference.
 - **Organizing Committee**, Commonwealth of Learning (**[COL](https://www.col.org/)**) TEL AUST Project. [<span style ="color:Green"> [**Report**] </span>](http://oasis.col.org/handle/11599/3220)
-- **Organizer and Host**, [Intel Nervana AI Academy - Workshop](https://www.intel.ai/). `[2017]`
-- **Convener**, Project Showcasing, AUST CSE WEEK. `[2018]`
-- **Organizing Committee Member**, AUST CSE Fest. `[2013, 2014]`
-- **Organizing Committee Member**, BUBT CSE FIESTA. `[2012]`
-- **Organizing Committee Member**, IUT ICT Fest. `[2011]`
+- **Organizer and Host**, [Intel Nervana AI Academy - Workshop](https://www.intel.ai/).
+- **Convener**, Project Showcasing, AUST CSE WEEK.
+- **Organizing Committee Member**, AUST CSE Fest. 
+- **Organizing Committee Member**, BUBT CSE FIESTA. 
+- **Organizing Committee Member**, IUT ICT Fest.
 
 ----------------------
 
