@@ -179,7 +179,7 @@ https://jdf-prog.github.io/publications/
 
 /* Tune the blue badge color in one place */
 :root{
-  --badge-blue: #114e81ff; /* steel blue (default) */
+  --badge-blue: #155284ff; /* steel blue (default) */
 }
 
 .conf-badge-blue{
