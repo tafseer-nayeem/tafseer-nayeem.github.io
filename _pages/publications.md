@@ -278,7 +278,7 @@ https://jdf-prog.github.io/publications/
 }
 
 /* NeurIPS badge — distinct cool tone (Aegean blue) */
-:root { --neurips-badge: #1F6CAB; } /* TUNE this if you want a different shade */
+:root { --neurips-badge: #092b48ff; } /* TUNE this if you want a different shade */
 
 .conf-badge-aegean{
   display:inline-flex; align-items:center; justify-content:center;
