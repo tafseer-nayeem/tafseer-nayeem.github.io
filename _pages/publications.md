@@ -200,7 +200,7 @@ https://jdf-prog.github.io/publications/
 
 /* Tune the teal badge color in one place */
 :root{
-  --badge-teal: #09504aff; /* default: teal */
+  --badge-teal: #0e5c56ff; /* default: teal */
 }
 
 .conf-badge-teal{
