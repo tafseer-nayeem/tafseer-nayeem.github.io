@@ -20,7 +20,7 @@ author_profile: true
 
 * [University of Lethbridge (UofL)](https://www.uleth.ca/), Lethbridge, Canada.
 <!-- **CGPA:  4.00** <span style ="color:Green"> [*out of 4.00* ] </span>-->
-* **Thesis Title:** [*"Methods of Sentence Extraction, Abstraction, and Ordering for Automatic Text Summarization"*](https://opus.uleth.ca/bitstream/handle/10133/4993/NAYEEM_MIR_TAFSEER_MSC_2017.pdf) 
+* **Thesis Title:** [*"Methods of Sentence Extraction, Abstraction, and Ordering for Automatic Text Summarization"*](https://tafseer-nayeem.github.io/files/MSc_Thesis.pdf) 
 * **Thesis Presentation:** [<span style ="color:Green"> [**Presentation**] </span>](https://tafseer-nayeem.github.io/files/MSc_Thesis_Presenation.pdf) 
 * **Supervisor:** [Prof. Yllias Chali](http://www.cs.uleth.ca/~chali/)
 * **Committee Members:** [Prof. Wendy Osborn](http://directory.uleth.ca/users/wendy.osborn) and [Prof. John Anvik ](http://directory.uleth.ca/users/john.anvik)
