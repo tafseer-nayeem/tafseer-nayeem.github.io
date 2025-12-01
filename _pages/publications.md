@@ -198,26 +198,26 @@ https://jdf-prog.github.io/publications/
   filter: saturate(1.05);
 }
 
+/* Tune the teal badge color in one place */
+:root{
+  --badge-teal: #09504aff; /* default: teal */
+}
+
 .conf-badge-teal{
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    padding:8px 14px;
-    min-width: var(--badge-w);
-    line-height:1;
-    border-radius:999px;
-    font-size: var(--font-badge);
-    font-weight:700; letter-spacing:.3px;
-    text-transform:uppercase;
-    color:#fff; background:#0F766E;
-    white-space:nowrap;
-    transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
-  }
+  display:inline-flex; align-items:center; justify-content:center;
+  padding:8px 14px; min-width: var(--badge-w, 120px);
+  line-height:1; border-radius:999px;
+  font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
+  text-transform:uppercase; color:#fff;
+  background: var(--badge-teal);                 /* ← uses variable */
+  white-space:nowrap;
+  transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
+}
 .conf-badge-teal:hover{
-    transform: translateY(-1px);
-    box-shadow:0 6px 16px rgba(15,118,110,.25);
-    filter:saturate(1.05);
-  }
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px color-mix(in srgb, var(--badge-teal) 28%, transparent);
+  filter: saturate(1.05);
+}
 
 /* Tune the badge color in one place */
 :root{
