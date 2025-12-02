@@ -5,7 +5,7 @@ permalink: /education-awards/
 author_profile: true
 ---
 
-<!-- ===== Education & Awards (drop-in page, academic & consistent with publication cards) ===== -->
+<!-- ===== Education & Awards ===== -->
 
 <style>
   /* ========= Global knobs you can tune once ========= */
@@ -45,7 +45,7 @@ author_profile: true
     color:#1f2937; letter-spacing:.2px;
   }
 
-  /* ========= Reusable card (mirrors publication card) ========= */
+  /* ========= Reusable card ========= */
   .cv-card{
     display:grid; grid-template-columns: var(--logo-w) 1fr;
     gap: var(--card-gap);
@@ -101,7 +101,7 @@ author_profile: true
   .chip-teal{ background:var(--badge-teal); color:#fff; }
   .chip-gray{ background:#eef2f7; color:#374151; border-color:#d1d5db; }
 
-  /* Award badge line (consistent with pubs page) */
+  /* Award badge line */
   .pub-award-line{ display:block; margin:6px 0 8px; }
   .award-badge{
     display:inline-flex; align-items:center; gap:6px; justify-content:center;
@@ -138,7 +138,6 @@ author_profile: true
       <a href="https://www.ualberta.ca/index.html">PhD in Computing Science</a>
     </h3>
     <div class="cv-sub">University of Alberta (UofA), Edmonton, Canada</div>
-
     <div class="meta">
       <span class="meta-row">
         <span class="meta-label">Tentative thesis title:</span>
@@ -154,11 +153,10 @@ author_profile: true
         <a href="https://lili-mou.github.io/">Prof. Lili Mou</a>
       </span>
     </div>
-
     <div>
       <span class="chip chip-blue">PhD</span>
-      <span class="chip chip-teal">Huawei fellowship</span>
-      <span class="chip chip-gray">ongoing</span>
+      <span class="chip chip-teal">Huawei PhD Fellowship</span>
+      <span class="chip chip-gray">Ongoing</span>
     </div>
   </div>
 </div>
