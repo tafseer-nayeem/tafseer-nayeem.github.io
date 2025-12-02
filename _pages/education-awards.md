@@ -5,11 +5,10 @@ permalink: /education-awards/
 author_profile: true
 ---
 
-<!-- ===== Education & Awards (drop-in page) ===== -->
-<!-- Keep content; styled to match your publication cards -->
+<!-- ===== Education & Awards (drop-in page, academic & consistent with publication cards) ===== -->
 
 <style>
-  /* ============== Tunables (edit once) ============== */
+  /* ========= Global knobs you can tune once ========= */
   :root{
     /* Card geometry */
     --logo-w: 160px;        /* left column width for logos */
@@ -17,17 +16,18 @@ author_profile: true
     --card-gap: 18px;
 
     /* Typography */
-    --fs-title: 1.00rem;    /* card title font size */
-    --fs-sub:   .92rem;     /* institution/meta line */
-    --fs-body:  .92rem;     /* description lines */
-    --fs-chip:  .74rem;     /* small chips (degree, year, etc.) */
+    --fs-h2:   1.20rem;     /* section headings */
+    --fs-title:1.00rem;     /* card title */
+    --fs-sub:  .92rem;      /* institution line */
+    --fs-body: .92rem;      /* meta lines */
+    --fs-chip: .74rem;      /* degree/status chips */
 
-    /* Badge palette (shared) */
-    --badge-blue:  #4682B4; /* institution blue */
-    --badge-teal:  #0F766E; /* fellowship/merit */
-    --badge-gray:  #6B7280; /* year/location */
+    /* Badges / chips */
+    --badge-blue:  #4682B4;
+    --badge-teal:  #0F766E;
+    --badge-gray:  #6B7280;
 
-    /* Award outline gold (matches pubs page) */
+    /* Award outline palette */
     --gold-ink: #7A5A00;
     --gold-bg:  #FFF8E6;
     --gold-brd: #E7C76A;
@@ -35,33 +35,39 @@ author_profile: true
     /* Card chrome */
     --card-brd:   #e5e7eb;
     --card-bg:    #fff;
-    --card-shadow: 0 1px 2px rgba(0,0,0,.04);
+    --card-shadow:0 1px 2px rgba(0,0,0,.04);
   }
 
-  /* ============== Generic section heading ============== */
-  .sec-title{ margin: 14px 0 8px; font-size: 1.15rem; color:#1f2937; letter-spacing:.2px; }
+  /* ========= Section headings ========= */
+  .sec-title{
+    margin: 14px 0 8px;
+    font-size: var(--fs-h2);
+    color:#1f2937; letter-spacing:.2px;
+  }
 
-  /* ============== Reusable card (mirrors pub-item) ============== */
+  /* ========= Reusable card (mirrors publication card) ========= */
   .cv-card{
     display:grid; grid-template-columns: var(--logo-w) 1fr;
     gap: var(--card-gap);
-    align-items:start; padding:16px 18px; margin:18px 0;
+    align-items:start;
+    padding:16px 18px; margin:18px 0;
     border:1px solid var(--card-brd); border-radius:12px;
     background:var(--card-bg); box-shadow:var(--card-shadow);
     transition: box-shadow .22s ease, transform .22s ease, border-color .22s ease;
   }
   .cv-card:hover{ box-shadow:0 10px 28px rgba(0,0,0,.08); transform:translateY(-2px); border-color:#e2e8f0; }
 
-  /* Left: adaptive logo (no cropping) */
+  /* Left column: adaptive logo (no cropping) */
   .logo-wrap{
     width:var(--logo-w); max-height:var(--logo-max-h);
     display:grid; place-items:center;
-    border:1px solid var(--card-brd); border-radius:12px; background:#fff; overflow:hidden;
+    border:1px solid var(--card-brd); border-radius:12px;
+    background:#fff; overflow:hidden;
   }
   .logo-wrap img{ max-width:100%; max-height:100%; width:auto; height:auto; }
 
-  /* Right: text */
-  .cv-title{ margin:0 0 4px 0; font-size:var(--fs-title); line-height:1.28; }
+  /* Right column: text */
+  .cv-title{ margin:0 0 6px 0; font-size:var(--fs-title); line-height:1.28; }
   .cv-title a{
     text-decoration:none;
     background-image: linear-gradient(currentColor,currentColor);
@@ -69,10 +75,21 @@ author_profile: true
     transition: background-size .22s ease;
   }
   .cv-title a:hover{ background-size:100% 2px; }
-  .cv-sub{  margin:0 0 6px 0; font-size:var(--fs-sub);  color:#374151; }
-  .cv-body{ margin:0 0 8px 0; font-size:var(--fs-body); color:#374151; }
 
-  /* Chips / mini badges */
+  .cv-sub{ margin:0 0 8px 0; font-size:var(--fs-sub); color:#374151; }
+
+  /* Meta rows (each item on its own line) */
+  .meta{
+    display:flex; flex-direction:column; gap:4px;
+    margin: 0 0 10px 0; font-size:var(--fs-body); color:#374151;
+  }
+  .meta-row{ display:block; }
+  .meta-label{
+    font-weight:600; color:#374151; margin-right:.35rem;
+  }
+  .meta a{ text-decoration:underline; text-underline-offset:2px; }
+
+  /* Chips */
   .chip{
     display:inline-flex; align-items:center; justify-content:center;
     padding:4px 8px; margin-right:6px; margin-bottom:6px;
@@ -84,7 +101,7 @@ author_profile: true
   .chip-teal{ background:var(--badge-teal); color:#fff; }
   .chip-gray{ background:#eef2f7; color:#374151; border-color:#d1d5db; }
 
-  /* Award line and badge (same style as pubs) */
+  /* Award badge line (consistent with pubs page) */
   .pub-award-line{ display:block; margin:6px 0 8px; }
   .award-badge{
     display:inline-flex; align-items:center; gap:6px; justify-content:center;
@@ -97,6 +114,10 @@ author_profile: true
   .award-outline-gold{ color:var(--gold-ink); background:var(--gold-bg); border-color:var(--gold-brd); }
   .award-badge:hover{ transform:translateY(-1px); box-shadow:0 6px 14px rgba(0,0,0,.06); filter:saturate(1.03); }
 
+  /* Compact list inside a card (for grouped awards) */
+  .cv-list{ margin:0 0 6px 18px; padding:0; }
+  .cv-list li{ margin:2px 0; }
+
   /* Mobile */
   @media (max-width: 640px){
     .cv-card{ grid-template-columns:1fr; }
@@ -104,7 +125,6 @@ author_profile: true
   }
 </style>
 
-<!-- ===================== -->
 <h2 class="sec-title" id="education">Education</h2>
 
 <!-- PhD -->
@@ -118,14 +138,23 @@ author_profile: true
       <a href="https://www.ualberta.ca/index.html">PhD in Computing Science</a>
     </h3>
     <div class="cv-sub">University of Alberta (UofA), Edmonton, Canada</div>
-    <p class="cv-body">
-      Tentative thesis title: “User-Centric Modeling and Synthesis in Language Technologies”.
-      Supervisor:
-      <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Prof. Davood Rafiei</a>.
-      Committee:
-      <a href="https://webdocs.cs.ualberta.ca/~zaiane/">Prof. Osmar Zaiane</a>,
-      <a href="https://lili-mou.github.io/">Prof. Lili Mou</a>.
-    </p>
+
+    <div class="meta">
+      <span class="meta-row">
+        <span class="meta-label">Tentative thesis title:</span>
+        “User-Centric Modeling and Synthesis in Language Technologies”
+      </span>
+      <span class="meta-row">
+        <span class="meta-label">Supervisor:</span>
+        <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Prof. Davood Rafiei</a>
+      </span>
+      <span class="meta-row">
+        <span class="meta-label">Committee:</span>
+        <a href="https://webdocs.cs.ualberta.ca/~zaiane/">Prof. Osmar Zaiane</a>,
+        <a href="https://lili-mou.github.io/">Prof. Lili Mou</a>
+      </span>
+    </div>
+
     <div>
       <span class="chip chip-blue">PhD</span>
       <span class="chip chip-teal">Huawei fellowship</span>
@@ -145,19 +174,29 @@ author_profile: true
       <a href="https://www.uleth.ca/">MSc in Computer Science</a>
     </h3>
     <div class="cv-sub">University of Lethbridge (UofL), Lethbridge, Canada</div>
-    <p class="cv-body">
-      Thesis:
-      <a href="https://tafseer-nayeem.github.io/files/MSc_Thesis.pdf">
-        “Methods of Sentence Extraction, Abstraction, and Ordering for Automatic Text Summarization”
-      </a>.
-      Presentation:
-      <a href="https://tafseer-nayeem.github.io/files/MSc_Thesis_Presenation.pdf">slides</a>.
-      Supervisor:
-      <a href="http://www.cs.uleth.ca/~chali/">Prof. Yllias Chali</a>.
-      Committee:
-      <a href="http://directory.uleth.ca/users/wendy.osborn">Prof. Wendy Osborn</a>,
-      <a href="http://directory.uleth.ca/users/john.anvik">Prof. John Anvik</a>.
-    </p>
+
+    <div class="meta">
+      <span class="meta-row">
+        <span class="meta-label">Thesis:</span>
+        <a href="https://tafseer-nayeem.github.io/files/MSc_Thesis.pdf">
+          Methods of Sentence Extraction, Abstraction, and Ordering for Automatic Text Summarization
+        </a>
+      </span>
+      <span class="meta-row">
+        <span class="meta-label">Presentation:</span>
+        <a href="https://tafseer-nayeem.github.io/files/MSc_Thesis_Presenation.pdf">slides</a>
+      </span>
+      <span class="meta-row">
+        <span class="meta-label">Supervisor:</span>
+        <a href="http://www.cs.uleth.ca/~chali/">Prof. Yllias Chali</a>
+      </span>
+      <span class="meta-row">
+        <span class="meta-label">Committee:</span>
+        <a href="http://directory.uleth.ca/users/wendy.osborn">Prof. Wendy Osborn</a>,
+        <a href="http://directory.uleth.ca/users/john.anvik">Prof. John Anvik</a>
+      </span>
+    </div>
+
     <div>
       <span class="chip chip-blue">MSc</span>
       <span class="chip chip-gray">completed</span>
@@ -176,11 +215,18 @@ author_profile: true
       <a href="https://www.iutoic-dhaka.edu/">BSc in Computer Science and Information Technology</a>
     </h3>
     <div class="cv-sub">Islamic University of Technology (IUT), Dhaka, Bangladesh</div>
-    <p class="cv-body">
-      Thesis: “Designing a Probabilistic Path Selection Model for Vehicular Networks”.
-      Supervisor:
-      <a href="https://scholar.google.com/citations?user=5sjCt8cAAAAJ&hl=en">Dr. Muhammad Mahbub Alam</a>.
-    </p>
+
+    <div class="meta">
+      <span class="meta-row">
+        <span class="meta-label">Thesis:</span>
+        Designing a Probabilistic Path Selection Model for Vehicular Networks
+      </span>
+      <span class="meta-row">
+        <span class="meta-label">Supervisor:</span>
+        <a href="https://scholar.google.com/citations?user=5sjCt8cAAAAJ&hl=en">Dr. Muhammad Mahbub Alam</a>
+      </span>
+    </div>
+
     <div>
       <span class="chip chip-blue">BSc</span>
       <span class="chip chip-gray">completed</span>
@@ -188,7 +234,6 @@ author_profile: true
   </div>
 </div>
 
-<!-- ===================== -->
 <h2 class="sec-title" id="awards">Awards</h2>
 
 <!-- VIS 2025 Best Short Paper -->
@@ -229,7 +274,7 @@ author_profile: true
   </div>
 </div>
 
-<!-- Huawei PhD Fellowship -->
+<!-- Huawei Fellowship -->
 <div class="cv-card">
   <div class="logo-wrap">
     <img src="https://tafseer-nayeem.github.io/images/awards/huawei.png"
@@ -254,9 +299,7 @@ author_profile: true
   <div>
     <h3 class="cv-title">PhD Early Achievement Award (nomination)</h3>
     <div class="cv-sub">2023</div>
-    <div>
-      <span class="chip chip-gray">nomination</span>
-    </div>
+    <div><span class="chip chip-gray">nomination</span></div>
   </div>
 </div>
 
@@ -269,9 +312,7 @@ author_profile: true
   <div>
     <h3 class="cv-title">Graduate Recruitment Scholarship</h3>
     <div class="cv-sub">University of Alberta · 2021 – 2022</div>
-    <div>
-      <span class="chip chip-gray">scholarship</span>
-    </div>
+    <div><span class="chip chip-gray">scholarship</span></div>
   </div>
 </div>
 
@@ -305,13 +346,11 @@ author_profile: true
       <a href="https://sigir.org/general-information/travel-grants/">ACM SIGIR Student Travel Grant</a>
     </h3>
     <div class="cv-sub"></div>
-    <div>
-      <span class="chip chip-gray">travel grant</span>
-    </div>
+    <div><span class="chip chip-gray">travel grant</span></div>
   </div>
 </div>
 
-<!-- SGS/GSA items (grouped compactly) -->
+<!-- SGS/GSA grouped items -->
 <div class="cv-card">
   <div class="logo-wrap">
     <img src="https://tafseer-nayeem.github.io/images/awards/sgs.png"
@@ -319,8 +358,8 @@ author_profile: true
   </div>
   <div>
     <h3 class="cv-title">Graduate awards and scholarships (UofL)</h3>
-    <div class="cv-sub">School of Graduate Studies and GSA</div>
-    <ul class="cv-body" style="margin:0 0 6px 18px;">
+    <div class="cv-sub">School of Graduate Studies (S.G.S) and GSA</div>
+    <ul class="cv-list">
       <li>Research Dissemination Travel Award (S.G.S)</li>
       <li>Graduate Student’s Association (GSA) Travel Award</li>
       <li>Dean’s Scholarship (S.G.S)</li>
@@ -338,14 +377,11 @@ author_profile: true
   <div>
     <h3 class="cv-title">IUT-OIC Full Free Scholarship</h3>
     <div class="cv-sub"></div>
-    <div>
-      <span class="chip chip-gray">full scholarship</span>
-    </div>
+    <div><span class="chip chip-gray">full scholarship</span></div>
   </div>
 </div>
 
 <p style="margin-top:16px;"><a href="#">Back to Top</a></p>
-
 
 
 ---------------------------------------------
