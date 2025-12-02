@@ -172,7 +172,6 @@ author_profile: true
       <a href="https://www.uleth.ca/">MSc in Computer Science</a>
     </h3>
     <div class="cv-sub">University of Lethbridge (UofL), Lethbridge, Canada</div>
-
     <div class="meta">
       <span class="meta-row">
         <span class="meta-label">Thesis:</span>
@@ -194,7 +193,6 @@ author_profile: true
         <a href="http://directory.uleth.ca/users/john.anvik">Prof. John Anvik</a>
       </span>
     </div>
-
     <div>
       <span class="chip chip-blue">MSc</span>
       <span class="chip chip-gray">completed</span>
@@ -213,7 +211,6 @@ author_profile: true
       <a href="https://www.iutoic-dhaka.edu/">BSc in Computer Science and Information Technology</a>
     </h3>
     <div class="cv-sub">Islamic University of Technology (IUT), Dhaka, Bangladesh</div>
-
     <div class="meta">
       <span class="meta-row">
         <span class="meta-label">Thesis:</span>
@@ -224,7 +221,6 @@ author_profile: true
         <a href="https://scholar.google.com/citations?user=5sjCt8cAAAAJ&hl=en">Dr. Muhammad Mahbub Alam</a>
       </span>
     </div>
-
     <div>
       <span class="chip chip-blue">BSc</span>
       <span class="chip chip-gray">completed</span>
