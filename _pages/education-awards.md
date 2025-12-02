@@ -5,6 +5,352 @@ permalink: /education-awards/
 author_profile: true
 ---
 
+<!-- ===== Education & Awards (drop-in page) ===== -->
+<!-- Keep content; styled to match your publication cards -->
+
+<style>
+  /* ============== Tunables (edit once) ============== */
+  :root{
+    /* Card geometry */
+    --logo-w: 160px;        /* left column width for logos */
+    --logo-max-h: 110px;    /* max visible logo height */
+    --card-gap: 18px;
+
+    /* Typography */
+    --fs-title: 1.00rem;    /* card title font size */
+    --fs-sub:   .92rem;     /* institution/meta line */
+    --fs-body:  .92rem;     /* description lines */
+    --fs-chip:  .74rem;     /* small chips (degree, year, etc.) */
+
+    /* Badge palette (shared) */
+    --badge-blue:  #4682B4; /* institution blue */
+    --badge-teal:  #0F766E; /* fellowship/merit */
+    --badge-gray:  #6B7280; /* year/location */
+
+    /* Award outline gold (matches pubs page) */
+    --gold-ink: #7A5A00;
+    --gold-bg:  #FFF8E6;
+    --gold-brd: #E7C76A;
+
+    /* Card chrome */
+    --card-brd:   #e5e7eb;
+    --card-bg:    #fff;
+    --card-shadow: 0 1px 2px rgba(0,0,0,.04);
+  }
+
+  /* ============== Generic section heading ============== */
+  .sec-title{ margin: 14px 0 8px; font-size: 1.15rem; color:#1f2937; letter-spacing:.2px; }
+
+  /* ============== Reusable card (mirrors pub-item) ============== */
+  .cv-card{
+    display:grid; grid-template-columns: var(--logo-w) 1fr;
+    gap: var(--card-gap);
+    align-items:start; padding:16px 18px; margin:18px 0;
+    border:1px solid var(--card-brd); border-radius:12px;
+    background:var(--card-bg); box-shadow:var(--card-shadow);
+    transition: box-shadow .22s ease, transform .22s ease, border-color .22s ease;
+  }
+  .cv-card:hover{ box-shadow:0 10px 28px rgba(0,0,0,.08); transform:translateY(-2px); border-color:#e2e8f0; }
+
+  /* Left: adaptive logo (no cropping) */
+  .logo-wrap{
+    width:var(--logo-w); max-height:var(--logo-max-h);
+    display:grid; place-items:center;
+    border:1px solid var(--card-brd); border-radius:12px; background:#fff; overflow:hidden;
+  }
+  .logo-wrap img{ max-width:100%; max-height:100%; width:auto; height:auto; }
+
+  /* Right: text */
+  .cv-title{ margin:0 0 4px 0; font-size:var(--fs-title); line-height:1.28; }
+  .cv-title a{
+    text-decoration:none;
+    background-image: linear-gradient(currentColor,currentColor);
+    background-size:0% 2px; background-repeat:no-repeat; background-position:0 100%;
+    transition: background-size .22s ease;
+  }
+  .cv-title a:hover{ background-size:100% 2px; }
+  .cv-sub{  margin:0 0 6px 0; font-size:var(--fs-sub);  color:#374151; }
+  .cv-body{ margin:0 0 8px 0; font-size:var(--fs-body); color:#374151; }
+
+  /* Chips / mini badges */
+  .chip{
+    display:inline-flex; align-items:center; justify-content:center;
+    padding:4px 8px; margin-right:6px; margin-bottom:6px;
+    border-radius:999px; line-height:1; white-space:nowrap;
+    font-size:var(--fs-chip); font-weight:700; letter-spacing:.2px; text-transform:uppercase;
+    border:1px solid transparent; background:#f3f4f6; color:#111827;
+  }
+  .chip-blue{ background:var(--badge-blue); color:#fff; }
+  .chip-teal{ background:var(--badge-teal); color:#fff; }
+  .chip-gray{ background:#eef2f7; color:#374151; border-color:#d1d5db; }
+
+  /* Award line and badge (same style as pubs) */
+  .pub-award-line{ display:block; margin:6px 0 8px; }
+  .award-badge{
+    display:inline-flex; align-items:center; gap:6px; justify-content:center;
+    padding:4px 10px; border-radius:999px; line-height:1.05;
+    font-weight:800; letter-spacing:.2px; text-transform:none;
+    font-size: calc(var(--fs-chip) + .02rem);
+    border:1px solid transparent; white-space:nowrap;
+    transition: transform .16s ease, box-shadow .16s ease, filter .16s ease;
+  }
+  .award-outline-gold{ color:var(--gold-ink); background:var(--gold-bg); border-color:var(--gold-brd); }
+  .award-badge:hover{ transform:translateY(-1px); box-shadow:0 6px 14px rgba(0,0,0,.06); filter:saturate(1.03); }
+
+  /* Mobile */
+  @media (max-width: 640px){
+    .cv-card{ grid-template-columns:1fr; }
+    .logo-wrap{ width:100%; max-height:180px; }
+  }
+</style>
+
+<!-- ===================== -->
+<h2 class="sec-title" id="education">Education</h2>
+
+<!-- PhD -->
+<div class="cv-card">
+  <div class="logo-wrap">
+    <img src="https://tafseer-nayeem.github.io/images/edu/uofa.png"
+         alt="University of Alberta logo" loading="lazy" decoding="async">
+  </div>
+  <div>
+    <h3 class="cv-title">
+      <a href="https://www.ualberta.ca/index.html">PhD in Computing Science</a>
+    </h3>
+    <div class="cv-sub">University of Alberta (UofA), Edmonton, Canada</div>
+    <p class="cv-body">
+      Tentative thesis title: “User-Centric Modeling and Synthesis in Language Technologies”.
+      Supervisor:
+      <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Prof. Davood Rafiei</a>.
+      Committee:
+      <a href="https://webdocs.cs.ualberta.ca/~zaiane/">Prof. Osmar Zaiane</a>,
+      <a href="https://lili-mou.github.io/">Prof. Lili Mou</a>.
+    </p>
+    <div>
+      <span class="chip chip-blue">PhD</span>
+      <span class="chip chip-teal">Huawei fellowship</span>
+      <span class="chip chip-gray">ongoing</span>
+    </div>
+  </div>
+</div>
+
+<!-- MSc -->
+<div class="cv-card">
+  <div class="logo-wrap">
+    <img src="https://tafseer-nayeem.github.io/images/edu/uofl.png"
+         alt="University of Lethbridge logo" loading="lazy" decoding="async">
+  </div>
+  <div>
+    <h3 class="cv-title">
+      <a href="https://www.uleth.ca/">MSc in Computer Science</a>
+    </h3>
+    <div class="cv-sub">University of Lethbridge (UofL), Lethbridge, Canada</div>
+    <p class="cv-body">
+      Thesis:
+      <a href="https://tafseer-nayeem.github.io/files/MSc_Thesis.pdf">
+        “Methods of Sentence Extraction, Abstraction, and Ordering for Automatic Text Summarization”
+      </a>.
+      Presentation:
+      <a href="https://tafseer-nayeem.github.io/files/MSc_Thesis_Presenation.pdf">slides</a>.
+      Supervisor:
+      <a href="http://www.cs.uleth.ca/~chali/">Prof. Yllias Chali</a>.
+      Committee:
+      <a href="http://directory.uleth.ca/users/wendy.osborn">Prof. Wendy Osborn</a>,
+      <a href="http://directory.uleth.ca/users/john.anvik">Prof. John Anvik</a>.
+    </p>
+    <div>
+      <span class="chip chip-blue">MSc</span>
+      <span class="chip chip-gray">completed</span>
+    </div>
+  </div>
+</div>
+
+<!-- BSc -->
+<div class="cv-card">
+  <div class="logo-wrap">
+    <img src="https://tafseer-nayeem.github.io/images/edu/iut.png"
+         alt="Islamic University of Technology logo" loading="lazy" decoding="async">
+  </div>
+  <div>
+    <h3 class="cv-title">
+      <a href="https://www.iutoic-dhaka.edu/">BSc in Computer Science and Information Technology</a>
+    </h3>
+    <div class="cv-sub">Islamic University of Technology (IUT), Dhaka, Bangladesh</div>
+    <p class="cv-body">
+      Thesis: “Designing a Probabilistic Path Selection Model for Vehicular Networks”.
+      Supervisor:
+      <a href="https://scholar.google.com/citations?user=5sjCt8cAAAAJ&hl=en">Dr. Muhammad Mahbub Alam</a>.
+    </p>
+    <div>
+      <span class="chip chip-blue">BSc</span>
+      <span class="chip chip-gray">completed</span>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== -->
+<h2 class="sec-title" id="awards">Awards</h2>
+
+<!-- VIS 2025 Best Short Paper -->
+<div class="cv-card">
+  <div class="logo-wrap">
+    <img src="https://tafseer-nayeem.github.io/images/awards/vis.png"
+         alt="IEEE VIS icon" loading="lazy" decoding="async">
+  </div>
+  <div>
+    <h3 class="cv-title">
+      <a href="https://ieeevis.org/year/2025/info/program/papers_list">Best Short Paper Award</a>
+    </h3>
+    <div class="cv-sub">VIS 2025</div>
+    <div class="pub-award-line">
+      <a href="https://ieeevis.org/year/2025/info/awards/best-paper-awards" target="_blank" rel="noopener noreferrer">
+        <span class="award-badge award-outline-gold">🏆 Best short paper award</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- EMNLP 2024 Best Resource Paper -->
+<div class="cv-card">
+  <div class="logo-wrap">
+    <img src="https://tafseer-nayeem.github.io/images/awards/emnlp.png"
+         alt="EMNLP icon" loading="lazy" decoding="async">
+  </div>
+  <div>
+    <h3 class="cv-title">
+      <a href="https://2024.emnlp.org/program/best_papers/">Best Resource Paper Award</a>
+    </h3>
+    <div class="cv-sub">EMNLP 2024</div>
+    <div class="pub-award-line">
+      <a href="https://2024.emnlp.org/program/best_papers/" target="_blank" rel="noopener noreferrer">
+        <span class="award-badge award-outline-gold">🏆 Best resource paper award</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Huawei PhD Fellowship -->
+<div class="cv-card">
+  <div class="logo-wrap">
+    <img src="https://tafseer-nayeem.github.io/images/awards/huawei.png"
+         alt="Huawei Fellowship icon" loading="lazy" decoding="async">
+  </div>
+  <div>
+    <h3 class="cv-title">Huawei PhD Fellowship</h3>
+    <div class="cv-sub">2022 – 2027</div>
+    <div>
+      <span class="chip chip-teal">fellowship</span>
+      <span class="chip chip-gray">multi-year</span>
+    </div>
+  </div>
+</div>
+
+<!-- PhD Early Achievement nomination -->
+<div class="cv-card">
+  <div class="logo-wrap">
+    <img src="https://tafseer-nayeem.github.io/images/awards/uofa.png"
+         alt="UofA icon" loading="lazy" decoding="async">
+  </div>
+  <div>
+    <h3 class="cv-title">PhD Early Achievement Award (nomination)</h3>
+    <div class="cv-sub">2023</div>
+    <div>
+      <span class="chip chip-gray">nomination</span>
+    </div>
+  </div>
+</div>
+
+<!-- UofA Graduate Recruitment Scholarship -->
+<div class="cv-card">
+  <div class="logo-wrap">
+    <img src="https://tafseer-nayeem.github.io/images/awards/uofa.png"
+         alt="UofA icon" loading="lazy" decoding="async">
+  </div>
+  <div>
+    <h3 class="cv-title">Graduate Recruitment Scholarship</h3>
+    <div class="cv-sub">University of Alberta · 2021 – 2022</div>
+    <div>
+      <span class="chip chip-gray">scholarship</span>
+    </div>
+  </div>
+</div>
+
+<!-- COLING 2018 Area Chair Favorite -->
+<div class="cv-card">
+  <div class="logo-wrap">
+    <img src="https://tafseer-nayeem.github.io/images/awards/coling.png"
+         alt="COLING icon" loading="lazy" decoding="async">
+  </div>
+  <div>
+    <h3 class="cv-title">
+      <a href="http://coling2018.org/coling-2018-best-papers/">Area Chair Favorite Paper Award</a>
+    </h3>
+    <div class="cv-sub">COLING 2018</div>
+    <div class="pub-award-line">
+      <a href="http://coling2018.org/coling-2018-best-papers/" target="_blank" rel="noopener noreferrer">
+        <span class="award-badge award-outline-gold">🏆 Area chair favorite paper award</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- SIGIR Student Travel Grant -->
+<div class="cv-card">
+  <div class="logo-wrap">
+    <img src="https://tafseer-nayeem.github.io/images/awards/sigir.png"
+         alt="SIGIR icon" loading="lazy" decoding="async">
+  </div>
+  <div>
+    <h3 class="cv-title">
+      <a href="https://sigir.org/general-information/travel-grants/">ACM SIGIR Student Travel Grant</a>
+    </h3>
+    <div class="cv-sub"></div>
+    <div>
+      <span class="chip chip-gray">travel grant</span>
+    </div>
+  </div>
+</div>
+
+<!-- SGS/GSA items (grouped compactly) -->
+<div class="cv-card">
+  <div class="logo-wrap">
+    <img src="https://tafseer-nayeem.github.io/images/awards/sgs.png"
+         alt="SGS/GSA icon" loading="lazy" decoding="async">
+  </div>
+  <div>
+    <h3 class="cv-title">Graduate awards and scholarships (UofL)</h3>
+    <div class="cv-sub">School of Graduate Studies and GSA</div>
+    <ul class="cv-body" style="margin:0 0 6px 18px;">
+      <li>Research Dissemination Travel Award (S.G.S)</li>
+      <li>Graduate Student’s Association (GSA) Travel Award</li>
+      <li>Dean’s Scholarship (S.G.S)</li>
+      <li>International Tuition Award (S.G.S)</li>
+    </ul>
+  </div>
+</div>
+
+<!-- IUT-OIC full scholarship -->
+<div class="cv-card">
+  <div class="logo-wrap">
+    <img src="https://tafseer-nayeem.github.io/images/awards/iut.png"
+         alt="IUT-OIC icon" loading="lazy" decoding="async">
+  </div>
+  <div>
+    <h3 class="cv-title">IUT-OIC Full Free Scholarship</h3>
+    <div class="cv-sub"></div>
+    <div>
+      <span class="chip chip-gray">full scholarship</span>
+    </div>
+  </div>
+</div>
+
+<p style="margin-top:16px;"><a href="#">Back to Top</a></p>
+
+
+
+---------------------------------------------
+
+
 # Education
 
 ## 🎓 PhD in Computing Science
