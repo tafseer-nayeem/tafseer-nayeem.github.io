@@ -127,7 +127,6 @@ author_profile: true
 
 <h2 class="sec-title" id="education">Education</h2>
 
-
 <!-- PhD -->
 <div class="cv-card">
   <div class="logo-wrap">
