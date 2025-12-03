@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-<!-- ===== Education & Awards (equal-height awards grid) — DROP-IN ===== -->
+<!-- ===== Education & Awards (equal-height awards grid with image lane) — DROP-IN ===== -->
 
 <style>
   /* ========= Global knobs (tune here) ========= */
@@ -44,9 +44,9 @@ author_profile: true
     --aw-meta-fs:  .90rem;
     --aw-chip-fs:  .72rem;
 
-    /* Optional award thumbnail lane */
-    --aw-thumb-w: 110px;      /* width of image lane */
-    --aw-thumb-ratio: 4 / 3;  /* 1/1, 4/3, 16/9 etc. */
+    /* Award thumbnail lane */
+    --aw-thumb-w: 110px;      /* image lane width (set 0 to hide globally) */
+    --aw-thumb-ratio: 4 / 3;  /* 1/1, 4/3, 16/9, etc. */
     --aw-thumb-brd: #e5e7eb;
   }
 
@@ -124,7 +124,7 @@ author_profile: true
     background:var(--card-bg);
     box-shadow: var(--card-shadow);
     transition: box-shadow .2s ease, transform .2s ease, border-color .2s ease;
-    min-width: 300px;
+    min-width: 320px;
   }
   .award-card:hover{
     box-shadow: 0 10px 28px rgba(0,0,0,.08);
@@ -132,7 +132,7 @@ author_profile: true
     border-color:#e2e8f0;
   }
 
-  /* Optional thumb lane (omit this div if you don’t have an image) */
+  /* Thumbnail lane (keeps any logo size consistent) */
   .award-thumb{
     flex: 0 0 var(--aw-thumb-w);
     display:grid; place-items:center;
@@ -144,7 +144,7 @@ author_profile: true
   }
   .award-thumb img{
     max-width:100%; max-height:100%;
-    width:auto; height:auto; display:block;   /* no cropping */
+    width:auto; height:auto; display:block;
   }
 
   /* Body */
@@ -292,11 +292,70 @@ author_profile: true
 
 <div class="awards-grid">
 
-  <!-- Pair 1: these two will now match in height with the UofL card if placed in same row -->
-
+  <!-- Best Short Paper Award — VIS 2025 -->
   <article class="award-card">
-    <!-- Omit this block if you have no image -->
-    <!-- <div class="award-thumb"><img src="..." alt=""></div> -->
+    <div class="award-thumb">
+      <img src="https://tafseer-nayeem.github.io/images/awards/vis.png" alt="IEEE VIS logo" loading="lazy" decoding="async">
+    </div>
+    <div class="award-body">
+      <h3 class="award-title"><a href="https://ieeevis.org/year/2025/info/program/papers_list">Best Short Paper Award</a></h3>
+      <div class="award-meta">VIS 2025</div>
+      <div class="pub-award-line">
+        <a href="https://ieeevis.org/year/2025/info/awards/best-paper-awards" target="_blank" rel="noopener noreferrer">
+          <span class="award-badge">🏆 Best short paper award</span>
+        </a>
+      </div>
+    </div>
+  </article>
+
+  <!-- Best Resource Paper Award — EMNLP 2024 -->
+  <article class="award-card">
+    <div class="award-thumb">
+      <img src="https://tafseer-nayeem.github.io/images/awards/emnlp.png" alt="EMNLP logo" loading="lazy" decoding="async">
+    </div>
+    <div class="award-body">
+      <h3 class="award-title"><a href="https://2024.emnlp.org/program/best_papers/">Best Resource Paper Award</a></h3>
+      <div class="award-meta">EMNLP 2024</div>
+      <div class="pub-award-line">
+        <a href="https://2024.emnlp.org/program/best_papers/" target="_blank" rel="noopener noreferrer">
+          <span class="award-badge">🏆 Best resource paper award</span>
+        </a>
+      </div>
+    </div>
+  </article>
+
+  <!-- Huawei PhD Fellowship -->
+  <article class="award-card">
+    <div class="award-thumb">
+      <img src="https://tafseer-nayeem.github.io/images/awards/huawei.png" alt="Huawei Fellowship" loading="lazy" decoding="async">
+    </div>
+    <div class="award-body">
+      <h3 class="award-title">Huawei PhD Fellowship</h3>
+      <div class="award-meta">2022 – 2027</div>
+      <div>
+        <span class="chip chip-teal">fellowship</span>
+        <span class="chip">multi-year</span>
+      </div>
+    </div>
+  </article>
+
+  <!-- PhD Early Achievement Award (nomination) -->
+  <article class="award-card">
+    <div class="award-thumb">
+      <img src="https://tafseer-nayeem.github.io/images/awards/uofa.png" alt="UofA icon" loading="lazy" decoding="async">
+    </div>
+    <div class="award-body">
+      <h3 class="award-title">PhD Early Achievement Award (nomination)</h3>
+      <div class="award-meta">2023</div>
+      <div><span class="chip">nomination</span></div>
+    </div>
+  </article>
+
+  <!-- Graduate Recruitment Scholarship -->
+  <article class="award-card">
+    <div class="award-thumb">
+      <img src="https://tafseer-nayeem.github.io/images/awards/uofa.png" alt="UofA icon" loading="lazy" decoding="async">
+    </div>
     <div class="award-body">
       <h3 class="award-title">Graduate Recruitment Scholarship</h3>
       <div class="award-meta">University of Alberta · 2021 – 2022</div>
@@ -304,7 +363,11 @@ author_profile: true
     </div>
   </article>
 
+  <!-- Graduate awards and scholarships (UofL) -->
   <article class="award-card">
+    <div class="award-thumb">
+      <img src="https://tafseer-nayeem.github.io/images/awards/sgs.png" alt="SGS/GSA icon" loading="lazy" decoding="async">
+    </div>
     <div class="award-body">
       <h3 class="award-title">Graduate awards and scholarships (UofL)</h3>
       <div class="award-meta">School of Graduate Studies (S.G.S) and GSA</div>
@@ -317,23 +380,43 @@ author_profile: true
     </div>
   </article>
 
-  <!-- Pair 2: equal-height with its row partner -->
+  <!-- IUT-OIC Full Free Scholarship -->
   <article class="award-card">
+    <div class="award-thumb">
+      <img src="https://tafseer-nayeem.github.io/images/awards/iut.png" alt="IUT-OIC icon" loading="lazy" decoding="async">
+    </div>
     <div class="award-body">
       <h3 class="award-title">IUT-OIC Full Free Scholarship</h3>
       <div><span class="chip">full scholarship</span></div>
     </div>
   </article>
 
+  <!-- Area Chair Favorite Paper Award — COLING 2018 -->
   <article class="award-card">
+    <div class="award-thumb">
+      <img src="https://tafseer-nayeem.github.io/images/awards/coling.png" alt="COLING logo" loading="lazy" decoding="async">
+    </div>
     <div class="award-body">
-      <h3 class="award-title">PhD Early Achievement Award (nomination)</h3>
-      <div class="award-meta">2023</div>
-      <div><span class="chip">nomination</span></div>
+      <h3 class="award-title"><a href="http://coling2018.org/coling-2018-best-papers/">Area Chair Favorite Paper Award</a></h3>
+      <div class="award-meta">COLING 2018</div>
+      <div class="pub-award-line">
+        <a href="http://coling2018.org/coling-2018-best-papers/" target="_blank" rel="noopener noreferrer">
+          <span class="award-badge">🏆 Area chair favorite paper award</span>
+        </a>
+      </div>
     </div>
   </article>
 
-  <!-- Add more award cards as needed … -->
+  <!-- ACM SIGIR Student Travel Grant -->
+  <article class="award-card">
+    <div class="award-thumb">
+      <img src="https://tafseer-nayeem.github.io/images/awards/sigir.png" alt="SIGIR icon" loading="lazy" decoding="async">
+    </div>
+    <div class="award-body">
+      <h3 class="award-title"><a href="https://sigir.org/general-information/travel-grants/">ACM SIGIR Student Travel Grant</a></h3>
+      <div><span class="chip">travel grant</span></div>
+    </div>
+  </article>
 
 </div>
 
