@@ -5,24 +5,24 @@ permalink: /education-awards/
 author_profile: true
 ---
 
-<!-- ===== Education & Awards ===== -->
+<!-- ===== Education & Awards (compact awards, no logos) — DROP-IN ===== -->
 
 <style>
-  /* ========= Global knobs you can tune once ========= */
+  /* ========= Global knobs (tune here) ========= */
   :root{
-    /* Card geometry */
+    /* Card geometry (education) */
     --logo-w: 160px;        /* left column width for logos */
     --logo-max-h: 110px;    /* max visible logo height */
     --card-gap: 18px;
 
     /* Typography */
     --fs-h2:   1.35rem;     /* section headings */
-    --fs-title:1.00rem;     /* card title */
+    --fs-title:1.00rem;     /* education card title */
     --fs-sub:  .92rem;      /* institution line */
     --fs-body: .92rem;      /* meta lines */
     --fs-chip: .74rem;      /* degree/status chips */
 
-    /* Badges / chips */
+    /* Badge colors */
     --badge-blue:  #4682B4;
     --badge-teal:  #0F766E;
     --badge-gray:  #6B7280;
@@ -36,6 +36,11 @@ author_profile: true
     --card-brd:   #e5e7eb;
     --card-bg:    #fff;
     --card-shadow:0 1px 2px rgba(0,0,0,.04);
+
+    /* Compact award card typography */
+    --award-title: .98rem;
+    --award-meta:  .90rem;
+    --award-chip:  .72rem;
   }
 
   /* ========= Section headings ========= */
@@ -44,8 +49,11 @@ author_profile: true
     font-size: var(--fs-h2);
     color:#1f2937; letter-spacing:.2px;
   }
+  @media (max-width:640px){
+    :root{ --fs-h2:1.15rem; }
+  }
 
-  /* ========= Reusable card ========= */
+  /* ========= Education card (with logos) ========= */
   .cv-card{
     display:grid; grid-template-columns: var(--logo-w) 1fr;
     gap: var(--card-gap);
@@ -57,7 +65,6 @@ author_profile: true
   }
   .cv-card:hover{ box-shadow:0 10px 28px rgba(0,0,0,.08); transform:translateY(-2px); border-color:#e2e8f0; }
 
-  /* Left column: adaptive logo (no cropping) */
   .logo-wrap{
     width:var(--logo-w); max-height:var(--logo-max-h);
     display:grid; place-items:center;
@@ -66,7 +73,6 @@ author_profile: true
   }
   .logo-wrap img{ max-width:100%; max-height:100%; width:auto; height:auto; }
 
-  /* Right column: text */
   .cv-title{ margin:0 0 6px 0; font-size:var(--fs-title); line-height:1.28; }
   .cv-title a{
     text-decoration:none;
@@ -84,9 +90,7 @@ author_profile: true
     margin: 0 0 10px 0; font-size:var(--fs-body); color:#374151;
   }
   .meta-row{ display:block; }
-  .meta-label{
-    font-weight:600; color:#374151; margin-right:.35rem;
-  }
+  .meta-label{ font-weight:600; color:#374151; margin-right:.35rem; }
   .meta a{ text-decoration:underline; text-underline-offset:2px; }
 
   /* Chips */
@@ -101,22 +105,48 @@ author_profile: true
   .chip-teal{ background:var(--badge-teal); color:#fff; }
   .chip-gray{ background:#eef2f7; color:#374151; border-color:#d1d5db; }
 
+  /* ========= COMPACT award cards (no logos) ========= */
+  .award-card{
+    padding:12px 14px;
+    margin:12px 0;
+    border:1px solid var(--card-brd);
+    border-radius:12px;
+    background:var(--card-bg);
+    box-shadow:var(--card-shadow);
+    transition: box-shadow .2s ease, transform .2s ease, border-color .2s ease;
+  }
+  .award-card:hover{
+    box-shadow: 0 10px 28px rgba(0,0,0,.08);
+    transform: translateY(-2px);
+    border-color:#e2e8f0;
+  }
+  .award-title{ margin:0 0 4px 0; font-size:var(--award-title); line-height:1.28; }
+  .award-title a{
+    text-decoration:none;
+    background-image: linear-gradient(currentColor,currentColor);
+    background-size:0% 2px; background-repeat:no-repeat; background-position:0 100%;
+    transition: background-size .22s ease;
+  }
+  .award-title a:hover{ background-size:100% 2px; }
+
+  .award-meta{ margin:0 0 6px 0; font-size:var(--award-meta); color:#374151; }
+
   /* Award badge line */
-  .pub-award-line{ display:block; margin:6px 0 8px; }
+  .pub-award-line{ display:block; margin:6px 0 6px; }
   .award-badge{
     display:inline-flex; align-items:center; gap:6px; justify-content:center;
     padding:4px 10px; border-radius:999px; line-height:1.05;
     font-weight:800; letter-spacing:.2px; text-transform:none;
-    font-size: calc(var(--fs-chip) + .02rem);
+    font-size: calc(var(--award-chip) + .02rem);
     border:1px solid transparent; white-space:nowrap;
     transition: transform .16s ease, box-shadow .16s ease, filter .16s ease;
   }
   .award-outline-gold{ color:var(--gold-ink); background:var(--gold-bg); border-color:var(--gold-brd); }
   .award-badge:hover{ transform:translateY(-1px); box-shadow:0 6px 14px rgba(0,0,0,.06); filter:saturate(1.03); }
 
-  /* Compact list inside a card (for grouped awards) */
-  .cv-list{ margin:0 0 6px 18px; padding:0; }
-  .cv-list li{ margin:2px 0; }
+  /* Compact UL inside an award card */
+  .award-list{ margin: 6px 0 0 18px; padding:0; }
+  .award-list li{ margin:2px 0; }
 
   /* Mobile */
   @media (max-width: 640px){
@@ -126,7 +156,6 @@ author_profile: true
 </style>
 
 <h2 class="sec-title" id="education">Education</h2>
-
 
 <!-- PhD -->
 <div class="cv-card">
@@ -231,152 +260,97 @@ author_profile: true
 
 <h2 class="sec-title" id="awards">Awards</h2>
 
-<!-- VIS 2025 Best Short Paper -->
-<div class="cv-card">
-  <div class="logo-wrap">
-    <img src="https://tafseer-nayeem.github.io/images/awards/vis.png"
-         alt="IEEE VIS icon" loading="lazy" decoding="async">
-  </div>
-  <div>
-    <h3 class="cv-title">
-      <a href="https://ieeevis.org/year/2025/info/program/papers_list">Best Short Paper Award</a>
-    </h3>
-    <div class="cv-sub">VIS 2025</div>
-    <div class="pub-award-line">
-      <a href="https://ieeevis.org/year/2025/info/awards/best-paper-awards" target="_blank" rel="noopener noreferrer">
-        <span class="award-badge award-outline-gold">🏆 Best short paper award</span>
-      </a>
-    </div>
+<!-- VIS 2025 Best Short Paper (compact, no logo) -->
+<div class="award-card">
+  <h3 class="award-title">
+    <a href="https://ieeevis.org/year/2025/info/program/papers_list">Best Short Paper Award</a>
+  </h3>
+  <div class="award-meta">VIS 2025</div>
+  <div class="pub-award-line">
+    <a href="https://ieeevis.org/year/2025/info/awards/best-paper-awards" target="_blank" rel="noopener noreferrer">
+      <span class="award-badge award-outline-gold">🏆 Best short paper award</span>
+    </a>
   </div>
 </div>
 
-<!-- EMNLP 2024 Best Resource Paper -->
-<div class="cv-card">
-  <div class="logo-wrap">
-    <img src="https://tafseer-nayeem.github.io/images/awards/emnlp.png"
-         alt="EMNLP icon" loading="lazy" decoding="async">
-  </div>
-  <div>
-    <h3 class="cv-title">
-      <a href="https://2024.emnlp.org/program/best_papers/">Best Resource Paper Award</a>
-    </h3>
-    <div class="cv-sub">EMNLP 2024</div>
-    <div class="pub-award-line">
-      <a href="https://2024.emnlp.org/program/best_papers/" target="_blank" rel="noopener noreferrer">
-        <span class="award-badge award-outline-gold">🏆 Best resource paper award</span>
-      </a>
-    </div>
+<!-- EMNLP 2024 Best Resource Paper (compact) -->
+<div class="award-card">
+  <h3 class="award-title">
+    <a href="https://2024.emnlp.org/program/best_papers/">Best Resource Paper Award</a>
+  </h3>
+  <div class="award-meta">EMNLP 2024</div>
+  <div class="pub-award-line">
+    <a href="https://2024.emnlp.org/program/best_papers/" target="_blank" rel="noopener noreferrer">
+      <span class="award-badge award-outline-gold">🏆 Best resource paper award</span>
+    </a>
   </div>
 </div>
 
-<!-- Huawei Fellowship -->
-<div class="cv-card">
-  <div class="logo-wrap">
-    <img src="https://tafseer-nayeem.github.io/images/awards/huawei.png"
-         alt="Huawei Fellowship icon" loading="lazy" decoding="async">
-  </div>
+<!-- Huawei Fellowship (compact) -->
+<div class="award-card">
+  <h3 class="award-title">Huawei PhD Fellowship</h3>
+  <div class="award-meta">2022 – 2027</div>
   <div>
-    <h3 class="cv-title">Huawei PhD Fellowship</h3>
-    <div class="cv-sub">2022 – 2027</div>
-    <div>
-      <span class="chip chip-teal">fellowship</span>
-      <span class="chip chip-gray">multi-year</span>
-    </div>
+    <span class="chip chip-teal">fellowship</span>
+    <span class="chip chip-gray">multi-year</span>
   </div>
 </div>
 
-<!-- PhD Early Achievement nomination -->
-<div class="cv-card">
-  <div class="logo-wrap">
-    <img src="https://tafseer-nayeem.github.io/images/awards/uofa.png"
-         alt="UofA icon" loading="lazy" decoding="async">
-  </div>
-  <div>
-    <h3 class="cv-title">PhD Early Achievement Award (nomination)</h3>
-    <div class="cv-sub">2023</div>
-    <div><span class="chip chip-gray">nomination</span></div>
+<!-- PhD Early Achievement nomination (compact) -->
+<div class="award-card">
+  <h3 class="award-title">PhD Early Achievement Award (nomination)</h3>
+  <div class="award-meta">2023</div>
+  <div><span class="chip chip-gray">nomination</span></div>
+</div>
+
+<!-- UofA Graduate Recruitment Scholarship (compact) -->
+<div class="award-card">
+  <h3 class="award-title">Graduate Recruitment Scholarship</h3>
+  <div class="award-meta">University of Alberta · 2021 – 2022</div>
+  <div><span class="chip chip-gray">scholarship</span></div>
+</div>
+
+<!-- COLING 2018 Area Chair Favorite (compact) -->
+<div class="award-card">
+  <h3 class="award-title">
+    <a href="http://coling2018.org/coling-2018-best-papers/">Area Chair Favorite Paper Award</a>
+  </h3>
+  <div class="award-meta">COLING 2018</div>
+  <div class="pub-award-line">
+    <a href="http://coling2018.org/coling-2018-best-papers/" target="_blank" rel="noopener noreferrer">
+      <span class="award-badge award-outline-gold">🏆 Area chair favorite paper award</span>
+    </a>
   </div>
 </div>
 
-<!-- UofA Graduate Recruitment Scholarship -->
-<div class="cv-card">
-  <div class="logo-wrap">
-    <img src="https://tafseer-nayeem.github.io/images/awards/uofa.png"
-         alt="UofA icon" loading="lazy" decoding="async">
-  </div>
-  <div>
-    <h3 class="cv-title">Graduate Recruitment Scholarship</h3>
-    <div class="cv-sub">University of Alberta · 2021 – 2022</div>
-    <div><span class="chip chip-gray">scholarship</span></div>
-  </div>
+<!-- SIGIR Student Travel Grant (compact) -->
+<div class="award-card">
+  <h3 class="award-title">
+    <a href="https://sigir.org/general-information/travel-grants/">ACM SIGIR Student Travel Grant</a>
+  </h3>
+  <div><span class="chip chip-gray">travel grant</span></div>
 </div>
 
-<!-- COLING 2018 Area Chair Favorite -->
-<div class="cv-card">
-  <div class="logo-wrap">
-    <img src="https://tafseer-nayeem.github.io/images/awards/coling.png"
-         alt="COLING icon" loading="lazy" decoding="async">
-  </div>
-  <div>
-    <h3 class="cv-title">
-      <a href="http://coling2018.org/coling-2018-best-papers/">Area Chair Favorite Paper Award</a>
-    </h3>
-    <div class="cv-sub">COLING 2018</div>
-    <div class="pub-award-line">
-      <a href="http://coling2018.org/coling-2018-best-papers/" target="_blank" rel="noopener noreferrer">
-        <span class="award-badge award-outline-gold">🏆 Area chair favorite paper award</span>
-      </a>
-    </div>
-  </div>
+<!-- SGS/GSA grouped items (compact) -->
+<div class="award-card">
+  <h3 class="award-title">Graduate awards and scholarships (UofL)</h3>
+  <div class="award-meta">School of Graduate Studies (S.G.S) and GSA</div>
+  <ul class="award-list">
+    <li>Research Dissemination Travel Award (S.G.S)</li>
+    <li>Graduate Student’s Association (GSA) Travel Award</li>
+    <li>Dean’s Scholarship (S.G.S)</li>
+    <li>International Tuition Award (S.G.S)</li>
+  </ul>
 </div>
 
-<!-- SIGIR Student Travel Grant -->
-<div class="cv-card">
-  <div class="logo-wrap">
-    <img src="https://tafseer-nayeem.github.io/images/awards/sigir.png"
-         alt="SIGIR icon" loading="lazy" decoding="async">
-  </div>
-  <div>
-    <h3 class="cv-title">
-      <a href="https://sigir.org/general-information/travel-grants/">ACM SIGIR Student Travel Grant</a>
-    </h3>
-    <div class="cv-sub"></div>
-    <div><span class="chip chip-gray">travel grant</span></div>
-  </div>
+<!-- IUT-OIC full scholarship (compact) -->
+<div class="award-card">
+  <h3 class="award-title">IUT-OIC Full Free Scholarship</h3>
+  <div><span class="chip chip-gray">full scholarship</span></div>
 </div>
 
-<!-- SGS/GSA grouped items -->
-<div class="cv-card">
-  <div class="logo-wrap">
-    <img src="https://tafseer-nayeem.github.io/images/awards/sgs.png"
-         alt="SGS/GSA icon" loading="lazy" decoding="async">
-  </div>
-  <div>
-    <h3 class="cv-title">Graduate awards and scholarships (UofL)</h3>
-    <div class="cv-sub">School of Graduate Studies (S.G.S) and GSA</div>
-    <ul class="cv-list">
-      <li>Research Dissemination Travel Award (S.G.S)</li>
-      <li>Graduate Student’s Association (GSA) Travel Award</li>
-      <li>Dean’s Scholarship (S.G.S)</li>
-      <li>International Tuition Award (S.G.S)</li>
-    </ul>
-  </div>
-</div>
+<p style="margin-top:14px;"><a href="#">Back to Top</a></p>
 
-<!-- IUT-OIC full scholarship -->
-<div class="cv-card">
-  <div class="logo-wrap">
-    <img src="https://tafseer-nayeem.github.io/images/awards/iut.png"
-         alt="IUT-OIC icon" loading="lazy" decoding="async">
-  </div>
-  <div>
-    <h3 class="cv-title">IUT-OIC Full Free Scholarship</h3>
-    <div class="cv-sub"></div>
-    <div><span class="chip chip-gray">full scholarship</span></div>
-  </div>
-</div>
-
-<p style="margin-top:16px;"><a href="#">Back to Top</a></p>
 
 
 ---------------------------------------------
