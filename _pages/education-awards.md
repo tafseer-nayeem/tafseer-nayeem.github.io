@@ -125,7 +125,7 @@ author_profile: true
   }
 </style>
 
-<h1 class="sec-title" id="education">Education</h1>
+<h2 class="sec-title" id="education">Education</h2>
 
 
 <!-- PhD -->
