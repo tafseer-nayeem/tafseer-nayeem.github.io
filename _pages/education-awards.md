@@ -46,8 +46,8 @@ author_profile: true
     --aw-card-min-h: 136px;    /* ↓ shorter for more compact cards */
 
     /* AWARD THUMBNAIL (shorter rectangle; center, no distortion) */
-    --aw-thumb-w: 110px;        /* width of the image lane */
-    --aw-thumb-h: 88px;        /* height of the image lane (make this smaller to shrink cards) */
+    --aw-thumb-w: 120px;        /* width of the image lane */
+    --aw-thumb-h: 80px;        /* height of the image lane (make this smaller to shrink cards) */
     --aw-thumb-brd: #e5e7eb;
   }
 
