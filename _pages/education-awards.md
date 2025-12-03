@@ -39,7 +39,7 @@ author_profile: true
 
     /* Awards grid knobs */
     --aw-grid-gap: 16px;       /* gap between award cards */
-    --aw-card-pad: 10px;       /* padding inside award cards */
+    --aw-card-pad: 12px;       /* padding inside award cards */
     --aw-title-fs: .98rem;
     --aw-meta-fs:  .90rem;
     --aw-chip-fs:  .72rem;
