@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-<!-- ===== Education & Awards (equal-height awards grid with image lane; ordered + grouped) — DROP-IN ===== -->
+<!-- ===== Education & Awards (compact awards with shorter rectangular thumbs) — DROP-IN ===== -->
 
 <style>
   /* ========= Global knobs (tune here) ========= */
@@ -38,16 +38,16 @@ author_profile: true
     --card-shadow:0 1px 2px rgba(0,0,0,.04);
 
     /* Awards grid knobs */
-    --aw-grid-gap: 16px;         /* gap between award cards */
-    --aw-card-pad: 14px;         /* padding inside award cards */
+    --aw-grid-gap: 16px;       /* gap between award cards */
+    --aw-card-pad: 14px;       /* padding inside award cards */
     --aw-title-fs: .98rem;
     --aw-meta-fs:  .90rem;
     --aw-chip-fs:  .72rem;
-    --aw-card-min-h: 168px;      /* minimum height for visual consistency */
+    --aw-card-min-h: 136px;    /* ↓ shorter for more compact cards */
 
-    /* Award thumbnail lane */
-    --aw-thumb-w: 110px;         /* width of the image lane */
-    --aw-thumb-ratio: 4 / 3;     /* normalize aspect (1/1, 4/3, 16/9, etc.) */
+    /* AWARD THUMBNAIL (shorter rectangle; center, no distortion) */
+    --aw-thumb-w: 92px;        /* width of the image lane */
+    --aw-thumb-h: 58px;        /* height of the image lane (make this smaller to shrink cards) */
     --aw-thumb-brd: #e5e7eb;
   }
 
@@ -117,8 +117,8 @@ author_profile: true
     align-items: stretch; /* equal height within each row */
   }
   .award-card{
-    flex: 1 1 calc(50% - var(--aw-grid-gap));  /* two columns (breaks to one on small screens) */
-    display:flex; gap:12px;
+    flex: 1 1 calc(50% - var(--aw-grid-gap));  /* two columns (becomes one on small screens) */
+    display:flex; align-items:center; gap:12px; /* center items vertically */
     padding: var(--aw-card-pad);
     border:1px solid var(--card-brd);
     border-radius:12px;
@@ -134,19 +134,21 @@ author_profile: true
     border-color:#e2e8f0;
   }
 
-  /* Thumbnail lane (keeps any logo size consistent) */
+  /* Short rectangular thumbnail lane — centered, no distortion */
   .award-thumb{
     flex: 0 0 var(--aw-thumb-w);
     display:grid; place-items:center;
     width: var(--aw-thumb-w);
-    aspect-ratio: var(--aw-thumb-ratio);
+    height: var(--aw-thumb-h);
     border:1px solid var(--aw-thumb-brd);
     border-radius:10px;
     background:#fff; overflow:hidden;
   }
   .award-thumb img{
-    max-width:100%; max-height:100%;
-    width:auto; height:auto; display:block;
+    width:100%; height:100%;
+    object-fit: contain;      /* fit inside box without distortion */
+    object-position: center;  /* keep centered */
+    display:block;
   }
 
   /* Body */
@@ -177,9 +179,16 @@ author_profile: true
   .award-list{ margin: 6px 0 0 18px; padding:0; }
   .award-list li{ margin:2px 0; }
 
-  /* Mobile */
+  /* Mobile tweaks: shrink thumbs a bit more for small screens */
   @media (max-width: 900px){
     .award-card{ flex-basis: 100%; }
+  }
+  @media (max-width: 600px){
+    :root{
+      --aw-thumb-w: 80px;
+      --aw-thumb-h: 50px;
+      --aw-card-min-h: 128px;
+    }
   }
   @media (max-width: 640px){
     .cv-card{ grid-template-columns:1fr; }
@@ -190,7 +199,6 @@ author_profile: true
 <h2 class="sec-title" id="education">Education</h2>
 
 <!-- ===== Education (unchanged) ===== -->
-<!-- PhD -->
 <div class="cv-card">
   <div class="logo-wrap">
     <img src="https://tafseer-nayeem.github.io/images/edu/uofa.png"
@@ -202,19 +210,9 @@ author_profile: true
     </h3>
     <div class="cv-sub">University of Alberta (UofA), Edmonton, Canada</div>
     <div class="meta">
-      <span class="meta-row">
-        <span class="meta-label">Tentative thesis title:</span>
-        “User-Centric Modeling and Synthesis in Language Technologies”
-      </span>
-      <span class="meta-row">
-        <span class="meta-label">Supervisor:</span>
-        <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Prof. Davood Rafiei</a>
-      </span>
-      <span class="meta-row">
-        <span class="meta-label">Committee:</span>
-        <a href="https://webdocs.cs.ualberta.ca/~zaiane/">Prof. Osmar Zaiane</a>,
-        <a href="https://lili-mou.github.io/">Prof. Lili Mou</a>
-      </span>
+      <span class="meta-row"><span class="meta-label">Tentative thesis title:</span>“User-Centric Modeling and Synthesis in Language Technologies”</span>
+      <span class="meta-row"><span class="meta-label">Supervisor:</span><a href="https://webdocs.cs.ualberta.ca/~drafiei/">Prof. Davood Rafiei</a></span>
+      <span class="meta-row"><span class="meta-label">Committee:</span><a href="https://webdocs.cs.ualberta.ca/~zaiane/">Prof. Osmar Zaiane</a>, <a href="https://lili-mou.github.io/">Prof. Lili Mou</a></span>
     </div>
     <div>
       <span class="chip chip-blue">PhD</span>
@@ -224,7 +222,6 @@ author_profile: true
   </div>
 </div>
 
-<!-- MSc -->
 <div class="cv-card">
   <div class="logo-wrap">
     <img src="https://tafseer-nayeem.github.io/images/edu/uofl.png"
@@ -236,25 +233,10 @@ author_profile: true
     </h3>
     <div class="cv-sub">University of Lethbridge (UofL), Lethbridge, Canada</div>
     <div class="meta">
-      <span class="meta-row">
-        <span class="meta-label">Thesis:</span>
-        <a href="https://tafseer-nayeem.github.io/files/MSc_Thesis.pdf">
-          Methods of Sentence Extraction, Abstraction, and Ordering for Automatic Text Summarization
-        </a>
-      </span>
-      <span class="meta-row">
-        <span class="meta-label">Presentation:</span>
-        <a href="https://tafseer-nayeem.github.io/files/MSc_Thesis_Presenation.pdf">slides</a>
-      </span>
-      <span class="meta-row">
-        <span class="meta-label">Supervisor:</span>
-        <a href="http://www.cs.uleth.ca/~chali/">Prof. Yllias Chali</a>
-      </span>
-      <span class="meta-row">
-        <span class="meta-label">Committee:</span>
-        <a href="http://directory.uleth.ca/users/wendy.osborn">Prof. Wendy Osborn</a>,
-        <a href="http://directory.uleth.ca/users/john.anvik">Prof. John Anvik</a>
-      </span>
+      <span class="meta-row"><span class="meta-label">Thesis:</span><a href="https://tafseer-nayeem.github.io/files/MSc_Thesis.pdf">Methods of Sentence Extraction, Abstraction, and Ordering for Automatic Text Summarization</a></span>
+      <span class="meta-row"><span class="meta-label">Presentation:</span><a href="https://tafseer-nayeem.github.io/files/MSc_Thesis_Presenation.pdf">slides</a></span>
+      <span class="meta-row"><span class="meta-label">Supervisor:</span><a href="http://www.cs.uleth.ca/~chali/">Prof. Yllias Chali</a></span>
+      <span class="meta-row"><span class="meta-label">Committee:</span><a href="http://directory.uleth.ca/users/wendy.osborn">Prof. Wendy Osborn</a>, <a href="http://directory.uleth.ca/users/john.anvik">Prof. John Anvik</a></span>
     </div>
     <div>
       <span class="chip chip-blue">MSc</span>
@@ -263,7 +245,6 @@ author_profile: true
   </div>
 </div>
 
-<!-- BSc -->
 <div class="cv-card">
   <div class="logo-wrap">
     <img src="https://tafseer-nayeem.github.io/images/edu/iut.png"
@@ -275,14 +256,8 @@ author_profile: true
     </h3>
     <div class="cv-sub">Islamic University of Technology (IUT), Dhaka, Bangladesh</div>
     <div class="meta">
-      <span class="meta-row">
-        <span class="meta-label">Thesis:</span>
-        Designing a Probabilistic Path Selection Model for Vehicular Networks
-      </span>
-      <span class="meta-row">
-        <span class="meta-label">Supervisor:</span>
-        <a href="https://scholar.google.com/citations?user=5sjCt8cAAAAJ&hl=en">Prof. Muhammad Mahbub Alam</a>
-      </span>
+      <span class="meta-row"><span class="meta-label">Thesis:</span>Designing a Probabilistic Path Selection Model for Vehicular Networks</span>
+      <span class="meta-row"><span class="meta-label">Supervisor:</span><a href="https://scholar.google.com/citations?user=5sjCt8cAAAAJ&hl=en">Prof. Muhammad Mahbub Alam</a></span>
     </div>
     <div>
       <span class="chip chip-blue">BSc</span>
@@ -293,7 +268,6 @@ author_profile: true
 
 <h2 class="sec-title" id="awards">Awards</h2>
 
-<!-- ===== Awards in the exact order requested ===== -->
 <div class="awards-grid">
 
   <!-- 1) Best Short Paper Award — VIS 2025 -->
@@ -394,7 +368,22 @@ author_profile: true
     </div>
   </article>
 
-  <!--  8–9) GROUP: Scholarships (UofL) -->
+  <!-- 8–9) GROUP: Travel Awards (UofL) -->
+  <article class="award-card">
+    <div class="award-thumb">
+      <img src="https://tafseer-nayeem.github.io/images/awards/sgs.png" alt="SGS/GSA icon" loading="lazy" decoding="async">
+    </div>
+    <div class="award-body">
+      <h3 class="award-title">Travel Awards (UofL)</h3>
+      <div class="award-meta">School of Graduate Studies (S.G.S) and GSA</div>
+      <ul class="award-list">
+        <li>Research Dissemination Travel Award (S.G.S)</li>
+        <li>Graduate Student’s Association (GSA) Travel Award</li>
+      </ul>
+    </div>
+  </article>
+
+  <!-- 10–11) GROUP: Scholarships (UofL) -->
   <article class="award-card">
     <div class="award-thumb">
       <img src="https://tafseer-nayeem.github.io/images/awards/sgs.png" alt="SGS icon" loading="lazy" decoding="async">
@@ -405,21 +394,6 @@ author_profile: true
       <ul class="award-list">
         <li>Dean’s Scholarship (S.G.S)</li>
         <li>International Tuition Award (S.G.S)</li>
-      </ul>
-    </div>
-  </article>
-
-  <!-- 10–11) GROUP: Travel Awards (UofL) -->
-  <article class="award-card">
-    <div class="award-thumb">
-      <img src="https://tafseer-nayeem.github.io/images/awards/sgs.png" alt="SGS/GSA icon" loading="lazy" decoding="async">
-    </div>
-    <div class="award-body">
-      <h3 class="award-title">Travel Awards (UofL)</h3>
-      <div class="award-meta">School of Graduate Studies (S.G.S) and GSA</div>
-      <ul class="award-list">
-        <li>Research Travel Award (S.G.S)</li>
-        <li>Graduate Student’s Association (GSA) Travel Award</li>
       </ul>
     </div>
   </article>
@@ -438,6 +412,7 @@ author_profile: true
 </div>
 
 <p style="margin-top:14px;"><a href="#">Back to Top</a></p>
+
 
 
 
