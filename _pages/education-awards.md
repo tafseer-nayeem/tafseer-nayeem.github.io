@@ -403,7 +403,7 @@ author_profile: true
       <h3 class="award-title">Travel Awards (UofL)</h3>
       <div class="award-meta">School of Graduate Studies (S.G.S) and GSA</div>
       <ul class="award-list">
-        <li>Research Dissemination Travel Award (S.G.S)</li>
+        <li>Research Travel Award (S.G.S)</li>
         <li>Graduate Student’s Association (GSA) Travel Award</li>
       </ul>
     </div>
