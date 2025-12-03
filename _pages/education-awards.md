@@ -5,7 +5,6 @@ permalink: /education-awards/
 author_profile: true
 ---
 
-
 <!-- ===== Education & Awards ===== -->
 
 <style>
@@ -45,9 +44,9 @@ author_profile: true
     --aw-chip-fs:  .72rem;
     --aw-card-min-h: 126px;    /* ↓ shorter for more compact cards */
 
-    /* AWARD THUMBNAIL (shorter rectangle; center, no distortion) */
+    /* AWARD THUMBNAIL (shorter rectangle) */
     --aw-thumb-w: 120px;        /* width of the image lane */
-    --aw-thumb-h: 80px;        /* height of the image lane (make this smaller to shrink cards) */
+    --aw-thumb-h: 80px;         /* height of the image lane */
     --aw-thumb-brd: #e5e7eb;
   }
 
@@ -134,21 +133,23 @@ author_profile: true
     border-color:#e2e8f0;
   }
 
-  /* Short rectangular thumbnail lane — centered, no distortion */
+  /* Short rectangular thumbnail lane — preserve aspect ratio, no distortion */
   .award-thumb{
     flex: 0 0 var(--aw-thumb-w);
-    display:grid; place-items:center;
+    display:flex; align-items:center; justify-content:center;  /* center the image */
     width: var(--aw-thumb-w);
     height: var(--aw-thumb-h);
     border:1px solid var(--aw-thumb-brd);
     border-radius:10px;
-    background:#fff; overflow:hidden;
+    background:#fff;               /* white background so any empty space blends in */
+    overflow:hidden;               /* hide any accidental overflow */
   }
   .award-thumb img{
-    width:100%; height:100%;
-    object-fit: contain;      /* fit inside box without distortion */
-    object-position: center;  /* keep centered */
-    display:block;
+    max-width:100%; max-height:100%; /* fit fully inside the box */
+    width:auto; height:auto;         /* prevent stretching */
+    object-fit:contain;              /* keep aspect ratio */
+    object-position:center;          /* center within the frame */
+    display:block; background:#fff;  /* ensure image area stays white */
   }
 
   /* Body */
@@ -412,9 +413,6 @@ author_profile: true
 </div>
 
 <p style="margin-top:14px;"><a href="#">Back to Top</a></p>
-
-
-
 
 
 
