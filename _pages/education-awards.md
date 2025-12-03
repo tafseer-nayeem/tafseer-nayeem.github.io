@@ -16,7 +16,7 @@ author_profile: true
     --card-gap: 18px;
 
     /* Typography */
-    --fs-h2:   1.20rem;     /* section headings */
+    --fs-h2:   1.35rem;     /* section headings */
     --fs-title:1.00rem;     /* card title */
     --fs-sub:  .92rem;      /* institution line */
     --fs-body: .92rem;      /* meta lines */
