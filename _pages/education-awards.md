@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-<!-- ===== Education & Awards (equal-height awards grid with image lane) — DROP-IN ===== -->
+<!-- ===== Education & Awards (equal-height awards grid with image lane; ordered + grouped) — DROP-IN ===== -->
 
 <style>
   /* ========= Global knobs (tune here) ========= */
@@ -17,11 +17,11 @@ author_profile: true
     --card-gap: 18px;
 
     /* Typography */
-    --fs-h2:   1.35rem;   /* section headings */
-    --fs-title:1.00rem;   /* education card title */
-    --fs-sub:  .92rem;    /* institution line */
-    --fs-body: .92rem;    /* meta lines */
-    --fs-chip: .74rem;    /* chips */
+    --fs-h2:   1.35rem;
+    --fs-title:1.00rem;
+    --fs-sub:  .92rem;
+    --fs-body: .92rem;
+    --fs-chip: .74rem;
 
     /* Chip colors */
     --badge-blue:  #4682B4;
@@ -38,15 +38,16 @@ author_profile: true
     --card-shadow:0 1px 2px rgba(0,0,0,.04);
 
     /* Awards grid knobs */
-    --aw-grid-gap: 16px;      /* gap between award cards */
-    --aw-card-pad: 14px;      /* padding inside award cards */
+    --aw-grid-gap: 16px;         /* gap between award cards */
+    --aw-card-pad: 14px;         /* padding inside award cards */
     --aw-title-fs: .98rem;
     --aw-meta-fs:  .90rem;
     --aw-chip-fs:  .72rem;
+    --aw-card-min-h: 168px;      /* minimum height for visual consistency */
 
     /* Award thumbnail lane */
-    --aw-thumb-w: 110px;      /* image lane width (set 0 to hide globally) */
-    --aw-thumb-ratio: 4 / 3;  /* 1/1, 4/3, 16/9, etc. */
+    --aw-thumb-w: 110px;         /* width of the image lane */
+    --aw-thumb-ratio: 4 / 3;     /* normalize aspect (1/1, 4/3, 16/9, etc.) */
     --aw-thumb-brd: #e5e7eb;
   }
 
@@ -113,11 +114,11 @@ author_profile: true
     display:flex;
     flex-wrap:wrap;
     gap: var(--aw-grid-gap);
-    align-items: stretch;        /* equal height within each row */
+    align-items: stretch; /* equal height within each row */
   }
   .award-card{
-    flex: 1 1 calc(50% - var(--aw-grid-gap));  /* two columns, responsive */
-    display:flex; gap:12px;                    /* thumb lane + body */
+    flex: 1 1 calc(50% - var(--aw-grid-gap));  /* two columns (breaks to one on small screens) */
+    display:flex; gap:12px;
     padding: var(--aw-card-pad);
     border:1px solid var(--card-brd);
     border-radius:12px;
@@ -125,6 +126,7 @@ author_profile: true
     box-shadow: var(--card-shadow);
     transition: box-shadow .2s ease, transform .2s ease, border-color .2s ease;
     min-width: 320px;
+    min-height: var(--aw-card-min-h);
   }
   .award-card:hover{
     box-shadow: 0 10px 28px rgba(0,0,0,.08);
@@ -187,6 +189,7 @@ author_profile: true
 
 <h2 class="sec-title" id="education">Education</h2>
 
+<!-- ===== Education (unchanged) ===== -->
 <!-- PhD -->
 <div class="cv-card">
   <div class="logo-wrap">
@@ -290,9 +293,10 @@ author_profile: true
 
 <h2 class="sec-title" id="awards">Awards</h2>
 
+<!-- ===== Awards in the exact order requested ===== -->
 <div class="awards-grid">
 
-  <!-- Best Short Paper Award — VIS 2025 -->
+  <!-- 1) Best Short Paper Award — VIS 2025 -->
   <article class="award-card">
     <div class="award-thumb">
       <img src="https://tafseer-nayeem.github.io/images/awards/vis.png" alt="IEEE VIS logo" loading="lazy" decoding="async">
@@ -308,7 +312,7 @@ author_profile: true
     </div>
   </article>
 
-  <!-- Best Resource Paper Award — EMNLP 2024 -->
+  <!-- 2) Best Resource Paper Award — EMNLP 2024 -->
   <article class="award-card">
     <div class="award-thumb">
       <img src="https://tafseer-nayeem.github.io/images/awards/emnlp.png" alt="EMNLP logo" loading="lazy" decoding="async">
@@ -324,7 +328,7 @@ author_profile: true
     </div>
   </article>
 
-  <!-- Huawei PhD Fellowship -->
+  <!-- 3) Huawei PhD Fellowship -->
   <article class="award-card">
     <div class="award-thumb">
       <img src="https://tafseer-nayeem.github.io/images/awards/huawei.png" alt="Huawei Fellowship" loading="lazy" decoding="async">
@@ -339,7 +343,7 @@ author_profile: true
     </div>
   </article>
 
-  <!-- PhD Early Achievement Award (nomination) -->
+  <!-- 4) PhD Early Achievement Award (nomination) -->
   <article class="award-card">
     <div class="award-thumb">
       <img src="https://tafseer-nayeem.github.io/images/awards/uofa.png" alt="UofA icon" loading="lazy" decoding="async">
@@ -351,7 +355,7 @@ author_profile: true
     </div>
   </article>
 
-  <!-- Graduate Recruitment Scholarship -->
+  <!-- 5) Graduate Recruitment Scholarship -->
   <article class="award-card">
     <div class="award-thumb">
       <img src="https://tafseer-nayeem.github.io/images/awards/uofa.png" alt="UofA icon" loading="lazy" decoding="async">
@@ -363,35 +367,7 @@ author_profile: true
     </div>
   </article>
 
-  <!-- Graduate awards and scholarships (UofL) -->
-  <article class="award-card">
-    <div class="award-thumb">
-      <img src="https://tafseer-nayeem.github.io/images/awards/sgs.png" alt="SGS/GSA icon" loading="lazy" decoding="async">
-    </div>
-    <div class="award-body">
-      <h3 class="award-title">Graduate awards and scholarships (UofL)</h3>
-      <div class="award-meta">School of Graduate Studies (S.G.S) and GSA</div>
-      <ul class="award-list">
-        <li>Research Dissemination Travel Award (S.G.S)</li>
-        <li>Graduate Student’s Association (GSA) Travel Award</li>
-        <li>Dean’s Scholarship (S.G.S)</li>
-        <li>International Tuition Award (S.G.S)</li>
-      </ul>
-    </div>
-  </article>
-
-  <!-- IUT-OIC Full Free Scholarship -->
-  <article class="award-card">
-    <div class="award-thumb">
-      <img src="https://tafseer-nayeem.github.io/images/awards/iut.png" alt="IUT-OIC icon" loading="lazy" decoding="async">
-    </div>
-    <div class="award-body">
-      <h3 class="award-title">IUT-OIC Full Free Scholarship</h3>
-      <div><span class="chip">full scholarship</span></div>
-    </div>
-  </article>
-
-  <!-- Area Chair Favorite Paper Award — COLING 2018 -->
+  <!-- 6) Area Chair Favorite Paper Award — COLING 2018 -->
   <article class="award-card">
     <div class="award-thumb">
       <img src="https://tafseer-nayeem.github.io/images/awards/coling.png" alt="COLING logo" loading="lazy" decoding="async">
@@ -407,7 +383,7 @@ author_profile: true
     </div>
   </article>
 
-  <!-- ACM SIGIR Student Travel Grant -->
+  <!-- 7) ACM SIGIR Student Travel Grant -->
   <article class="award-card">
     <div class="award-thumb">
       <img src="https://tafseer-nayeem.github.io/images/awards/sigir.png" alt="SIGIR icon" loading="lazy" decoding="async">
@@ -418,9 +394,51 @@ author_profile: true
     </div>
   </article>
 
+  <!-- 8–9) GROUP: Travel Awards (UofL) -->
+  <article class="award-card">
+    <div class="award-thumb">
+      <img src="https://tafseer-nayeem.github.io/images/awards/sgs.png" alt="SGS/GSA icon" loading="lazy" decoding="async">
+    </div>
+    <div class="award-body">
+      <h3 class="award-title">Travel Awards (UofL)</h3>
+      <div class="award-meta">School of Graduate Studies (S.G.S) and GSA</div>
+      <ul class="award-list">
+        <li>Research Dissemination Travel Award (S.G.S)</li>
+        <li>Graduate Student’s Association (GSA) Travel Award</li>
+      </ul>
+    </div>
+  </article>
+
+  <!-- 10–11) GROUP: Scholarships (UofL) -->
+  <article class="award-card">
+    <div class="award-thumb">
+      <img src="https://tafseer-nayeem.github.io/images/awards/sgs.png" alt="SGS icon" loading="lazy" decoding="async">
+    </div>
+    <div class="award-body">
+      <h3 class="award-title">Scholarships (UofL)</h3>
+      <div class="award-meta">School of Graduate Studies (S.G.S)</div>
+      <ul class="award-list">
+        <li>Dean’s Scholarship (S.G.S)</li>
+        <li>International Tuition Award (S.G.S)</li>
+      </ul>
+    </div>
+  </article>
+
+  <!-- 12) IUT-OIC Full Free Scholarship -->
+  <article class="award-card">
+    <div class="award-thumb">
+      <img src="https://tafseer-nayeem.github.io/images/awards/iut.png" alt="IUT-OIC icon" loading="lazy" decoding="async">
+    </div>
+    <div class="award-body">
+      <h3 class="award-title">IUT-OIC Full Free Scholarship</h3>
+      <div><span class="chip">full scholarship</span></div>
+    </div>
+  </article>
+
 </div>
 
 <p style="margin-top:14px;"><a href="#">Back to Top</a></p>
+
 
 
 
