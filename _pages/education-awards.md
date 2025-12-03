@@ -219,7 +219,7 @@ author_profile: true
       </span>
       <span class="meta-row">
         <span class="meta-label">Supervisor:</span>
-        <a href="https://scholar.google.com/citations?user=5sjCt8cAAAAJ&hl=en">Dr. Muhammad Mahbub Alam</a>
+        <a href="https://scholar.google.com/citations?user=5sjCt8cAAAAJ&hl=en">Prof. Muhammad Mahbub Alam</a>
       </span>
     </div>
     <div>
