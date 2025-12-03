@@ -371,7 +371,7 @@ author_profile: true
   <!-- 8-9) GROUP: Scholarships (UofL) -->
   <article class="award-card">
     <div class="award-thumb">
-      <img src="https://tafseer-nayeem.github.io/images/awards/sgs.png" alt="SGS icon" loading="lazy" decoding="async">
+      <img src="https://tafseer-nayeem.github.io/images/awards/uofl.png" alt="UofL icon" loading="lazy" decoding="async">
     </div>
     <div class="award-body">
       <h3 class="award-title">Scholarships (UofL)</h3>
@@ -386,7 +386,7 @@ author_profile: true
   <!-- 10–11) GROUP: Travel Awards (UofL) -->
   <article class="award-card">
     <div class="award-thumb">
-      <img src="https://tafseer-nayeem.github.io/images/awards/sgs.png" alt="SGS/GSA icon" loading="lazy" decoding="async">
+      <img src="https://tafseer-nayeem.github.io/images/awards/uofl.png" alt="UofL icon" loading="lazy" decoding="async">
     </div>
     <div class="award-body">
       <h3 class="award-title">Travel Awards (UofL)</h3>
