@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-<!-- ===== Education & Awards (compact awards with shorter rectangular thumbs) — DROP-IN ===== -->
+<!-- ===== Education & Awards ===== -->
 
 <style>
   /* ========= Global knobs (tune here) ========= */
