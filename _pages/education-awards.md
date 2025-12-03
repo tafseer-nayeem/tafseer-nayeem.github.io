@@ -368,22 +368,7 @@ author_profile: true
     </div>
   </article>
 
-  <!-- 8–9) GROUP: Travel Awards (UofL) -->
-  <article class="award-card">
-    <div class="award-thumb">
-      <img src="https://tafseer-nayeem.github.io/images/awards/sgs.png" alt="SGS/GSA icon" loading="lazy" decoding="async">
-    </div>
-    <div class="award-body">
-      <h3 class="award-title">Travel Awards (UofL)</h3>
-      <div class="award-meta">School of Graduate Studies (S.G.S) and GSA</div>
-      <ul class="award-list">
-        <li>Research Dissemination Travel Award (S.G.S)</li>
-        <li>Graduate Student’s Association (GSA) Travel Award</li>
-      </ul>
-    </div>
-  </article>
-
-  <!-- 10–11) GROUP: Scholarships (UofL) -->
+  <!-- 8-9) GROUP: Scholarships (UofL) -->
   <article class="award-card">
     <div class="award-thumb">
       <img src="https://tafseer-nayeem.github.io/images/awards/sgs.png" alt="SGS icon" loading="lazy" decoding="async">
@@ -394,6 +379,21 @@ author_profile: true
       <ul class="award-list">
         <li>Dean’s Scholarship (S.G.S)</li>
         <li>International Tuition Award (S.G.S)</li>
+      </ul>
+    </div>
+  </article>
+
+  <!-- 10–11) GROUP: Travel Awards (UofL) -->
+  <article class="award-card">
+    <div class="award-thumb">
+      <img src="https://tafseer-nayeem.github.io/images/awards/sgs.png" alt="SGS/GSA icon" loading="lazy" decoding="async">
+    </div>
+    <div class="award-body">
+      <h3 class="award-title">Travel Awards (UofL)</h3>
+      <div class="award-meta">School of Graduate Studies (S.G.S) and GSA</div>
+      <ul class="award-list">
+        <li>Research Dissemination Travel Award (S.G.S)</li>
+        <li>Graduate Student’s Association (GSA) Travel Award</li>
       </ul>
     </div>
   </article>
