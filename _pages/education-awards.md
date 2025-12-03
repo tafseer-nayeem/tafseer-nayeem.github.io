@@ -43,7 +43,7 @@ author_profile: true
     --aw-title-fs: .98rem;
     --aw-meta-fs:  .90rem;
     --aw-chip-fs:  .72rem;
-    --aw-card-min-h: 136px;    /* ↓ shorter for more compact cards */
+    --aw-card-min-h: 126px;    /* ↓ shorter for more compact cards */
 
     /* AWARD THUMBNAIL (shorter rectangle; center, no distortion) */
     --aw-thumb-w: 120px;        /* width of the image lane */
