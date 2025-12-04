@@ -198,6 +198,7 @@ author_profile: true
 </style>
 
 <h2 class="sec-title" id="education">Education</h2>
+--------------------------------------------
 
 <!-- ===== Education (unchanged) ===== -->
 <div class="cv-card">
@@ -268,6 +269,8 @@ author_profile: true
 </div>
 
 <h2 class="sec-title" id="awards">Awards</h2>
+
+--------------------------------------------
 
 <div class="awards-grid">
 
@@ -412,13 +415,9 @@ author_profile: true
 
 </div>
 
-<p style="margin-top:14px;"><a href="#">Back to Top</a></p>
+--------------------------------------------
 
-
-
----------------------------------------------
-------------------------------------------------------
-------------------------------------------------------
+[**Back to Top**](#)
 
 <!-- 
 # Awards
@@ -440,7 +439,5 @@ author_profile: true
 <a href="https://tafseer-nayeem.github.io/education-awards/"> <img src="https://tafseer-nayeem.github.io/images/awards.png" alt="Awards"
 	title="Awards" width="550" height="30"> </a>
 -->
---------------------------------------------
 
-[**Back to Top**](#)
 
