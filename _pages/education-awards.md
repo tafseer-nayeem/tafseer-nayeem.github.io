@@ -387,7 +387,7 @@ author_profile: true
   <!-- 10–11) GROUP: Travel Awards (UofL) -->
   <article class="award-card">
     <div class="award-thumb">
-      <img src="https://tafseer-nayeem.github.io/images/awards/uofl.png" alt="UofL icon" loading="lazy" decoding="async">
+      <img src="https://tafseer-nayeem.github.io/images/awards/gsa.png" alt="GSA icon" loading="lazy" decoding="async">
     </div>
     <div class="award-body">
       <h3 class="award-title">Travel Awards (UofL)</h3>
