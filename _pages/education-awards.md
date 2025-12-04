@@ -306,7 +306,7 @@ author_profile: true
   <!-- 3) Huawei PhD Fellowship -->
   <article class="award-card">
     <div class="award-thumb">
-      <img src="https://tafseer-nayeem.github.io/images/awards/huawei.png" alt="Huawei Fellowship" loading="lazy" decoding="async">
+      <img src="https://tafseer-nayeem.github.io/images/awards/huawei-logo.png" alt="Huawei Fellowship" loading="lazy" decoding="async">
     </div>
     <div class="award-body">
       <h3 class="award-title">Huawei PhD Fellowship</h3>
