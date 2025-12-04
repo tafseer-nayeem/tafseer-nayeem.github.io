@@ -348,7 +348,7 @@ author_profile: true
   <!-- 6) Area Chair Favorite Paper Award — COLING 2018 -->
   <article class="award-card">
     <div class="award-thumb">
-      <img src="https://tafseer-nayeem.github.io/images/awards/coling.png" alt="COLING logo" loading="lazy" decoding="async">
+      <img src="https://tafseer-nayeem.github.io/images/awards/coling2018.png" alt="COLING logo" loading="lazy" decoding="async">
     </div>
     <div class="award-body">
       <h3 class="award-title"><a href="http://coling2018.org/coling-2018-best-papers/">Area Chair Favorite Paper Award</a></h3>
