@@ -328,7 +328,7 @@ author_profile: true
     </div>
     <div class="award-body">
       <h3 class="award-title">PhD Early Achievement Award (nomination)</h3>
-      <div class="award-meta">2023</div>
+      <div class="award-meta">Computing Science · 2023</div>
       <div><span class="chip">nomination</span></div>
     </div>
   </article>
