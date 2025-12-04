@@ -324,7 +324,7 @@ author_profile: true
   <!-- 4) PhD Early Achievement Award (nomination) -->
   <article class="award-card">
     <div class="award-thumb">
-      <img src="https://tafseer-nayeem.github.io/images/awards/uofa.png" alt="UofA icon" loading="lazy" decoding="async">
+      <img src="https://tafseer-nayeem.github.io/images/awards/uofa-cs.png" alt="UofA icon" loading="lazy" decoding="async">
     </div>
     <div class="award-body">
       <h3 class="award-title">PhD Early Achievement Award (nomination)</h3>
