@@ -19,7 +19,7 @@ author_profile: true
 /* Section titles */
 .section-title{
   margin: 26px 0 10px;
-  font-size: 1.26rem;           /* larger than before */
+  font-size: 1.40rem;           /* larger a bit*/
   color: var(--ink);
   letter-spacing: .2px;
   line-height: 1.25;
