@@ -95,7 +95,7 @@ author_profile: true
 
 <div class="activities">
 
-<h2 class="section-title"><span class="i">🧑‍💼</span> Professional Services</h2>
+<h3 class="section-title"><span class="i">🧑‍💼</span> Professional Services</h3>
 <hr class="thin-rule"/>
 
 <h3 class="subhead"><span class="i">🧑‍⚖️</span> Area Chair (AC)</h3>
