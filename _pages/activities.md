@@ -6,88 +6,99 @@ author_profile: true
 ---
 
 <style>
-/* Typography + spacing tuned for an academic CV page */
+/* ===== Activities page typography and accents (box-free) ===== */
 :root{
-  --accent:#1F6CAB;          /* link/accent */
-  --ink:#1f2937;             /* headings */
-  --muted:#374151;           /* body */
-  --rule:#e5e7eb;            /* thin separators */
-  --chip-bg:#eef2f7;
-  --chip-ink:#374151;
+  --accent:#1F6CAB;     /* links and accent */
+  --ink:#111827;        /* main headings */
+  --muted:#374151;      /* body text */
+  --rule:#e5e7eb;       /* thin separators */
+  --chip-bg:#eef2f7;    /* badges background */
+  --chip-ink:#374151;   /* badges text */
 }
 
+/* Section titles */
 .section-title{
-  margin: 22px 0 8px;
-  font-size: 1.35rem;
+  margin: 26px 0 10px;
+  font-size: 1.6rem;           /* larger than before */
   color: var(--ink);
   letter-spacing: .2px;
+  line-height: 1.25;
+  display:flex; align-items:center; gap:10px;
 }
 
+/* Subheads (Area Chair, Reviewer, etc.) */
 .subhead{
-  margin: 14px 0 6px;
-  font-size: 1.05rem;
+  margin: 18px 0 8px;
+  font-size: 1.18rem;
   color: var(--ink);
+  display:flex; align-items:center; gap:8px;
 }
 
-.thin-rule{
-  border:0; height:1px; background:var(--rule);
-  margin: 16px 0 12px;
+/* Small circular icon badge, consistent with your chips */
+.i{
+  display:inline-grid; place-items:center;
+  width:26px; height:26px; border-radius:999px;
+  background:var(--chip-bg); color:var(--chip-ink);
+  font-size:.9rem; line-height:1;
 }
 
-/* Links: subtle underline grow on hover (consistent with pubs page) */
+/* Thin horizontal rule to separate major groups */
+.thin-rule{ border:0; height:1px; background:var(--rule); margin: 12px 0 14px; }
+
+/* Link style consistent with publication page */
 .activities a{
-  color: var(--accent);
-  text-decoration: none;
-  background-image: linear-gradient(currentColor,currentColor);
+  color: var(--accent); text-decoration:none;
+  background-image:linear-gradient(currentColor,currentColor);
   background-size:0% 2px; background-repeat:no-repeat; background-position:0 100%;
   transition: background-size .22s ease;
 }
 .activities a:hover{ background-size:100% 2px; }
 
-/* Year → items layout (no boxes) */
-.year-list{ list-style:none; padding:0; margin: 4px 0 10px 0; }
+/* Year → items layout with clearer scale */
+.year-list{ list-style:none; padding:0; margin: 2px 0 12px 0; }
 .year-list li{
-  display:grid; grid-template-columns: 72px 1fr; gap: 12px;
-  padding: 2px 0;
+  display:grid; grid-template-columns: 84px 1fr; gap: 14px;
+  padding: 4px 0;
 }
-.year{ color: var(--muted); font-weight:600; }
-.items{ color: var(--muted); }
+.year{ color: var(--muted); font-weight:700; font-size:1.1rem; }  /* bigger year */
+.items{ color: var(--muted); font-size:1.02rem; line-height:1.45; }
 
-/* Chips reused from your other pages */
+/* Great reviews badge and generic chips */
 .chip{
   display:inline-flex; align-items:center; justify-content:center;
-  padding:3px 8px; border-radius:999px; line-height:1;
-  font-size:.75rem; font-weight:700; letter-spacing:.2px; text-transform:uppercase;
+  padding:4px 10px; border-radius:999px; line-height:1;
+  font-size:.78rem; font-weight:800; letter-spacing:.2px; text-transform:uppercase;
   border:1px solid #d1d5db; background:var(--chip-bg); color:var(--chip-ink);
-  margin-right:6px; margin-bottom:4px;
 }
 .chip-accent{ background:var(--accent); color:#fff; border-color:transparent; }
 
-/* Talks: date badge + compact line */
-.talk-list{ list-style:none; padding:0; margin: 6px 0 0 0; }
-.talk-list li{ margin: 8px 0; color: var(--muted); }
+/* Lists without heavy bullets */
+.clean-list{ margin: 8px 0 0 1.15rem; }
+.clean-list li{ margin: 6px 0; color: var(--muted); }
+
+/* Talk list lines with a date badge */
+.talk-list{ list-style:none; padding:0; margin:6px 0 0 0; }
+.talk-list li{ margin:10px 0; color:var(--muted); }
 .date-badge{
-  display:inline-block; padding:2px 8px; border-radius:999px; line-height:1;
-  font-size:.75rem; font-weight:700; letter-spacing:.2px; background:var(--chip-bg); color:var(--chip-ink);
-  margin-right:8px;
+  display:inline-block; padding:3px 10px; border-radius:999px; line-height:1;
+  font-size:.78rem; font-weight:800; letter-spacing:.2px; background:var(--chip-bg); color:var(--chip-ink);
+  margin-right:10px;
 }
 
-/* Plain ULs under leadership/projects */
-.clean-list{ margin: 6px 0 0 1.1rem; }
-.clean-list li{ margin: 6px 0; }
-
-/* Mobile: slightly tighter columns */
+/* Mobile tweaks */
 @media (max-width:600px){
-  .year-list li{ grid-template-columns: 64px 1fr; }
+  .year-list li{ grid-template-columns: 70px 1fr; gap:12px; }
+  .section-title{ font-size:1.45rem; }
+  .subhead{ font-size:1.10rem; }
 }
 </style>
 
 <div class="activities">
 
-<h2 class="section-title">Professional Services</h2>
+<h2 class="section-title"><span class="i">🧑‍💼</span> Professional Services</h2>
 <hr class="thin-rule"/>
 
-<h3 class="subhead">Area Chair (AC)</h3>
+<h3 class="subhead"><span class="i">🧑‍⚖️</span> Area Chair (AC)</h3>
 <ul class="year-list">
   <li>
     <span class="year">2026</span>
@@ -107,7 +118,7 @@ author_profile: true
   </li>
 </ul>
 
-<h3 class="subhead">Reviewer</h3>
+<h3 class="subhead"><span class="i">📝</span> Reviewer</h3>
 <ul class="year-list">
   <li>
     <span class="year">2025</span>
@@ -146,7 +157,7 @@ author_profile: true
   </li>
 </ul>
 
-<h4 class="subhead">Outstanding Reviews</h4>
+<h4 class="subhead"><span class="i">🏅</span> Outstanding Reviews</h4>
 <p class="items" style="margin:4px 0 8px 0;">
   High-quality reviews recognized by venues as
   <span class="chip chip-accent">Great Reviews</span>
@@ -156,27 +167,27 @@ author_profile: true
   <li>2/4 reviews recognized at <a href="https://2024.aclweb.org/">ACL 2024</a></li>
 </ul>
 
-<h2 class="section-title">Invited Talks</h2>
+<h2 class="section-title"><span class="i">🎤</span> Invited Talks</h2>
 <hr class="thin-rule"/>
 
 <ul class="talk-list">
   <li>
     <span class="date-badge">Nov 2024</span>
     Talk on <a href="https://aclanthology.org/2024.emnlp-main.277/">KidLM</a>, at
-    <a href="https://www.ualberta.ca/en/computing-science/undergraduate-studies/course-directory/courses/honors-seminar.html">Honors Seminar</a>, University of Alberta.
+    <a href="https://www.ualberta.ca/en/computing-science/undergraduate-studies/course-directory/courses/honors-seminar.html">Honors Seminar</a>, University of Alberta
     (<a href="https://tafseer-nayeem.github.io/files/KidLM_seminar_slides.pdf">slides</a>)
   </li>
   <li>
     <span class="date-badge">Apr 2017</span>
-    Talk on <a href="https://tafseer-nayeem.github.io/files/Introduction_to_NLTK.pdf">Introduction to NLTK</a>, University of Lethbridge.
+    Talk on <a href="https://tafseer-nayeem.github.io/files/Introduction_to_NLTK.pdf">Introduction to NLTK</a>, University of Lethbridge
   </li>
   <li>
     <span class="date-badge">Feb 2017</span>
-    Guest lecturer in CPSC 3750 — Artificial Intelligence, UofL.
+    Guest lecturer in CPSC 3750 - Artificial Intelligence, UofL
   </li>
 </ul>
 
-<h2 class="section-title">Project Demonstrations</h2>
+<h2 class="section-title"><span class="i">🖥️</span> Project Demonstrations</h2>
 <hr class="thin-rule"/>
 
 <ul class="clean-list">
@@ -184,28 +195,23 @@ author_profile: true
   <li>Bengali Document Summarization Tool (<a href="https://youtu.be/LrnskktiXcg">demo video</a>)</li>
 </ul>
 
-<h2 class="section-title">Leadership Activities</h2>
+<h2 class="section-title"><span class="i">👥</span> Leadership Activities</h2>
 <hr class="thin-rule"/>
 
 <ul class="clean-list">
   <li>
-    Lab Manager, <a href="https://uofadblab.github.io/">Data & Language Intelligence (DaLI) Lab</a>, University of Alberta.
-    <span class="chip">2022–current</span>
+    Lab Manager, <a href="https://uofadblab.github.io/">Data & Language Intelligence (DaLI) Lab</a>, University of Alberta
+    <span class="chip">2022 - current</span>
   </li>
   <li>
-    Founding admin of a Discord server (~5,000+ members) supporting grad school applications.
-    <span class="chip">2021–current</span>
+    Founding admin of a Discord server (~5,000+ members) supporting grad school applications
+    <span class="chip">2021 - current</span>
   </li>
-  <li>
-    Member, Logistics & IT Support Committee, <a href="http://iccit.org.bd/2020/">ICCIT 2020</a>.
-  </li>
-  <li>
-    Organizing Committee, Commonwealth of Learning (COL) TEL AUST Project.
-    (<a href="http://oasis.col.org/handle/11599/3220">report</a>)
-  </li>
-  <li>Organizer and host, <a href="https://www.intel.ai/">Intel Nervana AI Academy Workshop</a>.</li>
-  <li>Convener, Project Showcasing, AUST CSE Week.</li>
-  <li>Organizing committee member, AUST CSE Fest; BUBT CSE Fiesta; IUT ICT Fest.</li>
+  <li>Member, Logistics & IT Support Committee, <a href="http://iccit.org.bd/2020/">ICCIT 2020</a></li>
+  <li>Organizing Committee, Commonwealth of Learning (COL) TEL AUST Project (<a href="http://oasis.col.org/handle/11599/3220">report</a>)</li>
+  <li>Organizer and host, <a href="https://www.intel.ai/">Intel Nervana AI Academy Workshop</a></li>
+  <li>Convener, Project Showcasing, AUST CSE Week</li>
+  <li>Organizing committee member, AUST CSE Fest; BUBT CSE Fiesta; IUT ICT Fest</li>
 </ul>
 
 <p style="margin-top:16px;"><a href="#">Back to Top</a></p>
@@ -213,6 +219,7 @@ author_profile: true
 </div>
 
 
+----------------
 ----------------
 
 - **2024:** [ACL](https://2024.aclweb.org/), [EMNLP](https://2024.emnlp.org/), [NAACL](https://2024.naacl.org/), [EACL](https://2024.eacl.org/), [SIGIR](https://sigir-2024.github.io/), [WSDM](https://www.wsdm-conference.org/2024/)
