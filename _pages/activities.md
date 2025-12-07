@@ -19,7 +19,7 @@ author_profile: true
 /* Section titles */
 .section-title{
   margin: 26px 0 10px;
-  font-size: 1.6rem;           /* larger than before */
+  font-size: 1.26rem;           /* larger than before */
   color: var(--ink);
   letter-spacing: .2px;
   line-height: 1.25;
@@ -95,7 +95,7 @@ author_profile: true
 
 <div class="activities">
 
-<h3 class="section-title"><span class="i">🧑‍💼</span> Professional Services</h3>
+<h2 class="section-title"><span class="i">🧑‍💼</span> Professional Services</h2>
 <hr class="thin-rule"/>
 
 <h3 class="subhead"><span class="i">🧑‍⚖️</span> Area Chair (AC)</h3>
