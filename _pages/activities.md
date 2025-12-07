@@ -217,6 +217,7 @@ author_profile: true
   <li>Organizing committee member, AUST CSE Fest; BUBT CSE Fiesta; IUT ICT Fest</li>
 </ul>
 
+<hr class="thin-rule"/>
 <p style="margin-top:16px;"><a href="#">Back to Top</a></p>
 
 </div>
