@@ -504,6 +504,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2510.09947">Paper</a>
       <a href="https://github.com/tafseer-nayeem/STRR">Code</a>
+      <a href="https://tafseer-nayeem.github.io/files/NeurIPS2025_STRR_poster.pdf">Poster</a>
     </div>
   </div>
 </div>
