@@ -222,10 +222,8 @@ author_profile: true
 
 </div>
 
+<!-- 
 ----------------
-
-
-<!-- - 
 - Organizing Committee Member & Researcher, **Commonwealth of Learning ([COL](https://www.col.org/)) TEL AUST** Project [<span style ="color:Green"> [**Report**] </span>](http://oasis.col.org/handle/11599/3220)
 - Member, Logistics & IT Support Committee, [ICCIT 2020](http://iccit.org.bd/2020/)
 - **Organizer and Host:** [Intel Nervana AI Academy - Workshop](https://www.intel.ai/).
