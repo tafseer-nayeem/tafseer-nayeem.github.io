@@ -534,6 +534,8 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2508.17647">Paper</a>
       <a href="https://github.com/tongbao96/SurveyGen">Code</a>
+      <a href="https://tafseer-nayeem.github.io/files/EMNLP2025/EMNLP2025_SurveyGen_presentation.pdf">Slides</a>
+      <a href="https://tafseer-nayeem.github.io/files/EMNLP2025/EMNLP2025_SurveyGen_poster.pdf">Poster</a>
     </div>
   </div>
 </div>
@@ -567,6 +569,8 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     </div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2508.09450">Paper</a>
+      <a href="https://tafseer-nayeem.github.io/files/EMNLP2025/EMNLP2025_ChartEthics_presentation.pdf">Slides</a>
+      <a href="https://tafseer-nayeem.github.io/files/EMNLP2025/EMNLP2025_ChartEthics_poster.pdf">Poster</a>
     </div>
   </div>
 </div>
