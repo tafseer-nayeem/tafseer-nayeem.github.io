@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <style>
-/* ===== Activities page typography and accents (box-free) ===== */
+/* ===== Activities page typography and accents ===== */
 :root{
   --accent:#1F6CAB;     /* links and accent */
   --ink:#111827;        /* main headings */
@@ -157,9 +157,12 @@ author_profile: true
   </li>
 </ul>
 
+<!-- - **2020:** [ICCIT](https://iccit.org.bd/2020/) -->
+<!-- - **2019:** [ICIET](http://www.enggtech.du.ac.bd/iciet-2019/) -->
+
 <h4 class="subhead"><span class="i">🏅</span> Outstanding Reviews</h4>
 <p class="items" style="margin:4px 0 8px 0;">
-  High-quality reviews recognized by venues as
+  High-quality reviews recognized by *ACL venues as
   <span class="chip chip-accent">Great Reviews</span>
 </p>
 <ul class="clean-list">
@@ -214,53 +217,12 @@ author_profile: true
   <li>Organizing committee member, AUST CSE Fest; BUBT CSE Fiesta; IUT ICT Fest</li>
 </ul>
 
+----------------
+
 <p style="margin-top:16px;"><a href="#">Back to Top</a></p>
 
 </div>
 
-
-----------------
-----------------
-
-- **2024:** [ACL](https://2024.aclweb.org/), [EMNLP](https://2024.emnlp.org/), [NAACL](https://2024.naacl.org/), [EACL](https://2024.eacl.org/), [SIGIR](https://sigir-2024.github.io/), [WSDM](https://www.wsdm-conference.org/2024/)
-- **2023:** [SIGIR](https://sigir.org/sigir2023/), [KDD](https://kdd.org/kdd2023/), [WSDM](https://www.wsdm-conference.org/2023/), [CIKM](https://uobevents.eventsair.com/cikm2023/)
-- **2022:** [SIGIR](https://sigir.org/sigir2022/), [KDD](https://kdd.org/kdd2022/), [CIKM](https://www.cikm2022.org/), [ICDE](https://icde2022.ieeecomputer.my/)
-<!-- - **2020:** [ICCIT](https://iccit.org.bd/2020/) -->
-<!-- - **2019:** [ICIET](http://www.enggtech.du.ac.bd/iciet-2019/) -->
-
-### 🏆 Outstanding Reviews
-
-High-quality reviews that are strong, decisive, helpful, and well-written are recognized as **Great Reviews**.
-
-- 🏅 1/3 reviews recognized at [NAACL 2025](https://2025.naacl.org/)  
-- 🏅 2/4 reviews recognized at [ACL 2024](https://2024.aclweb.org/)  
-
-
-## 👨‍🏫 Invited Talks
-----------------
-- <span style="color:Blue"> [Nov 2024] </span> - Talk on [KidLM](https://aclanthology.org/2024.emnlp-main.277/), at [Honors Seminar](https://www.ualberta.ca/en/computing-science/undergraduate-studies/course-directory/courses/honors-seminar.html) - University of Alberta (UofA), Canada. [[Slides](https://tafseer-nayeem.github.io/files/KidLM_seminar_slides.pdf)]
-- <span style="color:Blue"> [Apr 2017] </span> - Talk on [Introduction to NLTK](https://tafseer-nayeem.github.io/files/Introduction_to_NLTK.pdf), University of Lethbrdige (UofL), AB, Canada. 
-- <span style="color:Blue"> [Feb 2017] </span> - Guest Lecturer in CPSC 3750 - Artificial Intelligence course at UofL.
-
-## 💻 Project Demonstrations 
-----------------
-* Bengali Document Readability Checker [[Demo Video]](https://youtu.be/U05Pf9Y4tCQ).
-* Bengali Document Summarization Tool [[Demo Video]](https://youtu.be/LrnskktiXcg).
-
-
-## 👨‍⚖️ Leadership Activities
-------------------------
-- **Lab Manager**, [Data & Language Intelligence (DaLI) Lab](https://uofadblab.github.io/), University of Alberta. `[2022 – Current]`
-- **Founding Admin** of a Discord server comprising approximately **5,000+ members** dedicated to assisting prospective students with grad school applications. `[2021 - Current]`
-- **Member**, Logistics & IT Support Committee, [ICCIT 2020](http://iccit.org.bd/2020/) Conference.
-- **Organizing Committee**, Commonwealth of Learning (**[COL](https://www.col.org/)**) TEL AUST Project. [<span style ="color:Green"> [**Report**] </span>](http://oasis.col.org/handle/11599/3220)
-- **Organizer and Host**, [Intel Nervana AI Academy - Workshop](https://www.intel.ai/).
-- **Convener**, Project Showcasing, AUST CSE WEEK.
-- **Organizing Committee Member**, AUST CSE Fest. 
-- **Organizing Committee Member**, BUBT CSE FIESTA. 
-- **Organizing Committee Member**, IUT ICT Fest.
-
-----------------------
 
 <!-- - 
 - Organizing Committee Member & Researcher, **Commonwealth of Learning ([COL](https://www.col.org/)) TEL AUST** Project [<span style ="color:Green"> [**Report**] </span>](http://oasis.col.org/handle/11599/3220)
@@ -272,7 +234,4 @@ High-quality reviews that are strong, decisive, helpful, and well-written are re
 - Organizing committee member in the **BUBT CSE FIESTA 2012**, Dhaka, Bangladesh.
 - Organizing committee member in the **IUT ICT Fest 2011**, Dhaka, Bangladesh. 
 -->
-
-
-[**Back to Top**](#)
 
