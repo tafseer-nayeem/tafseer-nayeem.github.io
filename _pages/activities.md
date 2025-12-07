@@ -10,7 +10,8 @@ author_profile: true
 
 ## 🔹 Area Chair (AC)
 
-- **2025:** [ACL](https://2025.aclweb.org/), [EMNLP](https://2025.emnlp.org/)
+- **2026:** [ACL](https://2026.aclweb.org/), [EACL](https://2026.eacl.org/), [ARR](https://aclrollingreview.org/)
+- **2025:** [ACL](https://2025.aclweb.org/), [EMNLP](https://2025.emnlp.org/), [ARR](https://aclrollingreview.org/)
 
 ----------------
 
