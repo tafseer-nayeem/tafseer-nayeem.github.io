@@ -15,10 +15,12 @@ author_profile: true
   --chip-bg:#eef2f7;    /* badges background */
   --chip-ink:#374151;   /* badges text */
 
-  /* spacing knobs you can tune */
-  --year-w: 64px;       /* fixed width for year badges (keeps perfect column alignment) */
-  --year-gap-x: 8px;    /* horizontal gap between year and venues */
-  --year-top-gap: 10px; /* space above each year grid */
+  /* ====== SPACING KNOBS (tune these) ====== */
+  --year-w: 64px;          /* width of year badge */
+  --year-gap-x: 8px;       /* gap between year and venues */
+  --row-pad-y: 2px;        /* vertical padding per row */
+  --space-after-subhead: 10px;  /* space under Area Chair / Reviewer / OR headings */
+  --role-gap: 22px;        /* space after each role block (AC vs Reviewer) */
 }
 
 /* Section titles */
@@ -33,12 +35,15 @@ author_profile: true
 
 /* Subheads (Area Chair, Reviewer, etc.) */
 .subhead{
-  margin: 18px 0 6px;
+  margin: 18px 0 0;                 /* top only; bottom is controlled below */
   font-size: 1.18rem;
   color: var(--ink);
-  letter-spacing: .4px;
   display:flex; align-items:center; gap:8px;
 }
+
+/* add space right after any subhead */
+.subhead + .year-list{ margin-top: var(--space-after-subhead); }
+.subhead + .items{     margin-top: var(--space-after-subhead); }
 
 /* Small circular icon badge, consistent with your chips */
 .i{
@@ -61,13 +66,13 @@ author_profile: true
 .activities a:hover{ background-size:100% 2px; }
 
 /* Year → items layout (Professional Services) */
-.year-list{ list-style:none; padding:0; margin: var(--year-top-gap) 0 8px 0; }
+.year-list{ list-style:none; padding:0; margin: 0 0 var(--role-gap) 0; } /* bottom gap separates role blocks */
 .year-list li{
   display:grid;
   grid-template-columns: max-content 1fr;  /* width comes from the badge */
   align-items:center;                       /* fixes baseline wiggle */
   gap: var(--year-gap-x);
-  padding: 2px 0;                           /* compact vertical rhythm */
+  padding: var(--row-pad-y) 0;              /* compact vertical rhythm */
 }
 .year{
   /* shaded badge, mirrors .date-badge */
@@ -97,6 +102,8 @@ author_profile: true
 /* Lists without heavy bullets */
 .clean-list{ margin: 8px 0 0 1.15rem; }
 .clean-list li{ margin: 6px 0; color: var(--muted); }
+/* also give Outstanding Reviews block a tunable bottom gap */
+.clean-list.reviews{ margin-bottom: var(--role-gap); }
 
 /* Talk list lines with a date badge */
 .talk-list{ list-style:none; padding:0; margin:6px 0 0 0; }
@@ -144,9 +151,7 @@ author_profile: true
 <ul class="year-list">
   <li>
     <span class="year">2025</span>
-    <span class="items">
-      <a href="https://2025.naacl.org/">NAACL</a>
-    </span>
+    <span class="items"><a href="https://2025.naacl.org/">NAACL</a></span>
   </li>
   <li>
     <span class="year">2024</span>
@@ -180,11 +185,11 @@ author_profile: true
 </ul>
 
 <h4 class="subhead"><span class="i">🏅</span> Outstanding Reviews</h4>
-<p class="items" style="margin:8px 0 10px 0;">
+<p class="items">
   High-quality reviews recognized by *ACL venues as
   <span class="chip chip-accent">Great Reviews</span>
 </p>
-<ul class="clean-list" style="margin-bottom:14px;">
+<ul class="clean-list reviews">
   <li>1/3 reviews recognized at <a href="https://2025.naacl.org/">NAACL 2025</a></li>
   <li>2/4 reviews recognized at <a href="https://2024.aclweb.org/">ACL 2024</a></li>
 </ul>
@@ -240,6 +245,7 @@ author_profile: true
 <p style="margin-top:16px;"><a href="#">Back to Top</a></p>
 
 </div>
+
 
 
 <!-- 
