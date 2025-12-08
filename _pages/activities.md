@@ -185,7 +185,7 @@ author_profile: true
 </ul>
 
 <h4 class="subhead"><span class="i">🏅</span> Outstanding Reviews</h4>
-<p class="items">
+<p>
   High-quality reviews recognized by *ACL venues as
   <span class="chip chip-accent">Great Reviews</span>
 </p>
