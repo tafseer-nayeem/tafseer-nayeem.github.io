@@ -58,7 +58,7 @@ author_profile: true
 .year-list{ list-style:none; padding:0; margin: 2px 0 8px 0; }
 .year-list li{
   display:grid; grid-template-columns: 84px 1fr; gap: 14px;
-  padding: 2px 0;
+  padding: 1px 0;
 }
 .year{ color: var(--muted); font-weight:700; font-size:1.1rem; }  /* bigger year */
 .items{ color: var(--muted); font-size:1.02rem; line-height:1.35; }
