@@ -17,14 +17,17 @@ redirect_from:
   --chip-bg:#eef2f7;
   --chip-ink:#374151;
 
-  /* Award / fellowship badges (match publications/awards pages) */
+  /* Badge palette */
   --gold-ink:#7A5A00;
   --gold-bg:#FFF8E6;
   --gold-brd:#E7C76A;
 
-  --fell-ink:#0B6B49;       /* academic green */
-  --fell-bg:#F0FDF4;        /* very light green */
-  --fell-brd:#86EFAC;       /* subtle green border */
+  /* Fellowship (academic green) — darker outline per request */
+  --fell-ink:#0B4F3A;        /* deep academic green text */
+  --fell-bg:#F3FBF6;         /* subtle mint background */
+  --fell-brd:#135F45;        /* darker, more academic outline */
+
+  --font-badge:.82rem;
 
   --section-gap:22px;
   --para-gap:10px;
@@ -48,15 +51,38 @@ redirect_from:
   text-align:justify;
 }
 
-/* Publication-style badges */
-.badge{
-  display:inline-flex; align-items:center; gap:6px;
-  padding:4px 10px; border-radius:999px; line-height:1.05;
-  font-weight:800; letter-spacing:.2px; text-transform:none;
-  white-space:nowrap; font-size:.82rem; border:1px solid transparent;
+/* ===== Unified pill badges (publication-style) ===== */
+/* Pill itself */
+.award-badge{
+  display:inline-flex; align-items:center; justify-content:center; gap:6px;
+  padding:5px 12px;
+  border-radius:999px; line-height:1.05;
+  font-weight:800; letter-spacing:.2px;
+  text-transform:none;
+  font-size: var(--font-badge);
+  border:1px solid transparent; white-space:nowrap;
+  transition: transform .16s ease, box-shadow .16s ease, filter .16s ease;
 }
-.badge-award{ color:var(--gold-ink); background:var(--gold-bg); border-color:var(--gold-brd); }
-.badge-fellow{ color:var(--fell-ink); background:var(--fell-bg); border-color:var(--fell-brd); }
+.award-badge:hover{
+  transform: translateY(-1px);
+  box-shadow:0 6px 14px rgba(0,0,0,.06);
+  filter:saturate(1.03);
+}
+
+/* Academic, outline gold (awards) */
+.award-outline-gold{
+  color:var(--gold-ink);
+  background:var(--gold-bg);
+  border-color:var(--gold-brd);
+}
+
+/* Academic, outline green (fellowship) — darker border */
+.fellow-outline-green{
+  color:var(--fell-ink);
+  background:var(--fell-bg);
+  border-color:var(--fell-brd);
+  border-width:1.25px; /* darker feel via slightly thicker stroke */
+}
 
 /* Section heading and rule */
 .section-title{
@@ -106,14 +132,14 @@ I’m Mir <b>Tafseer</b> Nayeem, a PhD candidate in <a href="https://www.ualbert
 </p>
 
 <p class="lead" align="justify">
-My research is supported by the <span class="badge badge-fellow">Huawei PhD Fellowship</span>. My work received the
-<a class="badge badge-award" href="https://2024.emnlp.org/program/best_papers/">Best Resource Paper Award</a> at EMNLP 2024,
-the <a class="badge badge-award" href="http://coling2018.org/coling-2018-best-papers/">Area Chair Favorite Paper Award</a> at COLING 2018,
-and the <a class="badge badge-award" href="https://ieeevis.org/year/2025/info/awards/best-paper-awards">Best Short Paper Award</a> at VIS 2025.
+My research is supported by the <span class="award-badge fellow-outline-green">Huawei PhD Fellowship</span>. My work received the
+<a class="award-badge award-outline-gold" href="https://2024.emnlp.org/program/best_papers/">Best Resource Paper Award</a> at EMNLP 2024,
+the <a class="award-badge award-outline-gold" href="http://coling2018.org/coling-2018-best-papers/">Area Chair Favorite Paper Award</a> at COLING 2018,
+and the <a class="award-badge award-outline-gold" href="https://ieeevis.org/year/2025/info/awards/best-paper-awards">Best Short Paper Award</a> at VIS 2025.
 </p>
 
 <p class="lead" align="justify">
-I regularly serve as an <b>Area Chair (AC)</b> for the *ACL conferences, including ACL, EMNLP, NAACL, and EACL. In recent cycles several of my reviews were recognized as <span class="badge badge-award">Great Reviews</span> at ACL 2024 and NAACL 2025.
+I regularly serve as an <b>Area Chair (AC)</b> for the *ACL conferences, including ACL, EMNLP, NAACL, and EACL. In recent cycles several of my reviews were recognized as <span class="award-badge award-outline-gold">Great Reviews</span> at ACL 2024 and NAACL 2025.
 </p>
 
 <p class="lead" style="margin-top:6px;">
@@ -163,4 +189,3 @@ function toggleVisibility(id){
   el.style.display=(el.style.display==="none"||!el.style.display)?"block":"none";
 }
 </script>
-

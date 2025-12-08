@@ -154,7 +154,7 @@ https://jdf-prog.github.io/publications/
   filter:saturate(1.03);
 }
 
-/* Academic, restrained outline gold (recommended default) */
+/* Academic, outline gold */
 .award-outline-gold{
   color:#7A5A00;
   background:#FFF8E6;
@@ -449,6 +449,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     .sub-badge{ font-size: calc(var(--font-badge, 12px) - 4px); padding:2px 7px; }
   }
 </style>
+
 
 <div class="pub-item">
   <div class="pub-left">
