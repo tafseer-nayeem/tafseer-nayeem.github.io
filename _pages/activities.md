@@ -105,6 +105,10 @@ author_profile: true
 /* also give Outstanding Reviews block a tunable bottom gap */
 .clean-list.reviews{ margin-bottom: var(--role-gap); }
 
+.activities h4.subhead + p.items + ul {
+  margin-top: 2px; /* tweak as needed (e.g., 0, 2px, 4px) */
+}
+
 /* Talk list lines with a date badge */
 .talk-list{ list-style:none; padding:0; margin:6px 0 0 0; }
 .talk-list li{ margin:10px 0; color:var(--muted); }
@@ -185,7 +189,7 @@ author_profile: true
 </ul>
 
 <h4 class="subhead"><span class="i">🏅</span> Outstanding Reviews</h4>
-<p>
+<p class="items">
   High-quality reviews recognized by *ACL venues as
   <span class="chip chip-accent">Great Reviews</span>
 </p>
