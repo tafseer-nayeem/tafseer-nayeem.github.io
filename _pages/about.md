@@ -135,6 +135,24 @@ h2.section-title{
   .section-title{ font-size:1.28rem; }
   .lead{ font-size:1.02rem; }
 }
+
+/* Make inline badges in the homepage paragraphs shorter & baseline-aligned */
+.home .lead .badge{
+  padding: 2px 8px;          /* down from 4px 10px */
+  font-size: .78rem;         /* a touch smaller so height fits the line box */
+  line-height: 1;            /* removes extra vertical breathing that caused crowding */
+  vertical-align: text-bottom;/* sit nicely on the baseline with surrounding text */
+  margin: 0 2px;             /* tiny side gap so they don't touch words */
+}
+
+/* Optional: if you want award badges a hair slimmer than the fellowship pill */
+.home .lead .badge-award{ padding: 2px 7px; }
+.home .lead .badge-fellow{ padding: 2px 9px; }
+
+/* Phone tweak: tighten a bit more on very narrow screens */
+@media (max-width: 480px){
+  .home .lead .badge{ padding: 1.5px 7px; font-size: .76rem; }
+}
 </style>
 
 <div class="home">
