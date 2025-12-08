@@ -240,19 +240,25 @@ https://jdf-prog.github.io/publications/
   filter: saturate(1.05);
 }
 
+/* Tune the NAACL navy badge color in one place */
+:root{
+  --badge-navy: #242D8C; /* NAACL navy */
+}
+
 .conf-badge-navy{
-    display:inline-flex; align-items:center; justify-content:center;
-    padding:8px 14px; min-width: var(--badge-w, 120px);
-    line-height:1; border-radius:999px;
-    font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
-    text-transform:uppercase; color:#fff; background:#242D8C; /* NAACL navy */
-    white-space:nowrap;
-    transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
+  display:inline-flex; align-items:center; justify-content:center;
+  padding:8px 14px; min-width: var(--badge-w, 120px);
+  line-height:1; border-radius:999px;
+  font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
+  text-transform:uppercase; color:#fff;
+  background: var(--badge-navy);               /* ← uses the variable */
+  white-space:nowrap;
+  transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
 }
 .conf-badge-navy:hover{
-    transform: translateY(-1px);
-    box-shadow:0 6px 16px rgba(36,45,140,0.28);
-    filter:saturate(1.05);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px color-mix(in srgb, var(--badge-navy) 28%, transparent);
+  filter: saturate(1.05);
 }
 
 :root{ --sienna-new: #4f324fff; } /* lighter/darker, just tweak --sienna-new (e.g., #7A4A79 lighter, #5A315A darker). */
