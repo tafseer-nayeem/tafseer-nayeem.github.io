@@ -10,7 +10,6 @@ redirect_from:
 
 <style>
 :root{
-  /* Core palette */
   --accent:#1F6CAB;
   --ink:#111827;
   --muted:#374151;
@@ -18,20 +17,16 @@ redirect_from:
   --chip-bg:#eef2f7;
   --chip-ink:#374151;
 
-  /* Publication-page badge tokens (matched) */
-  --font-badge: 12px;
-
-  /* Award gold */
+  /* Award / fellowship badges — aligned with publication page */
   --gold-ink:#7A5A00;
   --gold-bg:#FFF8E6;
   --gold-brd:#E7C76A;
 
-  /* Fellowship green — darker outline per request */
-  --fell-ink:#0B4F3A;
-  --fell-bg:#F3FBF6;
-  --fell-brd:#135F45;
+  /* fellowship: darker, more academic outline */
+  --fell-ink:#064E3B;      /* deep academic green */
+  --fell-bg:#F0FDF4;       /* subtle mint */
+  --fell-brd:#065F46;      /* darker outline */
 
-  /* Layout rhythm */
   --section-gap:22px;
   --para-gap:10px;
 }
@@ -54,38 +49,45 @@ redirect_from:
   text-align:justify;
 }
 
-/* ===== Publication-page badge system (reused here) ===== */
-
-/* Pill itself */
-.award-badge{
-  display:inline-flex; align-items:center; justify-content:center; gap:6px;
-  padding:5px 12px;             /* tune pill size */
+/* Publication-style badges (same feel as publications page) */
+.badge{
+  display:inline-flex; align-items:center; gap:6px;
+  padding:5px 12px;
   border-radius:999px; line-height:1.05;
-  font-weight:800; letter-spacing:.2px;
-  text-transform:none;
-  font-size: var(--font-badge);
-  border:1px solid transparent; white-space:nowrap;
-  transition: transform .16s ease, box-shadow .16s ease, filter .16s ease;
-}
-.award-badge:hover{
-  transform: translateY(-1px);
-  box-shadow:0 6px 14px rgba(0,0,0,.06);
-  filter:saturate(1.03);
+  font-weight:800; letter-spacing:.2px; text-transform:none;
+  white-space:nowrap; font-size:.82rem; border:1px solid transparent;
 }
 
-/* Academic, outline gold (awards) */
-.award-outline-gold{
-  color:var(--gold-ink);
+/* Award badge — gold outline (NOT blue like links) */
+.badge-award,
+a.badge-award:link,
+a.badge-award:visited{
+  color:var(--gold-ink) !important;
   background:var(--gold-bg);
   border-color:var(--gold-brd);
+  text-decoration:none;
+  background-image:none;     /* neutralize link underline animation */
+}
+a.badge-award:hover{
+  filter:saturate(1.03);
+  transform:translateY(-1px);
+  box-shadow:0 6px 14px rgba(0,0,0,.06);
 }
 
-/* Academic, outline green (fellowship) — darker border */
-.fellow-outline-green{
-  color:var(--fell-ink);
+/* Fellowship badge — academic green with darker outline */
+.badge-fellow,
+a.badge-fellow:link,
+a.badge-fellow:visited{
+  color:var(--fell-ink) !important;
   background:var(--fell-bg);
   border-color:var(--fell-brd);
-  border-width:1.25px;
+  text-decoration:none;
+  background-image:none;
+}
+a.badge-fellow:hover{
+  filter:saturate(1.03);
+  transform:translateY(-1px);
+  box-shadow:0 6px 14px rgba(0,0,0,.06);
 }
 
 /* Section heading and rule */
@@ -97,11 +99,11 @@ redirect_from:
 }
 .thin-rule{ border:0; height:1px; background:var(--rule); margin:12px 0 12px; }
 
-/* Announcements */
+/* Announcements list */
 .news-list{ list-style:none; padding:0; margin:8px 0 0 0; }
 .news-list li{ margin:8px 0; color:var(--muted); }
 
-/* Date pill */
+/* Date pill (shared across pages) */
 .date-badge{
   display:inline-block; padding:3px 10px; border-radius:999px; line-height:1;
   font-size:.78rem; font-weight:800; letter-spacing:.2px;
@@ -132,18 +134,18 @@ redirect_from:
 <div class="home">
 
 <p class="lead" align="justify">
-I’m Mir <b>Tafseer</b> Nayeem, a PhD candidate in <a href="https://www.ualberta.ca/computing-science/index.html">computing science</a> at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Prof. Davood Rafiei</a>. My research centers on language modeling with a focus on user-centric NLP. I study how user attributes such as age, language, dialect, intent, and preferences can be systematically integrated into the development of large language models (LLMs) and into downstream synthesis tasks such as generation and summarization, aiming to build inclusive, adaptive, and context-aware language technologies.
+I’m Mir <b>Tafseer</b> Nayeem, a PhD candidate in <a href="https://www.ualberta.ca/computing-science/index.html">computing science</a> at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Prof. Davood Rafiei</a>. My research centers on language modeling with a focus on user-centric NLP. I study how user attributes such as age, language, dialect, intent, and preferences can be integrated into the development of large language models (LLMs) and into downstream synthesis tasks such as generation and summarization, aiming to build inclusive, adaptive, and context-aware language technologies.
 </p>
 
 <p class="lead" align="justify">
-My research is supported by the <span class="award-badge fellow-outline-green">Huawei PhD Fellowship</span>. My work received the
-<a class="award-badge award-outline-gold" href="https://2024.emnlp.org/program/best_papers/">Best Resource Paper Award</a> at EMNLP 2024,
-the <a class="award-badge award-outline-gold" href="http://coling2018.org/coling-2018-best-papers/">Area Chair Favorite Paper Award</a> at COLING 2018,
-and the <a class="award-badge award-outline-gold" href="https://ieeevis.org/year/2025/info/awards/best-paper-awards">Best Short Paper Award</a> at VIS 2025.
+My research is supported by the <span class="badge badge-fellow">Huawei PhD Fellowship</span>. My work received the
+<a class="badge badge-award" href="https://2024.emnlp.org/program/best_papers/">Best Resource Paper Award</a> at EMNLP 2024,
+the <a class="badge badge-award" href="http://coling2018.org/coling-2018-best-papers/">Area Chair Favorite Paper Award</a> at COLING 2018,
+and the <a class="badge badge-award" href="https://ieeevis.org/year/2025/info/awards/best-paper-awards">Best Short Paper Award</a> at VIS 2025.
 </p>
 
 <p class="lead" align="justify">
-I regularly serve as an <b>Area Chair (AC)</b> for the *ACL conferences, including ACL, EMNLP, NAACL, and EACL. In recent cycles several of my reviews were recognized as <span class="award-badge award-outline-gold">Great Reviews</span> at ACL 2024 and NAACL 2025.
+I regularly serve as an <b>Area Chair (AC)</b> for the *ACL conferences, including ACL, EMNLP, NAACL, and EACL. In recent cycles several of my reviews were recognized as <span class="badge badge-award">Great Reviews</span> at ACL 2024 and NAACL 2025.
 </p>
 
 <p class="lead" style="margin-top:6px;">
