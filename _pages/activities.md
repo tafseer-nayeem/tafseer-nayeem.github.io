@@ -57,7 +57,7 @@ author_profile: true
 /* Year → items layout with clearer scale */
 .year-list{ list-style:none; padding:0; margin: 2px 0 8px 0; }
 .year-list li{
-  display:grid; grid-template-columns: 66px 1fr; gap: 8px;
+  display:grid; grid-template-columns: 62px 1fr; gap: 8px;
   padding: 1px 0;
 }
 .year{ color: var(--muted); font-weight:700; font-size:1.1rem; }  /* bigger year */
