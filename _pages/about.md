@@ -152,7 +152,7 @@ For additional information, please see my <a href="https://tafseer-nayeem.github
 </p>
 
 <h2 class="section-title">Announcements</h2>
-<hr class="thin-rule"/>
+<!-- <hr class="thin-rule"/> -->
 
 <ul class="news-list">
   <li><span class="date-badge">Sep 2025</span> 🏆 <a href="https://arxiv.org/abs/2508.09716">ChartDeception</a> received the <b>Best Short Paper Award</b> at <a href="https://ieeevis.org/year/2025/info/program/papers_list">VIS 2025</a>.</li>
