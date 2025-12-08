@@ -106,7 +106,7 @@ author_profile: true
 .clean-list.reviews{ margin-bottom: var(--role-gap); }
 
 .activities h4.subhead + p.items + ul {
-  margin-top: 0px; /* tweak as needed (e.g., 0, 2px, 4px) */
+  margin-top: -2px; /* tweak as needed (e.g., 0, 2px, 4px) */
 }
 
 /* Talk list lines with a date badge */
