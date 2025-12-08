@@ -3,134 +3,142 @@ permalink: /
 title: ""
 excerpt: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-<!--👋Hi, there! -->
-
-<p align="justify">
-I’m Mir <b>Tafseer</b> Nayeem, a PhD Candidate in <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by Prof. <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Davood Rafiei</a>. My research centers on Language Modeling with a focus on User-Centric NLP. Specifically, I study how user attributes—such as age, dialect, intent, and various preferences—can be systematically integrated into the development of large language models (LLMs) and downstream synthesis tasks, including summarization and opinion generation, to build more inclusive, adaptive, and context-aware language technologies.
-</p>
-
-<p align="justify">
-My research is supported by the <span style="color:Red">Huawei PhD Fellowship</span>. My work received the <span style="color:Red">Best Resource Paper Award</span> at EMNLP 2024, the <span style="color:Red">Area Chair Favorite Paper Award</span> at COLING 2018, and most recently, the <span style="color:Red">Best Short Paper Award</span> at VIS 2025.
-</p>
-
-<!--
-Thanks for stopping by!
-
-My name is Mir Tafseer Nayeem. I graduated with a M.Sc. degree in Computer Science from the [University of Lethbridge (UofL)](https://www.uleth.ca/), Alberta, Canada. I also worked as a Teaching and Research Assistant at UofL. My research interests include, but are not limited to, Natural Language Processing, Computational Social Science, and Recommender Systems. My work was nominated for [<span style="color:Red"> **Best Paper Award**</span>](http://coling2018.org/coling-2018-best-papers/) and selected as <span style="color:Red"> **Area Chair Favorite Paper** </span> at [COLING 2018](http://coling2018.org). Currently, I am working as a faculty member at [Ahsanullah University of Science and Technology (AUST)](https://www.aust.edu/cse), Dhaka, Bangladesh. 
--->
-
-**For additional information, please see my [CV](https://tafseer-nayeem.github.io/cv/) and [publications](https://tafseer-nayeem.github.io/publications/).**
-
-<!-- <a href="https://tafseer-nayeem.github.io/publications/"> <img src="https://tafseer-nayeem.github.io/images/pubs.png" alt="Publication Venues"
-	title="Publication Venues" width="600" height="200"> </a>
--->
-
-<!-- <br /> -->
-
-<!-- 
-<p align="center">
-<img src="https://tafseer-nayeem.github.io/images/human-centric.png" alt="Human-Centric Modeling" title="Human-Centric Modeling" width="520" height="120">
-</p>
--->
-
-## Announcements
-* <span style="color:Blue"> [Sep 2025] </span> - 🏆 [ChartDeception](https://arxiv.org/abs/2508.09716) received the <span style="color:Red">Best Short Paper Award</span> at [VIS 2025](https://ieeevis.org/year/2025/info/program/papers_list).
-* <span style="color:Blue"> [Aug 2025] </span> - 📌 Three papers accepted at [EMNLP 2025](https://2025.emnlp.org/).
-* <span style="color:Blue"> [July 2025] </span> - 📌 One paper accepted at [COLM 2025](https://colmweb.org/).
-* <span style="color:Blue"> [Jun 2025] </span> - 📌 One paper accepted at [VIS 2025](https://ieeevis.org/year/2025/welcome).
-* <span style="color:Blue"> [May 2025] </span> - 🧑‍⚖️ Serving as an **Area Chair (AC)** for [EMNLP 2025](https://2025.emnlp.org/).
-* <span style="color:Blue"> [May 2025] </span> - 📌 One paper accepted at [ACL 2025](https://2025.aclweb.org/) (Industry Track).
-* <span style="color:Blue"> [Mar 2025] </span> - 🧑‍⚖️ Serving as an **Area Chair (AC)** for [ACL 2025](https://2025.aclweb.org/).
-* <span style="color:Blue"> [Feb 2025] </span> - 📌 One paper accepted at [NAACL 2025](https://2025.naacl.org/) (Industry Track).
-* <span style="color:Blue"> [Nov 2024] </span> - 🏆 [KidLM](https://aclanthology.org/2024.emnlp-main.277/) received the <span style="color:Red">Best Resource Paper Award</span> at [EMNLP 2024](https://2024.emnlp.org/).
-* <span style="color:Blue"> [Sep 2024] </span> - 📌 Two papers accepted at [EMNLP 2024](https://2024.emnlp.org/).
-* <span style="color:Blue"> [May 2024] </span> - 📌 One paper accepted at [ACL 2024](https://2024.aclweb.org/).
-
-<!-- Button to show/hide additional content -->
-<button onclick="toggleVisibility('moreUpdates')" class="expand-button">View More News</button>
-
-<!-- Hidden content -->
-<div id="moreUpdates" style="display: none;">
-  <ul>
-    <li><span style="color:Blue"> [Feb 2024] </span> - 📌 One paper accepted at <a href="https://lrec-coling-2024.org/">LREC-COLING 2024</a>.</li>
-    <li><span style="color:Blue"> [Aug 2023] </span> - 📌 One paper accepted at <a href="https://uobevents.eventsair.com/cikm2023/">CIKM 2023</a>.</li>
-    <li><span style="color:Blue"> [Jan 2023] </span> - 📌 Two papers accepted at <a href="https://2023.eacl.org/">EACL 2023</a>.</li>
-    <li><span style="color:Blue">[Jun 2022]</span> - 🏅 I am thrilled to receive <span style="color:Red">Huawei PhD Fellowship</span>.</li>
-    <li><span style="color:Blue">[Sep 2021]</span> - 🎓 Started PhD in <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> at <a href="https://www.ualberta.ca/index.html">University of Alberta</a>.</li>
-    <li><span style="color:Blue">[Feb 2021]</span> - 📌 One paper accepted at <a href="https://2021.eacl.org/">EACL 2021</a>.</li>
-    <li><span style="color:Blue">[Jan 2021]</span> - 📌 One paper accepted at <a href="https://aaai.org/Conferences/AAAI-21/">AAAI 2021</a>.</li>
-    <li><span style="color:blue;">[Jun 2018]</span> - 🏆 Our <a href="http://aclweb.org/anthology/C18-1102">paper</a> received <span style="color:red;">Area Chair Favorite Paper Award</span> at <a href="http://coling2018.org/coling-2018-best-papers/">COLING 2018</a>.</li>
-    <!-- <li><span style="color:Blue">[Jun 2018]</span> - 🏆 <strong>Award</strong> - Nominated for the <a href="http://coling2018.org/coling-2018-best-papers/">Best Paper Award</a> at COLING 2018.</li> -->
-</ul>
-
-</div>
-
-
-<!--
-
-<li><span style="color:Blue">[May 2018]</span> - 🔔 <strong>Paper Alert</strong> - One <a href="http://aclweb.org/anthology/C18-1102">paper</a> accepted at COLING 2018.</li>
-    <li><span style="color:Blue">[May 2019]</span> - 🔔 <strong>Paper Alert</strong> - One <a href="https://www.sciencedirect.com/science/article/pii/S0885230818303449">journal paper</a> accepted to <a href="https://www.journals.elsevier.com/computer-speech-and-language">Computer Speech & Language</a>.</li>
-    <li><span style="color:Blue">[Jan 2019]</span> - 🔔 <strong>Paper Alert</strong> - One <a href="https://link.springer.com/chapter/10.1007/978-3-030-15719-7_14">paper</a> accepted at <a href="http://ecir2019.org/">ECIR 2019</a>.</li>
-    <li><span style="color:Blue">[Oct 2017]</span> - 📢 <strong>Event</strong> - Organizer and Host: <a href="https://www.intel.ai/">Intel Nervana AI Academy - Workshop</a>.</li>
-    <li><span style="color:Blue">[Aug 2017]</span> - 🔔 <strong>Paper Alert</strong> - One <a href="http://www.aclweb.org/anthology/I17-2071">paper</a> accepted at <a href="http://ijcnlp2017.org/site/page.aspx?pid=901&sid=1133&lang=en">IJCNLP 2017</a>.</li>
-    <li><span style="color:Blue">[Aug 2017]</span> - 🔔 <strong>Paper Alert</strong> - One <a href="https://dl.acm.org/citation.cfm?id=3133106">paper</a> accepted at <a href="http://www.cikmconference.org/CIKM2017/index.html">CIKM 2017</a>.</li>
-    <li><span style="color:Blue">[Aug 2017]</span> - 📢 <strong>Event</strong> - Attended <a href="http://acl2017.org/">ACL 2017</a> in Vancouver, and presented a <a href="http://www.aclweb.org/anthology/W17-2407">workshop paper</a>.</li>
-    <li><span style="color:Blue">[Apr 2017]</span> - 🎤 <strong>Lecture</strong> - Gave a talk on <a href="https://tafseer-nayeem.github.io/files/Introduction_to_NLTK.pdf">Introduction to NLTK</a>.</li>
--->
-
-<!-- Styling for the button -->
 <style>
-.expand-button {
-  background-color: #e6eef8; /* Soft blue, often associated with academia */
-  color: #2a4d69; /* Deep blue, good for readability and a scholarly vibe */
-  border: 1px solid #b0c4de; /* Gentle border color */
-  padding: 7px 15px; /* Comfortable padding */
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 7px 0; /* Adds some space around the button */
-  cursor: pointer;
-  border-radius: 5px; /* Gentle curve on corners */
-  font-size: 13px; /* Clear, legible text size */
-  transition: box-shadow 0.2s ease-in-out; /* Smooth shadow transition */
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+:root{
+  --accent:#1F6CAB;
+  --ink:#111827;
+  --muted:#374151;
+  --rule:#e5e7eb;
+  --chip-bg:#eef2f7;
+  --chip-ink:#374151;
+
+  --section-gap:22px;
+  --para-gap:10px;
 }
 
-.expand-button:hover,
-.expand-button:focus {
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow on hover/focus for interactivity */
+.home a{
+  color:var(--accent); text-decoration:none;
+  background-image:linear-gradient(currentColor,currentColor);
+  background-size:0% 2px; background-repeat:no-repeat; background-position:0 100%;
+  transition:background-size .22s ease;
+}
+.home a:hover{ background-size:100% 2px; }
+
+.lead{
+  margin:var(--para-gap) 0;
+  color:var(--muted);
+  line-height:1.65;
+  font-size:1.03rem;
+  text-align:justify;
 }
 
-ul {
-  list-style-type: none; /* Removes the default list styling */
-  padding: 0;
+.chip{
+  display:inline-flex; align-items:center; justify-content:center;
+  padding:4px 10px; border-radius:999px; line-height:1;
+  font-size:.78rem; font-weight:800; letter-spacing:.2px;
+  border:1px solid #d1d5db; background:var(--chip-bg); color:var(--chip-ink);
+}
+.chip-accent{ background:var(--accent); color:#fff; border-color:transparent; }
+
+.date-badge{
+  display:inline-block; padding:3px 10px; border-radius:999px; line-height:1;
+  font-size:.78rem; font-weight:800; letter-spacing:.2px;
+  background:var(--chip-bg); color:var(--chip-ink);
+  margin-right:10px;
 }
 
-li i {
-  margin-right: 5px; /* Ensures icons have space */
+.section-title{
+  margin:var(--section-gap) 0 8px;
+  font-size:1.35rem; color:var(--ink);
+  letter-spacing:.2px; line-height:1.25;
+  display:flex; align-items:center; gap:10px;
+}
+
+.thin-rule{ border:0; height:1px; background:var(--rule); margin:12px 0 12px; }
+
+.news-list{ list-style:none; padding:0; margin:8px 0 0 0; }
+.news-list li{ margin:8px 0; color:var(--muted); }
+
+.expand-button{
+  background:var(--chip-bg); color:var(--chip-ink);
+  border:1px solid #bfc7d1; padding:7px 14px; border-radius:8px;
+  font-size:.82rem; font-weight:700; cursor:pointer;
+  transition:box-shadow .18s ease;
+  margin:8px 0;
+}
+.expand-button:hover,.expand-button:focus{ box-shadow:0 6px 14px rgba(0,0,0,.10); }
+
+#moreUpdates ul{ list-style:none; padding:0; margin:0; }
+#moreUpdates li{ margin:8px 0; color:var(--muted); }
+
+@media (max-width:640px){
+  .section-title{ font-size:1.28rem; }
+  .lead{ font-size:1.02rem; }
 }
 </style>
 
-<!-- JavaScript to toggle the visibility of the 'moreUpdates' section -->
+<div class="home">
+
+<p class="lead">
+I’m Mir <b>Tafseer</b> Nayeem, a PhD candidate in <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Prof. Davood Rafiei</a>. My research centers on user-centric language modeling. I study how user attributes—age, dialect, intent, and preferences—can be incorporated into large language models and downstream synthesis tasks (e.g., summarization, opinion generation) to build inclusive, adaptive, and context-aware NLP systems.
+</p>
+
+<p class="lead">
+Support: <span class="chip chip-accent">Huawei PhD Fellowship</span>.
+Recognition: <span class="chip">Best Resource Paper (EMNLP 2024)</span>
+<span class="chip">Area Chair Favorite (COLING 2018)</span>
+<span class="chip">Best Short Paper (VIS 2025)</span>.
+</p>
+
+<p class="lead" style="margin-top:6px;">
+See my <a href="https://tafseer-nayeem.github.io/cv/">CV</a> and <a href="https://tafseer-nayeem.github.io/publications/">publications</a>.
+</p>
+
+<h2 class="section-title">Announcements</h2>
+<hr class="thin-rule"/>
+
+<ul class="news-list">
+  <li><span class="date-badge">Sep 2025</span> 🏆 <a href="https://arxiv.org/abs/2508.09716">ChartDeception</a> received the <b>Best Short Paper Award</b> at <a href="https://ieeevis.org/year/2025/info/program/papers_list">VIS 2025</a>.</li>
+  <li><span class="date-badge">Aug 2025</span> 📌 Three papers accepted at <a href="https://2025.emnlp.org/">EMNLP 2025</a>.</li>
+  <li><span class="date-badge">Jul 2025</span> 📌 One paper accepted at <a href="https://colmweb.org/">COLM 2025</a>.</li>
+  <li><span class="date-badge">Jun 2025</span> 📌 One paper accepted at <a href="https://ieeevis.org/year/2025/welcome">VIS 2025</a>.</li>
+  <li><span class="date-badge">May 2025</span> 🧑‍⚖️ Serving as an <b>Area Chair (AC)</b> for <a href="https://2025.emnlp.org/">EMNLP 2025</a>.</li>
+  <li><span class="date-badge">May 2025</span> 📌 One paper accepted at <a href="https://2025.aclweb.org/">ACL 2025</a> (Industry Track).</li>
+  <li><span class="date-badge">Mar 2025</span> 🧑‍⚖️ Serving as an <b>Area Chair (AC)</b> for <a href="https://2025.aclweb.org/">ACL 2025</a>.</li>
+  <li><span class="date-badge">Feb 2025</span> 📌 One paper accepted at <a href="https://2025.naacl.org/">NAACL 2025</a> (Industry Track).</li>
+  <li><span class="date-badge">Nov 2024</span> 🏆 <a href="https://aclanthology.org/2024.emnlp-main.277/">KidLM</a> received the <b>Best Resource Paper Award</b> at <a href="https://2024.emnlp.org/">EMNLP 2024</a>.</li>
+  <li><span class="date-badge">Sep 2024</span> 📌 Two papers accepted at <a href="https://2024.emnlp.org/">EMNLP 2024</a>.</li>
+  <li><span class="date-badge">May 2024</span> 📌 One paper accepted at <a href="https://2024.aclweb.org/">ACL 2024</a>.</li>
+</ul>
+
+<button onclick="toggleVisibility('moreUpdates')" class="expand-button">View More News</button>
+
+<div id="moreUpdates" style="display:none;">
+  <ul>
+    <li><span class="date-badge">Feb 2024</span> 📌 One paper accepted at <a href="https://lrec-coling-2024.org/">LREC-COLING 2024</a>.</li>
+    <li><span class="date-badge">Aug 2023</span> 📌 One paper accepted at <a href="https://uobevents.eventsair.com/cikm2023/">CIKM 2023</a>.</li>
+    <li><span class="date-badge">Jan 2023</span> 📌 Two papers accepted at <a href="https://2023.eacl.org/">EACL 2023</a>.</li>
+    <li><span class="date-badge">Jun 2022</span> 🏅 Awarded the <b>Huawei PhD Fellowship</b>.</li>
+    <li><span class="date-badge">Sep 2021</span> 🎓 Started PhD in <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a>, University of Alberta.</li>
+    <li><span class="date-badge">Feb 2021</span> 📌 One paper accepted at <a href="https://2021.eacl.org/">EACL 2021</a>.</li>
+    <li><span class="date-badge">Jan 2021</span> 📌 One paper accepted at <a href="https://aaai.org/Conferences/AAAI-21/">AAAI 2021</a>.</li>
+    <li><span class="date-badge">Jun 2018</span> 🏆 <a href="http://aclweb.org/anthology/C18-1102">Paper</a> received <b>Area Chair Favorite Paper Award</b> at <a href="http://coling2018.org/coling-2018-best-papers/">COLING 2018</a>.</li>
+  </ul>
+</div>
+
+<hr class="thin-rule"/>
+<p style="margin-top:12px;"><a href="#">Back to Top</a></p>
+
+</div>
+
 <script>
-function toggleVisibility(id) {
-  var x = document.getElementById(id);
-  x.style.display = x.style.display === "none" ? "block" : "none";
+function toggleVisibility(id){
+  var el=document.getElementById(id);
+  el.style.display=(el.style.display==="none"||!el.style.display)?"block":"none";
 }
 </script>
-
-
-----------------------------------------
-
-[**Back to Top**](#)
-
-<!--
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=320&t=m&d=ipF0iF0Q-RsFHP1VWejYRbFjf-eSQyozfam19f0UfGo'></script>
--->
-
-
