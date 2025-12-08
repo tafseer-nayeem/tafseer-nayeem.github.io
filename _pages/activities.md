@@ -16,15 +16,11 @@ author_profile: true
   --chip-ink:#374151;   /* badges text */
 
   /* ====== SPACING KNOBS (tune these) ====== */
-  --year-w: 64px;            /* width of year badge */
-  --year-gap-x: 8px;         /* gap between year and venues */
-  --row-pad-y: 2px;          /* vertical padding per row */
-  --space-after-subhead: 15px; /* space under Area Chair / Reviewer / OR headings */
-  --role-gap: 25px;          /* space after each role block (AC vs Reviewer) */
-
-  /* Outstanding Reviews spacing (you can tune) */
-  --reviews-top-gap: 4px;    /* vertical gap between the paragraph and bullets */
-  --reviews-indent: 1rem;    /* left indent for bullets */
+  --year-w: 64px;          /* width of year badge */
+  --year-gap-x: 8px;       /* gap between year and venues */
+  --row-pad-y: 2px;        /* vertical padding per row */
+  --space-after-subhead: 15px;  /* space under Area Chair / Reviewer / OR headings */
+  --role-gap: 25px;        /* space after each role block (AC vs Reviewer) */
 }
 
 /* Section titles */
@@ -39,16 +35,17 @@ author_profile: true
 
 /* Subheads (Area Chair, Reviewer, etc.) */
 .subhead{
-  margin: 18px 0 0;
+  margin: 18px 0 0;                 /* top only; bottom is controlled below */
   font-size: 1.18rem;
   color: var(--ink);
   display:flex; align-items:center; gap:8px;
 }
-/* space right after any subhead */
+
+/* add space right after any subhead */
 .subhead + .year-list{ margin-top: var(--space-after-subhead); }
 .subhead + .items{     margin-top: var(--space-after-subhead); }
 
-/* Small circular icon badge */
+/* Small circular icon badge, consistent with your chips */
 .i{
   display:inline-grid; place-items:center;
   width:26px; height:26px; border-radius:999px;
@@ -56,10 +53,10 @@ author_profile: true
   font-size:.9rem; line-height:1;
 }
 
-/* Thin horizontal rule */
+/* Thin horizontal rule to separate major groups */
 .thin-rule{ border:0; height:1px; background:var(--rule); margin: 12px 0 14px; }
 
-/* Links */
+/* Link style consistent with publication page */
 .activities a{
   color: var(--accent); text-decoration:none;
   background-image:linear-gradient(currentColor,currentColor);
@@ -68,16 +65,17 @@ author_profile: true
 }
 .activities a:hover{ background-size:100% 2px; }
 
-/* Year → venues layout (Professional Services) */
-.year-list{ list-style:none; padding:0; margin: 0 0 var(--role-gap) 0; }
+/* Year → items layout (Professional Services) */
+.year-list{ list-style:none; padding:0; margin: 0 0 var(--role-gap) 0; } /* bottom gap separates role blocks */
 .year-list li{
   display:grid;
-  grid-template-columns: max-content 1fr;
-  align-items:center;
+  grid-template-columns: max-content 1fr;  /* width comes from the badge */
+  align-items:center;                       /* fixes baseline wiggle */
   gap: var(--year-gap-x);
-  padding: var(--row-pad-y) 0;
+  padding: var(--row-pad-y) 0;              /* compact vertical rhythm */
 }
 .year{
+  /* shaded badge, mirrors .date-badge */
   display:inline-block;
   min-width: var(--year-w);
   text-align:center;
@@ -90,14 +88,9 @@ author_profile: true
   letter-spacing:.2px;
   line-height:1.1;
 }
-.items{
-  color: var(--muted);
-  font-size:1.02rem;
-  line-height:1.35;
-  margin:0; /* ensures paragraphs with .items don’t add extra gap */
-}
+.items{ color: var(--muted); font-size:1.02rem; line-height:1.35; }
 
-/* Chips */
+/* Great reviews badge and generic chips */
 .chip{
   display:inline-flex; align-items:center; justify-content:center;
   padding:4px 10px; border-radius:999px; line-height:1;
@@ -106,20 +99,13 @@ author_profile: true
 }
 .chip-accent{ background:var(--accent); color:#fff; border-color:transparent; }
 
-/* Clean lists */
-.clean-list{ margin: 8px 0 0 1.15rem; padding-left: 1.15rem; }
+/* Lists without heavy bullets */
+.clean-list{ margin: 8px 0 0 1.15rem; }
 .clean-list li{ margin: 6px 0; color: var(--muted); }
+/* also give Outstanding Reviews block a tunable bottom gap */
+.clean-list.reviews{ margin-bottom: var(--role-gap); }
 
-/* Outstanding Reviews: tighter, aligned bullets + bottom gap equal to other role blocks */
-.items + .clean-list.reviews{ margin-top: var(--reviews-top-gap); }
-.clean-list.reviews{
-  margin-left: 0;
-  padding-left: var(--reviews-indent);
-  margin-bottom: var(--role-gap);
-}
-.clean-list.reviews li{ margin: 4px 0; }
-
-/* Talks */
+/* Talk list lines with a date badge */
 .talk-list{ list-style:none; padding:0; margin:6px 0 0 0; }
 .talk-list li{ margin:10px 0; color:var(--muted); }
 .date-badge{
@@ -128,7 +114,7 @@ author_profile: true
   margin-right:10px;
 }
 
-/* Mobile */
+/* Mobile tweaks */
 @media (max-width:600px){
   :root{ --year-w: 60px; --year-gap-x: 10px; }
   .section-title{ font-size:1.45rem; }
@@ -203,7 +189,7 @@ author_profile: true
   High-quality reviews recognized by *ACL venues as
   <span class="chip chip-accent">Great Reviews</span>
 </p>
-<ul class="clean-list reviews">
+<ul class="clean-list">
   <li>1/3 reviews recognized at <a href="https://2025.naacl.org/">NAACL 2025</a></li>
   <li>2/4 reviews recognized at <a href="https://2024.aclweb.org/">ACL 2024</a></li>
 </ul>
@@ -259,7 +245,6 @@ author_profile: true
 <p style="margin-top:16px;"><a href="#">Back to Top</a></p>
 
 </div>
-
 
 
 
