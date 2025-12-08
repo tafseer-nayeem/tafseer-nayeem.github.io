@@ -55,9 +55,9 @@ author_profile: true
 .activities a:hover{ background-size:100% 2px; }
 
 /* Year → items layout with clearer scale */
-.year-list{ list-style:none; padding:0; margin: 2px 0 8px 0; }
+.year-list{ list-style:none; padding:0; margin: 2px 0 8px 0; margin-top: 8px;}
 .year-list li{
-  display:grid; grid-template-columns: 62px 1fr; gap: 8px;
+  display:grid; grid-template-columns: 62px 1fr; gap: 7px;
   padding: 1px 0;
 }
 .year{ color: var(--muted); font-weight:700; font-size:1.1rem; }  /* bigger year */
