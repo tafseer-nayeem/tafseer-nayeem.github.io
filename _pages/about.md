@@ -134,14 +134,13 @@ a.badge-fellow:hover{
 <div class="home">
 
 <p class="lead" align="justify">
-I’m Mir <b>Tafseer</b> Nayeem, a PhD candidate in <a href="https://www.ualberta.ca/computing-science/index.html">computing science</a> at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Prof. Davood Rafiei</a>. My research centers on language modeling with a focus on user-centric NLP. I study how user attributes such as age, language, dialect, intent, and preferences can be integrated into the development of large language models (LLMs) and into downstream synthesis tasks such as generation and summarization, aiming to build inclusive, adaptive, and context-aware language technologies.
+I’m Mir <b>Tafseer</b> Nayeem, a PhD Candidate in <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Prof. Davood Rafiei</a>. My research centers on language modeling with a focus on user-centric aspects. I study how user attributes such as age, language, dialect, intent, and preferences can be integrated into the development of large language models (LLMs) and into downstream synthesis tasks such as generation and summarization, aiming to build inclusive, adaptive, and context-aware language technologies.
 </p>
 
 <p class="lead" align="justify">
 My research is supported by the <span class="badge badge-fellow">Huawei PhD Fellowship</span>. My work received the
 <a class="badge badge-award" href="https://2024.emnlp.org/program/best_papers/">Best Resource Paper Award</a> at EMNLP 2024,
-the <a class="badge badge-award" href="http://coling2018.org/coling-2018-best-papers/">Area Chair Favorite Paper Award</a> at COLING 2018,
-and the <a class="badge badge-award" href="https://ieeevis.org/year/2025/info/awards/best-paper-awards">Best Short Paper Award</a> at VIS 2025.
+the <a class="badge badge-award" href="http://coling2018.org/coling-2018-best-papers/">Area Chair Favorite Paper Award</a> at COLING 2018, and most recently, the <a class="badge badge-award" href="https://ieeevis.org/year/2025/info/awards/best-paper-awards">Best Short Paper Award</a> at VIS 2025.
 </p>
 
 <p class="lead" align="justify">
