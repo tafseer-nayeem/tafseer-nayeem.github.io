@@ -55,7 +55,7 @@ author_profile: true
 .activities a:hover{ background-size:100% 2px; }
 
 /* Year → items layout with clearer scale */
-.year-list{ list-style:none; padding:0; margin: 2px 0 8px 0; margin-top: 8px;}
+.year-list{ list-style:none; padding:0; margin: 2px 0 8px 0; }
 .year-list li{
   display:grid; grid-template-columns: 62px 1fr; gap: 7px;
   padding: 1px 0;
@@ -92,6 +92,21 @@ author_profile: true
   .subhead{ font-size:1.10rem; }
 }
 </style>
+
+<style>
+  :root{ --year-top-gap: 10px; }  /* tune this */
+
+  /* add breathing room before the first year row */
+  .ps-subhead + .year-list { padding-top: var(--year-top-gap); }
+
+  /* fallbacks if your markup doesn’t use .ps-subhead consistently */
+  h3 + .year-list,
+  h3 + ul.year-list { padding-top: var(--year-top-gap); }
+
+  /* stop margin-collapsing just in case */
+  .year-list { display: flow-root; }
+</style>
+
 
 <div class="activities">
 
