@@ -17,10 +17,19 @@ redirect_from:
   --chip-bg:#eef2f7;
   --chip-ink:#374151;
 
+  --gold-ink:#7A5A00;
+  --gold-bg:#FFF8E6;
+  --gold-brd:#E7C76A;
+
+  --fellow-ink:#0F766E;
+  --fellow-bg:#ECFDF5;
+  --fellow-brd:#99F6E4;
+
   --section-gap:22px;
   --para-gap:10px;
 }
 
+/* Links */
 .home a{
   color:var(--accent); text-decoration:none;
   background-image:linear-gradient(currentColor,currentColor);
@@ -29,6 +38,7 @@ redirect_from:
 }
 .home a:hover{ background-size:100% 2px; }
 
+/* Body text */
 .lead{
   margin:var(--para-gap) 0;
   color:var(--muted);
@@ -37,14 +47,30 @@ redirect_from:
   text-align:justify;
 }
 
-.chip{
-  display:inline-flex; align-items:center; justify-content:center;
-  padding:4px 10px; border-radius:999px; line-height:1;
-  font-size:.78rem; font-weight:800; letter-spacing:.2px;
-  border:1px solid #d1d5db; background:var(--chip-bg); color:var(--chip-ink);
+/* Publication-style badges (match Awards section style) */
+.badge{
+  display:inline-flex; align-items:center; gap:6px;
+  padding:4px 10px; border-radius:999px; line-height:1.05;
+  font-weight:800; letter-spacing:.2px; text-transform:none;
+  white-space:nowrap; font-size:.82rem;
 }
-.chip-accent{ background:var(--accent); color:#fff; border-color:transparent; }
+.badge-award{ color:var(--gold-ink); background:var(--gold-bg); border:1px solid var(--gold-brd); }
+.badge-fellow{ color:var(--fellow-ink); background:var(--fellow-bg); border:1px solid var(--fellow-brd); }
 
+/* Section heading and rule */
+.section-title{
+  margin:var(--section-gap) 0 8px;
+  font-size:1.35rem; color:var(--ink);
+  letter-spacing:.2px; line-height:1.25;
+  display:flex; align-items:center; gap:10px;
+}
+.thin-rule{ border:0; height:1px; background:var(--rule); margin:12px 0 12px; }
+
+/* Announcements list */
+.news-list{ list-style:none; padding:0; margin:8px 0 0 0; }
+.news-list li{ margin:8px 0; color:var(--muted); }
+
+/* Date pill (shared across pages) */
 .date-badge{
   display:inline-block; padding:3px 10px; border-radius:999px; line-height:1;
   font-size:.78rem; font-weight:800; letter-spacing:.2px;
@@ -52,18 +78,7 @@ redirect_from:
   margin-right:10px;
 }
 
-.section-title{
-  margin:var(--section-gap) 0 8px;
-  font-size:1.35rem; color:var(--ink);
-  letter-spacing:.2px; line-height:1.25;
-  display:flex; align-items:center; gap:10px;
-}
-
-.thin-rule{ border:0; height:1px; background:var(--rule); margin:12px 0 12px; }
-
-.news-list{ list-style:none; padding:0; margin:8px 0 0 0; }
-.news-list li{ margin:8px 0; color:var(--muted); }
-
+/* Expand button */
 .expand-button{
   background:var(--chip-bg); color:var(--chip-ink);
   border:1px solid #bfc7d1; padding:7px 14px; border-radius:8px;
@@ -84,19 +99,22 @@ redirect_from:
 
 <div class="home">
 
-<p class="lead">
-I’m Mir <b>Tafseer</b> Nayeem, a PhD candidate in <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Prof. Davood Rafiei</a>. My research centers on user-centric language modeling. I study how user attributes—age, dialect, intent, and preferences—can be incorporated into large language models and downstream synthesis tasks (e.g., summarization, opinion generation) to build inclusive, adaptive, and context-aware NLP systems.
+<!-- Keep your original descriptions verbatim (no em-dashes added) -->
+<p class="lead" align="justify">
+I’m Mir <b>Tafseer</b> Nayeem, a PhD Candidate in <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by Prof. <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Davood Rafiei</a>. My research centers on Language Modeling with a focus on User-Centric NLP. Specifically, I study how user attributes such as age, dialect, intent, and various preferences can be systematically integrated into the development of large language models (LLMs) and downstream synthesis tasks, including summarization and opinion generation, to build more inclusive, adaptive, and context-aware language technologies.
 </p>
 
-<p class="lead">
-Support: <span class="chip chip-accent">Huawei PhD Fellowship</span>.
-Recognition: <span class="chip">Best Resource Paper (EMNLP 2024)</span>
-<span class="chip">Area Chair Favorite (COLING 2018)</span>
-<span class="chip">Best Short Paper (VIS 2025)</span>.
+<p class="lead" align="justify">
+My research is supported by the <span class="badge badge-fellow">Huawei PhD Fellowship</span>. My work received the <span class="badge badge-award">Best Resource Paper Award</span> at EMNLP 2024, the <span class="badge badge-award">Area Chair Favorite Paper Award</span> at COLING 2018, and most recently, the <span class="badge badge-award">Best Short Paper Award</span> at VIS 2025.
+</p>
+
+<!-- New short paragraph, as requested -->
+<p class="lead" align="justify">
+I serve as an Area Chair for the *ACL conferences, including ACL, EMNLP, NAACL, and EACL. Previously, several of my reviews were recognized as Great Reviews at ACL 2024 and NAACL 2025.
 </p>
 
 <p class="lead" style="margin-top:6px;">
-See my <a href="https://tafseer-nayeem.github.io/cv/">CV</a> and <a href="https://tafseer-nayeem.github.io/publications/">publications</a>.
+For additional information, please see my <a href="https://tafseer-nayeem.github.io/cv/">CV</a> and <a href="https://tafseer-nayeem.github.io/publications/">publications</a>.
 </p>
 
 <h2 class="section-title">Announcements</h2>
@@ -138,7 +156,7 @@ See my <a href="https://tafseer-nayeem.github.io/cv/">CV</a> and <a href="https:
 
 <script>
 function toggleVisibility(id){
-  var el=document.getElementById(id);
+  const el=document.getElementById(id);
   el.style.display=(el.style.display==="none"||!el.style.display)?"block":"none";
 }
 </script>
