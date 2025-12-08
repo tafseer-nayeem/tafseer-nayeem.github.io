@@ -189,7 +189,7 @@ author_profile: true
   High-quality reviews recognized by *ACL venues as
   <span class="chip chip-accent">Great Reviews</span>
 </p>
-<ul class="clean-list">
+<ul class="clean-list reviews">
   <li>1/3 reviews recognized at <a href="https://2025.naacl.org/">NAACL 2025</a></li>
   <li>2/4 reviews recognized at <a href="https://2024.aclweb.org/">ACL 2024</a></li>
 </ul>
