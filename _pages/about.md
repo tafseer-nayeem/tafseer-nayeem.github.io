@@ -10,6 +10,7 @@ redirect_from:
 
 <style>
 :root{
+  /* Core palette */
   --accent:#1F6CAB;
   --ink:#111827;
   --muted:#374151;
@@ -17,18 +18,20 @@ redirect_from:
   --chip-bg:#eef2f7;
   --chip-ink:#374151;
 
-  /* Badge palette */
+  /* Publication-page badge tokens (matched) */
+  --font-badge: 12px;
+
+  /* Award gold */
   --gold-ink:#7A5A00;
   --gold-bg:#FFF8E6;
   --gold-brd:#E7C76A;
 
-  /* Fellowship (academic green) — darker outline per request */
-  --fell-ink:#0B4F3A;        /* deep academic green text */
-  --fell-bg:#F3FBF6;         /* subtle mint background */
-  --fell-brd:#135F45;        /* darker, more academic outline */
+  /* Fellowship green — darker outline per request */
+  --fell-ink:#0B4F3A;
+  --fell-bg:#F3FBF6;
+  --fell-brd:#135F45;
 
-  --font-badge:.82rem;
-
+  /* Layout rhythm */
   --section-gap:22px;
   --para-gap:10px;
 }
@@ -51,11 +54,12 @@ redirect_from:
   text-align:justify;
 }
 
-/* ===== Unified pill badges (publication-style) ===== */
+/* ===== Publication-page badge system (reused here) ===== */
+
 /* Pill itself */
 .award-badge{
   display:inline-flex; align-items:center; justify-content:center; gap:6px;
-  padding:5px 12px;
+  padding:5px 12px;             /* tune pill size */
   border-radius:999px; line-height:1.05;
   font-weight:800; letter-spacing:.2px;
   text-transform:none;
@@ -81,7 +85,7 @@ redirect_from:
   color:var(--fell-ink);
   background:var(--fell-bg);
   border-color:var(--fell-brd);
-  border-width:1.25px; /* darker feel via slightly thicker stroke */
+  border-width:1.25px;
 }
 
 /* Section heading and rule */
@@ -93,11 +97,11 @@ redirect_from:
 }
 .thin-rule{ border:0; height:1px; background:var(--rule); margin:12px 0 12px; }
 
-/* Announcements list */
+/* Announcements */
 .news-list{ list-style:none; padding:0; margin:8px 0 0 0; }
 .news-list li{ margin:8px 0; color:var(--muted); }
 
-/* Date pill (shared across pages) */
+/* Date pill */
 .date-badge{
   display:inline-block; padding:3px 10px; border-radius:999px; line-height:1;
   font-size:.78rem; font-weight:800; letter-spacing:.2px;
