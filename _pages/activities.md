@@ -14,12 +14,17 @@ author_profile: true
   --rule:#e5e7eb;       /* thin separators */
   --chip-bg:#eef2f7;    /* badges background */
   --chip-ink:#374151;   /* badges text */
+
+  /* spacing knobs you can tune */
+  --year-w: 64px;       /* fixed width for year badges (keeps perfect column alignment) */
+  --year-gap-x: 8px;    /* horizontal gap between year and venues */
+  --year-top-gap: 10px; /* space above each year grid */
 }
 
 /* Section titles */
 .section-title{
   margin: 26px 0 10px;
-  font-size: 1.40rem;           /* larger a bit*/
+  font-size: 1.40rem;
   color: var(--ink);
   letter-spacing: .2px;
   line-height: 1.25;
@@ -28,7 +33,7 @@ author_profile: true
 
 /* Subheads (Area Chair, Reviewer, etc.) */
 .subhead{
-  margin: 18px 0 8px;
+  margin: 18px 0 6px;
   font-size: 1.18rem;
   color: var(--ink);
   display:flex; align-items:center; gap:8px;
@@ -54,13 +59,29 @@ author_profile: true
 }
 .activities a:hover{ background-size:100% 2px; }
 
-/* Year → items layout with clearer scale */
-.year-list{ list-style:none; padding:0; margin: 2px 0 8px 0; margin-top: 12px;}
+/* Year → items layout (Professional Services) */
+.year-list{ list-style:none; padding:0; margin: var(--year-top-gap) 0 8px 0; }
 .year-list li{
-  display:grid; grid-template-columns: 62px 1fr; gap: 7px;
-  padding: 1px 0;
+  display:grid;
+  grid-template-columns: max-content 1fr;  /* width comes from the badge */
+  align-items:center;                       /* fixes baseline wiggle */
+  gap: var(--year-gap-x);
+  padding: 2px 0;                           /* compact vertical rhythm */
 }
-.year{ color: var(--muted); font-weight:700; font-size:1.1rem; }  /* bigger year */
+.year{
+  /* shaded badge, mirrors .date-badge */
+  display:inline-block;
+  min-width: var(--year-w);
+  text-align:center;
+  padding:3px 10px;
+  border-radius:999px;
+  background:var(--chip-bg);
+  color: var(--chip-ink);
+  font-weight:800;
+  font-size:.88rem;
+  letter-spacing:.2px;
+  line-height:1.1;
+}
 .items{ color: var(--muted); font-size:1.02rem; line-height:1.35; }
 
 /* Great reviews badge and generic chips */
@@ -85,39 +106,13 @@ author_profile: true
   margin-right:10px;
 }
 
-/* tune once */
-:root { --year-top-gap: 12px; }  /* increase/decrease to taste */
-
-/* Always add a small spacer before the list of years */
-.year-list {
-  margin-top: 0;           /* avoid surprises */
-  display: flow-root;      /* stops margin-collapsing in some themes */
-}
-.year-list::before {
-  content: "";
-  display: block;
-  height: var(--year-top-gap);  /* <-- the vertical space you wanted */
-}
-
-/* If your markup doesn’t use .year-list, also cover a plain UL after the subhead */
-.ps-subhead + ul {
-  margin-top: 0;
-  display: flow-root;
-}
-.ps-subhead + ul::before {
-  content: "";
-  display: block;
-  height: var(--year-top-gap);
-}
-
 /* Mobile tweaks */
 @media (max-width:600px){
-  .year-list li{ grid-template-columns: 70px 1fr; gap:12px; }
+  :root{ --year-w: 60px; --year-gap-x: 10px; }
   .section-title{ font-size:1.45rem; }
   .subhead{ font-size:1.10rem; }
 }
 </style>
-
 
 <div class="activities">
 
@@ -183,15 +178,12 @@ author_profile: true
   </li>
 </ul>
 
-<!-- - **2020:** [ICCIT](https://iccit.org.bd/2020/) -->
-<!-- - **2019:** [ICIET](http://www.enggtech.du.ac.bd/iciet-2019/) -->
-
 <h4 class="subhead"><span class="i">🏅</span> Outstanding Reviews</h4>
-<p class="items" style="margin:8px 0 8px 0;">
+<p class="items" style="margin:8px 0 10px 0;">
   High-quality reviews recognized by *ACL venues as
   <span class="chip chip-accent">Great Reviews</span>
 </p>
-<ul class="clean-list">
+<ul class="clean-list" style="margin-bottom:14px;">
   <li>1/3 reviews recognized at <a href="https://2025.naacl.org/">NAACL 2025</a></li>
   <li>2/4 reviews recognized at <a href="https://2024.aclweb.org/">ACL 2024</a></li>
 </ul>
@@ -247,6 +239,7 @@ author_profile: true
 <p style="margin-top:16px;"><a href="#">Back to Top</a></p>
 
 </div>
+
 
 <!-- 
 ----------------
