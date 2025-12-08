@@ -85,6 +85,31 @@ author_profile: true
   margin-right:10px;
 }
 
+/* tune once */
+:root { --year-top-gap: 12px; }  /* increase/decrease to taste */
+
+/* Always add a small spacer before the list of years */
+.year-list {
+  margin-top: 0;           /* avoid surprises */
+  display: flow-root;      /* stops margin-collapsing in some themes */
+}
+.year-list::before {
+  content: "";
+  display: block;
+  height: var(--year-top-gap);  /* <-- the vertical space you wanted */
+}
+
+/* If your markup doesn’t use .year-list, also cover a plain UL after the subhead */
+.ps-subhead + ul {
+  margin-top: 0;
+  display: flow-root;
+}
+.ps-subhead + ul::before {
+  content: "";
+  display: block;
+  height: var(--year-top-gap);
+}
+
 /* Mobile tweaks */
 @media (max-width:600px){
   .year-list li{ grid-template-columns: 70px 1fr; gap:12px; }
