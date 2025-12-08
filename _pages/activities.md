@@ -36,7 +36,7 @@ author_profile: true
   margin: 18px 0 6px;
   font-size: 1.18rem;
   color: var(--ink);
-  letter-spacing: .2px;
+  letter-spacing: .4px;
   display:flex; align-items:center; gap:8px;
 }
 
