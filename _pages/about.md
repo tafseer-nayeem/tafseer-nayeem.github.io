@@ -139,7 +139,7 @@ h2.section-title{
 /* Make inline badges in the homepage paragraphs shorter & baseline-aligned */
 .home .lead .badge{
   padding: 3px 8px;          /* down from 4px 10px */
-  font-size: .88rem;         /* a touch smaller so height fits the line box */
+  font-size: .78rem;         /* a touch smaller so height fits the line box */
   line-height: 1;            /* removes extra vertical breathing that caused crowding */
   vertical-align: text-bottom;/* sit nicely on the baseline with surrounding text */
   margin: 0 2px;             /* tiny side gap so they don't touch words */
