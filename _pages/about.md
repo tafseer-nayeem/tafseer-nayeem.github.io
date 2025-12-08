@@ -99,6 +99,12 @@ a.badge-fellow:hover{
 }
 .thin-rule{ border:0; height:1px; background:var(--rule); margin:12px 0 12px; }
 
+.page__content h2.section-title,
+h2.section-title{
+  border-bottom: 0 !important;
+  padding-bottom: 0;
+}
+
 /* Announcements list */
 .news-list{ list-style:none; padding:0; margin:8px 0 0 0; }
 .news-list li{ margin:8px 0; color:var(--muted); }
@@ -152,7 +158,7 @@ For additional information, please see my <a href="https://tafseer-nayeem.github
 </p>
 
 <h2 class="section-title">Announcements</h2>
-<!-- <hr class="thin-rule"/> -->
+<hr class="thin-rule"/>
 
 <ul class="news-list">
   <li><span class="date-badge">Sep 2025</span> 🏆 <a href="https://arxiv.org/abs/2508.09716">ChartDeception</a> received the <b>Best Short Paper Award</b> at <a href="https://ieeevis.org/year/2025/info/program/papers_list">VIS 2025</a>.</li>
