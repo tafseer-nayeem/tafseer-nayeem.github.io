@@ -19,8 +19,8 @@ author_profile: true
   --year-w: 64px;          /* width of year badge */
   --year-gap-x: 8px;       /* gap between year and venues */
   --row-pad-y: 2px;        /* vertical padding per row */
-  --space-after-subhead: 10px;  /* space under Area Chair / Reviewer / OR headings */
-  --role-gap: 22px;        /* space after each role block (AC vs Reviewer) */
+  --space-after-subhead: 14px;  /* space under Area Chair / Reviewer / OR headings */
+  --role-gap: 25px;        /* space after each role block (AC vs Reviewer) */
 }
 
 /* Section titles */
