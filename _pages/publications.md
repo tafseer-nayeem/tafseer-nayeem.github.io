@@ -654,6 +654,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2508.09716">Paper</a>
       <a href="https://github.com/vis-nlp/visDeception">Code</a>
+      <a href="https://www.yorku.ca/laps/newsroom/2025/12/01/professor-enamul-hoque-prince-and-team-win-best-paper-award-at-ieee-vis/">Media Coverage</a>
     </div>
   </div>
 </div>
