@@ -628,7 +628,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         alt="The Perils of Chart Deception thumbnail" loading="lazy" decoding="async"
         sizes="(max-width: 640px) 100vw, var(--thumb-w)">
     </a>
-    <span class="conf-badge-green">VIS 2025</span>
+    <span class="conf-badge-green">IEEE VIS 2025</span>
   </div>
 
   <div class="pub-right">
