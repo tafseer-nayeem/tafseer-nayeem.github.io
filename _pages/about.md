@@ -164,7 +164,7 @@ I’m Mir <b>Tafseer</b> Nayeem, a PhD Candidate in <a href="https://www.ualbert
 <p class="lead" align="justify">
 My research is supported by the <span class="badge badge-fellow">Huawei PhD Fellowship</span>. My work received the
 <a class="badge badge-award" href="https://2024.emnlp.org/program/best_papers/">Best Resource Paper Award</a> at EMNLP 2024,
-the <a class="badge badge-award" href="http://coling2018.org/coling-2018-best-papers/">Area Chair Favorite Paper Award</a> at COLING 2018, and most recently, the <a class="badge badge-award" href="https://ieeevis.org/year/2025/info/awards/best-paper-awards">Best Short Paper Award</a> at VIS 2025.
+the <a class="badge badge-award" href="http://coling2018.org/coling-2018-best-papers/">Area Chair Favorite Paper Award</a> at COLING 2018, and most recently, the <a class="badge badge-award" href="https://ieeevis.org/year/2025/info/awards/best-paper-awards">Best Short Paper Award</a> at IEEE VIS 2025.
 </p>
 
 <p class="lead" align="justify">
@@ -179,10 +179,10 @@ For additional information, please see my <a href="https://tafseer-nayeem.github
 <hr class="thin-rule"/>
 
 <ul class="news-list">
-  <li><span class="date-badge">Sep 2025</span> 🏆 <a href="https://arxiv.org/abs/2508.09716">ChartDeception</a> received the <b>Best Short Paper Award</b> at <a href="https://ieeevis.org/year/2025/info/program/papers_list">VIS 2025</a>.</li>
+  <li><span class="date-badge">Sep 2025</span> 🏆 <a href="https://arxiv.org/abs/2508.09716">ChartDeception</a> received the <b>Best Short Paper Award</b> at <a href="https://ieeevis.org/year/2025/info/program/papers_list">IEEE VIS 2025</a>.</li>
   <li><span class="date-badge">Aug 2025</span> 📌 Three papers accepted at <a href="https://2025.emnlp.org/">EMNLP 2025</a>.</li>
   <li><span class="date-badge">Jul 2025</span> 📌 One paper accepted at <a href="https://colmweb.org/">COLM 2025</a>.</li>
-  <li><span class="date-badge">Jun 2025</span> 📌 One paper accepted at <a href="https://ieeevis.org/year/2025/welcome">VIS 2025</a>.</li>
+  <li><span class="date-badge">Jun 2025</span> 📌 One paper accepted at <a href="https://ieeevis.org/year/2025/welcome">IEEE VIS 2025</a>.</li>
   <li><span class="date-badge">May 2025</span> 🧑‍⚖️ Serving as an <b>Area Chair (AC)</b> for <a href="https://2025.emnlp.org/">EMNLP 2025</a>.</li>
   <li><span class="date-badge">May 2025</span> 📌 One paper accepted at <a href="https://2025.aclweb.org/">ACL 2025</a> (Industry Track).</li>
   <li><span class="date-badge">Mar 2025</span> 🧑‍⚖️ Serving as an <b>Area Chair (AC)</b> for <a href="https://2025.aclweb.org/">ACL 2025</a>.</li>
