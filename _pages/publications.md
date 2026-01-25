@@ -501,7 +501,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     </h3>
     <div class="pub-meta">Published at <b>EACL 2026</b>(Main)</div>
     <div class="pub-authors">
-      Sawsan Alqahtani<span class="eq">*</span>, <span class="me">Mir Tafseer Nayeem</span><span class="eq">*</span>, Md Tahmid Rahman Laskar, Tasnim Mohiuddin, M Saiful Bari
+      <span class="me">Mir Tafseer Nayeem</span><span class="eq">*</span>, Sawsan Alqahtani<span class="eq">*</span>, Md Tahmid Rahman Laskar, Tasnim Mohiuddin, M Saiful Bari
     </div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2601.13260">Paper</a>
