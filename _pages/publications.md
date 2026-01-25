@@ -455,22 +455,20 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     .sub-badge{ font-size: calc(var(--font-badge, 12px) - 4px); padding:2px 7px; }
   }
 
-  .pub-year-card{
-  margin: 36px 0 14px;
-  font-size: 1.45rem;
+
+.pub-year{
+  margin: 32px 0 12px;
+  font-size: 1.6rem;
   font-weight: 800;
-  color: #1f2937;
-  background: #f8fafc;
-  border: 1px solid #e5e7eb;
-  padding: 10px 16px;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 1px 2px rgba(0,0,0,.03);
+  color: #111827;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 4px;
+  letter-spacing: .2px;
 }
 
 </style>
 
-<div class="pub-year-card">2025</div>
+<h2 class="pub-year">2025</h2>
 
 <div class="pub-item">
   <div class="pub-left">
