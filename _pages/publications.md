@@ -475,7 +475,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 
 </style>
 
-<p style="color:#4b5563; font-size:0.9rem; font-style: italic; margin-top:6px;">
+<p style="color:#4b5563; font-size:0.95rem; font-style: italic; margin-top:6px;">
   <span class="eq">*</span> indicates equal contribution
 </p>
 
