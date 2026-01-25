@@ -7,13 +7,13 @@ author_profile: true
 
 **Full List:** [ [**Google Scholar**](https://scholar.google.com/citations?hl=en&user=qoeylgEAAAAJ&view_op=list_works&sortby=pubdate) \| [**ACL Anthology**](https://aclanthology.org/people/m/mir-tafseer-nayeem/) \| [**DBLP**](https://dblp.org/pid/125/2693.html) ]
 
+<!--
 <span style ="color:BlueViolet"> [\**indicates equal contribution*]</span>
 
-<!-- [comment]: # \| [**Favorite Quotes**](#favorite-quotes) -->
+[comment]: # \| [**Favorite Quotes**](#favorite-quotes)
 
 [comment]: # <br/>
 
-<!--
 ## Samples
 --------------
 
@@ -474,6 +474,10 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 }
 
 </style>
+
+<p style="color:#6b7280; font-size:0.85rem; font-style: italic;">
+  <span class="eq">*</span> indicates equal contribution
+</p>
 
 <h2 class="pub-year">2026</h2>
 
