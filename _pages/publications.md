@@ -455,6 +455,13 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     .sub-badge{ font-size: calc(var(--font-badge, 12px) - 4px); padding:2px 7px; }
   }
 
+sup.eq {
+  font-size: 1.15em;        /* larger than normal superscript */
+  font-weight: 700;
+  color: #7A5A00;            /* academic gold (matches award badges) */
+  vertical-align: super;
+}
+
 .pub-year{
   margin: 32px 0 12px;
   font-size: 1.55rem;
@@ -489,7 +496,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     </h3>
     <div class="pub-meta">Published at <b>EACL 2026</b>(Main)</div>
     <div class="pub-authors">
-      Sawsan Alqahtani<sup>*</sup>, <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>, Md Tahmid Rahman Laskar, Tasnim Mohiuddin, M Saiful Bari
+      Sawsan Alqahtani<sup class="eq">*</sup>, <span class="me">Mir Tafseer Nayeem</span><sup class="eq">*</sup>, Md Tahmid Rahman Laskar, Tasnim Mohiuddin, M Saiful Bari
     </div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2601.13260">Paper</a>
