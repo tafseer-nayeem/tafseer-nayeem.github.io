@@ -168,7 +168,7 @@ the <a class="badge badge-award" href="http://coling2018.org/coling-2018-best-pa
 </p>
 
 <p class="lead" align="justify">
-I regularly serve as an <b>Area Chair (AC)</b> for the *ACL conferences, including ACL, EMNLP, NAACL, and EACL. Previously, several of my reviews were recognized as <span class="badge badge-award">Great Reviews</span> at ACL 2024 and NAACL 2025.
+I regularly serve as an <b>🧑‍⚖️ Area Chair (AC)</b> for the *ACL conferences, including ACL, EMNLP, NAACL, and EACL. Previously, several of my reviews were recognized as <span class="badge badge-award">Great Reviews</span> at ACL 2024 and NAACL 2025.
 </p>
 
 <p class="lead" style="margin-top:6px;">
