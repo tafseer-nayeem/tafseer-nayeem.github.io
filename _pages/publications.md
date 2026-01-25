@@ -869,8 +869,8 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     </h3>
     <div class="pub-meta">Published at <b>ACL 2024</b>(Findings)</div>
     <div class="pub-authors">
-      <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
-      Faisal Tareque Shohan<sup>*</sup>,
+      <span class="me">Mir Tafseer Nayeem</span><span class="eq">*</span>,
+      Faisal Tareque Shohan<span class="eq">*</span>,
       Samsul Islam,
       Abu Ubaida Akash,
       and Shafiq Joty
@@ -906,8 +906,8 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     </h3>
     <div class="pub-meta">Published at <b>COLING 2024</b></div>
     <div class="pub-authors">
-      Mohsinul Kabir<sup>*</sup>,
-      Mohammed Saidul Islam<sup>*</sup>,
+      Mohsinul Kabir<span class="eq">*</span>,
+      Mohammed Saidul Islam<span class="eq">*</span>,
       Md Tahmid Rahman Laskar,
       <span class="me">Mir Tafseer Nayeem</span>,
       M Saiful Bari,
@@ -1005,8 +1005,8 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     </h3>
     <div class="pub-meta">Published at <b>EACL 2023</b>(Main)</div>
     <div class="pub-authors">
-      <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
-      Abu Ubaida Akash<sup>*</sup>,
+      <span class="me">Mir Tafseer Nayeem</span><span class="eq">*</span>,
+      Abu Ubaida Akash<span class="eq">*</span>,
       Faisal Tareque Shohan,
       and Tanvir Islam
     </div>
@@ -1041,8 +1041,8 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     </h3>
     <div class="pub-meta">Published at <b>AAAI 2021</b>(Main)</div>
     <div class="pub-authors">
-      <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
-      Susmoy Chakraborty<sup>*</sup>,
+      <span class="me">Mir Tafseer Nayeem</span><span class="eq">*</span>,
+      Susmoy Chakraborty<span class="eq">*</span>,
       and Wasi Uddin Ahmad
     </div>
     <div class="pub-links">
@@ -1077,8 +1077,8 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     </h3>
     <div class="pub-meta">Published at <b>EACL 2021</b>(Main)</div>
     <div class="pub-authors">
-      <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
-      Radia Rayan Chowdhury<sup>*</sup>,
+      <span class="me">Mir Tafseer Nayeem</span><span class="eq">*</span>,
+      Radia Rayan Chowdhury<span class="eq">*</span>,
       TT Mim,
       MSR Chowdhury,
       and T Jannat
@@ -1150,8 +1150,8 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       Published in <b>Computer Speech &amp; Language,</b> Elsevier&mdash;58 (2019): 216&ndash;230
     </div>
     <div class="pub-authors">
-      <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
-      Tanvir Ahmed Fuad<sup>*</sup>,
+      <span class="me">Mir Tafseer Nayeem</span><span class="eq">*</span>,
+      Tanvir Ahmed Fuad<span class="eq">*</span>,
       Asif Mahmud,
       and Yllias Chali
     </div>
