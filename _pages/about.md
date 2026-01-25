@@ -184,9 +184,9 @@ For additional information, please see my <a href="https://tafseer-nayeem.github
   <li><span class="date-badge">Aug 2025</span> 📌 Three papers accepted at <a href="https://2025.emnlp.org/">EMNLP 2025</a>.</li>
   <li><span class="date-badge">Jul 2025</span> 📌 One paper accepted at <a href="https://colmweb.org/">COLM 2025</a>.</li>
   <li><span class="date-badge">Jun 2025</span> 📌 One paper accepted at <a href="https://ieeevis.org/year/2025/welcome">IEEE VIS 2025</a>.</li>
-  <li><span class="date-badge">May 2025</span> 🧑‍⚖️ Serving as an <b>Area Chair (AC)</b> for <a href="https://2025.emnlp.org/">EMNLP 2025</a>.</li>
+  <!-- <li><span class="date-badge">May 2025</span> 🧑‍⚖️ Serving as an <b>Area Chair (AC)</b> for <a href="https://2025.emnlp.org/">EMNLP 2025</a>.</li> -->
   <li><span class="date-badge">May 2025</span> 📌 One paper accepted at <a href="https://2025.aclweb.org/">ACL 2025</a> (Industry Track).</li>
-  <li><span class="date-badge">Mar 2025</span> 🧑‍⚖️ Serving as an <b>Area Chair (AC)</b> for <a href="https://2025.aclweb.org/">ACL 2025</a>.</li>
+  <!-- <li><span class="date-badge">Mar 2025</span> 🧑‍⚖️ Serving as an <b>Area Chair (AC)</b> for <a href="https://2025.aclweb.org/">ACL 2025</a>.</li> -->
   <li><span class="date-badge">Feb 2025</span> 📌 One paper accepted at <a href="https://2025.naacl.org/">NAACL 2025</a> (Industry Track).</li>
   <li><span class="date-badge">Nov 2024</span> 🏆 <a href="https://aclanthology.org/2024.emnlp-main.277/">KidLM</a> received the <b>Best Resource Paper Award</b> at <a href="https://2024.emnlp.org/program/best_papers/">EMNLP 2024</a>.</li>
   <li><span class="date-badge">Sep 2024</span> 📌 Two papers accepted at <a href="https://2024.emnlp.org/">EMNLP 2024</a>.</li>
