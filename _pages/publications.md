@@ -836,9 +836,9 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     <div class="pub-authors">
       Mohammed Saidul Islam,
       Raian Rahman,
-      Ahmed Masry<sup>*</sup>,
-      Md Tahmid Rahman Laskar<sup>*</sup>,
-      <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>,
+      Ahmed Masry<span class="eq">*</span>,
+      Md Tahmid Rahman Laskar<span class="eq">*</span>,
+      <span class="me">Mir Tafseer Nayeem</span><span class="eq">*</span>,
       and Enamul Hoque
     </div>
     <div class="pub-links">
