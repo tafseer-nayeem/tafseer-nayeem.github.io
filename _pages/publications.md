@@ -458,7 +458,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 .pub-year{
   margin: 32px 0 12px;
   font-size: 1.55rem;
-  font-weight: 720;
+  font-weight: 730;
   color: #111827;
   border-bottom: 2px solid #e5e7eb;
   padding-bottom: 4px;
