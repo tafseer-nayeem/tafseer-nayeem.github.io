@@ -455,27 +455,19 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     .sub-badge{ font-size: calc(var(--font-badge, 12px) - 4px); padding:2px 7px; }
   }
 
-
-.pub-year-line{
-  display:flex;
-  align-items:center;
-  gap:14px;
-  margin: 34px 0 12px;
-  font-size: 1.5rem;
-  font-weight: 800;
-  color:#111827;
+.pub-year{
+  margin: 32px 0 12px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #111827;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 4px;
+  letter-spacing: .2px;
 }
-.pub-year-line::after{
-  content:"";
-  flex:1;
-  height:1px;
-  background:#e5e7eb;
-}
-
 
 </style>
 
-<div class="pub-year-line"><span>2025</span></div>
+<h2 class="pub-year">2025</h2>
 
 <div class="pub-item">
   <div class="pub-left">
