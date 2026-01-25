@@ -620,8 +620,8 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     </h3>
     <div class="pub-meta">Published at <b>EMNLP 2025</b>(Main)</div>
     <div class="pub-authors">
-      Ridwan Mahbub<sup>*</sup>,
-      Mohammed Saidul Islam<sup>*</sup>,
+      Ridwan Mahbub<span class="eq">*</span>,
+      Mohammed Saidul Islam<span class="eq">*</span>,
       <span class="me">Mir Tafseer Nayeem</span>,
       Md Tahmid Rahman Laskar,
       Mizanur Rahman,
