@@ -456,8 +456,8 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   }
 
 sup.eq {
-  font-size: 1.6em !important;   /* FORCE big star */
-  font-weight: 900;
+  font-size: 1.2em !important;   /* FORCE big star */
+  font-weight: 700;
   color: #7A5A00;                 /* academic gold */
   vertical-align: baseline;       /* stop shrinking */
   position: relative;
