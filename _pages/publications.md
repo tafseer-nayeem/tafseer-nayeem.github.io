@@ -475,7 +475,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 
 </style>
 
-<p style="color:#4b5563; font-size:1.0rem; font-style: italic; margin-top:4px;">
+<p style="color:#4b5563; font-size:0.9rem; font-style: italic; margin-top:6px;">
   <span class="eq">*</span> indicates equal contribution
 </p>
 
@@ -560,7 +560,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     </h3>
     <div class="pub-meta">Published at <b>NeurIPS 2025</b>(Workshop)</div>
     <div class="pub-authors">
-      <span class="me">Mir Tafseer Nayeem</span><sup>*</sup>, Sawsan Alqahtani<sup>*</sup>, Md Tahmid Rahman Laskar, Tasnim Mohiuddin, M Saiful Bari
+      <span class="me">Mir Tafseer Nayeem</span><span class="eq">*</span>, Sawsan Alqahtani<span class="eq">*</span>, Md Tahmid Rahman Laskar, Tasnim Mohiuddin, M Saiful Bari
     </div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2510.09947">Paper</a>
