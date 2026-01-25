@@ -179,6 +179,7 @@ For additional information, please see my <a href="https://tafseer-nayeem.github
 <hr class="thin-rule"/>
 
 <ul class="news-list">
+  <li><span class="date-badge">Jan 2026</span> 📌 One paper accepted at <a href="https://2026.eacl.org/">EACL 2026</a>.</li>
   <li><span class="date-badge">Sep 2025</span> 🏆 <a href="https://arxiv.org/abs/2508.09716">ChartDeception</a> received the <b>Best Short Paper Award</b> at <a href="https://ieeevis.org/year/2025/info/program/papers_list">IEEE VIS 2025</a>.</li>
   <li><span class="date-badge">Aug 2025</span> 📌 Three papers accepted at <a href="https://2025.emnlp.org/">EMNLP 2025</a>.</li>
   <li><span class="date-badge">Jul 2025</span> 📌 One paper accepted at <a href="https://colmweb.org/">COLM 2025</a>.</li>
