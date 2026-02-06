@@ -6,9 +6,15 @@ author_profile: true
 ---
 
 <p>
-  <a href="https://tafseer-nayeem.github.io/files/CVs/CV_long_tafseer.pdf" target="_blank" title="Long CV">Long CV</a>
-  <!-- <strong>AND</strong>
-  <a href="https://tafseer-nayeem.github.io/files/CVs/CV_short_tafseer.pdf" target="_blank" title="Short CV">Short CV</a> -->
+  <a href="https://tafseer-nayeem.github.io/files/CVs/CV_long_tafseer.pdf" target="_blank" rel="noopener"
+   style="display:inline-block;padding:10px 14px;border:1px solid #ccc;border-radius:8px;text-decoration:none;">
+   View CV (PDF)
+  </a>
+  <!-- 
+  <a href="https://tafseer-nayeem.github.io/files/CVs/CV_long_tafseer.pdf" target="_blank" title="Long CV">CV/a>
+  <strong>AND</strong>
+  <a href="https://tafseer-nayeem.github.io/files/CVs/CV_short_tafseer.pdf" target="_blank" title="Short CV">Short CV</a> 
+  -->
   <span style="color:green;">[<ins>Last Updated on Feb 06, 2026</ins>]</span> 
 </p>
 
