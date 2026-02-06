@@ -21,7 +21,7 @@ author_profile: true
   View CV (PDF)
 </a>
 
-<span style="color:green; margin-left:8px; font-size:12px; vertical-align:middle;">
+<span style="color:green; margin-left:8px; font-size:13px; vertical-align:middle;">
   [<ins>Last Updated on Feb 06, 2026</ins>]
 </span>
   <!-- 
