@@ -8,8 +8,8 @@ author_profile: true
 <p>
   <a href="https://tafseer-nayeem.github.io/files/CVs/CV_long_tafseer.pdf" target="_blank" title="Long CV">Long CV</a>
   <strong>AND</strong>
-  <!-- <a href="https://tafseer-nayeem.github.io/files/CVs/CV_short_tafseer.pdf" target="_blank" title="Short CV">Short CV</a>
-  <span style="color:green;">[<ins>Last Updated on Oct 16, 2024</ins>]</span> -->
+  <!-- <a href="https://tafseer-nayeem.github.io/files/CVs/CV_short_tafseer.pdf" target="_blank" title="Short CV">Short CV</a> -->
+  <span style="color:green;">[<ins>Last Updated on Feb 06, 2026</ins>]</span> 
 </p>
 
 
