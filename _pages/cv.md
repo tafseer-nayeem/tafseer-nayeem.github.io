@@ -13,7 +13,7 @@ author_profile: true
      padding:6px 10px;
      font-size:14px;
      line-height:1.2;
-     border:1px solid #ccc;
+     border:1px solid #c1c0c0;
      border-radius:6px;
      text-decoration:none;
      vertical-align:middle;
