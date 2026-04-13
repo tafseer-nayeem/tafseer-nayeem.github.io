@@ -506,7 +506,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       <span class="me">Mir Tafseer Nayeem</span><span class="eq">*</span>, Sawsan Alqahtani<span class="eq">*</span>, Md Tahmid Rahman Laskar, Tasnim Mohiuddin, and M Saiful Bari
     </div>
     <div class="pub-links">
-      <a href="https://arxiv.org/abs/2601.13260">Paper</a>
+      <a href="https://aclanthology.org/2026.eacl-long.394/">Paper</a>
     </div>
   </div>
 </div>
@@ -631,7 +631,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       and Enamul Hoque
     </div>
     <div class="pub-links">
-      <a href="https://arxiv.org/abs/2508.09450">Paper</a>
+      <a href="https://aclanthology.org/2025.emnlp-main.1472/">Paper</a>
       <a href="https://tafseer-nayeem.github.io/files/EMNLP2025/EMNLP2025_ChartEthics_presentation.pdf">Slides</a>
       <a href="https://tafseer-nayeem.github.io/files/EMNLP2025/EMNLP2025_ChartEthics_poster.pdf">Poster</a>
     </div>
@@ -640,7 +640,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 
 <div class="pub-item">
   <div class="pub-left">
-    <a href="https://arxiv.org/abs/2510.07545" aria-label="Chart Judge paper" class="thumb-wrap">
+    <a href="https://aclanthology.org/2025.emnlp-industry.134/" aria-label="Chart Judge paper" class="thumb-wrap">
       <img
         src="https://tafseer-nayeem.github.io/images/publication/ChartJudge-EMNLP2025.png"
         alt="Chart Judge thumbnail" loading="lazy" decoding="async"
@@ -651,7 +651,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 
   <div class="pub-right">
     <h3 class="pub-title">
-      <a href="https://arxiv.org/abs/2510.07545">
+      <a href="https://aclanthology.org/2025.emnlp-industry.134/">
         Deploying Tiny LVLM Judges for Real-World Evaluation of Chart Models: Lessons Learned and Best Practices
       </a>
     </h3>
@@ -669,7 +669,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       and Jimmy Huang
     </div>
     <div class="pub-links">
-      <a href="https://arxiv.org/abs/2510.07545">Paper</a>
+      <a href="https://aclanthology.org/2025.emnlp-industry.134/">Paper</a>
       <a href="https://github.com/tahmedge/chart_lvlm_judge">Code</a>
     </div>
   </div>
