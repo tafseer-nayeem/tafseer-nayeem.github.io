@@ -480,10 +480,12 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   <span class="eq">*</span> indicates equal contribution
 </p>
 
+<!--
 
 /* ===========================
      List of Publications
      =========================== */
+-->
 
 <h2 class="pub-year">2026</h2>
 
