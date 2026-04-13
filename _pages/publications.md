@@ -27,10 +27,11 @@ Proceedings of
 
 ## Lines
 <hr style="border: 1px solid #ddd;" />
------------
 
 ## Sample Website 
 https://jdf-prog.github.io/publications/
+
+--------------------------------------------
 
 ## Preprints
 <hr style="border: 1px solid #ddd;" />
