@@ -499,7 +499,9 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         Stop Taking Tokenizers for Granted: They Are Core Design Decisions in Large Language Models
       </a>
     </h3>
-    <div class="pub-meta">Published at <b>EACL 2026</b>(Main)</div>
+    <div class="pub-meta">Published at <b>EACL 2026</b>(Main)
+      <span class="tag-badge tag-oral" aria-label="Oral presentation">Oral</span>
+    </div>
     <div class="pub-authors">
       <span class="me">Mir Tafseer Nayeem</span><span class="eq">*</span>, Sawsan Alqahtani<span class="eq">*</span>, Md Tahmid Rahman Laskar, Tasnim Mohiuddin, and M Saiful Bari
     </div>
