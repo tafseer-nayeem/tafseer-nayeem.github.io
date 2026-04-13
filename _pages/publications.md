@@ -507,7 +507,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
         Lost in Translation: Do LVLM Judges Generalize Across Languages?
       </a>
     </h3>
-    <div class="pub-meta">Published at <b>ACL 2026</b>(Findings)</div>
+    <div class="pub-meta">Accepted for publication at <b>ACL 2026</b>(Findings)</div>
     <div class="pub-authors">
       Md Tahmid Rahman Laskar,
       Mohammed Saidul Islam,
