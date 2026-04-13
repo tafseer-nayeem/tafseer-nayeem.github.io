@@ -483,7 +483,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 
 <div class="pub-item">
   <div class="pub-left">
-    <a href="https://arxiv.org/abs/2601.13260" aria-label="Tokenizer LLM (EACL 2026)" class="thumb-wrap">
+    <a href="https://aclanthology.org/2026.eacl-long.394/" aria-label="Tokenizer LLM (EACL 2026)" class="thumb-wrap">
       <img
         src="https://tafseer-nayeem.github.io/images/publication/Tokenizer-EACL2026.png"
         alt="Stop Taking Tokenizers for Granted: They Are Core Design Decisions in Large Language Models — thumbnail"
@@ -495,7 +495,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 
   <div class="pub-right">
     <h3 class="pub-title">
-      <a href="https://arxiv.org/abs/2601.13260">
+      <a href="https://aclanthology.org/2026.eacl-long.394/">
         Stop Taking Tokenizers for Granted: They Are Core Design Decisions in Large Language Models
       </a>
     </h3>
