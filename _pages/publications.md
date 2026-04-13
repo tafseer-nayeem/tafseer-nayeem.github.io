@@ -605,7 +605,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 
 <div class="pub-item">
   <div class="pub-left">
-    <a href="https://arxiv.org/abs/2508.09450" aria-label="Fair Narratives paper" class="thumb-wrap">
+    <a href="https://aclanthology.org/2025.emnlp-main.1472/" aria-label="Fair Narratives paper" class="thumb-wrap">
       <img
         src="https://tafseer-nayeem.github.io/images/publication/ChartEthics-EMNLP2025.png"
         alt="From Charts to Fair Narratives thumbnail" loading="lazy" decoding="async"
@@ -616,7 +616,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 
   <div class="pub-right">
     <h3 class="pub-title">
-      <a href="https://arxiv.org/abs/2508.09450">
+      <a href="https://aclanthology.org/2025.emnlp-main.1472/">
         From Charts to Fair Narratives: Uncovering and Mitigating Geo-Economic Biases in Chart-to-Text
       </a>
     </h3>
