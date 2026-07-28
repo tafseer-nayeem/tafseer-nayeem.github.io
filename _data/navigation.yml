@@ -9,14 +9,8 @@ main:
   - title: "Education & Awards"
     url: /education-awards/    
     
-  #- title: "Projects"
-    #url: /projects/
-  
-  - title: "Activities"
+  - title: "Service"
     url: /activities/
-    
-  #- title: "Blog Posts"
-    #url: /blog-posts/ 
-    
+
   - title: "CV"
     url: /cv/

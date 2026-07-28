@@ -10,42 +10,17 @@ locale                   : "en-US"
 title                    : "Mir Tafseer Nayeem"
 title_separator          : "-"
 name                     : &name "Mir Tafseer Nayeem"
-description              : #&description "personal description"
-url                      : https://tafseer-nayeem.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "Academic website of Mir Tafseer Nayeem, PhD Candidate in Computing Science at the University of Alberta."
+url                      : https://tafseer-nayeem.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "tafseer-nayeem/tafseer-nayeem.github.io"
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   :
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-  disqus:
-    shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  provider               : false
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
@@ -73,16 +48,16 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :   UA-179432782-1
+    tracking_id          :
 
 
 # Site Author
 author:
   name             : "Mir Tafseer Nayeem"
   avatar           : "profile.jpg"
-  bio              : "PhD Candidate in Computing Science at University of Alberta and Huawei PhD Fellow." #"I want to enable machines to interact intelligently with people via natural language."
+  bio              : "PhD Candidate in Computing Science at the University of Alberta. Huawei PhD Fellow."
   location         : #"127.0.0.1"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -91,7 +66,7 @@ author:
   DBLP             : "https://dblp.org/pers/hd/n/Nayeem:Mir_Tafseer"
   email            :  mnayeem@ualberta.ca
   huggingface      : "tafseer-nayeem"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -126,6 +101,7 @@ include:
   - _pages
   - files
 exclude:
+  - .DS_Store
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -133,11 +109,15 @@ exclude:
   - .jekyll-assets-cache
   - .sass-cache
   - CHANGELOG
+  - CHANGELOG.md
   - Capfile
+  - CONTRIBUTING.md
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - LICENSE
   - README
+  - README.md
   - Rakefile
   - assets/js/_main.js
   - assets/js/plugins
@@ -145,7 +125,10 @@ exclude:
   - config
   - gulpfile.js
   - log
+  - markdown_generator
   - node_modules
+  - OpinioRAG/Backups
+  - OpinioRAG/README.md
   - package.json
   - tmp
   - vendor
@@ -176,35 +159,8 @@ kramdown:
   enable_coderay: false
 
 
-# Collections
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-
-
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
   # _pages
   - scope:
       path: ""
@@ -212,42 +168,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -258,7 +178,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Edmonton # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

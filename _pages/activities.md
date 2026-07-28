@@ -5,133 +5,14 @@ permalink: /activities/
 author_profile: true
 ---
 
-<style>
-/* ===== Activities page typography and accents ===== */
-:root{
-  --accent:#1F6CAB;     /* links and accent */
-  --ink:#111827;        /* main headings */
-  --muted:#374151;      /* body text */
-  --rule:#e5e7eb;       /* thin separators */
-  --chip-bg:#eef2f7;    /* badges background */
-  --chip-ink:#374151;   /* badges text */
 
-  /* ====== SPACING KNOBS (tune these) ====== */
-  --year-w: 64px;          /* width of year badge */
-  --year-gap-x: 8px;       /* gap between year and venues */
-  --row-pad-y: 2px;        /* vertical padding per row */
-  --space-after-subhead: 15px;  /* space under Area Chair / Reviewer / OR headings */
-  --role-gap: 25px;        /* space after each role block (AC vs Reviewer) */
-}
-
-/* Section titles */
-.section-title{
-  margin: 26px 0 10px;
-  font-size: 1.40rem;
-  color: var(--ink);
-  letter-spacing: .2px;
-  line-height: 1.25;
-  display:flex; align-items:center; gap:10px;
-}
-
-/* Subheads (Area Chair, Reviewer, etc.) */
-.subhead{
-  margin: 18px 0 0;                 /* top only; bottom is controlled below */
-  font-size: 1.18rem;
-  color: var(--ink);
-  display:flex; align-items:center; gap:8px;
-}
-
-/* add space right after any subhead */
-.subhead + .year-list{ margin-top: var(--space-after-subhead); }
-.subhead + .items{     margin-top: var(--space-after-subhead); }
-
-/* Small circular icon badge, consistent with your chips */
-.i{
-  display:inline-grid; place-items:center;
-  width:26px; height:26px; border-radius:999px;
-  background:var(--chip-bg); color:var(--chip-ink);
-  font-size:.9rem; line-height:1;
-}
-
-/* Thin horizontal rule to separate major groups */
-.thin-rule{ border:0; height:1px; background:var(--rule); margin: 12px 0 14px; }
-
-/* Link style consistent with publication page */
-.activities a{
-  color: var(--accent); text-decoration:none;
-  background-image:linear-gradient(currentColor,currentColor);
-  background-size:0% 2px; background-repeat:no-repeat; background-position:0 100%;
-  transition: background-size .22s ease;
-}
-.activities a:hover{ background-size:100% 2px; }
-
-/* Year → items layout (Professional Services) */
-.year-list{ list-style:none; padding:0; margin: 0 0 var(--role-gap) 0; } /* bottom gap separates role blocks */
-.year-list li{
-  display:grid;
-  grid-template-columns: max-content 1fr;  /* width comes from the badge */
-  align-items:center;                       /* fixes baseline wiggle */
-  gap: var(--year-gap-x);
-  padding: var(--row-pad-y) 0;              /* compact vertical rhythm */
-}
-.year{
-  /* shaded badge, mirrors .date-badge */
-  display:inline-block;
-  min-width: var(--year-w);
-  text-align:center;
-  padding:3px 10px;
-  border-radius:999px;
-  background:var(--chip-bg);
-  color: var(--chip-ink);
-  font-weight:800;
-  font-size:.88rem;
-  letter-spacing:.2px;
-  line-height:1.1;
-}
-.items{ color: var(--muted); font-size:1.02rem; line-height:1.35; }
-
-/* Great reviews badge and generic chips */
-.chip{
-  display:inline-flex; align-items:center; justify-content:center;
-  padding:4px 10px; border-radius:999px; line-height:1;
-  font-size:.78rem; font-weight:800; letter-spacing:.2px; text-transform:uppercase;
-  border:1px solid #d1d5db; background:var(--chip-bg); color:var(--chip-ink);
-}
-.chip-accent{ background:var(--accent); color:#fff; border-color:transparent; }
-
-/* Lists without heavy bullets */
-.clean-list{ margin: 8px 0 0 1.15rem; }
-.clean-list li{ margin: 6px 0; color: var(--muted); }
-/* also give Outstanding Reviews block a tunable bottom gap */
-.clean-list.reviews{ margin-bottom: var(--role-gap); }
-
-.activities h4.subhead + p.items + ul {
-  margin-top: -2px; /* tweak as needed (e.g., 0, 2px, 4px) */
-}
-
-/* Talk list lines with a date badge */
-.talk-list{ list-style:none; padding:0; margin:6px 0 0 0; }
-.talk-list li{ margin:10px 0; color:var(--muted); }
-.date-badge{
-  display:inline-block; padding:3px 10px; border-radius:999px; line-height:1;
-  font-size:.78rem; font-weight:800; letter-spacing:.2px; background:var(--chip-bg); color:var(--chip-ink);
-  margin-right:10px;
-}
-
-/* Mobile tweaks */
-@media (max-width:600px){
-  :root{ --year-w: 60px; --year-gap-x: 10px; }
-  .section-title{ font-size:1.45rem; }
-  .subhead{ font-size:1.10rem; }
-}
-</style>
 
 <div class="activities">
 
-<h2 class="section-title"><span class="i">🧑‍💼</span> Professional Services</h2>
+<h2 class="section-title"><span class="i"><i class="fas fa-briefcase" aria-hidden="true"></i></span> Professional Services</h2>
 <hr class="thin-rule"/>
 
-<h3 class="subhead"><span class="i">🧑‍⚖️</span> Area Chair (AC)</h3>
+<h3 class="subhead"><span class="i"><i class="fas fa-user-tie" aria-hidden="true"></i></span> Area Chair (AC)</h3>
 <ul class="year-list">
   <li>
     <span class="year">2026</span>
@@ -151,7 +32,7 @@ author_profile: true
   </li>
 </ul>
 
-<h3 class="subhead"><span class="i">📝</span> Reviewer</h3>
+<h3 class="subhead"><span class="i"><i class="fas fa-clipboard-check" aria-hidden="true"></i></span> Reviewer</h3>
 <ul class="year-list">
   <li>
     <span class="year">2025</span>
@@ -188,7 +69,7 @@ author_profile: true
   </li>
 </ul>
 
-<h4 class="subhead"><span class="i">🏅</span> Outstanding Reviews</h4>
+<h4 class="subhead"><span class="i"><i class="fas fa-award" aria-hidden="true"></i></span> Outstanding Reviews</h4>
 <p class="items">
   High-quality reviews recognized by *ACL venues as
   <span class="chip chip-accent">Great Reviews</span>
@@ -198,7 +79,7 @@ author_profile: true
   <li>2/4 reviews recognized at <a href="https://2024.aclweb.org/">ACL 2024</a></li>
 </ul>
 
-<h2 class="section-title"><span class="i">🎤</span> Invited Talks</h2>
+<h2 class="section-title"><span class="i"><i class="fas fa-chalkboard-teacher" aria-hidden="true"></i></span> Invited Talks</h2>
 <hr class="thin-rule"/>
 
 <ul class="talk-list">
@@ -206,11 +87,11 @@ author_profile: true
     <span class="date-badge">Nov 2024</span>
     Talk on <a href="https://aclanthology.org/2024.emnlp-main.277/">KidLM</a>, at
     <a href="https://www.ualberta.ca/en/computing-science/undergraduate-studies/course-directory/courses/honors-seminar.html">Honors Seminar</a>, University of Alberta
-    (<a href="https://tafseer-nayeem.github.io/files/KidLM_seminar_slides.pdf">slides</a>)
+    (<a href="/files/KidLM_seminar_slides.pdf">slides</a>)
   </li>
   <li>
     <span class="date-badge">Apr 2017</span>
-    Talk on <a href="https://tafseer-nayeem.github.io/files/Introduction_to_NLTK.pdf">Introduction to NLTK</a>, University of Lethbridge
+    Talk on <a href="/files/Introduction_to_NLTK.pdf">Introduction to NLTK</a>, University of Lethbridge
   </li>
   <li>
     <span class="date-badge">Feb 2017</span>
@@ -218,7 +99,7 @@ author_profile: true
   </li>
 </ul>
 
-<h2 class="section-title"><span class="i">🖥️</span> Project Demonstrations</h2>
+<h2 class="section-title"><span class="i"><i class="fas fa-laptop-code" aria-hidden="true"></i></span> Project Demonstrations</h2>
 <hr class="thin-rule"/>
 
 <ul class="clean-list">
@@ -226,7 +107,7 @@ author_profile: true
   <li>Bengali Document Summarization Tool (<a href="https://youtu.be/LrnskktiXcg">demo video</a>)</li>
 </ul>
 
-<h2 class="section-title"><span class="i">👥</span> Leadership Activities</h2>
+<h2 class="section-title"><span class="i"><i class="fas fa-users" aria-hidden="true"></i></span> Leadership Activities</h2>
 <hr class="thin-rule"/>
 
 <ul class="clean-list">
@@ -246,21 +127,11 @@ author_profile: true
 </ul>
 
 <hr class="thin-rule"/>
-<p style="margin-top:16px;"><a href="#">Back to Top</a></p>
+<p class="back-top"><a href="#">Back to Top</a></p>
 
 </div>
 
 
 
-<!-- 
-----------------
-- Organizing Committee Member & Researcher, **Commonwealth of Learning ([COL](https://www.col.org/)) TEL AUST** Project [<span style ="color:Green"> [**Report**] </span>](http://oasis.col.org/handle/11599/3220)
-- Member, Logistics & IT Support Committee, [ICCIT 2020](http://iccit.org.bd/2020/)
-- **Organizer and Host:** [Intel Nervana AI Academy - Workshop](https://www.intel.ai/).
-<!-- - Member, *Bangladeshi Students' Organization at the University of Lethbridge* ([**BSOUL**](https://www.facebook.com/BSOULpage/)), Alberta, Canada. 
-- Convener, Project Showcasing, **AUST CSE WEEK 2018**, Dhaka, Bangladesh.
-- Organizing committee member in the **AUST CSE Fest 2013 and 2014**, Dhaka, Bangladesh.
-- Organizing committee member in the **BUBT CSE FIESTA 2012**, Dhaka, Bangladesh.
-- Organizing committee member in the **IUT ICT Fest 2011**, Dhaka, Bangladesh. 
--->
+
 

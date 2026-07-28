@@ -1,22 +1,22 @@
 {
-  "name": "minimal-mistakes",
+  "name": "tafseer-nayeem-academic-site",
   "version": "3.4.2",
-  "description": "Minimal Mistakes Jekyll theme npm build scripts",
+  "description": "Build scripts for Mir Tafseer Nayeem's academic website",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
+    "url": "git://github.com/tafseer-nayeem/tafseer-nayeem.github.io.git"
   },
   "keywords": [
     "jekyll",
     "theme",
     "minimal"
   ],
-  "author": "Michael Rose",
+  "author": "Mir Tafseer Nayeem",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
+    "url": "https://github.com/tafseer-nayeem/tafseer-nayeem.github.io/issues"
   },
-  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
+  "homepage": "https://tafseer-nayeem.github.io/",
   "engines": {
     "node": ">= 0.10.0"
   },
