@@ -1,6 +1,8 @@
 ---
 layout: archive
 title: "Sitemap"
+description: "Sitemap for Mir Tafseer Nayeem's academic website."
+excerpt: "Sitemap for Mir Tafseer Nayeem's academic website."
 permalink: /sitemap/
 author_profile: true
 ---

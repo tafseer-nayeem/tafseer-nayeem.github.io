@@ -1,6 +1,8 @@
 ---
 layout: archive
 title: "Activities"
+description: "Academic service, area chair roles, reviewing, invited talks, project demonstrations, and leadership activities by Mir Tafseer Nayeem."
+excerpt: "Academic service, area chair roles, reviewing, invited talks, project demonstrations, and leadership activities by Mir Tafseer Nayeem."
 permalink: /activities/
 author_profile: true
 ---

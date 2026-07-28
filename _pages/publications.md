@@ -1,6 +1,8 @@
 ---
 layout: archive
 title: "Selected Publications"
+description: "Selected publications by Mir Tafseer Nayeem in natural language processing, language models, opinion synthesis, summarization, chart understanding, and multilingual language technologies."
+excerpt: "Selected publications by Mir Tafseer Nayeem in natural language processing, language models, opinion synthesis, summarization, chart understanding, and multilingual language technologies."
 permalink: /publications/
 author_profile: true
 ---

@@ -1,7 +1,8 @@
 ---
 permalink: /
 title: ""
-excerpt: "About me"
+description: "Mir Tafseer Nayeem is a PhD Candidate in Computing Science at the University of Alberta working on user-centric NLP, age-appropriate language modeling, opinion synthesis, and LLM adaptation."
+excerpt: "Mir Tafseer Nayeem is a PhD Candidate in Computing Science at the University of Alberta working on user-centric NLP, age-appropriate language modeling, opinion synthesis, and LLM adaptation."
 author_profile: true
 redirect_from:
   - /about/

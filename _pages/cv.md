@@ -1,6 +1,8 @@
 ---
 layout: archive
 title: "CV"
+description: "Curriculum vitae and contact information for Mir Tafseer Nayeem, PhD Candidate in Computing Science at the University of Alberta."
+excerpt: "Curriculum vitae and contact information for Mir Tafseer Nayeem, PhD Candidate in Computing Science at the University of Alberta."
 permalink: /cv/
 author_profile: true
 ---

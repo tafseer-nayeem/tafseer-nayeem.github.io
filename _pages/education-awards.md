@@ -1,6 +1,8 @@
 ---
 layout: archive
 title: "Education & Awards"
+description: "Education, fellowships, paper awards, scholarships, and academic recognitions for Mir Tafseer Nayeem."
+excerpt: "Education, fellowships, paper awards, scholarships, and academic recognitions for Mir Tafseer Nayeem."
 permalink: /education-awards/
 author_profile: true
 ---
