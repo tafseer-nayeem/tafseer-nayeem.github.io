@@ -56,8 +56,8 @@ redirect_from:
 
     <article class="theme-card">
       <div>
-        <p class="card-label">Personalization</p>
-        <h3>User-centric NLP</h3>
+        <p class="card-label">User-centric NLP</p>
+        <h3>Personalized language technologies</h3>
       </div>
       <p>
         Modeling how user attributes, preferences, and context affect generation, summarization, and language technology design.
@@ -66,7 +66,7 @@ redirect_from:
 
     <article class="theme-card">
       <div>
-        <p class="card-label">Synthesis</p>
+        <p class="card-label">Opinion synthesis</p>
         <h3>Opinion-rich text understanding</h3>
       </div>
       <p>
@@ -76,8 +76,8 @@ redirect_from:
 
     <article class="theme-card">
       <div>
-        <p class="card-label">Evaluation</p>
-        <h3>LLM adaptation and reliability</h3>
+        <p class="card-label">LLM evaluation</p>
+        <h3>Adaptation and reliability</h3>
       </div>
       <p>
         Designing resources and evaluations for inclusivity, controllability, robustness, and user-aware model behavior.

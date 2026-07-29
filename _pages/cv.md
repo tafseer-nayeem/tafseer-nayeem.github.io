@@ -13,7 +13,6 @@ author_profile: true
   <div>
     <h2>Curriculum Vitae</h2>
     <p>Academic CV with publications, awards, service, teaching, and professional activities.</p>
-    <p class="cv-updated">Last updated: February 6, 2026</p>
   </div>
   <a class="cv-button" href="/files/CVs/CV_long_tafseer.pdf" target="_blank" rel="noopener">View CV PDF</a>
 </section>

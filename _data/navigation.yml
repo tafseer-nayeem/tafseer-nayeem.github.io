@@ -10,7 +10,7 @@ main:
     url: /education-awards/    
     
   - title: "Service"
-    url: /activities/
+    url: /service/
 
   - title: "CV"
     url: /cv/
