@@ -31,6 +31,17 @@ body {
   color: var(--site-ink);
 }
 
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+
+img,
+video {
+  height: auto;
+}
+
 a {
   color: var(--site-blue);
   text-decoration-thickness: 1px;
@@ -695,8 +706,56 @@ a:hover {
     overflow-x: hidden;
   }
 
+  .masthead__inner-wrap {
+    padding: 0.55rem 0.75rem;
+  }
+
+  .greedy-nav {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .greedy-nav a {
+    margin: 0 0.55rem;
+    padding: 0.42rem 0;
+  }
+
+  .masthead__menu-item--lg {
+    max-width: calc(100vw - 4.2rem);
+    padding-right: 0.6rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .masthead__menu-item--lg a {
+    margin-left: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .greedy-nav .hidden-links {
+    right: 0;
+    width: min(15rem, calc(100vw - 1.5rem));
+  }
+
   #main {
     margin-top: 1.1rem;
+    padding-left: 0.82rem;
+    padding-right: 0.82rem;
+  }
+
+  .page__title {
+    font-size: 1.65rem;
+    line-height: 1.12;
+  }
+
+  .page__content {
+    overflow-wrap: anywhere;
+  }
+
+  .profile-actions .action,
+  .cv-button {
+    min-width: 0;
   }
 
   .profile-hero {
@@ -1087,7 +1146,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     .pub-item{
       grid-template-columns:1fr;
       --thumb-w: 100%;
-      --thumb-max-h: 96px;
+      --thumb-max-h: 118px;
       gap:10px;
       padding:10px 12px;
     }
@@ -1100,14 +1159,20 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       height:var(--thumb-max-h);
       min-height:var(--thumb-max-h);
       max-height:var(--thumb-max-h);
+      display:grid;
+      place-items:center;
       overflow:hidden;
       border:1px solid #e5e7eb;
       border-radius:10px;
+      background:#fff;
     }
     .thumb-wrap img{
-      width:100%;
-      height:100%;
+      width:auto;
+      height:auto;
+      max-width:96%;
+      max-height:92%;
       object-fit:contain;
+      object-position:center;
       border:0;
       border-radius:0;
     }
@@ -1122,10 +1187,28 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       padding:6px 10px;
       font-size: calc(var(--font-badge) - 1px);
     }
+
+    .pub-links{
+      display:flex;
+      flex-wrap:wrap;
+      gap:5px;
+    }
+
+    .pub-links a{
+      margin:0;
+    }
+
+    .pub-item:hover{
+      transform:none;
+    }
+
+    .pub-item:hover .thumb-wrap img{
+      transform:none;
+    }
   }
 @media (max-width: 480px){
     .pub-item{
-      --thumb-max-h: 88px;
+      --thumb-max-h: 104px;
       gap:12px;
       padding:10px 12px;
     }
@@ -1139,9 +1222,17 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       padding:2px 6px;
       font-size: calc(var(--font-badge) - 3px);
     }
+
+    .award-badge{
+      max-width:100%;
+      white-space:normal;
+      text-align:center;
+      line-height:1.15;
+    }
   }
 @media (max-width: 360px){
     .pub-item{
+      --thumb-max-h: 96px;
       gap:10px;
       padding:8px 10px;
     }
@@ -1414,21 +1505,67 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     }
   }
   @media (max-width: 640px){
+    .page:has(.cv-card) .page__title{
+      font-size: 2rem;
+      line-height: 1.08;
+    }
+
     .cv-card{
-      grid-template-columns:68px 1fr;
+      grid-template-columns:74px 1fr;
       gap:10px;
       padding:10px 11px;
       align-items:start;
     }
     .logo-wrap{
-      width:68px;
-      height:52px;
-      max-height:52px;
+      width:74px;
+      height:58px;
+      max-height:58px;
       border-radius:10px;
     }
     .logo-wrap img{
-      max-width:88%;
-      max-height:88%;
+      width:auto;
+      height:auto;
+      max-width:90%;
+      max-height:90%;
+      object-fit:contain;
+      object-position:center;
+    }
+
+    .award-card{
+      min-width:0;
+      width:100%;
+      align-items:flex-start;
+    }
+
+    .award-thumb img{
+      max-width:90%;
+      max-height:90%;
+    }
+
+    .meta-row,
+    .meta-row a,
+    .award-title,
+    .award-meta{
+      overflow-wrap:anywhere;
+    }
+  }
+
+  @media (max-width: 380px){
+    .cv-card{
+      grid-template-columns:62px 1fr;
+      gap:9px;
+      padding:9px 10px;
+    }
+
+    .logo-wrap{
+      width:62px;
+      height:50px;
+      max-height:50px;
+    }
+
+    .chip{
+      font-size: calc(var(--fs-chip) - .04rem);
+      padding:3px 6px;
     }
   }
 
