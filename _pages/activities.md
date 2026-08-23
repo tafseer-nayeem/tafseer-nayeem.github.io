@@ -12,7 +12,7 @@ redirect_from:
 <div class="activities">
 
 <p class="page-intro service-intro">
-  Academic service across NLP, information retrieval, data mining, and machine learning venues, including area chairing, reviewing, invited talks, research demos, and community leadership.
+  Academic service across NLP, ML, IR, and data mining venues, including area chairing, reviewing, invited talks, research demos, and community leadership.
 </p>
 
 <h2 class="section-title"><span class="i"><i class="fas fa-briefcase" aria-hidden="true"></i></span> Academic Service</h2>
