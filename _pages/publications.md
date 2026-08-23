@@ -7,11 +7,16 @@ permalink: /publications/
 author_profile: true
 ---
 
-**Full List:** [ [**Google Scholar**](https://scholar.google.com/citations?hl=en&user=qoeylgEAAAAJ&view_op=list_works&sortby=pubdate) \| [**ACL Anthology**](https://aclanthology.org/people/m/mir-tafseer-nayeem/) \| [**DBLP**](https://dblp.org/pid/125/2693.html) ]
+<div class="pub-tools" aria-label="Publication indexes">
+  <span class="pub-tools-label">Publication indexes</span>
+  <div class="pub-tools-links">
+    <a href="https://scholar.google.com/citations?hl=en&user=qoeylgEAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
+    <a href="https://aclanthology.org/people/m/mir-tafseer-nayeem/">ACL Anthology</a>
+    <a href="https://dblp.org/pid/125/2693.html">DBLP</a>
+  </div>
+</div>
 
-<p class="pub-note">
-  <span class="eq">*</span> indicates equal contribution
-</p>
+<p class="pub-note"><span class="eq">*</span> Equal contribution</p>
 
 
 
