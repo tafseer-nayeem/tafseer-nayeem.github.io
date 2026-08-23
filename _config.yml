@@ -167,6 +167,18 @@ defaults:
     values:
       layout: single
       author_profile: true
+  - scope:
+      path: "files"
+    values:
+      sitemap: false
+  - scope:
+      path: "OpinioRAG/data"
+    values:
+      sitemap: false
+  - scope:
+      path: "OpinioRAG/visualizer"
+    values:
+      sitemap: false
 # Sass/SCSS
 sass:
   sass_dir: _sass

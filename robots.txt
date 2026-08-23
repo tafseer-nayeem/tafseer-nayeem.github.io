@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /OpinioRAG/data/
+Disallow: /OpinioRAG/visualizer/data/
+
+Sitemap: https://tafseer-nayeem.github.io/sitemap.xml
