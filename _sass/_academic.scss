@@ -672,23 +672,23 @@ a:hover {
      =========================== */
   .pub-item{
     /* Thumb/badge size knobs */
-    --thumb-w: 170px;        /* image column width */
-    --thumb-max-h: 120px;    /* max visible image height (desktop/tablet) */
-    --badge-w: 120px;        /* conference badge width */
+    --thumb-w: 148px;        /* image column width */
+    --thumb-max-h: 96px;     /* max visible image height (desktop/tablet) */
+    --badge-w: 104px;        /* conference badge width */
 
     /* FONT SIZE knobs */
-    --font-title: .90rem;    /* title font size */
-    --font-meta: .85rem;     /* "Accepted for..." font size */
-    --font-auth: .85rem;     /* authors font size */
-    --font-links: 12px;      /* link pill font size */
-    --font-badge: 12px;      /* conference badge text size */
+    --font-title: .86rem;    /* title font size */
+    --font-meta: .80rem;     /* "Accepted for..." font size */
+    --font-auth: .80rem;     /* authors font size */
+    --font-links: 11px;      /* link pill font size */
+    --font-badge: 11px;      /* conference badge text size */
 
     display:grid;
     grid-template-columns: var(--thumb-w) 1fr;
-    gap:18px;
+    gap:14px;
     align-items:start;
-    padding:16px 18px;
-    margin:18px 0;
+    padding:12px 14px;
+    margin:12px 0;
     border:1px solid #e5e7eb;
     border-radius:12px;
     background:#fff;
@@ -707,13 +707,13 @@ a:hover {
     display:flex;
     flex-direction:column;
     align-items:center;
-    gap:10px;
+    gap:7px;
   }
 
   /* ADAPTIVE THUMBNAIL (desktop/tablet): bounded box, rounded */
   .thumb-wrap{
     width: var(--thumb-w);
-    max-height: var(--thumb-max-h);
+    height: var(--thumb-max-h);
     display:grid;
     place-items:center;
     border:1px solid #e5e7eb;
@@ -725,8 +725,9 @@ a:hover {
   .thumb-wrap img{
     max-width:100%;
     max-height:100%;
-    width:auto;
-    height:auto;      /* preserves aspect ratio */
+    width:100%;
+    height:100%;
+    object-fit:contain;
     border-radius: inherit;
     transition: transform .28s ease, filter .28s ease;
   }
@@ -758,13 +759,13 @@ a:hover {
   /* --- award line and badge --- */
 .pub-award-line{
   display:block;
-  margin:6px 0 8px;             /* spacing between meta ↔ award ↔ authors (tune here) */
+  margin:4px 0 6px;             /* spacing between meta ↔ award ↔ authors (tune here) */
 }
 
 /* Pill itself */
 .award-badge{
   display:inline-flex; align-items:center; justify-content:center; gap:6px;
-  padding:5px 12px;             /* ← TUNE height/width of the pill */
+  padding:4px 9px;              /* ← TUNE height/width of the pill */
   border-radius:999px; line-height:1.05;
   font-weight:800; letter-spacing:.2px;
   text-transform:none;          /* sentence case */
@@ -808,7 +809,7 @@ a:hover {
 
 .conf-badge-blue{
   display:inline-flex; align-items:center; justify-content:center;
-  padding:8px 14px; min-width: var(--badge-w, 120px);
+  padding:6px 10px; min-width: var(--badge-w, 104px);
   line-height:1; border-radius:999px;
   font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
   text-transform:uppercase; color:#fff;
@@ -829,7 +830,7 @@ a:hover {
 
 .conf-badge-teal{
   display:inline-flex; align-items:center; justify-content:center;
-  padding:8px 14px; min-width: var(--badge-w, 120px);
+  padding:6px 10px; min-width: var(--badge-w, 104px);
   line-height:1; border-radius:999px;
   font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
   text-transform:uppercase; color:#fff;
@@ -850,7 +851,7 @@ a:hover {
 
 .conf-badge-green{
   display:inline-flex; align-items:center; justify-content:center;
-  padding:8px 14px; min-width: var(--badge-w, 120px);
+  padding:6px 10px; min-width: var(--badge-w, 104px);
   line-height:1; border-radius:999px;
   font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
   text-transform:uppercase; color:#fff;
@@ -871,7 +872,7 @@ a:hover {
 
 .conf-badge-navy{
   display:inline-flex; align-items:center; justify-content:center;
-  padding:8px 14px; min-width: var(--badge-w, 120px);
+  padding:6px 10px; min-width: var(--badge-w, 104px);
   line-height:1; border-radius:999px;
   font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
   text-transform:uppercase; color:#fff;
@@ -889,7 +890,7 @@ a:hover {
 
 .conf-badge-sienna{
   display:inline-flex; align-items:center; justify-content:center;
-  padding:8px 14px; min-width: var(--badge-w, 120px);
+  padding:6px 10px; min-width: var(--badge-w, 104px);
   line-height:1; border-radius:999px;
   font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
   text-transform:uppercase; color:#fff; background: var(--sienna-new);
@@ -909,7 +910,7 @@ a:hover {
 
 .conf-badge-violet{
   display:inline-flex; align-items:center; justify-content:center;
-  padding:8px 14px; min-width: var(--badge-w, 120px);
+  padding:6px 10px; min-width: var(--badge-w, 104px);
   line-height:1; border-radius:999px;
   font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
   text-transform:uppercase; color:#fff;
@@ -928,7 +929,7 @@ a:hover {
 
 .conf-badge-aegean{
   display:inline-flex; align-items:center; justify-content:center;
-  padding:8px 14px; min-width: var(--badge-w, 120px);
+  padding:6px 10px; min-width: var(--badge-w, 104px);
   line-height:1; border-radius:999px;
   font-size: var(--font-badge, 12px); font-weight:700; letter-spacing:.3px;
   text-transform:uppercase; color:#fff; background: var(--neurips-badge);
@@ -946,7 +947,7 @@ a:hover {
   letter-spacing: .15px; /* a touch tighter than all-caps spacing */
 }
   /* compact text (uses variables above) */
-.pub-title{ margin:0 0 4px 0; font-size: var(--font-title); line-height:1.28; }
+.pub-title{ margin:0 0 3px 0; font-size: var(--font-title); line-height:1.24; }
 .pub-title a{
     text-decoration:none;
     background-image: linear-gradient(currentColor,currentColor);
@@ -959,19 +960,19 @@ a:hover {
 
   /* Make the meta line flex so the ORAL pill aligns vertically */
 .pub-meta{
-    margin:0 0 4px 0;
+    margin:0 0 3px 0;
     font-size: var(--font-meta);
     color:#7a1f1f;
     display:flex; align-items:center; gap:8px; flex-wrap:wrap;
   }
 
-.pub-authors{ margin:0 0 8px 0; font-size: var(--font-auth); color:#374151; }
+.pub-authors{ margin:0 0 6px 0; font-size: var(--font-auth); color:#374151; line-height:1.42; }
 .pub-authors .me{ font-weight:700; }
 
 .pub-links a{
-    display:inline-block; padding:6px 10px;
-    margin-right:8px; margin-bottom:6px;
-    border-radius:8px; border:1px solid #d1d5db;
+    display:inline-block; padding:4px 8px;
+    margin-right:6px; margin-bottom:4px;
+    border-radius:7px; border:1px solid #d1d5db;
     background:#f3f4f6; text-decoration:none; font-size: var(--font-links);
     transition: background-color .16s ease, border-color .16s ease, transform .16s ease, box-shadow .16s ease;
   }
@@ -1010,6 +1011,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     }
     .thumb-wrap{
       width:100%;
+      height:auto;
       max-height:none;       /* let the image define the height */
       overflow:visible;      /* no clipping */
       border: none;          /* move border to the image for clean corners */
@@ -1017,6 +1019,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     .thumb-wrap img{
       width:100%;
       height:auto;
+      object-fit:contain;
       border:1px solid #e5e7eb;
       border-radius:12px;
     }
