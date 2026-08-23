@@ -1479,6 +1479,12 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     font-size: var(--fs-h2);
     color:#1f2937; letter-spacing:.2px;
   }
+
+  .cv-card + .sec-title{
+    margin-top: 2.2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--site-rule);
+  }
   @media (max-width:640px){
     :root{ --fs-h2:1.15rem; }
   }
