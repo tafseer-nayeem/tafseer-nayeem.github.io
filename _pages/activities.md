@@ -82,7 +82,7 @@ redirect_from:
 
 <div class="service-callout">
   <h3><span class="i"><i class="fas fa-award" aria-hidden="true"></i></span> Outstanding Reviews</h3>
-  <p>High-quality reviews recognized by *ACL venues as <span class="chip chip-accent">Great Reviews</span>.</p>
+  <p>High-quality reviews recognized by *ACL venues as <span class="chip chip-accent">Great Reviews</span></p>
   <div class="recognition-grid">
     <a href="https://2025.naacl.org/"><strong>NAACL 2025</strong><span>1/3 reviews recognized</span></a>
     <a href="https://2024.aclweb.org/"><strong>ACL 2024</strong><span>2/4 reviews recognized</span></a>
