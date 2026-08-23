@@ -1284,8 +1284,9 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     }
     .pub-left [class^="conf-badge-"],
     .pub-left [class*=" conf-badge-"]{
-      min-width: calc(var(--badge-w) - 14px);
-      padding:6px 10px;
+      min-width: 0;
+      width: fit-content;
+      padding:5px 8px;
       font-size: calc(var(--font-badge) - 1px);
     }
 
@@ -1314,8 +1315,9 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     }
     .pub-left [class^="conf-badge-"],
     .pub-left [class*=" conf-badge-"]{
-      min-width: calc(var(--badge-w) - 12px);
-      padding:7px 12px;
+      min-width: 0;
+      width: fit-content;
+      padding:5px 8px;
       font-size: calc(var(--font-badge) - 1px);
     }
     .tag-badge{
@@ -1369,7 +1371,20 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   }
 /* Mobile: keep it compact */
   @media (max-width:640px){
-    .sub-badge{ font-size: calc(var(--font-badge, 12px) - 4px); padding:2px 7px; }
+    .badge-stack{
+      align-items:flex-start;
+      gap:4px;
+    }
+    .badge-stack [class^="conf-badge-"],
+    .badge-stack [class*=" conf-badge-"]{
+      min-width:0;
+      width:fit-content;
+    }
+    .sub-badge{
+      width:fit-content;
+      padding:2px 6px;
+      font-size: calc(var(--font-badge, 12px) - 4px);
+    }
   }
 
 .eq {
