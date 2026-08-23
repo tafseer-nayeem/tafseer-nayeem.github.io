@@ -1509,8 +1509,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 
   .cv-card + .sec-title{
     margin-top: 1.75rem;
-    padding-top: .82rem;
-    border-top: 1px solid var(--site-rule);
+    padding-top: .35rem;
   }
   @media (max-width:640px){
     :root{ --fs-h2:1.26rem; }
