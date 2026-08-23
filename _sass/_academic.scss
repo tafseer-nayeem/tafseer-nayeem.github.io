@@ -1369,32 +1369,39 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 }
 
 .activities .subhead{
-  margin: 0 0 .75rem;
+  margin: 0 0 .65rem;
   color: var(--ink);
-  font-size: 1.02rem;
+  font-size: .96rem;
   line-height: 1.25;
   display:flex;
   align-items:center;
-  gap:8px;
+  gap:7px;
 }
 
 .activities .i{
   display:inline-grid;
   place-items:center;
-  width:26px;
-  height:26px;
+  width:22px;
+  height:22px;
   border-radius:999px;
   background:var(--chip-bg);
   color:var(--chip-ink);
-  font-size:.82rem;
+  font-size:.72rem;
   line-height:1;
   flex: 0 0 auto;
 }
 
+.service-grid{
+  display:grid;
+  grid-template-columns:minmax(230px, .78fr) minmax(0, 1.22fr);
+  gap:.7rem;
+  align-items:stretch;
+}
+
 .service-block,
 .service-callout{
-  margin: 0 0 .85rem;
-  padding: .85rem .95rem;
+  margin: 0 0 .8rem;
+  padding: .75rem .85rem;
   border: 1px solid var(--site-rule);
   border-radius: 8px;
   background: #fff;
@@ -1402,7 +1409,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 }
 
 .service-block-featured{
-  border-top: 3px solid var(--site-blue);
+  border-left: 3px solid var(--site-blue);
 }
 
 .activities .year-list{
@@ -1414,16 +1421,16 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 .activities .year-list li{
   display:grid;
   grid-template-columns: var(--year-w) minmax(0, 1fr);
-  align-items:start;
+  align-items:center;
   gap: var(--year-gap-x);
-  padding: .28rem 0;
+  padding: .22rem 0;
 }
 
 .activities .year{
   display:inline-flex;
   justify-content:center;
   min-width: var(--year-w);
-  padding:4px 10px;
+  padding:3px 9px;
   border-radius:999px;
   background:var(--chip-bg);
   color: var(--chip-ink);
@@ -1436,7 +1443,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 .venue-row{
   display:flex;
   flex-wrap:wrap;
-  gap:.35rem;
+  gap:.28rem;
 }
 
 .venue-chip,
@@ -1447,13 +1454,13 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 .venue-chip{
   display:inline-flex;
   align-items:center;
-  min-height:1.45rem;
-  padding:.24rem .48rem;
+  min-height:1.32rem;
+  padding:.2rem .42rem;
   border:1px solid #cbd5e1;
   border-radius:999px;
   background:#f8fafc;
   color:var(--accent) !important;
-  font-size:.76rem;
+  font-size:.72rem;
   font-weight:800;
   line-height:1;
 }
@@ -1617,7 +1624,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   line-height:1.42;
 }
 
-.leadership-list li{
+.leadership-list .leadership-current{
   display:flex;
   align-items:center;
   justify-content:space-between;
@@ -1633,13 +1640,14 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     margin-top:1.65rem;
     font-size:1.22rem;
   }
+  .service-grid,
   .activities .year-list li,
   .talk-list li,
   .recognition-grid,
   .demo-grid{
     grid-template-columns:1fr;
   }
-  .leadership-list li{
+  .leadership-list .leadership-current{
     align-items:flex-start;
     flex-direction:column;
   }

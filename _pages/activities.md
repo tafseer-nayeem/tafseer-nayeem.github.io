@@ -1,15 +1,13 @@
 ---
 layout: archive
 title: "Service"
-description: "Academic service, area chair roles, reviewing, invited talks, project demonstrations, and leadership by Mir Tafseer Nayeem."
-excerpt: "Academic service, area chair roles, reviewing, invited talks, project demonstrations, and leadership by Mir Tafseer Nayeem."
+description: "Academic service, area chair roles, reviewing, invited talks, research demos, and leadership by Mir Tafseer Nayeem."
+excerpt: "Academic service, area chair roles, reviewing, invited talks, research demos, and leadership by Mir Tafseer Nayeem."
 permalink: /service/
 author_profile: true
 redirect_from:
   - /activities/
 ---
-
-
 
 <div class="activities">
 
@@ -19,65 +17,67 @@ redirect_from:
 
 <h2 class="section-title"><span class="i"><i class="fas fa-briefcase" aria-hidden="true"></i></span> Academic Service</h2>
 
-<div class="service-block service-block-featured">
-  <h3 class="subhead"><span class="i"><i class="fas fa-user-tie" aria-hidden="true"></i></span> Area Chair</h3>
-  <ul class="year-list">
-    <li>
-      <span class="year">2026</span>
-      <span class="venue-row">
-        <a class="venue-chip" href="https://2026.aclweb.org/">ACL</a>
-        <a class="venue-chip" href="https://2026.eacl.org/">EACL</a>
-        <a class="venue-chip" href="https://aclrollingreview.org/">ARR</a>
-      </span>
-    </li>
-    <li>
-      <span class="year">2025</span>
-      <span class="venue-row">
-        <a class="venue-chip" href="https://2025.aclweb.org/">ACL</a>
-        <a class="venue-chip" href="https://2025.emnlp.org/">EMNLP</a>
-        <a class="venue-chip" href="https://aclrollingreview.org/">ARR</a>
-      </span>
-    </li>
-  </ul>
-</div>
+<div class="service-grid">
+  <div class="service-block service-block-featured">
+    <h3 class="subhead"><span class="i"><i class="fas fa-user-tie" aria-hidden="true"></i></span> Area Chair</h3>
+    <ul class="year-list">
+      <li>
+        <span class="year">2026</span>
+        <span class="venue-row">
+          <a class="venue-chip" href="https://2026.aclweb.org/">ACL</a>
+          <a class="venue-chip" href="https://2026.eacl.org/">EACL</a>
+          <a class="venue-chip" href="https://aclrollingreview.org/">ARR</a>
+        </span>
+      </li>
+      <li>
+        <span class="year">2025</span>
+        <span class="venue-row">
+          <a class="venue-chip" href="https://2025.aclweb.org/">ACL</a>
+          <a class="venue-chip" href="https://2025.emnlp.org/">EMNLP</a>
+          <a class="venue-chip" href="https://aclrollingreview.org/">ARR</a>
+        </span>
+      </li>
+    </ul>
+  </div>
 
-<div class="service-block">
-  <h3 class="subhead"><span class="i"><i class="fas fa-clipboard-check" aria-hidden="true"></i></span> Program Committee / Reviewer</h3>
-  <ul class="year-list">
-    <li>
-      <span class="year">2025</span>
-      <span class="venue-row"><a class="venue-chip" href="https://2025.naacl.org/">NAACL</a></span>
-    </li>
-    <li>
-      <span class="year">2024</span>
-      <span class="venue-row">
-        <a class="venue-chip" href="https://2024.aclweb.org/">ACL</a>
-        <a class="venue-chip" href="https://2024.emnlp.org/">EMNLP</a>
-        <a class="venue-chip" href="https://2024.naacl.org/">NAACL</a>
-        <a class="venue-chip" href="https://2024.eacl.org/">EACL</a>
-        <a class="venue-chip" href="https://sigir-2024.github.io/">SIGIR</a>
-        <a class="venue-chip" href="https://www.wsdm-conference.org/2024/">WSDM</a>
-      </span>
-    </li>
-    <li>
-      <span class="year">2023</span>
-      <span class="venue-row">
-        <a class="venue-chip" href="https://sigir.org/sigir2023/">SIGIR</a>
-        <a class="venue-chip" href="https://kdd.org/kdd2023/">KDD</a>
-        <a class="venue-chip" href="https://www.wsdm-conference.org/2023/">WSDM</a>
-        <a class="venue-chip" href="https://uobevents.eventsair.com/cikm2023/">CIKM</a>
-      </span>
-    </li>
-    <li>
-      <span class="year">2022</span>
-      <span class="venue-row">
-        <a class="venue-chip" href="https://sigir.org/sigir2022/">SIGIR</a>
-        <a class="venue-chip" href="https://kdd.org/kdd2022/">KDD</a>
-        <a class="venue-chip" href="https://www.cikm2022.org/">CIKM</a>
-        <a class="venue-chip" href="https://icde2022.ieeecomputer.my/">ICDE</a>
-      </span>
-    </li>
-  </ul>
+  <div class="service-block">
+    <h3 class="subhead"><span class="i"><i class="fas fa-clipboard-check" aria-hidden="true"></i></span> Program Committee / Reviewer</h3>
+    <ul class="year-list">
+      <li>
+        <span class="year">2025</span>
+        <span class="venue-row"><a class="venue-chip" href="https://2025.naacl.org/">NAACL</a></span>
+      </li>
+      <li>
+        <span class="year">2024</span>
+        <span class="venue-row">
+          <a class="venue-chip" href="https://2024.aclweb.org/">ACL</a>
+          <a class="venue-chip" href="https://2024.emnlp.org/">EMNLP</a>
+          <a class="venue-chip" href="https://2024.naacl.org/">NAACL</a>
+          <a class="venue-chip" href="https://2024.eacl.org/">EACL</a>
+          <a class="venue-chip" href="https://sigir-2024.github.io/">SIGIR</a>
+          <a class="venue-chip" href="https://www.wsdm-conference.org/2024/">WSDM</a>
+        </span>
+      </li>
+      <li>
+        <span class="year">2023</span>
+        <span class="venue-row">
+          <a class="venue-chip" href="https://sigir.org/sigir2023/">SIGIR</a>
+          <a class="venue-chip" href="https://kdd.org/kdd2023/">KDD</a>
+          <a class="venue-chip" href="https://www.wsdm-conference.org/2023/">WSDM</a>
+          <a class="venue-chip" href="https://uobevents.eventsair.com/cikm2023/">CIKM</a>
+        </span>
+      </li>
+      <li>
+        <span class="year">2022</span>
+        <span class="venue-row">
+          <a class="venue-chip" href="https://sigir.org/sigir2022/">SIGIR</a>
+          <a class="venue-chip" href="https://kdd.org/kdd2022/">KDD</a>
+          <a class="venue-chip" href="https://www.cikm2022.org/">CIKM</a>
+          <a class="venue-chip" href="https://icde2022.ieeecomputer.my/">ICDE</a>
+        </span>
+      </li>
+    </ul>
+  </div>
 </div>
 
 <div class="service-callout">
@@ -122,11 +122,11 @@ redirect_from:
 <h2 class="section-title"><span class="i"><i class="fas fa-users" aria-hidden="true"></i></span> Leadership &amp; Community</h2>
 
 <ul class="clean-list leadership-list">
-  <li>
+  <li class="leadership-current">
     <span>Lab Manager, <a href="https://uofadblab.github.io/">Data &amp; Language Intelligence (DaLI) Lab</a>, University of Alberta</span>
     <span class="chip">2022 - current</span>
   </li>
-  <li>
+  <li class="leadership-current">
     <span>Founding admin of a Discord server (~5,000+ members) supporting grad school applications</span>
     <span class="chip">2021 - current</span>
   </li>
@@ -138,8 +138,3 @@ redirect_from:
 </ul>
 
 </div>
-
-
-
-
-
