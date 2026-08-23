@@ -7,9 +7,9 @@ permalink: /education-awards/
 author_profile: true
 ---
 
-
-
-
+<p class="page-intro">
+  Education, fellowships, paper awards, scholarships, and academic recognitions across my PhD, MSc, and BSc training.
+</p>
 
 <h2 class="sec-title" id="education">Education</h2>
 
@@ -24,7 +24,7 @@ author_profile: true
     </h3>
     <div class="cv-sub">University of Alberta (UofA), Edmonton, Canada</div>
     <div class="meta">
-      <span class="meta-row"><span class="meta-label">Tentative thesis title:</span>“User-Centric Modeling and Synthesis in Language Technologies”</span>
+      <span class="meta-row"><span class="meta-label">Tentative thesis title:</span> “User-Centric Modeling and Synthesis in Language Technologies”</span>
       <span class="meta-row"><span class="meta-label">Supervisor:</span><a href="https://webdocs.cs.ualberta.ca/~drafiei/">Prof. Davood Rafiei</a></span>
       <span class="meta-row"><span class="meta-label">Committee:</span><a href="https://webdocs.cs.ualberta.ca/~zaiane/">Prof. Osmar Zaiane</a>, <a href="https://lili-mou.github.io/">Prof. Lili Mou</a></span>
     </div>
@@ -54,7 +54,7 @@ author_profile: true
     </div>
     <div>
       <span class="chip chip-blue">MSc</span>
-      <span class="chip">completed</span>
+      <span class="chip">Completed</span>
     </div>
   </div>
 </div>
@@ -70,18 +70,19 @@ author_profile: true
     </h3>
     <div class="cv-sub">Islamic University of Technology (IUT), Dhaka, Bangladesh</div>
     <div class="meta">
-      <span class="meta-row"><span class="meta-label">Thesis:</span>Designing a Probabilistic Path Selection Model for Vehicular Networks</span>
+      <span class="meta-row"><span class="meta-label">Thesis:</span> Designing a Probabilistic Path Selection Model for Vehicular Networks</span>
       <span class="meta-row"><span class="meta-label">Supervisor:</span><a href="https://scholar.google.com/citations?user=5sjCt8cAAAAJ&hl=en">Prof. Muhammad Mahbub Alam</a></span>
     </div>
     <div>
       <span class="chip chip-blue">BSc</span>
-      <span class="chip">completed</span>
+      <span class="chip">Completed</span>
     </div>
   </div>
 </div>
 
 <h2 class="sec-title" id="awards">Awards</h2>
 
+<h3 class="award-group-title">Paper Awards</h3>
 
 <div class="awards-grid">
 
@@ -92,10 +93,10 @@ author_profile: true
     </div>
     <div class="award-body">
       <h3 class="award-title"><a href="https://ieeevis.org/year/2025/info/program/papers_list">Best Short Paper Award</a></h3>
-      <div class="award-meta">VIS 2025</div>
+      <div class="award-meta">IEEE VIS 2025</div>
       <div class="pub-award-line">
         <a href="https://ieeevis.org/year/2025/info/awards/best-paper-awards" target="_blank" rel="noopener noreferrer">
-          <span class="award-badge">🏆 Best short paper award</span>
+          <span class="award-badge">🏆 Best Short Paper Award</span>
         </a>
       </div>
     </div>
@@ -111,12 +112,32 @@ author_profile: true
       <div class="award-meta">EMNLP 2024</div>
       <div class="pub-award-line">
         <a href="https://2024.emnlp.org/program/best_papers/" target="_blank" rel="noopener noreferrer">
-          <span class="award-badge">🏆 Best resource paper award</span>
+          <span class="award-badge">🏆 Best Resource Paper Award</span>
         </a>
       </div>
     </div>
   </article>
 
+  <article class="award-card">
+    <div class="award-thumb">
+      <img src="/images/awards/coling2018.png" alt="COLING logo" loading="lazy" decoding="async">
+    </div>
+    <div class="award-body">
+      <h3 class="award-title"><a href="http://coling2018.org/coling-2018-best-papers/">Area Chair Favorite Paper Award</a></h3>
+      <div class="award-meta">COLING 2018</div>
+      <div class="pub-award-line">
+        <a href="http://coling2018.org/coling-2018-best-papers/" target="_blank" rel="noopener noreferrer">
+          <span class="award-badge">🏆 Area Chair Favorite Paper Award</span>
+        </a>
+      </div>
+    </div>
+  </article>
+
+</div>
+
+<h3 class="award-group-title">Fellowships & Scholarships</h3>
+
+<div class="awards-grid">
   
   <article class="award-card">
     <div class="award-thumb">
@@ -126,21 +147,9 @@ author_profile: true
       <h3 class="award-title">Huawei PhD Fellowship</h3>
       <div class="award-meta">2022 – 2027</div>
       <div>
-        <span class="chip chip-teal">fellowship</span>
-        <span class="chip">multi-year</span>
+        <span class="chip chip-teal">Fellowship</span>
+        <span class="chip">Multi-year</span>
       </div>
-    </div>
-  </article>
-
-  
-  <article class="award-card">
-    <div class="award-thumb">
-      <img src="/images/awards/uofa-cs.png" alt="UofA icon" loading="lazy" decoding="async">
-    </div>
-    <div class="award-body">
-      <h3 class="award-title">PhD Early Achievement Award (nomination)</h3>
-      <div class="award-meta">Computing Science · 2023</div>
-      <div><span class="chip">nomination</span></div>
     </div>
   </article>
 
@@ -152,34 +161,7 @@ author_profile: true
     <div class="award-body">
       <h3 class="award-title">Graduate Recruitment Scholarship</h3>
       <div class="award-meta">University of Alberta · 2021 – 2022</div>
-      <div><span class="chip">scholarship</span></div>
-    </div>
-  </article>
-
-  
-  <article class="award-card">
-    <div class="award-thumb">
-      <img src="/images/awards/coling2018.png" alt="COLING logo" loading="lazy" decoding="async">
-    </div>
-    <div class="award-body">
-      <h3 class="award-title"><a href="http://coling2018.org/coling-2018-best-papers/">Area Chair Favorite Paper Award</a></h3>
-      <div class="award-meta">COLING 2018</div>
-      <div class="pub-award-line">
-        <a href="http://coling2018.org/coling-2018-best-papers/" target="_blank" rel="noopener noreferrer">
-          <span class="award-badge">🏆 Area chair favorite paper award</span>
-        </a>
-      </div>
-    </div>
-  </article>
-
-  
-  <article class="award-card">
-    <div class="award-thumb">
-      <img src="/images/awards/sigir.png" alt="SIGIR icon" loading="lazy" decoding="async">
-    </div>
-    <div class="award-body">
-      <h3 class="award-title"><a href="https://sigir.org/general-information/travel-grants/">ACM SIGIR Student Travel Grant</a></h3>
-      <div><span class="chip">travel grant</span></div>
+      <div><span class="chip">Scholarship</span></div>
     </div>
   </article>
 
@@ -201,6 +183,45 @@ author_profile: true
   
   <article class="award-card">
     <div class="award-thumb">
+      <img src="/images/awards/iut.png" alt="IUT-OIC icon" loading="lazy" decoding="async">
+    </div>
+    <div class="award-body">
+      <h3 class="award-title">IUT-OIC Full Free Scholarship</h3>
+      <div><span class="chip">Full Scholarship</span></div>
+    </div>
+  </article>
+
+</div>
+
+<h3 class="award-group-title">Travel Grants & Nominations</h3>
+
+<div class="awards-grid">
+  
+  <article class="award-card">
+    <div class="award-thumb">
+      <img src="/images/awards/uofa-cs.png" alt="UofA icon" loading="lazy" decoding="async">
+    </div>
+    <div class="award-body">
+      <h3 class="award-title">PhD Early Achievement Award (nomination)</h3>
+      <div class="award-meta">Computing Science · 2023</div>
+      <div><span class="chip">Nomination</span></div>
+    </div>
+  </article>
+
+  
+  <article class="award-card">
+    <div class="award-thumb">
+      <img src="/images/awards/sigir.png" alt="SIGIR icon" loading="lazy" decoding="async">
+    </div>
+    <div class="award-body">
+      <h3 class="award-title"><a href="https://sigir.org/general-information/travel-grants/">ACM SIGIR Student Travel Grant</a></h3>
+      <div><span class="chip">Travel Grant</span></div>
+    </div>
+  </article>
+
+  
+  <article class="award-card">
+    <div class="award-thumb">
       <img src="/images/awards/gsa.png" alt="GSA icon" loading="lazy" decoding="async">
     </div>
     <div class="award-body">
@@ -213,21 +234,7 @@ author_profile: true
     </div>
   </article>
 
-  
-  <article class="award-card">
-    <div class="award-thumb">
-      <img src="/images/awards/iut.png" alt="IUT-OIC icon" loading="lazy" decoding="async">
-    </div>
-    <div class="award-body">
-      <h3 class="award-title">IUT-OIC Full Free Scholarship</h3>
-      <div><span class="chip">full scholarship</span></div>
-    </div>
-  </article>
-
 </div>
-
-
-[**Back to Top**](#)
 
 
 

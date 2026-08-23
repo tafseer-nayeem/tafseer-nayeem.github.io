@@ -1108,16 +1108,16 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 /* ========= Global knobs (tune here) ========= */
   :root{
     /* Education card geometry */
-    --logo-w: 160px;
-    --logo-max-h: 110px;
-    --card-gap: 18px;
+    --logo-w: 136px;
+    --logo-max-h: 82px;
+    --card-gap: 14px;
 
     /* Typography */
-    --fs-h2:   1.35rem;
-    --fs-title:1.00rem;
-    --fs-sub:  .92rem;
-    --fs-body: .92rem;
-    --fs-chip: .74rem;
+    --fs-h2:   1.25rem;
+    --fs-title:.94rem;
+    --fs-sub:  .84rem;
+    --fs-body: .82rem;
+    --fs-chip: .68rem;
 
     /* Chip colors */
     --badge-blue:  #4682B4;
@@ -1134,17 +1134,25 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     --card-shadow:0 1px 2px rgba(0,0,0,.04);
 
     /* Awards grid knobs */
-    --aw-grid-gap: 16px;       /* gap between award cards */
-    --aw-card-pad: 11px;       /* padding inside award cards */
-    --aw-title-fs: .98rem;
-    --aw-meta-fs:  .90rem;
-    --aw-chip-fs:  .72rem;
-    --aw-card-min-h: 126px;    /* ↓ shorter for more compact cards */
+    --aw-grid-gap: 11px;       /* gap between award cards */
+    --aw-card-pad: 9px;        /* padding inside award cards */
+    --aw-title-fs: .88rem;
+    --aw-meta-fs:  .78rem;
+    --aw-chip-fs:  .66rem;
+    --aw-card-min-h: 94px;     /* shorter for more compact cards */
 
     /* AWARD THUMBNAIL (shorter rectangle) */
-    --aw-thumb-w: 110px;        /* width of the image lane */
-    --aw-thumb-h: 73px;         /* height of the image lane */
+    --aw-thumb-w: 86px;         /* width of the image lane */
+    --aw-thumb-h: 56px;         /* height of the image lane */
     --aw-thumb-brd: #e5e7eb;
+  }
+
+  .page-intro{
+    max-width: 760px;
+    margin: 0 0 1.05rem !important;
+    color: var(--site-muted) !important;
+    font-size: .92rem !important;
+    line-height: 1.5;
   }
 
   /* ========= Section heading ========= */
@@ -1162,7 +1170,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     display:grid; grid-template-columns: var(--logo-w) 1fr;
     gap: var(--card-gap);
     align-items:start;
-    padding:16px 18px; margin:18px 0;
+    padding:11px 13px; margin:11px 0;
     border:1px solid var(--card-brd); border-radius:12px;
     background:var(--card-bg); box-shadow:var(--card-shadow);
     transition: box-shadow .22s ease, transform .22s ease, border-color .22s ease;
@@ -1170,14 +1178,14 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   .cv-card:hover{ box-shadow:0 10px 28px rgba(0,0,0,.08); transform:translateY(-2px); border-color:#e2e8f0; }
 
   .logo-wrap{
-    width:var(--logo-w); max-height:var(--logo-max-h);
+    width:var(--logo-w); height:var(--logo-max-h);
     display:grid; place-items:center;
     border:1px solid var(--card-brd); border-radius:12px;
     background:#fff; overflow:hidden;
   }
   .logo-wrap img{ max-width:100%; max-height:100%; width:auto; height:auto; }
 
-  .cv-title{ margin:0 0 6px 0; font-size:var(--fs-title); line-height:1.28; }
+  .cv-title{ margin:0 0 4px 0; font-size:var(--fs-title); line-height:1.22; }
   .cv-title a{
     text-decoration:none;
     background-image: linear-gradient(currentColor,currentColor);
@@ -1186,10 +1194,10 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   }
   .cv-title a:hover{ background-size:100% 2px; }
 
-  .cv-sub{ margin:0 0 8px 0; font-size:var(--fs-sub); color:#374151; }
+  .cv-sub{ margin:0 0 6px 0; font-size:var(--fs-sub); color:#374151; }
   .meta{
-    display:flex; flex-direction:column; gap:4px;
-    margin: 0 0 10px 0; font-size:var(--fs-body); color:#374151;
+    display:flex; flex-direction:column; gap:2px;
+    margin: 0 0 7px 0; font-size:var(--fs-body); color:#374151;
   }
   .meta-row{ display:block; }
   .meta-label{ font-weight:600; color:#374151; margin-right:.35rem; }
@@ -1197,7 +1205,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 
   .chip{
     display:inline-flex; align-items:center; justify-content:center;
-    padding:4px 8px; margin-right:6px; margin-bottom:6px;
+    padding:3px 7px; margin-right:5px; margin-bottom:4px;
     border-radius:999px; line-height:1; white-space:nowrap;
     font-size:var(--fs-chip); font-weight:700; letter-spacing:.2px; text-transform:uppercase;
     border:1px solid #d1d5db; background:#eef2f7; color:#374151;
@@ -1210,18 +1218,27 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     display:flex;
     flex-wrap:wrap;
     gap: var(--aw-grid-gap);
+    margin-bottom: 1rem;
     align-items: stretch; /* equal height within each row */
   }
+
+  .award-group-title{
+    margin: 1rem 0 .45rem !important;
+    color: var(--site-ink) !important;
+    font-size: .98rem !important;
+    line-height: 1.25;
+  }
+
   .award-card{
     flex: 1 1 calc(50% - var(--aw-grid-gap));  /* two columns (becomes one on small screens) */
-    display:flex; align-items:center; gap:12px; /* center items vertically */
+    display:flex; align-items:center; gap:10px; /* center items vertically */
     padding: var(--aw-card-pad);
     border:1px solid var(--card-brd);
     border-radius:12px;
     background:var(--card-bg);
     box-shadow: var(--card-shadow);
     transition: box-shadow .2s ease, transform .2s ease, border-color .2s ease;
-    min-width: 320px;
+    min-width: 300px;
     min-height: var(--aw-card-min-h);
   }
   .award-card:hover{
@@ -1237,7 +1254,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     width: var(--aw-thumb-w);
     height: var(--aw-thumb-h);
     border:1px solid var(--aw-thumb-brd);
-    border-radius:10px;
+    border-radius:8px;
     background:#fff;               /* white background so any empty space blends in */
     overflow:hidden;               /* hide any accidental overflow */
   }
@@ -1252,7 +1269,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   /* Body */
   .award-body{ flex:1 1 auto; display:flex; flex-direction:column; justify-content:center; }
 
-  .award-title{ margin:0 0 6px 0; font-size:var(--aw-title-fs); line-height:1.28; }
+  .award-title{ margin:0 0 4px 0; font-size:var(--aw-title-fs); line-height:1.22; }
   .award-title a{
     text-decoration:none;
     background-image:linear-gradient(currentColor,currentColor);
@@ -1261,12 +1278,12 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   }
   .award-title a:hover{ background-size:100% 2px; }
 
-  .award-meta{ margin:0 0 8px 0; font-size:var(--aw-meta-fs); color:#374151; }
+  .award-meta{ margin:0 0 5px 0; font-size:var(--aw-meta-fs); color:#374151; }
 
   .pub-award-line{ margin:2px 0 4px 0; }
   .award-badge{
     display:inline-flex; align-items:center; justify-content:center; gap:6px;
-    padding:4px 10px; border-radius:999px; line-height:1.05;
+    padding:3px 8px; border-radius:999px; line-height:1.05;
     font-size: var(--aw-chip-fs); font-weight:800; letter-spacing:.2px;
     color:var(--gold-ink); background:var(--gold-bg); border:1px solid var(--gold-brd);
     text-transform:none; white-space:nowrap;
@@ -1274,7 +1291,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   }
   .award-badge:hover{ transform:translateY(-1px); box-shadow:0 6px 14px rgba(0,0,0,.06); filter:saturate(1.03); }
 
-  .award-list{ margin: 6px 0 0 18px; padding:0; }
+  .award-list{ margin: 4px 0 0 16px; padding:0; font-size: var(--fs-body); }
   .award-list li{ margin:2px 0; }
 
   /* Mobile tweaks: shrink thumbs a bit more for small screens */
@@ -1283,14 +1300,14 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   }
   @media (max-width: 600px){
     :root{
-      --aw-thumb-w: 80px;
-      --aw-thumb-h: 50px;
-      --aw-card-min-h: 128px;
+      --aw-thumb-w: 78px;
+      --aw-thumb-h: 48px;
+      --aw-card-min-h: 94px;
     }
   }
   @media (max-width: 640px){
     .cv-card{ grid-template-columns:1fr; }
-    .logo-wrap{ width:100%; max-height:180px; }
+    .logo-wrap{ width:100%; height:82px; max-height:82px; }
   }
 
 /* _pages/activities.md */

@@ -3,6 +3,7 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .bundle/
+Gemfile.lock
 vendor/
 node_modules/
 
