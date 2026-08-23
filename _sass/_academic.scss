@@ -176,25 +176,29 @@ a:hover {
 }
 
 .author__urls i {
-  flex: 0 0 1.05rem;
-  width: 1.05rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 1.12rem;
+  width: 1.12rem;
+  height: 1.12rem;
   color: var(--site-blue);
-  font-size: 0.84rem;
+  font-size: 0.88rem;
   text-align: center;
 }
 
 .author__urls .hf-icon {
-  flex: 0 0 1.05rem;
-  width: 1.05rem;
-  height: 1.05rem;
+  flex: 0 0 1.12rem;
+  width: 1.12rem;
+  height: 1.12rem;
   border-radius: 4px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .author__urls .x-icon {
-  flex: 0 0 1.05rem;
-  width: 1.05rem;
-  height: 1.05rem;
+  flex: 0 0 1.12rem;
+  width: 1.12rem;
+  height: 1.12rem;
   border-radius: 4px;
   object-fit: cover;
 }
@@ -373,7 +377,7 @@ a:hover {
 }
 
 .profile-hero + .home-section {
-  margin-top: 0.85rem;
+  margin-top: 1.18rem;
 }
 
 .section-header {
