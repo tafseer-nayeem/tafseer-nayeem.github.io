@@ -1500,14 +1500,16 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 
   /* ========= Section heading ========= */
   .sec-title{
-    margin: 14px 0 8px;
+    margin: 14px 0 12px;
+    padding-bottom: 7px;
     font-size: var(--fs-h2);
     color:#1f2937; letter-spacing:.2px;
+    border-bottom: 1px solid var(--site-rule);
   }
 
   .cv-card + .sec-title{
-    margin-top: 2.2rem;
-    padding-top: 1rem;
+    margin-top: 1.75rem;
+    padding-top: .82rem;
     border-top: 1px solid var(--site-rule);
   }
   @media (max-width:640px){
