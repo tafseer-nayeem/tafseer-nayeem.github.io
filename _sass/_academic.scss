@@ -672,8 +672,8 @@ a:hover {
      =========================== */
   .pub-item{
     /* Thumb/badge size knobs */
-    --thumb-w: 136px;        /* image column width */
-    --thumb-max-h: 84px;     /* max visible image height (desktop/tablet) */
+    --thumb-w: 132px;        /* image column width */
+    --thumb-max-h: 72px;     /* fixed image box height (desktop/tablet) */
     --badge-w: 96px;         /* conference badge width */
 
     /* FONT SIZE knobs */
@@ -714,6 +714,8 @@ a:hover {
   .thumb-wrap{
     width: var(--thumb-w);
     height: var(--thumb-max-h);
+    min-height: var(--thumb-max-h);
+    max-height: var(--thumb-max-h);
     display:grid;
     place-items:center;
     border:1px solid #e5e7eb;
@@ -723,10 +725,11 @@ a:hover {
     transition: box-shadow .2s ease;
   }
   .thumb-wrap img{
+    display:block;
     max-width:100%;
     max-height:100%;
-    width:100%;
-    height:100%;
+    width:auto;
+    height:auto;
     object-fit:contain;
     border-radius: inherit;
     transition: transform .28s ease, filter .28s ease;
