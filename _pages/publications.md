@@ -7,11 +7,76 @@ permalink: /publications/
 author_profile: true
 ---
 
-**Full List:** [ [**Google Scholar**](https://scholar.google.com/citations?hl=en&user=qoeylgEAAAAJ&view_op=list_works&sortby=pubdate) \| [**ACL Anthology**](https://aclanthology.org/people/m/mir-tafseer-nayeem/) \| [**DBLP**](https://dblp.org/pid/125/2693.html) ]
+<section class="pub-intro" aria-labelledby="pub-intro-title">
+  <h2 id="pub-intro-title">Research Portfolio</h2>
+  <p>
+    My publications span user-centric NLP, age-appropriate language modeling, opinion synthesis, multilingual NLP, summarization, and language/vision-language model evaluation.
+  </p>
+  <div class="pub-profile-links" aria-label="Publication profiles">
+    <a href="https://scholar.google.com/citations?hl=en&amp;user=qoeylgEAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Google Scholar</a>
+    <a href="https://aclanthology.org/people/m/mir-tafseer-nayeem/">ACL Anthology</a>
+    <a href="https://dblp.org/pid/125/2693.html">DBLP</a>
+  </div>
+  <div class="pub-topic-list" aria-label="Research areas">
+    <span>User-centric NLP</span>
+    <span>KidLM</span>
+    <span>Opinion Synthesis</span>
+    <span>Multilingual NLP</span>
+    <span>Summarization</span>
+    <span>Evaluation</span>
+    <span>Charts &amp; VLMs</span>
+  </div>
+</section>
 
-
-
-
+<section class="pub-highlights" aria-labelledby="pub-highlights-title">
+  <h2 id="pub-highlights-title">Highlighted Publications</h2>
+  <div class="pub-highlight-grid">
+    <article class="pub-highlight-card pub-highlight-featured">
+      <p class="highlight-venue">EMNLP 2024</p>
+      <h3><a href="https://aclanthology.org/2024.emnlp-main.277/">KidLM: Advancing Language Models for Children</a></h3>
+      <p>Age-appropriate language modeling resource and analysis for children and young readers.</p>
+      <div class="highlight-tags">
+        <span>Best Resource Paper</span>
+        <span>KidLM</span>
+      </div>
+    </article>
+    <article class="pub-highlight-card">
+      <p class="highlight-venue">COLM 2025</p>
+      <h3><a href="https://arxiv.org/abs/2509.00285">OpinioRAG</a></h3>
+      <p>User-centric opinion highlights from large-scale online reviews.</p>
+      <div class="highlight-tags">
+        <span>Opinion Synthesis</span>
+      </div>
+    </article>
+    <article class="pub-highlight-card">
+      <p class="highlight-venue">EACL 2026</p>
+      <h3><a href="https://aclanthology.org/2026.eacl-long.394/">Stop Taking Tokenizers for Granted</a></h3>
+      <p>Tokenizers as core design decisions in large language models.</p>
+      <div class="highlight-tags">
+        <span>Oral</span>
+        <span>LLMs</span>
+      </div>
+    </article>
+    <article class="pub-highlight-card">
+      <p class="highlight-venue">EMNLP 2025</p>
+      <h3><a href="https://arxiv.org/abs/2508.17647">SurveyGen</a></h3>
+      <p>Quality-aware scientific survey generation with large language models.</p>
+      <div class="highlight-tags">
+        <span>Oral</span>
+        <span>Generation</span>
+      </div>
+    </article>
+    <article class="pub-highlight-card">
+      <p class="highlight-venue">IEEE VIS 2025</p>
+      <h3><a href="https://arxiv.org/abs/2508.09716">The Perils of Chart Deception</a></h3>
+      <p>How misleading visualizations affect vision-language models.</p>
+      <div class="highlight-tags">
+        <span>Best Short Paper</span>
+        <span>VLM Evaluation</span>
+      </div>
+    </article>
+  </div>
+</section>
 
 <p class="pub-note">
   <span class="eq">*</span> indicates equal contribution
@@ -39,7 +104,7 @@ author_profile: true
         Lost in Translation: Do LVLM Judges Generalize Across Languages?
       </a>
     </h3>
-    <div class="pub-meta">Accepted for publication at <b>ACL 2026</b>(Findings)</div>
+    <div class="pub-meta">Accepted for publication at <b>ACL 2026 Findings</b></div>
     <div class="pub-authors">
       Md Tahmid Rahman Laskar,
       Mohammed Saidul Islam,
@@ -74,7 +139,7 @@ author_profile: true
         Stop Taking Tokenizers for Granted: They Are Core Design Decisions in Large Language Models
       </a>
     </h3>
-    <div class="pub-meta">Published at <b>EACL 2026</b>(Main)
+    <div class="pub-meta">Published at <b>EACL 2026 Main</b>
       <span class="tag-badge tag-oral" aria-label="Oral presentation">Oral</span>
     </div>
     <div class="pub-authors">
