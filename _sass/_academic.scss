@@ -128,38 +128,43 @@ a:hover {
 
 .author__bio {
   color: var(--site-muted);
+  font-size: 0.84rem;
+  line-height: 1.42;
 }
 
 .author__urls-wrapper {
-  font-size: 0.88rem;
+  font-size: 0.82rem;
 }
 
 .author__urls {
-  margin-top: 0.85rem;
+  margin-top: 0.72rem;
 }
 
 .author__urls li {
-  margin-bottom: 0.36rem;
+  margin-bottom: 0.28rem;
 }
 
 .author__urls a {
   display: inline-flex;
   align-items: center;
-  gap: 0.42rem;
-  min-height: 1.55rem;
-  padding: 0.1rem 0.18rem;
+  gap: 0.45rem;
+  min-height: 1.42rem;
+  padding: 0.08rem 0.2rem;
   border: 1px solid transparent;
   border-radius: 6px;
   color: var(--site-muted);
-  font-size: 0.82rem;
-  font-weight: 650;
+  font-size: 0.78rem;
+  font-weight: 640;
+  line-height: 1.2;
   text-decoration: none;
+  transition: background-color 0.16s ease, border-color 0.16s ease, color 0.16s ease;
 }
 
 .author__urls i {
+  flex: 0 0 1.05rem;
   width: 1.05rem;
   color: var(--site-blue);
-  font-size: 0.9rem;
+  font-size: 0.84rem;
   text-align: center;
 }
 
@@ -167,12 +172,13 @@ a:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  flex: 0 0 1.05rem;
   width: 1.05rem;
   height: 1.05rem;
   border-radius: 4px;
   background: #f7c948;
   color: #1f2937;
-  font-size: 0.52rem;
+  font-size: 0.5rem;
   font-weight: 850;
   line-height: 1;
 }
