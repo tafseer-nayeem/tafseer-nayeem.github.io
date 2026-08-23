@@ -895,5 +895,5 @@ author_profile: true
 
 
 
-[**Back to Top**](#)
+<p class="back-top"><a href="#">Back to Top</a></p>
 

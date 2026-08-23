@@ -602,7 +602,32 @@ a:hover {
 }
 
 .back-top {
-  margin-top: 1rem !important;
+  margin-top: 1.25rem !important;
+}
+
+.back-top a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2rem;
+  padding: 0.45rem 0.72rem;
+  border: 1px solid var(--site-blue);
+  border-radius: 7px;
+  background: var(--site-blue);
+  color: #fff !important;
+  font-size: 0.8rem;
+  font-weight: 800;
+  line-height: 1;
+  text-decoration: none !important;
+  box-shadow: var(--site-card-shadow);
+  transition: transform .16s ease, box-shadow .16s ease, border-color .16s ease;
+}
+
+.back-top a:hover {
+  border-color: var(--site-blue-dark);
+  background: var(--site-blue-dark);
+  box-shadow: var(--site-card-shadow-hover);
+  transform: translateY(-1px);
 }
 
 .cv-page {
