@@ -96,7 +96,7 @@ author_profile: true
       <div class="award-meta">IEEE VIS 2025</div>
       <div class="pub-award-line">
         <a href="https://ieeevis.org/year/2025/info/awards/best-paper-awards" target="_blank" rel="noopener noreferrer">
-          <span class="award-badge">🏆 Best Short Paper Award</span>
+          <span class="award-badge">Best Short Paper Award</span>
         </a>
       </div>
     </div>
@@ -112,7 +112,7 @@ author_profile: true
       <div class="award-meta">EMNLP 2024</div>
       <div class="pub-award-line">
         <a href="https://2024.emnlp.org/program/best_papers/" target="_blank" rel="noopener noreferrer">
-          <span class="award-badge">🏆 Best Resource Paper Award</span>
+          <span class="award-badge">Best Resource Paper Award</span>
         </a>
       </div>
     </div>
@@ -127,7 +127,7 @@ author_profile: true
       <div class="award-meta">COLING 2018</div>
       <div class="pub-award-line">
         <a href="http://coling2018.org/coling-2018-best-papers/" target="_blank" rel="noopener noreferrer">
-          <span class="award-badge">🏆 Area Chair Favorite Paper Award</span>
+          <span class="award-badge">Area Chair Favorite Paper Award</span>
         </a>
       </div>
     </div>
