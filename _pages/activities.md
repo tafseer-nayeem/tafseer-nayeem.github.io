@@ -25,6 +25,7 @@ redirect_from:
         <span class="year">2026</span>
         <span class="venue-row">
           <a class="venue-chip" href="https://2026.aclweb.org/">ACL</a>
+          <a class="venue-chip" href="https://2026.emnlp.org/">EMNLP</a>
           <a class="venue-chip" href="https://2026.eacl.org/">EACL</a>
           <a class="venue-chip" href="https://aclrollingreview.org/">ARR</a>
         </span>
@@ -43,6 +44,13 @@ redirect_from:
   <div class="service-block">
     <h3 class="subhead"><span class="i"><i class="fas fa-clipboard-check" aria-hidden="true"></i></span> Program Committee / Reviewer</h3>
     <ul class="year-list">
+      <li>
+        <span class="year">2026</span>
+        <span class="venue-row">
+          <a class="venue-chip" href="https://neurips.cc/">NeurIPS</a>
+          <a class="venue-chip" href="https://colm.cc/">COLM</a>
+        </span>
+      </li>
       <li>
         <span class="year">2025</span>
         <span class="venue-row"><a class="venue-chip" href="https://2025.naacl.org/">NAACL</a></span>
