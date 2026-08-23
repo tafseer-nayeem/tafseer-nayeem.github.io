@@ -1393,9 +1393,9 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 
 .service-grid{
   display:grid;
-  grid-template-columns:repeat(2, minmax(0, 1fr));
+  grid-template-columns:minmax(220px, .9fr) minmax(0, 1.1fr);
   gap:.7rem;
-  align-items:start;
+  align-items:stretch;
 }
 
 .service-block,
