@@ -1155,6 +1155,12 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     line-height: 1.5;
   }
 
+  .page:has(.cv-card) .page__title{
+    margin-bottom: .95rem;
+    font-size: clamp(2.25rem, 4vw, 3rem);
+    line-height: 1.05;
+  }
+
   /* ========= Section heading ========= */
   .sec-title{
     margin: 14px 0 8px;
@@ -1227,6 +1233,12 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     color: var(--site-ink) !important;
     font-size: .98rem !important;
     line-height: 1.25;
+  }
+
+  .cv-card + .award-group-title{
+    margin-top: 2rem !important;
+    padding-top: 1.15rem;
+    border-top: 1px solid var(--site-rule);
   }
 
   .award-card{

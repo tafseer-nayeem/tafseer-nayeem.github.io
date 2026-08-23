@@ -8,7 +8,7 @@ author_profile: true
 ---
 
 <p class="page-intro">
-  Education, fellowships, paper awards, scholarships, and academic recognitions across my PhD, MSc, and BSc training.
+  Education, fellowships, paper awards, scholarships, and academic recognitions across my doctoral, master’s, and undergraduate studies.
 </p>
 
 <h2 class="sec-title" id="education">Education</h2>
