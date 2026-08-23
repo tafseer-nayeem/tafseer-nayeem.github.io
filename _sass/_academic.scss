@@ -1450,7 +1450,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     --card-gap: 14px;
 
     /* Typography */
-    --fs-h2:   1.25rem;
+    --fs-h2:   1.38rem;
     --fs-title:.94rem;
     --fs-sub:  .84rem;
     --fs-body: .82rem;
@@ -1511,7 +1511,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     border-top: 1px solid var(--site-rule);
   }
   @media (max-width:640px){
-    :root{ --fs-h2:1.15rem; }
+    :root{ --fs-h2:1.26rem; }
   }
 
   /* ========= Education cards ========= */
