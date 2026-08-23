@@ -8,15 +8,16 @@ author_profile: true
 ---
 
 <div class="pub-tools" aria-label="Publication profile links">
-  <span class="pub-tools-label">Profiles</span>
-  <div class="pub-tools-links">
-    <a href="https://scholar.google.com/citations?hl=en&user=qoeylgEAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
-    <a href="https://aclanthology.org/people/m/mir-tafseer-nayeem/">ACL Anthology</a>
-    <a href="https://dblp.org/pid/125/2693.html">DBLP</a>
+  <div class="pub-tools-row">
+    <span class="pub-tools-label">Profiles</span>
+    <div class="pub-tools-links">
+      <a href="https://scholar.google.com/citations?hl=en&user=qoeylgEAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
+      <a href="https://aclanthology.org/people/m/mir-tafseer-nayeem/">ACL Anthology</a>
+      <a href="https://dblp.org/pid/125/2693.html">DBLP</a>
+    </div>
   </div>
+  <p class="pub-note"><span class="eq">*</span> Equal contribution</p>
 </div>
-
-<p class="pub-note"><span class="eq">*</span> Equal contribution</p>
 
 
 
