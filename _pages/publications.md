@@ -26,7 +26,7 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-left">
-    <a href="https://arxiv.org/" aria-label="Lost in Translation (ACL 2026 Findings)" class="thumb-wrap">
+    <a href="https://aclanthology.org/2026.findings-acl.1746/" aria-label="Lost in Translation (ACL 2026 Findings)" class="thumb-wrap">
       <img
         src="/images/publication/MM-RewardBench-ACL2026.png"
         alt="Lost in Translation: Do LVLM Judges Generalize Across Languages? — thumbnail"
@@ -38,11 +38,11 @@ author_profile: true
 
   <div class="pub-right">
     <h3 class="pub-title">
-      <a href="https://arxiv.org/">
+      <a href="https://aclanthology.org/2026.findings-acl.1746/">
         Lost in Translation: Do LVLM Judges Generalize Across Languages?
       </a>
     </h3>
-    <div class="pub-meta">Accepted for publication at <b>ACL 2026</b>(Findings)</div>
+    <div class="pub-meta">Published at <b>ACL 2026</b>(Findings)</div>
     <div class="pub-authors">
       Md Tahmid Rahman Laskar,
       Mohammed Saidul Islam,
@@ -54,7 +54,9 @@ author_profile: true
       and Jimmy Huang
     </div>
     <div class="pub-links">
-      <a href="https://arxiv.org/">Paper</a>
+      <a href="https://aclanthology.org/2026.findings-acl.1746/">Paper</a>
+      <a href="https://github.com/tahmedge/mm-judgebench">Code</a>
+      <a href="https://huggingface.co/datasets/tahmedge/MM-JudgeBench">Dataset</a>
     </div>
   </div>
 </div>
