@@ -7,8 +7,8 @@ permalink: /publications/
 author_profile: true
 ---
 
-<div class="pub-tools" aria-label="Publication indexes">
-  <span class="pub-tools-label">Publication indexes</span>
+<div class="pub-tools" aria-label="Publication profile links">
+  <span class="pub-tools-label">Profiles</span>
   <div class="pub-tools-links">
     <a href="https://scholar.google.com/citations?hl=en&user=qoeylgEAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
     <a href="https://aclanthology.org/people/m/mir-tafseer-nayeem/">ACL Anthology</a>

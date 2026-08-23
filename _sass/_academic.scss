@@ -495,12 +495,13 @@ a:hover {
 }
 
 .pub-tools {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 0.7rem;
-  margin: 0.15rem 0 0.55rem;
-  padding: 0.62rem 0.72rem;
+  justify-content: flex-start;
+  gap: 0.52rem;
+  max-width: 100%;
+  margin: 0.1rem 0 0.48rem;
+  padding: 0.42rem 0.5rem;
   border: 1px solid var(--site-rule);
   border-radius: 8px;
   background: #fff;
@@ -509,7 +510,7 @@ a:hover {
 
 .pub-tools-label {
   color: var(--site-muted);
-  font-size: 0.74rem;
+  font-size: 0.68rem;
   font-weight: 850;
   letter-spacing: 0.04em;
   line-height: 1.15;
@@ -519,20 +520,20 @@ a:hover {
 .pub-tools-links {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 0.42rem;
+  justify-content: flex-start;
+  gap: 0.34rem;
 }
 
 .pub-tools-links a {
   display: inline-flex;
   align-items: center;
-  min-height: 1.65rem;
-  padding: 0.28rem 0.52rem;
+  min-height: 1.42rem;
+  padding: 0.22rem 0.44rem;
   border: 1px solid #cbd9e5;
   border-radius: 999px;
   background: #f8fafc;
   color: var(--site-blue);
-  font-size: 0.76rem;
+  font-size: 0.7rem;
   font-weight: 800;
   line-height: 1;
   text-decoration: none !important;
@@ -818,12 +819,14 @@ a:hover {
 
   .pub-tools {
     display: grid;
-    gap: 0.5rem;
-    padding: 0.58rem 0.62rem;
+    gap: 0.42rem;
+    width: auto;
+    padding: 0.42rem 0.48rem;
   }
 
   .pub-tools-links {
     justify-content: flex-start;
+    gap: 0.3rem;
   }
 
   .profile-hero {
@@ -1218,18 +1221,22 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       padding:10px 12px;
     }
     .pub-left{
-      align-items:stretch;
-      gap:7px;
+      display:grid;
+      grid-template-rows:auto auto;
+      align-items:start;
+      gap:9px;
     }
     .thumb-wrap{
+      grid-row:1;
+      position:relative;
+      z-index:0;
       width:100%;
-      height:auto;
-      min-height:0;
-      max-height:none;
-      aspect-ratio:16 / 9;
+      height:clamp(140px, 48vw, 190px);
+      min-height:140px;
+      max-height:190px;
       display:grid;
       place-items:center;
-      overflow:visible;
+      overflow:hidden;
       border:1px solid #e5e7eb;
       border-radius:10px;
       background:#fff;
@@ -1248,7 +1255,11 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     .pub-left > [class^="conf-badge-"],
     .pub-left > [class*=" conf-badge-"],
     .pub-left > .badge-stack{
+      grid-row:2;
       align-self:flex-start;
+      position:relative;
+      z-index:1;
+      margin-top:0;
     }
     .pub-left [class^="conf-badge-"],
     .pub-left [class*=" conf-badge-"]{
