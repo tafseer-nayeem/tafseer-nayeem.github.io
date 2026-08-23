@@ -13,7 +13,6 @@ redirect_from:
 
 <section class="profile-hero" aria-labelledby="home-title">
   <h1 id="home-title">Mir Tafseer Nayeem</h1>
-  <p class="profile-title">PhD Candidate in Computing Science, University of Alberta</p>
 
   <p class="profile-lede">
     I am a PhD Candidate in <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Prof. Davood Rafiei</a>. My research focuses on user-centric language technologies, including age-appropriate language modeling, opinion synthesis, and reliable adaptation of language models.
