@@ -1229,16 +1229,16 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   }
 
   .award-group-title{
-    margin: 1rem 0 .45rem !important;
+    margin: 1.25rem 0 .7rem !important;
     color: var(--site-ink) !important;
-    font-size: .98rem !important;
+    font-size: 1.05rem !important;
     line-height: 1.25;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 6px;
   }
 
   .cv-card + .award-group-title{
-    margin-top: 2rem !important;
-    padding-top: 1.15rem;
-    border-top: 1px solid var(--site-rule);
+    margin-top: 2.85rem !important;
   }
 
   .award-card{
