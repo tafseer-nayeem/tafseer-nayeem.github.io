@@ -11,7 +11,6 @@ author_profile: true
 
 <section class="cv-download">
   <div>
-    <p class="cv-kicker">Academic Curriculum Vitae</p>
     <p>Full academic CV with publications, awards, service, teaching, and professional activities.</p>
     <p class="cv-updated">Last updated: February 2026</p>
   </div>
