@@ -184,18 +184,19 @@ a:hover {
 }
 
 .author__urls .hf-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
   flex: 0 0 1.05rem;
   width: 1.05rem;
   height: 1.05rem;
   border-radius: 4px;
-  background: #f7c948;
-  color: #1f2937;
-  font-size: 0.5rem;
-  font-weight: 850;
-  line-height: 1;
+  object-fit: cover;
+}
+
+.author__urls .x-icon {
+  flex: 0 0 1.05rem;
+  width: 1.05rem;
+  height: 1.05rem;
+  border-radius: 4px;
+  object-fit: cover;
 }
 
 .author__urls a:hover {

@@ -30,7 +30,7 @@
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-graduation-cap" aria-hidden="true"></i>Google Scholar</a></li>
       {% endif %}
       {% if author.huggingface %}
-        <li><a href="https://huggingface.co/{{ author.huggingface }}"><span class="hf-icon" aria-hidden="true">HF</span>Hugging Face</a></li>
+        <li><a href="https://huggingface.co/{{ author.huggingface }}"><img class="hf-icon" src="{{ '/images/huggingface.svg' | prepend: base_path }}" alt="" aria-hidden="true">Hugging Face</a></li>
       {% endif %}
       {% if author.semanticscholar %}
         <li><a href="{{ author.semanticscholar }}"><i class="fas fa-book-open" aria-hidden="true"></i>Semantic Scholar</a></li>
@@ -45,7 +45,7 @@
         <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
       {% endif %}
       {% if author.twitter %}
-        <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-twitter-square" aria-hidden="true"></i>Twitter</a></li>
+        <li><a href="https://x.com/{{ author.twitter }}"><img class="x-icon" src="{{ '/images/x.svg' | prepend: base_path }}" alt="" aria-hidden="true">X (Twitter)</a></li>
       {% endif %}
       <li><a href="{{ "/cv/" | prepend: base_path }}"><i class="fas fa-file-alt" aria-hidden="true"></i>CV</a></li>
     </ul>
