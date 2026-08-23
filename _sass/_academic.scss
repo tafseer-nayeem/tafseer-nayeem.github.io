@@ -554,7 +554,7 @@ a:hover {
   align-items: center;
   gap: 0.22rem;
   width: fit-content;
-  margin: 0 0 1.05rem !important;
+  margin: 0 0 0.45rem !important;
   padding: 0.22rem 0.52rem;
   border: 1px solid #d8e1ea;
   border-radius: 999px;
@@ -847,7 +847,7 @@ a:hover {
   }
 
   .pub-note {
-    margin: 0.1rem 0 1rem !important;
+    margin: 0.1rem 0 0.45rem !important;
   }
 
   .profile-hero {
@@ -1403,6 +1403,10 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   border-bottom: 2px solid #e5e7eb;
   padding-bottom: 4px;
   letter-spacing: .2px;
+}
+
+.pub-note + .pub-year{
+  margin-top: 14px;
 }
 
 /* _pages/education-awards.md */
