@@ -495,7 +495,7 @@ a:hover {
 }
 
 .pub-tools {
-  display: inline-grid;
+  display: grid;
   width: min(100%, 560px);
   margin: 0.15rem 0 0.45rem;
   padding: 0.72rem 0.82rem;
