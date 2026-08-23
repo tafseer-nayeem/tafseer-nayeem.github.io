@@ -942,6 +942,7 @@ a:hover {
 
   /* ADAPTIVE THUMBNAIL (desktop/tablet): bounded box, rounded */
   .thumb-wrap{
+    position:relative;
     width: var(--thumb-w);
     height: var(--thumb-max-h);
     min-height: var(--thumb-max-h);
@@ -955,12 +956,15 @@ a:hover {
     transition: box-shadow .2s ease;
   }
   .thumb-wrap img{
+    position:absolute;
+    inset:4px;
     display:block;
-    max-width:100%;
-    max-height:100%;
-    width:auto;
-    height:auto;
+    width:calc(100% - 8px) !important;
+    height:calc(100% - 8px) !important;
+    max-width:100% !important;
+    max-height:100% !important;
     object-fit:contain;
+    object-position:center;
     border-radius: inherit;
     transition: transform .28s ease, filter .28s ease;
   }
@@ -1264,10 +1268,11 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       padding:6px;
     }
     .thumb-wrap img{
-      width:auto;
-      height:auto;
-      max-width:100%;
-      max-height:100%;
+      inset:6px;
+      width:calc(100% - 12px) !important;
+      height:calc(100% - 12px) !important;
+      max-width:100% !important;
+      max-height:100% !important;
       object-fit:contain;
       object-position:center;
       border:0;
@@ -1278,9 +1283,11 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     .pub-left > .badge-stack{
       grid-row:2;
       align-self:flex-start;
+      justify-self:start;
       position:relative;
       z-index:1;
       margin-top:0;
+      width:fit-content;
     }
     .pub-left [class^="conf-badge-"],
     .pub-left [class*=" conf-badge-"]{
