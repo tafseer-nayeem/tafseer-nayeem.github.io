@@ -352,8 +352,9 @@ a:hover {
 
 .theme-list {
   display: grid;
+  max-width: 760px;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.7rem;
+  gap: 0.55rem;
 }
 
 .theme-card {
@@ -365,7 +366,7 @@ a:hover {
 }
 
 .theme-card {
-  padding: 1rem 1.05rem 1.05rem;
+  padding: 0.78rem 0.85rem 0.82rem;
 }
 
 .theme-card-featured {
@@ -383,26 +384,26 @@ a:hover {
 }
 
 .card-label {
-  margin: 0 0 0.22rem !important;
+  margin: 0 0 0.16rem !important;
   color: var(--site-teal) !important;
-  font-size: 0.72rem !important;
+  font-size: 0.66rem !important;
   font-weight: 850;
-  letter-spacing: 0.06em !important;
+  letter-spacing: 0.04em !important;
   line-height: 1.2;
   text-transform: uppercase;
 }
 
 .theme-card h3 {
-  margin: 0 0 0.42rem;
+  margin: 0 0 0.28rem;
   color: var(--site-ink);
-  font-size: 1rem;
-  line-height: 1.28;
+  font-size: 0.9rem;
+  line-height: 1.22;
 }
 
 .theme-card p {
   margin: 0 !important;
-  font-size: 0.9rem !important;
-  line-height: 1.55;
+  font-size: 0.8rem !important;
+  line-height: 1.42;
 }
 
 .news-section {
