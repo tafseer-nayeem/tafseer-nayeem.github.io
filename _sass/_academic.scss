@@ -1323,121 +1323,324 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   }
 
 /* _pages/activities.md */
-/* ===== Activities page typography and accents ===== */
-:root{
-  --accent:#1F6CAB;     /* links and accent */
-  --ink:#111827;        /* main headings */
-  --muted:#374151;      /* body text */
-  --rule:#e5e7eb;       /* thin separators */
-  --chip-bg:#eef2f7;    /* badges background */
-  --chip-ink:#374151;   /* badges text */
-
-  /* ====== SPACING KNOBS (tune these) ====== */
-  --year-w: 64px;          /* width of year badge */
-  --year-gap-x: 8px;       /* gap between year and venues */
-  --row-pad-y: 2px;        /* vertical padding per row */
-  --space-after-subhead: 15px;  /* space under Area Chair / Reviewer / OR headings */
-  --role-gap: 25px;        /* space after each role block (AC vs Reviewer) */
+/* ===== Service page typography and accents ===== */
+.activities{
+  --accent:#1F6CAB;
+  --ink:#111827;
+  --muted:#374151;
+  --rule:#e5e7eb;
+  --chip-bg:#eef2f7;
+  --chip-ink:#374151;
+  --year-w: 64px;
+  --year-gap-x: 10px;
 }
 
-/* Section titles */
-.section-title{
-  margin: 26px 0 10px;
-  font-size: 1.40rem;
-  color: var(--ink);
-  letter-spacing: .2px;
-  line-height: 1.25;
-  display:flex; align-items:center; gap:10px;
+.service-intro{
+  margin-bottom: 1.35rem !important;
 }
 
-/* Subheads (Area Chair, Reviewer, etc.) */
-.subhead{
-  margin: 18px 0 0;                 /* top only; bottom is controlled below */
-  font-size: 1.18rem;
-  color: var(--ink);
-  display:flex; align-items:center; gap:8px;
-}
-
-/* add space right after any subhead */
-.subhead + .year-list{ margin-top: var(--space-after-subhead); }
-.subhead + .items{     margin-top: var(--space-after-subhead); }
-
-/* Small circular icon badge, consistent with your chips */
-.i{
-  display:inline-grid; place-items:center;
-  width:26px; height:26px; border-radius:999px;
-  background:var(--chip-bg); color:var(--chip-ink);
-  font-size:.9rem; line-height:1;
-}
-
-/* Thin horizontal rule to separate major groups */
-.thin-rule{ border:0; height:1px; background:var(--rule); margin: 12px 0 14px; }
-
-/* Link style consistent with publication page */
 .activities a{
-  color: var(--accent); text-decoration:none;
+  color: var(--accent);
+  text-decoration:none;
   background-image:linear-gradient(currentColor,currentColor);
-  background-size:0% 2px; background-repeat:no-repeat; background-position:0 100%;
-  transition: background-size .22s ease;
+  background-size:0% 2px;
+  background-repeat:no-repeat;
+  background-position:0 100%;
+  transition: background-size .22s ease, border-color .16s ease, transform .16s ease, box-shadow .16s ease;
 }
+
 .activities a:hover{ background-size:100% 2px; }
 
-/* Year → items layout (Professional Services) */
-.year-list{ list-style:none; padding:0; margin: 0 0 var(--role-gap) 0; } /* bottom gap separates role blocks */
-.year-list li{
-  display:grid;
-  grid-template-columns: max-content 1fr;  /* width comes from the badge */
-  align-items:center;                       /* fixes baseline wiggle */
-  gap: var(--year-gap-x);
-  padding: var(--row-pad-y) 0;              /* compact vertical rhythm */
+.activities .section-title{
+  margin: 2rem 0 .85rem;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--rule);
+  color: var(--ink);
+  font-size: 1.38rem;
+  line-height: 1.25;
+  letter-spacing: .2px;
+  display:flex;
+  align-items:center;
+  gap:10px;
 }
-.year{
-  /* shaded badge, mirrors .date-badge */
-  display:inline-block;
+
+.activities .section-title:first-of-type{
+  margin-top: 0;
+}
+
+.activities .subhead{
+  margin: 0 0 .75rem;
+  color: var(--ink);
+  font-size: 1.02rem;
+  line-height: 1.25;
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+.activities .i{
+  display:inline-grid;
+  place-items:center;
+  width:26px;
+  height:26px;
+  border-radius:999px;
+  background:var(--chip-bg);
+  color:var(--chip-ink);
+  font-size:.82rem;
+  line-height:1;
+  flex: 0 0 auto;
+}
+
+.service-block,
+.service-callout{
+  margin: 0 0 .85rem;
+  padding: .85rem .95rem;
+  border: 1px solid var(--site-rule);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(32,45,62,.04);
+}
+
+.service-block-featured{
+  border-top: 3px solid var(--site-blue);
+}
+
+.activities .year-list{
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+
+.activities .year-list li{
+  display:grid;
+  grid-template-columns: var(--year-w) minmax(0, 1fr);
+  align-items:start;
+  gap: var(--year-gap-x);
+  padding: .28rem 0;
+}
+
+.activities .year{
+  display:inline-flex;
+  justify-content:center;
   min-width: var(--year-w);
-  text-align:center;
-  padding:3px 10px;
+  padding:4px 10px;
   border-radius:999px;
   background:var(--chip-bg);
   color: var(--chip-ink);
   font-weight:800;
-  font-size:.88rem;
+  font-size:.76rem;
   letter-spacing:.2px;
-  line-height:1.1;
-}
-.items{ color: var(--muted); font-size:1.02rem; line-height:1.35; }
-
-/* Great reviews badge and generic chips */
-.chip{
-  display:inline-flex; align-items:center; justify-content:center;
-  padding:4px 10px; border-radius:999px; line-height:1;
-  font-size:.78rem; font-weight:800; letter-spacing:.2px; text-transform:uppercase;
-  border:1px solid #d1d5db; background:var(--chip-bg); color:var(--chip-ink);
-}
-.chip-accent{ background:var(--accent); color:#fff; border-color:transparent; }
-
-/* Lists without heavy bullets */
-.clean-list{ margin: 8px 0 0 1.15rem; }
-.clean-list li{ margin: 6px 0; color: var(--muted); }
-/* also give Outstanding Reviews block a tunable bottom gap */
-.clean-list.reviews{ margin-bottom: var(--role-gap); }
-
-.activities h4.subhead + p.items + ul {
-  margin-top: -2px; /* tweak as needed (e.g., 0, 2px, 4px) */
+  line-height:1;
 }
 
-/* Talk list lines with a date badge */
-.talk-list{ list-style:none; padding:0; margin:6px 0 0 0; }
-.talk-list li{ margin:10px 0; color:var(--muted); }
+.venue-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.35rem;
+}
+
+.venue-chip,
+.demo-card{
+  background-image:none !important;
+}
+
+.venue-chip{
+  display:inline-flex;
+  align-items:center;
+  min-height:1.45rem;
+  padding:.24rem .48rem;
+  border:1px solid #cbd5e1;
+  border-radius:999px;
+  background:#f8fafc;
+  color:var(--accent) !important;
+  font-size:.76rem;
+  font-weight:800;
+  line-height:1;
+}
+
+.venue-chip:hover{
+  border-color: var(--accent);
+  background:#fff;
+  transform:translateY(-1px);
+  box-shadow:0 6px 14px rgba(32,45,62,.06);
+}
+
+.activities .chip{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:4px 10px;
+  border-radius:999px;
+  line-height:1;
+  font-size:.7rem;
+  font-weight:800;
+  letter-spacing:.2px;
+  text-transform:uppercase;
+  border:1px solid #d1d5db;
+  background:var(--chip-bg);
+  color:var(--chip-ink);
+  white-space:nowrap;
+}
+
+.activities .chip-accent{
+  background:var(--accent);
+  color:#fff;
+  border-color:transparent;
+}
+
+.service-callout{
+  margin-top: 1rem;
+  background: linear-gradient(180deg, #fff7e8, #fff 72%);
+  border-color: rgba(164,111,24,.28);
+}
+
+.service-callout h3{
+  margin: 0 0 .45rem;
+  color: var(--ink);
+  font-size: 1rem;
+  line-height: 1.25;
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+.service-callout p{
+  margin: 0 0 .65rem !important;
+  color: var(--muted) !important;
+  font-size: .86rem !important;
+  line-height: 1.45;
+}
+
+.recognition-grid{
+  display:grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap:.55rem;
+}
+
+.recognition-grid a{
+  display:grid;
+  gap:.12rem;
+  padding:.62rem .7rem;
+  border:1px solid rgba(164,111,24,.25);
+  border-radius:8px;
+  background:#fff;
+}
+
+.recognition-grid strong{
+  color: var(--ink);
+  font-size:.82rem;
+}
+
+.recognition-grid span{
+  color: var(--muted);
+  font-size:.78rem;
+}
+
+.talk-list{
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+
+.talk-list li{
+  display:grid;
+  grid-template-columns: 5.8rem minmax(0, 1fr);
+  gap:.7rem;
+  align-items:start;
+  padding:.65rem 0;
+  border-bottom:1px solid var(--rule);
+  color:var(--muted);
+  font-size:.9rem;
+  line-height:1.45;
+}
+
 .date-badge{
-  display:inline-block; padding:3px 10px; border-radius:999px; line-height:1;
-  font-size:.78rem; font-weight:800; letter-spacing:.2px; background:var(--chip-bg); color:var(--chip-ink);
-  margin-right:10px;
+  display:inline-flex;
+  justify-content:center;
+  padding:4px 10px;
+  border-radius:999px;
+  line-height:1;
+  font-size:.7rem;
+  font-weight:800;
+  letter-spacing:.2px;
+  background:var(--chip-bg);
+  color:var(--chip-ink);
+  white-space:nowrap;
 }
 
-/* Mobile tweaks */
+.demo-grid{
+  display:grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap:.7rem;
+}
+
+.demo-card{
+  display:grid;
+  gap:.18rem;
+  padding:.8rem .9rem;
+  border:1px solid var(--site-rule);
+  border-radius:8px;
+  background:#fff;
+  box-shadow: 0 1px 2px rgba(32,45,62,.04);
+}
+
+.demo-card strong{
+  color: var(--ink);
+  font-size:.88rem;
+  line-height:1.25;
+}
+
+.demo-card span{
+  color: var(--accent);
+  font-size:.78rem;
+  font-weight:800;
+}
+
+.demo-card:hover{
+  border-color:#c7d4df;
+  box-shadow:var(--site-shadow);
+  transform:translateY(-1px);
+}
+
+.activities .clean-list{
+  margin: 0;
+  padding:0;
+  list-style:none;
+}
+
+.activities .clean-list li{
+  margin:0;
+  padding:.58rem 0;
+  border-bottom:1px solid var(--rule);
+  color: var(--muted);
+  font-size:.9rem;
+  line-height:1.42;
+}
+
+.leadership-list li{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:.8rem;
+}
+
 @media (max-width:600px){
-  :root{ --year-w: 60px; --year-gap-x: 10px; }
-  .section-title{ font-size:1.45rem; }
-  .subhead{ font-size:1.10rem; }
+  .activities{
+    --year-w: 58px;
+    --year-gap-x: 8px;
+  }
+  .activities .section-title{
+    margin-top:1.65rem;
+    font-size:1.22rem;
+  }
+  .activities .year-list li,
+  .talk-list li,
+  .recognition-grid,
+  .demo-grid{
+    grid-template-columns:1fr;
+  }
+  .leadership-list li{
+    align-items:flex-start;
+    flex-direction:column;
+  }
 }
