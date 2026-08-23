@@ -175,32 +175,33 @@ a:hover {
   transition: background-color 0.16s ease, border-color 0.16s ease, color 0.16s ease;
 }
 
+.author__urls i,
+.author__urls img.hf-icon,
+.author__urls img.x-icon {
+  flex: 0 0 1.1rem;
+  width: 1.1rem;
+  height: 1.1rem;
+}
+
 .author__urls i {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  flex: 0 0 1.12rem;
-  width: 1.12rem;
-  height: 1.12rem;
   color: var(--site-blue);
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   text-align: center;
 }
 
 .author__urls .hf-icon {
-  flex: 0 0 1.12rem;
-  width: 1.12rem;
-  height: 1.12rem;
-  border-radius: 4px;
+  display: block;
+  border-radius: 0;
   object-fit: contain;
 }
 
 .author__urls .x-icon {
-  flex: 0 0 1.12rem;
-  width: 1.12rem;
-  height: 1.12rem;
+  display: block;
   border-radius: 4px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .author__urls a:hover {
