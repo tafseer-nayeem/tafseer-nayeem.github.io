@@ -1082,37 +1082,55 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     }
 }
 
-  /* Device-friendly (no cropping on phones; full-width image with auto height) */
+  /* Mobile: keep publication thumbnails compact and uniform. */
 @media (max-width: 640px){
     .pub-item{
       grid-template-columns:1fr;
       --thumb-w: 100%;
-      --thumb-max-h: none;   /* disable fixed cap on phones */
-      gap:14px;
-      padding:12px 14px;
+      --thumb-max-h: 96px;
+      gap:10px;
+      padding:10px 12px;
+    }
+    .pub-left{
+      align-items:stretch;
+      gap:7px;
     }
     .thumb-wrap{
       width:100%;
-      height:auto;
-      max-height:none;       /* let the image define the height */
-      overflow:visible;      /* no clipping */
-      border: none;          /* move border to the image for clean corners */
+      height:var(--thumb-max-h);
+      min-height:var(--thumb-max-h);
+      max-height:var(--thumb-max-h);
+      overflow:hidden;
+      border:1px solid #e5e7eb;
+      border-radius:10px;
     }
     .thumb-wrap img{
       width:100%;
-      height:auto;
+      height:100%;
       object-fit:contain;
-      border:1px solid #e5e7eb;
-      border-radius:12px;
+      border:0;
+      border-radius:0;
+    }
+    .pub-left > [class^="conf-badge-"],
+    .pub-left > [class*=" conf-badge-"],
+    .pub-left > .badge-stack{
+      align-self:flex-start;
+    }
+    .pub-left [class^="conf-badge-"],
+    .pub-left [class*=" conf-badge-"]{
+      min-width: calc(var(--badge-w) - 14px);
+      padding:6px 10px;
+      font-size: calc(var(--font-badge) - 1px);
     }
   }
 @media (max-width: 480px){
     .pub-item{
+      --thumb-max-h: 88px;
       gap:12px;
       padding:10px 12px;
     }
-    .conf-badge-blue,
-    .conf-badge-teal{
+    .pub-left [class^="conf-badge-"],
+    .pub-left [class*=" conf-badge-"]{
       min-width: calc(var(--badge-w) - 12px);
       padding:7px 12px;
       font-size: calc(var(--font-badge) - 1px);
@@ -1396,8 +1414,22 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
     }
   }
   @media (max-width: 640px){
-    .cv-card{ grid-template-columns:1fr; }
-    .logo-wrap{ width:100%; height:82px; max-height:82px; }
+    .cv-card{
+      grid-template-columns:68px 1fr;
+      gap:10px;
+      padding:10px 11px;
+      align-items:start;
+    }
+    .logo-wrap{
+      width:68px;
+      height:52px;
+      max-height:52px;
+      border-radius:10px;
+    }
+    .logo-wrap img{
+      max-width:88%;
+      max-height:88%;
+    }
   }
 
 /* _pages/activities.md */
