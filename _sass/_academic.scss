@@ -210,6 +210,31 @@ a:hover {
   color: #f1f5f9;
 }
 
+.page__footer-follow .social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 1.05rem;
+  align-items: center;
+}
+
+.page__footer-follow li {
+  display: inline-flex;
+  padding: 0;
+}
+
+.page__footer-follow li + li:before {
+  display: none;
+}
+
+.page__footer-follow a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32rem;
+  padding-right: 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.01em;
+}
+
 /* Homepage
    ========================================================================== */
 
