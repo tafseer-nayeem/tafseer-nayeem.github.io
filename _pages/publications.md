@@ -16,8 +16,9 @@ author_profile: true
       <a href="https://dblp.org/pid/125/2693.html">DBLP</a>
     </div>
   </div>
-  <p class="pub-note"><span class="eq">*</span> Equal contribution</p>
 </div>
+
+<p class="pub-note"><span class="eq">*</span> Equal contribution</p>
 
 
 
