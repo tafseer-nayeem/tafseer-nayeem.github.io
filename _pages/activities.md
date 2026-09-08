@@ -42,7 +42,7 @@ redirect_from:
   </div>
 
   <div class="service-block">
-    <h3 class="subhead"><span class="i"><i class="fas fa-clipboard-check" aria-hidden="true"></i></span> Program Committee / Reviewer</h3>
+    <h3 class="subhead"><span class="i"><i class="fas fa-clipboard-check" aria-hidden="true"></i></span> Reviewer</h3>
     <ul class="year-list">
       <li>
         <span class="year">2026</span>
