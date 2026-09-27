@@ -111,6 +111,7 @@ main { padding-top: 1rem; }
 .table-wrap thead th { border-top: 0; background: #f0f4f6; color: #374655; font-size: 0.76rem; font-weight: 750; }
 .table-wrap tbody th[scope="row"] { color: #334656; font-weight: 700; white-space: nowrap; }
 .table-wrap tbody tr:hover { background: #f8fafb; }
+.example-list { display: block; max-width: 42ch; line-height: 1.55; }
 .results-table td:last-child { min-width: 340px; }
 .table-note { margin-top: 0.65rem; color: var(--muted) !important; font-size: 0.8rem; }
 .scope-note { margin-top: 1.45rem; padding: 1rem 1.1rem; border-left: 3px solid var(--teal); background: #edf3f3; }
