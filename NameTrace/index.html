@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NameTrace studies unequal name support in large language models, tracing lexical access into task-relevant concept accessibility and downstream computation.">
+  <meta name="theme-color" content="#f5f7f8">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Who Gets a Token, and What Does It Carry? | NameTrace">
+  <meta property="og:description" content="Tracing unequal name support and concept access in large language models.">
+  <title>Who Gets a Token, and What Does It Carry? | NameTrace</title>
+  <link rel="canonical" href="https://tafseer-nayeem.github.io/NameTrace/">
+  <link rel="stylesheet" href="static/css/index.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="site-nav" aria-label="Page sections">
+    <a class="wordmark" href="#top">Name<span>Trace</span></a>
+    <div class="nav-links">
+      <a href="#overview">Overview</a>
+      <a href="#method">Method</a>
+      <a href="#findings">Findings</a>
+      <a href="#interpretation">Interpretation</a>
+      <a href="#resources">Resources</a>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <p class="project-label">Large language models - Lexical support - Concept access</p>
+    <h1>Who Gets a Token,<br class="desktop-break"> and What Does It Carry?</h1>
+    <p class="subtitle">Unequal name support and concept access in large language models</p>
+    <p class="authors">
+      <a href="https://tafseer-nayeem.github.io/">Mir Tafseer Nayeem</a>
+      <span aria-hidden="true">and</span>
+      <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Davood Rafiei</a>
+    </p>
+    <p class="affiliation">Department of Computing Science, University of Alberta</p>
+    <div class="publication-links" aria-label="Project resources">
+      <a class="project-button" href="https://arxiv.org/" target="_blank" rel="noopener noreferrer">
+        <svg class="project-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2.75h8l4 4v14.5H6a2 2 0 0 1-2-2v-15a1.5 1.5 0 0 1 2-1.5Zm7 1.8v3.2h3.2M7.5 12h8.8M7.5 15h8.8M7.5 18h5.4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Paper</span>
+      </a>
+      <a class="project-button" href="https://github.com/tafseer-nayeem/NameTrace" target="_blank" rel="noopener noreferrer">
+        <svg class="project-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.56.1.76-.24.76-.54v-2.08c-3.1.67-3.76-1.32-3.76-1.32-.51-1.3-1.24-1.65-1.24-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 .1.77 2.13 3.24 1.51.1-.73.4-1.23.7-1.51-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.21 1.16-2.99-.12-.28-.5-1.42.11-2.96 0 0 .95-.3 3.06 1.14a10.6 10.6 0 0 1 5.57 0c2.12-1.44 3.06-1.14 3.06-1.14.61 1.54.23 2.68.11 2.96.72.78 1.16 1.77 1.16 2.99 0 4.29-2.62 5.23-5.11 5.51.4.35.75 1.03.75 2.08v3.09c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/></svg>
+        <span>Code</span>
+      </a>
+      <a class="project-button" href="https://huggingface.co/datasets/tafseer-nayeem/NameTrace" target="_blank" rel="noopener noreferrer">
+        <img class="project-icon project-icon-hf" src="static/images/huggingface-logo.svg" alt="">
+        <span>Dataset</span>
+      </a>
+    </div>
+    <ul class="stat-strip" aria-label="Study at a glance">
+      <li><strong>497,583</strong><span>first-name surfaces studied</span></li>
+      <li><strong>12</strong><span>LLM-associated tokenizers compared</span></li>
+      <li><strong>200</strong><span>matched name pairs for internal analysis (400 Names)</span></li>
+    </ul>
+    <figure class="figure figure-overview">
+      <img src="static/figures/overview.jpg" alt="NameTrace overview: names enter language models with unequal lexical access; the framework measures task-axis concept accessibility, within-stratum persistence, transfer to unseen names, and downstream leverage." width="1210" height="590" fetchpriority="high">
+      <figcaption><span>Study overview</span> NameTrace follows name-surface support from tokenizer access to internal task concepts, transfer across names, and later constrained choices.</figcaption>
+    </figure>
+  </header>
+
+  <main id="main">
+    <section class="content-section" id="overview">
+      <div class="section-label">Overview</div>
+      <div class="section-body">
+        <h2>Matched names may still be different model inputs</h2>
+        <p>Names are often used as controlled social cues in evaluations of language models. But a tokenizer may encode one name as a single token and another as several subword pieces. NameTrace asks whether this unequal lexical support is merely a vocabulary difference or remains visible in task-relevant model computation.</p>
+        <p>The study introduces <strong>NAMETRACE</strong>, a model-native framework that measures concept accessibility from a model's own probabilities over task-specific adjective axes. It looks before open-ended generation, uses continuous weights to distinguish stronger from weaker concepts, and does not require reference answers or an external judge.</p>
+      </div>
+    </section>
+
+    <section class="content-section" id="method">
+      <div class="section-label">Method</div>
+      <div class="section-body">
+        <h2>From token access to downstream choices</h2>
+        <div class="method-grid">
+          <article><span>01</span><h3>Map lexical access</h3><p>Measure exact single-token access for 497,583 first-name surfaces across 12 LLM-associated tokenizers.</p></article>
+          <article><span>02</span><h3>Match name pairs</h3><p>Compare atomic and short-fragmented names within eight race/ethnicity- and gender-associated strata, matching on observed name properties.</p></article>
+          <article><span>03</span><h3>Read task concepts</h3><p>Score model probabilities over weighted adjective axes for fellowship, hiring, clinical concern, and lending.</p></article>
+          <article><span>04</span><h3>Probe transfer and leverage</h3><p>Test whether development-name patterns predict unseen-name gaps and whether task-direction edits shift later constrained choices.</p></article>
+        </div>
+        <aside class="method-note"><strong>Matched comparison</strong><p>The 200 atomic/short-fragmented pairs are matched on frequency, character length, demographic-association strength, metadata confidence, and weak orthographic cues. One hundred pairs set the measurement; the other one hundred are held out for evaluation.</p></aside>
+      </div>
+    </section>
+
+    <section class="content-section" id="findings">
+      <div class="section-label">Findings</div>
+      <div class="section-body">
+        <h2>Lexical support predicts task-relevant accessibility</h2>
+        <p>Direct access is selective and model dependent: 23,095 names are atomic in at least one tokenizer, while only 4,052 are atomic in all 12. NameTrace then finds positive pooled atomic-minus-fragmented accessibility gaps on all four task axes for unseen names.</p>
+        <div class="table-wrap">
+          <table>
+            <caption>Held-out atomic-minus-short-fragmented concept accessibility gaps</caption>
+            <thead><tr><th scope="col">Task axis</th><th scope="col">Weighted gap</th><th scope="col">95% confidence interval</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Fellowship / promise</th><td data-label="Weighted gap">0.131</td><td data-label="95% CI">[0.096, 0.168]</td></tr>
+              <tr><th scope="row">Hiring / competence</th><td data-label="Weighted gap">0.072</td><td data-label="95% CI">[0.055, 0.091]</td></tr>
+              <tr><th scope="row">Clinical assessment / concern</th><td data-label="Weighted gap">0.059</td><td data-label="95% CI">[0.048, 0.072]</td></tr>
+              <tr><th scope="row">Lending / trustworthiness</th><td data-label="Weighted gap">0.051</td><td data-label="95% CI">[0.041, 0.061]</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="table-note">A positive gap means greater task-aligned concept accessibility for the atomic name. These are weighted scores, not probabilities.</p>
+        <figure class="figure figure-results">
+          <img src="static/figures/accessibility-results.jpg" alt="Results chart: pooled weighted gaps are positive for fellowship, hiring, clinical concern, and lending; the heatmap shows positive gaps across all eight name-metadata strata." width="625" height="820" loading="lazy">
+          <figcaption><span>Across tasks and strata</span> The support-linked gap is positive across the four pooled task axes and all eight name-metadata strata.</figcaption>
+        </figure>
+        <div class="finding-grid">
+          <article><h3>Transfers to unseen names</h3><p>Development-name support priors account for 72.9% to 96.6% of the pooled held-out gap, depending on task.</p></article>
+          <article><h3>Has downstream leverage</h3><p>Interventions along measured task directions shift later constrained choices in all three primary model families.</p></article>
+          <article><h3>Varies by model and task</h3><p>Effects differ in magnitude and sometimes direction across architectures, layers, and training stages; they are not uniform model behavior.</p></article>
+        </div>
+        <figure class="figure figure-transfer">
+          <img src="static/figures/transfer-results.jpg" alt="Two-panel chart showing that a support prior learned on development names predicts held-out accessibility gaps, and task-direction edits shift later choices in Qwen, Llama, and Ministral models." width="1240" height="300" loading="lazy">
+          <figcaption><span>Transfer and intervention</span> The learned support prior predicts unseen-name gaps; task-direction edits shift later choices in three evaluated model families.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="content-section" id="interpretation">
+      <div class="section-label">Interpretation</div>
+      <div class="section-body">
+        <h2>Lexical comparability is part of evaluation design</h2>
+        <p>The results show that demographic matching alone does not guarantee comparable model inputs. They support treating lexical access as a measurable source of variation when interpreting name-based evaluations.</p>
+        <aside class="care-note"><strong>How to read these results</strong><p>The matched analysis controls for several observed name properties, but it does not isolate tokenization as the sole cause: name-specific training exposure and other unobserved properties may also matter. The study measures aggregate associations of name surfaces, not demographic identities or traits of individual people; its results should not be used for individual profiling or decision-making.</p></aside>
+      </div>
+    </section>
+
+    <section class="content-section resources-section" id="resources">
+      <div class="section-label">Resources</div>
+      <div class="section-body">
+        <h2>Code and dataset</h2>
+        <p>Explore the implementation and the NameTrace dataset.</p>
+        <div class="resource-links">
+          <a class="project-button" href="https://github.com/tafseer-nayeem/NameTrace" target="_blank" rel="noopener noreferrer"><span>Code on GitHub</span></a>
+          <a class="project-button" href="https://huggingface.co/datasets/tafseer-nayeem/NameTrace" target="_blank" rel="noopener noreferrer"><span>Dataset on Hugging Face</span></a>
+        </div>
+        <p class="paper-note">A public paper link will be added when available.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span>NameTrace</span><a href="#top">Back to top</a></footer>
+</body>
+</html>
