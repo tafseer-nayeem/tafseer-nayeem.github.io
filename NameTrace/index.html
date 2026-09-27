@@ -55,7 +55,7 @@
       <li><strong>200</strong><span>matched name pairs for internal analysis (400 Names)</span></li>
     </ul>
     <figure class="figure figure-overview">
-      <img src="static/figures/overview.jpg" alt="NameTrace overview: names enter language models with unequal lexical access; the framework measures task-axis concept accessibility, within-stratum persistence, transfer to unseen names, and downstream leverage." width="1210" height="590" fetchpriority="high">
+      <img src="static/figures/overview.jpg" alt="NameTrace overview: names enter language models with unequal lexical access; the framework measures task-axis concept accessibility, within-stratum persistence, transfer to unseen names, and downstream leverage." width="2017" height="984" fetchpriority="high">
       <figcaption><span>Study overview</span> NameTrace follows name-surface support from tokenizer access to internal task concepts, transfer across names, and later constrained choices.</figcaption>
     </figure>
   </header>
@@ -88,7 +88,17 @@
       <div class="section-label">Findings</div>
       <div class="section-body">
         <h2>Lexical support predicts task-relevant accessibility</h2>
-        <p>Direct access is selective and model dependent: 23,095 names are atomic in at least one tokenizer, while only 4,052 are atomic in all 12. NameTrace then finds positive pooled atomic-minus-fragmented accessibility gaps on all four task axes for unseen names.</p>
+        <h3 class="finding-subhead">RQ1: Who gets direct lexical access?</h3>
+        <p>Direct access is selective and model dependent: 23,095 names are atomic in at least one tokenizer, while only 4,052 are atomic in all 12. The paper's tokenizer comparison shows how sharply access counts vary by model, alongside aggregate gender- and race/ethnicity-associated counts.</p>
+        <figure class="figure figure-tokenizers">
+          <div class="figure-scroll" tabindex="0" aria-label="Tokenizer access figure; scroll horizontally on narrow screens">
+            <img src="static/figures/tokenizer-access.jpg" alt="Three-panel tokenizer comparison. Among the metadata-annotated names shown, atomic counts range from 4,271 for DeepSeek V3.2 to 18,170 for Aya Expanse 32B. The other panels break counts down by gender- and race/ethnicity-associated name metadata." width="1200" height="320" loading="lazy">
+          </div>
+          <figcaption><span>RQ1 - Tokenizer access</span> Atomic first-name counts differ by tokenizer; the companion panels show the aggregate metadata composition of those vocabularies.</figcaption>
+        </figure>
+        <p>In a higher-frequency, high-confidence subset of 7,469 names, atomic access was 49.8% for male-associated versus 25.7% for female-associated names. Across race/ethnicity-associated metadata, access ranged from 17.6% for NH Black-associated names to 47.2% for NH White-associated names (46.4% for Asian/PI-associated names).</p>
+        <h3 class="finding-subhead">RQ2: Does support appear in internal task concepts?</h3>
+        <p>On held-out names, NameTrace finds positive pooled atomic-minus-fragmented accessibility gaps on all four task axes:</p>
         <div class="table-wrap">
           <table>
             <caption>Held-out atomic-minus-short-fragmented concept accessibility gaps</caption>
@@ -106,6 +116,8 @@
           <img src="static/figures/accessibility-results.jpg" alt="Results chart: pooled weighted gaps are positive for fellowship, hiring, clinical concern, and lending; the heatmap shows positive gaps across all eight name-metadata strata." width="625" height="820" loading="lazy">
           <figcaption><span>Across tasks and strata</span> The support-linked gap is positive across the four pooled task axes and all eight name-metadata strata.</figcaption>
         </figure>
+        <h3 class="finding-subhead">RQ3: Does support transfer and influence later choices?</h3>
+        <p>Yes: patterns learned from development names predict gaps for unseen names, and interventions along measured task directions shift later constrained choices.</p>
         <div class="finding-grid">
           <article><h3>Transfers to unseen names</h3><p>Development-name support priors account for 72.9% to 96.6% of the pooled held-out gap, depending on task.</p></article>
           <article><h3>Has downstream leverage</h3><p>Interventions along measured task directions shift later constrained choices in all three primary model families.</p></article>

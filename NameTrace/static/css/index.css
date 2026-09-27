@@ -47,7 +47,7 @@ h1, h2, h3, p, figure { margin-top: 0; }
 .stat-strip span { color: var(--muted); font-size: 0.8rem; line-height: 1.4; }
 .figure { margin: 0; }
 .figure img { display: block; width: 100%; height: auto; }
-.figure-overview { padding: clamp(0.45rem, 1.4vw, 0.85rem); border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); box-shadow: 0 8px 22px rgba(32, 45, 62, 0.055); }
+.figure-overview { max-width: 900px; margin: 0 auto; padding: clamp(0.45rem, 1.4vw, 0.85rem); border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); box-shadow: 0 8px 22px rgba(32, 45, 62, 0.055); }
 figcaption { display: flex; gap: 0.55rem; margin-top: 0.7rem; color: var(--muted); font-size: 0.78rem; line-height: 1.5; text-align: left; }
 figcaption span { flex: 0 0 auto; color: var(--ink); font-weight: 700; }
 main { padding-top: 1rem; }
@@ -71,6 +71,10 @@ main { padding-top: 1rem; }
 .table-wrap thead th { border-top: 0; background: #f0f4f6; color: #374655; font-size: 0.75rem; font-weight: 750; }
 .table-wrap tbody th[scope="row"] { color: #334656; font-weight: 700; }
 .table-note { margin: 0.6rem 0 1.25rem !important; color: var(--muted) !important; font-size: 0.79rem; }
+.finding-subhead { margin: 1.35rem 0 0.5rem; color: var(--blue-dark); font-size: 1.15rem; line-height: 1.35; }
+.figure-tokenizers { margin: 1rem 0 1.2rem; }
+.figure-scroll { overflow-x: auto; border: 1px solid var(--rule); border-radius: 5px; background: #fff; overscroll-behavior-inline: contain; }
+.figure-scroll img { display: block; width: 100%; min-width: 760px; height: auto; }
 .figure-results { max-width: 520px; margin: 1.25rem auto 1.5rem; }
 .figure-results img { border: 1px solid var(--rule); border-radius: 5px; background: #fff; }
 .figure-transfer { margin-top: 1.5rem; padding: 0.6rem; border: 1px solid var(--rule); border-radius: 5px; background: #fff; }
