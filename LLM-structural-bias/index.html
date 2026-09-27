@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A pipeline-wide study of how American English becomes the default in large language models, across data exposure, representation, and generation.">
+  <meta name="keywords" content="large language models, structural bias, American English, British English, tokenization, DIALIGN">
+  <meta name="theme-color" content="#f5f7f8">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="How Does ‘English (US)’ Become the Default?">
+  <meta property="og:description" content="Triangulating structural bias towards American English across the LLM pipeline.">
+  <title>How Does “English (US)” Become the Default? | LLM Structural Bias</title>
+  <link rel="stylesheet" href="static/css/index.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="site-nav" aria-label="Page sections">
+    <a class="wordmark" href="#top">LLM <span>Structural Bias</span></a>
+    <div class="nav-links">
+      <a href="#questions">Questions</a>
+      <a href="#method">Method</a>
+      <a href="#findings">Findings</a>
+      <a href="#implications">Implications</a>
+      <a href="#citation">Citation</a>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> Structural bias in language technology <span class="venue">ICLR 2027 submission</span></div>
+    <h1>How Does “English (US)”<br class="desktop-break"> Become the Default?</h1>
+    <p class="subtitle">Triangulating structural bias towards American English across the LLM pipeline</p>
+    <p class="author-note">Anonymous authors · Under double-blind review</p>
+    <div class="hero-actions">
+      <a class="button button-primary" href="45153_How_Does_English_US_Beco.pdf">Read the paper <span aria-hidden="true">↗</span></a>
+      <a class="button button-secondary" href="#findings">Explore the findings <span aria-hidden="true">↓</span></a>
+    </div>
+    <ul class="stat-strip" aria-label="Study at a glance">
+      <li><strong>1,813</strong><span>matched regional variants</span></li>
+      <li><strong>6 + 21</strong><span>pretraining corpora and post-training datasets</span></li>
+      <li><strong>10</strong><span>model checkpoints in prediction-cost analysis</span></li>
+    </ul>
+    <figure class="figure figure-pipeline">
+      <img src="static/figures/pipeline.webp" alt="Study overview tracing regional preference through data exposure, representation, and generation, across model origins, prompt conditions, domains, registers, linguistic categories, and alignment confidence." width="1640" height="725" fetchpriority="high">
+      <figcaption><span>Study overview</span> Regional preference is examined at three connected stages: what models encounter, how they encode and score variants, and which forms they generate.</figcaption>
+    </figure>
+  </header>
+
+  <main id="main">
+    <section class="content-section intro" id="questions">
+      <div class="section-label">01 / The question</div>
+      <div class="section-body">
+        <h2>When a model says “English,” which English does it mean?</h2>
+        <p>Widely used AI products often present “English (US)” as a default. This study asks how that preference takes shape inside language models: does it begin in their data, appear in the way they represent language, and carry through to generated text?</p>
+        <p>We use British English as a controlled reference variety and examine American-English preference across the model development pipeline. The comparison makes a familiar regional contrast measurable; it is not a proxy for the full diversity of English worldwide.</p>
+        <div class="question-grid">
+          <article><span>RQ1</span><h3>Data exposure</h3><p>Where does an American-English advantage appear in training and alignment data?</p></article>
+          <article><span>RQ2</span><h3>Representation</h3><p>Does that advantage persist in tokenization and model prediction cost?</p></article>
+          <article><span>RQ3</span><h3>Generation</h3><p>Does American English emerge as the default in model outputs?</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="method">
+      <div class="section-label">02 / The method</div>
+      <div class="section-body">
+        <h2>A paired comparison across the pipeline</h2>
+        <p>The study builds a curated resource of <strong>1,813 matched American-English and British-English variants</strong>. The pairs support comparable measurements across corpora, tokenizers, model likelihoods, and generated responses.</p>
+        <div class="method-layout">
+          <div>
+            <h3>DIALIGN</h3>
+            <p>DIALIGN is a dynamic, training-free method for estimating regional alignment. It aggregates local distributional evidence from overlapping text spans, including lexical, grammatical, structural, stylistic, and multi-word patterns.</p>
+            <p>On a balanced benchmark of 1,500 news passages, DIALIGN reaches <strong>93.18% accuracy</strong> and <strong>93.38 F1</strong>.</p>
+          </div>
+          <figure class="figure figure-small">
+            <img src="static/figures/dialign-eval.webp" alt="DIALIGN benchmark evaluation summary: 93.18 percent accuracy, 90.67 precision, 96.25 recall, and 93.38 F1, with confidence-margin distributions." width="2160" height="1350" loading="lazy">
+            <figcaption><span>DIALIGN validation</span> Evaluation on balanced American-English and British-English news passages.</figcaption>
+          </figure>
+        </div>
+        <div class="pipeline-steps" aria-label="Three stages of analysis">
+          <div><span>1</span><strong>Data exposure</strong><small>Pretraining corpora and post-training datasets</small></div>
+          <div><span>2</span><strong>Representation</strong><small>Tokenization, provenance, and paired prediction cost</small></div>
+          <div><span>3</span><strong>Generation</strong><small>Neutral English and British-English prompts</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="findings">
+      <div class="section-label">03 / The evidence</div>
+      <div class="section-body">
+        <h2>The preference appears at every stage</h2>
+        <p>Across the analyses, American English is favored in data exposure, generally encoded more compactly, assigned lower prediction cost, and produced more often under neutral English prompting.</p>
+        <div class="finding-list">
+          <article class="finding">
+            <div class="finding-index">01</div>
+            <div><h3>It begins in the data</h3><p>All six audited pretraining corpora and all 21 post-training datasets favor American-English variants. Across the post-training data, 76.17% of 28.86 million matched-variant occurrences are American English.</p></div>
+            <div class="finding-value"><strong>6 / 6</strong><span>corpora favor AmE</span></div>
+          </article>
+          <article class="finding">
+            <div class="finding-index">02</div>
+            <div><h3>It appears in representation</h3><p>American-English forms are generally tokenized more compactly. In paired, semantically matched sentences with equal token counts, all ten evaluated checkpoints assign higher prediction cost to the British-English counterfactual.</p></div>
+            <div class="finding-value"><strong>10 / 10</strong><span>checkpoints show higher BrE cost</span></div>
+          </article>
+          <article class="finding">
+            <div class="finding-index">03</div>
+            <div><h3>It carries into generation</h3><p>Under neutral English prompting, a majority of outputs are classified as American English across the evaluated models and tasks. British-English prompting shifts outputs, but does not consistently remove the preference.</p></div>
+            <div class="finding-value"><strong>AmE</strong><span>dominant neutral-prompt default</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="implications">
+      <div class="section-label">04 / Why it matters</div>
+      <div class="section-body">
+        <h2>Defaults are built into systems</h2>
+        <p>The results point to a pipeline-wide pattern rather than a generation-only quirk. Data composition, tokenizer design and lineage, post-training choices, and evaluation practices can all shape which variety is treated as ordinary.</p>
+        <p>This evidence motivates targeted audits and interventions at each stage, and raises questions about linguistic homogenization, representation, and equitable deployment. The study establishes consistent associations across the evaluated pipeline; it does not claim that any single stage alone causes the downstream preference.</p>
+        <aside class="scope-note"><strong>Scope</strong><p>American and British English provide a controlled comparison with well-documented contrasts. Other English varieties and the communities that use them require direct study rather than inference from this pair.</p></aside>
+      </div>
+    </section>
+
+    <section class="citation-section" id="citation">
+      <div>
+        <div class="section-label">05 / Citation</div>
+        <h2>Paper</h2>
+        <p>How Does “English (US)” Become the Default? Triangulating Structural Bias Towards American English Across the LLM Pipeline. Under review at ICLR 2027.</p>
+      </div>
+      <pre><code>@inproceedings{anonymous2027englishdefault,
+  title  = {How Does ``English (US)'' Become the Default?},
+  author = {Anonymous},
+  note   = {Under review at ICLR 2027},
+  year   = {2027}
+}</code></pre>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span>LLM Structural Bias</span><a href="#top">Back to top ↑</a></footer>
+</body>
+</html>
