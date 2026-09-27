@@ -18,6 +18,7 @@
     <a class="wordmark" href="#top">LLM <span>Structural Bias</span></a>
     <div class="nav-links">
       <a href="#overview">Overview</a>
+      <a href="#contributions">Contributions</a>
       <a href="#method">Method</a>
       <a href="#findings">Findings</a>
       <a href="#implications">Implications</a>
@@ -65,19 +66,19 @@
       <div class="section-label">Overview</div>
       <div class="section-body">
         <h2>Abstract</h2>
-        <p>Large language models often present “English (US)” as a primary English setting, even though English is globally diverse. This study examines how American English (AmE) becomes a default by tracing its relative advantage across training data, model representation, and generated text. A curated set of 1,813 matched AmE–British English (BrE) variants supports the comparison, alongside DIALIGN, a training-free method for estimating regional alignment from distributional evidence.</p>
-        <p>Across six pretraining corpora and 21 post-training datasets, AmE variants are more prevalent. AmE forms are generally tokenized more compactly, while BrE counterfactuals receive higher prediction cost across ten checkpoints under equal-token-count controls. Under neutral English prompts, AmE remains the dominant generation pattern; BrE prompts shift outputs toward BrE without consistently removing the AmE preference. Together, these findings identify regional imbalance at multiple points in the LLM pipeline.</p>
+        <p>How does “English (US)” become a default in large language models? We trace American English (AmE) and British English (BrE) through training data, model representation, and generated language. The study uses 1,813 matched regional variants and introduces DIALIGN, a training-free method for estimating regional alignment from distributional evidence.</p>
+        <p>Across six pretraining corpora and 21 post-training datasets, AmE variants are more prevalent. AmE forms are generally more compactly tokenized, and BrE counterfactuals receive higher prediction cost under equal-token-count controls. Neutral English prompts produce predominantly AmE outputs; BrE prompting shifts the balance but does not consistently remove the AmE preference.</p>
       </div>
     </section>
 
-    <section class="content-section" id="key-points">
-      <div class="section-label">Key points</div>
+    <section class="content-section" id="contributions">
+      <div class="section-label">Contributions</div>
       <div class="section-body">
-        <h2>Three stages, one recurring pattern</h2>
-        <div class="question-grid">
-          <article><span>01 / DATA</span><h3>AmE is more prevalent</h3><p>Every audited pretraining corpus and post-training dataset favors AmE variants.</p></article>
-          <article><span>02 / REPRESENTATION</span><h3>BrE carries higher cost</h3><p>BrE forms are usually less compact in tokenization and have higher measured prediction cost.</p></article>
-          <article><span>03 / GENERATION</span><h3>AmE is the neutral default</h3><p>BrE prompting shifts generated language, but the shift varies across models and settings.</p></article>
+        <h2>What this study adds</h2>
+        <div class="contribution-grid">
+          <article><span>01</span><h3>A pipeline-wide audit</h3><p>Regional preference is measured across data exposure, representation, and generated language.</p></article>
+          <article><span>02</span><h3>A training-free measure</h3><p>DIALIGN estimates regional alignment from local distributional evidence beyond isolated spelling choices.</p></article>
+          <article><span>03</span><h3>A matched variant resource</h3><p>1,813 AmE–BrE pairs support consistent comparisons across the analyses.</p></article>
         </div>
       </div>
     </section>
@@ -97,11 +98,6 @@
             <img src="static/figures/dialign-eval.webp" alt="DIALIGN benchmark evaluation summary: 93.18 percent accuracy, 90.67 precision, 96.25 recall, and 93.38 F1, with confidence-margin distributions." width="2160" height="1350" loading="lazy">
             <figcaption><span>DIALIGN validation</span> Evaluation on balanced American-English and British-English news passages.</figcaption>
           </figure>
-        </div>
-        <div class="pipeline-steps" aria-label="Three stages of analysis">
-          <div><span>1</span><strong>Data exposure</strong><small>Pretraining corpora and post-training datasets</small></div>
-          <div><span>2</span><strong>Representation</strong><small>Tokenization, provenance, and paired prediction cost</small></div>
-          <div><span>3</span><strong>Generation</strong><small>Neutral English and British-English prompts</small></div>
         </div>
         <div class="variant-examples">
           <h3>Examples of regional variation</h3>

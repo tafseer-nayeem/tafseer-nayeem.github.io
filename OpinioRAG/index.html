@@ -41,9 +41,20 @@
     const burgers = Array.from(document.querySelectorAll('.navbar-burger'));
     burgers.forEach(burger => {
       burger.addEventListener('click', () => {
-        const menu = document.querySelector('.navbar-menu');
-        burger.classList.toggle('is-active');
-        menu.classList.toggle('is-active');
+        const menu = document.getElementById(burger.getAttribute('aria-controls'));
+        const isOpen = burger.getAttribute('aria-expanded') === 'true';
+        burger.setAttribute('aria-expanded', String(!isOpen));
+        burger.classList.toggle('is-active', !isOpen);
+        menu.classList.toggle('is-active', !isOpen);
+      });
+    });
+    document.querySelectorAll('.navbar-menu a[href^="#"]').forEach(link => {
+      link.addEventListener('click', () => {
+        const menu = link.closest('.navbar-menu');
+        const burger = document.querySelector('.navbar-burger');
+        menu.classList.remove('is-active');
+        burger.classList.remove('is-active');
+        burger.setAttribute('aria-expanded', 'false');
       });
     });
   });
@@ -54,59 +65,21 @@
 
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+    <a role="button" class="navbar-burger" aria-label="Toggle section navigation" aria-controls="section-navigation" aria-expanded="false">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
-  <div class="navbar-menu">
-    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      
-        
-      <!-- <a class="navbar-item" href="https://keunhong.com">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
-      </a> -->
-      <!-- @PAN TODO: consider adding links? -->
-      <!-- MY COMMENTS START
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
-        </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://chameleon-llm.github.io/">
-            <b>Chameleon</b> <p style="font-size:18px; display: inline; margin-left: 5px;">🔥</p>
-          </a>
-          <a class="navbar-item" href="https://scienceqa.github.io/">
-            <b>ScienceQA</b> <p style="font-size:18px; display: inline; margin-left: 5px;">🔥</p>
-          </a>
-          <a class="navbar-item" href="https://github.com/OpenGVLab/LLaMA-Adapter">
-            <b>LLaMA-Adapter (V2)</b> <p style="font-size:18px; display: inline; margin-left: 5px;">🔥</p>
-          </a>
-          <a class="navbar-item" href="https://promptpg.github.io/">
-            PromptPG
-          </a>
-          <a class="navbar-item" href="https://arxiv.org/abs/2307.10635">
-            SciBench
-          </a>
-          <a class="navbar-item" href="https://arxiv.org/abs/2305.12524">
-            TheoremQA
-          </a>
-          <a class="navbar-item" href="https://lila.apps.allenai.org/">
-            Lila
-          </a>
-          <a class="navbar-item" href="https://iconqa.github.io/">
-            IconQA
-          </a>
-          <a class="navbar-item" href="https://lupantech.github.io/inter-gps/">
-            Inter-GPS
-          </a>
-        </div>
-      </div> MY COMMENTS END -->
+  <div class="navbar-menu" id="section-navigation">
+    <div class="navbar-start section-tabs">
+      <a class="navbar-item" href="#overview">Overview</a>
+      <a class="navbar-item" href="#introduction">Introduction</a>
+      <a class="navbar-item" href="#framework">Framework</a>
+      <a class="navbar-item" href="#dataset">Dataset</a>
+      <a class="navbar-item" href="#verification">Verification</a>
+      <a class="navbar-item" href="#BibTeX">Citation</a>
     </div>
-
   </div>
 </nav>
 
@@ -266,7 +239,7 @@
 </section>
 
 
-<section class="section">
+<section class="section" id="overview">
   <div class="container has-text-centered">
     <figure class="image" style="display:inline-block; max-width: 720px; width: 100%;">
       <img src="./static/images/OpinioRAG-framework.png"
@@ -279,7 +252,7 @@
 </section>
 
 
-<section class="section">
+<section class="section" id="introduction">
   <div class="container" style="margin-bottom: 2vh;">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -297,7 +270,7 @@
   </div>
 </section>
 
-<section class="section">
+<section class="section" id="framework">
   <div class="container" style="margin-bottom: 2vh;">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -318,7 +291,7 @@
   </div>
 </section>
 
-<section class="section">
+<section class="section" id="dataset">
   <div class="container" style="margin-bottom: 2vh;">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -371,7 +344,7 @@
 </section>
 
 
-<section class="section">
+<section class="section" id="verification">
   <div class="container" style="margin-bottom: 2vh;">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">

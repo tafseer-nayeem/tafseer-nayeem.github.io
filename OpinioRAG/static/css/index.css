@@ -2,6 +2,18 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+
+.navbar { position: sticky; top: 0; z-index: 30; box-shadow: 0 1px 0 rgba(30, 45, 60, 0.1); }
+.section-tabs { flex-grow: 1; justify-content: center; }
+.section-tabs .navbar-item { min-height: 3.25rem; padding-inline: 1rem; color: #485568; font-size: 0.9rem; font-weight: 600; }
+.section-tabs .navbar-item:hover, .section-tabs .navbar-item:focus-visible { background: transparent; color: #236b91; }
+section[id] { scroll-margin-top: 4.5rem; }
+
+@media screen and (max-width: 1023px) {
+  .section-tabs .navbar-item { min-height: 2.8rem; padding-inline: 1rem; }
+}
+
 
 .footer .icon-link {
     font-size: 25px;
