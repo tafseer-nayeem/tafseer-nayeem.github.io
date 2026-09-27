@@ -1,0 +1,6 @@
+pandas>=2.0
+numpy>=1.24
+transformers>=4.45
+torch>=2.3
+pyyaml>=6.0
+huggingface_hub>=0.24
