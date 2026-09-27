@@ -17,7 +17,7 @@
   <nav class="site-nav" aria-label="Page sections">
     <a class="wordmark" href="#top">LLM <span>Structural Bias</span></a>
     <div class="nav-links">
-      <a href="#questions">Questions</a>
+      <a href="#overview">Overview</a>
       <a href="#method">Method</a>
       <a href="#findings">Findings</a>
       <a href="#implications">Implications</a>
@@ -26,13 +26,28 @@
   </nav>
 
   <header class="hero" id="top">
-    <div class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> Structural bias in language technology <span class="venue">ICLR 2027 submission</span></div>
+    <div class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> Language variation in large language models</div>
     <h1>How Does “English (US)”<br class="desktop-break"> Become the Default?</h1>
     <p class="subtitle">Triangulating structural bias towards American English across the LLM pipeline</p>
-    <p class="author-note">Anonymous authors · Under double-blind review</p>
-    <div class="hero-actions">
-      <a class="button button-primary" href="45153_How_Does_English_US_Beco.pdf">Read the paper <span aria-hidden="true">↗</span></a>
-      <a class="button button-secondary" href="#findings">Explore the findings <span aria-hidden="true">↓</span></a>
+    <div class="authors">
+      <a href="https://tafseer-nayeem.github.io/">Mir Tafseer Nayeem</a><sup>1</sup>
+      <span aria-hidden="true">,</span>
+      <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Davood Rafiei</a><sup>1</sup>
+    </div>
+    <p class="affiliation"><sup>1</sup> University of Alberta</p>
+    <div class="publication-links" aria-label="Project resources">
+      <a class="project-button" href="45153_How_Does_English_US_Beco.pdf">
+        <svg class="project-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2.75h8l4 4v14.5H6a2 2 0 0 1-2-2v-15a1.5 1.5 0 0 1 2-1.5Zm7 1.8v3.2h3.2M7.5 12h8.8M7.5 15h8.8M7.5 18h5.4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Paper</span>
+      </a>
+      <a class="project-button" href="https://huggingface.co/datasets/tafseer-nayeem/ame-bre-structural-bias" target="_blank" rel="noopener noreferrer">
+        <img class="project-icon project-icon-hf" src="static/images/huggingface-logo.svg" alt="">
+        <span>Dataset</span>
+      </a>
+      <a class="project-button" href="https://github.com/tafseer-nayeem/LLM-structural-bias/" target="_blank" rel="noopener noreferrer">
+        <svg class="project-icon project-icon-github" viewBox="0 0 496 512" aria-hidden="true"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3.7-3.9-1.3-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+        <span>Code</span>
+      </a>
     </div>
     <ul class="stat-strip" aria-label="Study at a glance">
       <li><strong>1,813</strong><span>matched regional variants</span></li>
@@ -46,24 +61,31 @@
   </header>
 
   <main id="main">
-    <section class="content-section intro" id="questions">
-      <div class="section-label">01 / The question</div>
+    <section class="content-section intro" id="overview">
+      <div class="section-label">Overview</div>
       <div class="section-body">
-        <h2>When a model says “English,” which English does it mean?</h2>
-        <p>Widely used AI products often present “English (US)” as a default. This study asks how that preference takes shape inside language models: does it begin in their data, appear in the way they represent language, and carry through to generated text?</p>
-        <p>We use British English as a controlled reference variety and examine American-English preference across the model development pipeline. The comparison makes a familiar regional contrast measurable; it is not a proxy for the full diversity of English worldwide.</p>
+        <h2>Abstract</h2>
+        <p>Large language models often present “English (US)” as a primary English setting, even though English is globally diverse. This study examines how American English (AmE) becomes a default by tracing its relative advantage across training data, model representation, and generated text. A curated set of 1,813 matched AmE–British English (BrE) variants supports the comparison, alongside DIALIGN, a training-free method for estimating regional alignment from distributional evidence.</p>
+        <p>Across six pretraining corpora and 21 post-training datasets, AmE variants are more prevalent. AmE forms are generally tokenized more compactly, while BrE counterfactuals receive higher prediction cost across ten checkpoints under equal-token-count controls. Under neutral English prompts, AmE remains the dominant generation pattern; BrE prompts shift outputs toward BrE without consistently removing the AmE preference. Together, these findings identify regional imbalance at multiple points in the LLM pipeline.</p>
+      </div>
+    </section>
+
+    <section class="content-section" id="key-points">
+      <div class="section-label">Key points</div>
+      <div class="section-body">
+        <h2>Three stages, one recurring pattern</h2>
         <div class="question-grid">
-          <article><span>RQ1</span><h3>Data exposure</h3><p>Where does an American-English advantage appear in training and alignment data?</p></article>
-          <article><span>RQ2</span><h3>Representation</h3><p>Does that advantage persist in tokenization and model prediction cost?</p></article>
-          <article><span>RQ3</span><h3>Generation</h3><p>Does American English emerge as the default in model outputs?</p></article>
+          <article><span>01 / DATA</span><h3>AmE is more prevalent</h3><p>Every audited pretraining corpus and post-training dataset favors AmE variants.</p></article>
+          <article><span>02 / REPRESENTATION</span><h3>BrE carries higher cost</h3><p>BrE forms are usually less compact in tokenization and have higher measured prediction cost.</p></article>
+          <article><span>03 / GENERATION</span><h3>AmE is the neutral default</h3><p>BrE prompting shifts generated language, but the shift varies across models and settings.</p></article>
         </div>
       </div>
     </section>
 
     <section class="content-section" id="method">
-      <div class="section-label">02 / The method</div>
+      <div class="section-label">Method</div>
       <div class="section-body">
-        <h2>A paired comparison across the pipeline</h2>
+        <h2>A paired comparison across the LLM pipeline</h2>
         <p>The study builds a curated resource of <strong>1,813 matched American-English and British-English variants</strong>. The pairs support comparable measurements across corpora, tokenizers, model likelihoods, and generated responses.</p>
         <div class="method-layout">
           <div>
@@ -81,36 +103,45 @@
           <div><span>2</span><strong>Representation</strong><small>Tokenization, provenance, and paired prediction cost</small></div>
           <div><span>3</span><strong>Generation</strong><small>Neutral English and British-English prompts</small></div>
         </div>
-      </div>
-    </section>
-
-    <section class="content-section" id="findings">
-      <div class="section-label">03 / The evidence</div>
-      <div class="section-body">
-        <h2>The preference appears at every stage</h2>
-        <p>Across the analyses, American English is favored in data exposure, generally encoded more compactly, assigned lower prediction cost, and produced more often under neutral English prompting.</p>
-        <div class="finding-list">
-          <article class="finding">
-            <div class="finding-index">01</div>
-            <div><h3>It begins in the data</h3><p>All six audited pretraining corpora and all 21 post-training datasets favor American-English variants. Across the post-training data, 76.17% of 28.86 million matched-variant occurrences are American English.</p></div>
-            <div class="finding-value"><strong>6 / 6</strong><span>corpora favor AmE</span></div>
-          </article>
-          <article class="finding">
-            <div class="finding-index">02</div>
-            <div><h3>It appears in representation</h3><p>American-English forms are generally tokenized more compactly. In paired, semantically matched sentences with equal token counts, all ten evaluated checkpoints assign higher prediction cost to the British-English counterfactual.</p></div>
-            <div class="finding-value"><strong>10 / 10</strong><span>checkpoints show higher BrE cost</span></div>
-          </article>
-          <article class="finding">
-            <div class="finding-index">03</div>
-            <div><h3>It carries into generation</h3><p>Under neutral English prompting, a majority of outputs are classified as American English across the evaluated models and tasks. British-English prompting shifts outputs, but does not consistently remove the preference.</p></div>
-            <div class="finding-value"><strong>AmE</strong><span>dominant neutral-prompt default</span></div>
-          </article>
+        <div class="variant-examples">
+          <h3>Examples from the matched variant resource</h3>
+          <div class="table-wrap">
+            <table class="variant-table">
+              <caption>Illustrative contrasts used to compare regional forms</caption>
+              <thead><tr><th scope="col">Type</th><th scope="col">British English</th><th scope="col">American English</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">Spelling</th><td data-label="British English">colour</td><td data-label="American English">color</td></tr>
+                <tr><th scope="row">Vocabulary</th><td data-label="British English">flat</td><td data-label="American English">apartment</td></tr>
+                <tr><th scope="row">Usage</th><td data-label="British English">I’ve just eaten.</td><td data-label="American English">I just ate.</td></tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </section>
 
+    <section class="content-section" id="findings">
+      <div class="section-label">Findings</div>
+      <div class="section-body">
+        <h2>Evidence across data, representation, and generation</h2>
+        <p>The table summarizes the main empirical result at each stage. Regional preference is measured through different signals at each stage, so the values should be read within their respective analyses.</p>
+        <div class="table-wrap results-table-wrap">
+          <table class="results-table">
+            <caption>Summary of the paper’s main findings</caption>
+            <thead><tr><th scope="col">Stage</th><th scope="col">Coverage</th><th scope="col">Key result</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Data exposure</th><td data-label="Coverage">6 pretraining corpora; 21 post-training datasets</td><td data-label="Key result">All favor AmE. AmE accounts for 76.17% of 28.86 million matched-variant occurrences in the post-training data.</td></tr>
+              <tr><th scope="row">Representation</th><td data-label="Coverage">9 tokenizers; 10 model checkpoints</td><td data-label="Key result">AmE is generally more compactly tokenized. BrE counterfactuals receive higher per-token loss in all 10 checkpoints under equal-token-count controls.</td></tr>
+              <tr><th scope="row">Generation</th><td data-label="Coverage">10 models; Natural Questions and ELI5</td><td data-label="Key result">AmE is the majority under neutral English prompts. British-English prompting moves outputs toward BrE, with effects that vary by model and register.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="table-note">The matched-pair design supports a consistent cross-stage comparison. These findings establish a recurring association; they do not isolate the causal contribution of each stage.</p>
+      </div>
+    </section>
+
     <section class="content-section" id="implications">
-      <div class="section-label">04 / Why it matters</div>
+      <div class="section-label">Implications</div>
       <div class="section-body">
         <h2>Defaults are built into systems</h2>
         <p>The results point to a pipeline-wide pattern rather than a generation-only quirk. Data composition, tokenizer design and lineage, post-training choices, and evaluation practices can all shape which variety is treated as ordinary.</p>
@@ -121,15 +152,14 @@
 
     <section class="citation-section" id="citation">
       <div>
-        <div class="section-label">05 / Citation</div>
+        <div class="section-label">Paper</div>
         <h2>Paper</h2>
-        <p>How Does “English (US)” Become the Default? Triangulating Structural Bias Towards American English Across the LLM Pipeline. Under review at ICLR 2027.</p>
+        <p>How Does “English (US)” Become the Default? Triangulating Structural Bias Towards American English Across the LLM Pipeline.</p>
       </div>
-      <pre><code>@inproceedings{anonymous2027englishdefault,
-  title  = {How Does ``English (US)'' Become the Default?},
-  author = {Anonymous},
-  note   = {Under review at ICLR 2027},
-  year   = {2027}
+      <pre><code>@misc{nayeem2026englishdefault,
+  title = {How Does ``English (US)'' Become the Default?},
+  author = {Nayeem, Mir Tafseer and Rafiei, Davood},
+  year = {2026}
 }</code></pre>
     </section>
   </main>
