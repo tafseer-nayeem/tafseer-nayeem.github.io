@@ -60,10 +60,10 @@ a:hover { color: var(--blue-dark); }
 h1, h2, h3, p, figure { margin-top: 0; }
 .hero h1 { max-width: 850px; margin: 1.05rem auto 0.7rem; font-size: clamp(2.3rem, 5.2vw, 4.1rem); line-height: 1.1; font-weight: 760; letter-spacing: 0; }
 .subtitle { max-width: 750px; margin: 0 auto 0.85rem; color: #445363; font-size: clamp(1.15rem, 2vw, 1.48rem); line-height: 1.45; }
-.authors { display: flex; align-items: baseline; justify-content: center; gap: 0.22rem; margin: 1.15rem 0 0.2rem; font-size: 1rem; font-weight: 670; }
+.authors { margin: 1.15rem 0 0.2rem; text-align: center; font-size: 1rem; font-weight: 670; }
 .authors a { color: var(--blue-dark); text-decoration: none; }
 .authors a:hover { text-decoration: underline; }
-.authors sup, .affiliation sup { color: var(--teal); font-size: 0.7em; font-weight: 720; }
+.authors sup, .affiliation sup { color: var(--teal); font-size: 0.7em; font-weight: 720; line-height: 0; vertical-align: super; }
 .affiliation { margin-bottom: 1.05rem; color: var(--muted); font-size: 0.87rem; }
 .publication-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.55rem; margin: 0.5rem 0 1.6rem; }
 .project-button { display: inline-flex; min-height: 40px; align-items: center; justify-content: center; gap: 0.5rem; padding: 0.48rem 0.85rem; border: 1px solid #343a40; border-radius: 999px; background: #343a40; color: #fff; font-size: 0.86rem; font-weight: 680; text-decoration: none; transition: background-color 140ms ease, border-color 140ms ease, transform 140ms ease; }
@@ -130,7 +130,7 @@ main { padding-top: 1rem; }
   .eyebrow { flex-wrap: wrap; row-gap: 0.45rem; font-size: 0.67rem; }
   .hero h1 { font-size: clamp(2.1rem, 9vw, 3.2rem); }
   .desktop-break { display: none; }
-  .authors { flex-wrap: wrap; font-size: 0.93rem; }
+  .authors { font-size: 0.93rem; }
   .affiliation { margin-bottom: 0.8rem; }
   .publication-links { gap: 0.45rem; margin-bottom: 1.3rem; }
   .project-button { min-height: 39px; padding-inline: 0.7rem; font-size: 0.82rem; }
