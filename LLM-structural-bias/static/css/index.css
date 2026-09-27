@@ -56,8 +56,8 @@ a:hover { color: var(--blue-dark); }
 .hero, main, .site-footer { width: min(var(--max), calc(100% - 48px)); margin-inline: auto; }
 .hero { padding: clamp(3.25rem, 8vw, 5rem) 0 0; text-align: center; }
 h1, h2, h3, p, figure { margin-top: 0; }
-.hero h1 { max-width: 850px; margin: 0 auto 0.7rem; font-size: clamp(2.3rem, 5.2vw, 4.1rem); line-height: 1.1; font-weight: 760; letter-spacing: 0; }
-.subtitle { max-width: 750px; margin: 0 auto 0.85rem; color: #445363; font-size: clamp(1.15rem, 2vw, 1.48rem); line-height: 1.45; }
+.hero h1 { max-width: 850px; margin: 0 auto 0.7rem; font-size: clamp(2rem, 4vw, 3.4rem); line-height: 1.14; font-weight: 760; letter-spacing: 0; }
+.subtitle { max-width: 750px; margin: 0 auto 0.85rem; color: #445363; font-size: clamp(1.05rem, 1.6vw, 1.25rem); line-height: 1.5; }
 .authors { margin: 1.15rem 0 0.2rem; text-align: center; font-size: 1rem; font-weight: 670; }
 .authors a { color: var(--blue-dark); text-decoration: none; }
 .authors a:hover { text-decoration: underline; }
@@ -125,7 +125,7 @@ main { padding-top: 1rem; }
   .nav-links a { min-height: 38px; flex: 0 0 auto; padding-inline: 0.55rem; font-size: 0.78rem; }
   .hero, main, .site-footer { width: calc(100% - 36px); }
   .hero { padding-top: 2.6rem; }
-  .hero h1 { font-size: clamp(2.1rem, 9vw, 3.2rem); }
+  .hero h1 { font-size: clamp(1.8rem, 7.5vw, 2.7rem); }
   .desktop-break { display: none; }
   .authors { font-size: 0.93rem; }
   .affiliation { margin-bottom: 0.8rem; }
