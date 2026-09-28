@@ -129,6 +129,7 @@ exclude:
   - OpinioRAG/Backups
   - OpinioRAG/README.md
   - NameTrace/*.pdf
+  - CineSubBench/_ICLR_*.pdf
   - package.json
   - tmp
   - vendor

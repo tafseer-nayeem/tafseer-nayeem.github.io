@@ -1,6 +1,7 @@
 _site/
 .DS_Store
 NameTrace/*.pdf
+CineSubBench/_ICLR_*.pdf
 .sass-cache/
 .jekyll-cache/
 .bundle/

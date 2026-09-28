@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CineSubBench evaluates long-form narrative understanding, cultural prediction, and evidence-grounded safety across 1,012 films and six subtitle languages.">
+  <meta name="theme-color" content="#f5f7f8">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="CineSubBench | Multilingual Movie Subtitle Benchmark">
+  <meta property="og:description" content="One film set, seven tasks, six subtitle languages, and ten national rating systems.">
+  <meta property="og:image" content="https://tafseer-nayeem.github.io/CineSubBench/static/figures/overview.webp">
+  <title>CineSubBench | Multilingual Movie Subtitle Benchmark</title>
+  <link rel="canonical" href="https://tafseer-nayeem.github.io/CineSubBench/">
+  <link rel="icon" type="image/png" href="../images/site-logo.png">
+  <link rel="stylesheet" href="static/css/index.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="site-nav" aria-label="Page sections">
+    <a class="wordmark" href="#top">Cine<span>SubBench</span></a>
+    <div class="nav-links">
+      <a href="#overview">Overview</a>
+      <a href="#leaderboard">Leaderboard</a>
+      <a href="#benchmark">Benchmark</a>
+      <a href="#findings">Findings</a>
+      <a href="#data">Data</a>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <p class="project-label">Long-form film understanding from subtitles</p>
+    <h1>CineSubBench</h1>
+    <p class="subtitle">Evaluating LLMs on long-form narrative and cultural understanding from multilingual movie subtitles</p>
+    <p class="authors">
+      <a href="https://tafseer-nayeem.github.io/">Mir Tafseer Nayeem<sup>1</sup></a><span class="author-comma">,</span>
+      <span class="author-name">Susmoy Chakraborty<sup>2</sup></span><span class="author-comma">,</span>
+      <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Davood Rafiei<sup>1</sup></a>
+    </p>
+    <p class="affiliation"><sup>1</sup> University of Alberta &nbsp; <sup>2</sup> Independent Researcher</p>
+    <div class="publication-links" aria-label="Project resources">
+      <a class="project-button" href="CineSubBench-paper.pdf" target="_blank" rel="noopener noreferrer">
+        <svg class="project-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2.75h8l4 4v14.5H6a2 2 0 0 1-2-2v-15a1.5 1.5 0 0 1 2-1.5Zm7 1.8v3.2h3.2M7.5 12h8.8M7.5 15h8.8M7.5 18h5.4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Paper</span>
+      </a>
+      <a class="project-button" href="https://github.com/tafseer-nayeem/CineSubBench" target="_blank" rel="noopener noreferrer">
+        <svg class="project-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.56.1.76-.24.76-.54v-2.08c-3.1.67-3.76-1.32-3.76-1.32-.51-1.3-1.24-1.65-1.24-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 .1.77 2.13 3.24 1.51.1-.73.4-1.23.7-1.51-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.21 1.16-2.99-.12-.28-.5-1.42.11-2.96 0 0 .95-.3 3.06 1.14a10.6 10.6 0 0 1 5.57 0c2.12-1.44 3.06-1.14 3.06-1.14.61 1.54.23 2.68.11 2.96.72.78 1.16 1.77 1.16 2.99 0 4.29-2.62 5.23-5.11 5.51.4.35.75 1.03.75 2.08v3.09c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/></svg>
+        <span>Code</span>
+      </a>
+      <a class="project-button" href="https://huggingface.co/datasets/tafseer-nayeem/CineSubBench" target="_blank" rel="noopener noreferrer">
+        <img class="project-icon project-icon-hf" src="static/images/huggingface-logo.svg" alt="">
+        <span>Dataset</span>
+      </a>
+    </div>
+    <ul class="stat-strip" aria-label="Benchmark at a glance">
+      <li><strong>1,012</strong><span>films with matched tasks</span></li>
+      <li><strong>6</strong><span>subtitle languages</span></li>
+      <li><strong>10</strong><span>national rating systems</span></li>
+    </ul>
+    <figure class="figure figure-overview">
+      <img src="static/figures/overview.webp" alt="CineSubBench overview: 1,012 films with six parallel subtitle languages are evaluated on narrative generation, genre, age suitability, national ratings, and subtitle-grounded safety." width="1600" height="1050" fetchpriority="high">
+      <figcaption><span>Benchmark overview</span> The same films connect long-form subtitle input to narrative, cultural, and evidence-grounded tasks.</figcaption>
+    </figure>
+  </header>
+
+  <main id="main">
+    <section class="content-section" id="overview">
+      <div class="section-label">Overview</div>
+      <div class="section-body">
+        <h2>A shared test of story, culture, and evidence</h2>
+        <p>Movie subtitles are long, ordered records of dialogue, but they do not explicitly identify speakers, scenes, or events. CineSubBench uses this demanding subtitle-only input to ask whether a model can reconstruct a story, make culturally situated predictions, and point to the lines behind a safety judgment.</p>
+        <p>The benchmark holds the film set constant across <strong>seven tasks</strong>, <strong>six languages</strong>, and <strong>ten national rating systems</strong>. Its 1,012 films provide 6,072 subtitle tracks and 8.13 million timestamped entries. This matched design makes task and language differences easier to examine without changing the underlying films.</p>
+        <div class="takeaway"><strong>Core finding</strong><p>A strong overall score does not guarantee complete plot reconstruction, reliable cross-language behavior, culturally calibrated ratings, or correctly categorized subtitle evidence.</p></div>
+      </div>
+    </section>
+
+    <section class="content-section" id="leaderboard">
+      <div class="section-label">Leaderboard</div>
+      <div class="section-body">
+        <h2>Performance across nine evaluated models</h2>
+        <p>The paper's composite ranking combines distinct capabilities. Use the task columns to see where models differ; a medal marks the original composite rank, even when a column is sorted.</p>
+        <div class="leaderboard-wrap" role="region" aria-label="CineSubBench model leaderboard" tabindex="0">
+          <table class="leaderboard" id="model-leaderboard">
+            <caption>All-language benchmark results from Table 1 of the paper</caption>
+            <thead><tr>
+              <th scope="col" class="rank-col"><button type="button" data-sort="rank" aria-label="Sort by paper rank">Rank</button></th>
+              <th scope="col" class="model-col"><button type="button" data-sort="model">Model</button></th>
+              <th scope="col" aria-sort="descending"><button type="button" data-sort="composite">Composite <small>/ 100</small><span class="sort-indicator" aria-hidden="true"> &#9660;</span></button></th>
+              <th scope="col"><button type="button" data-sort="narrative">Narrative <small>/ 5</small></button></th>
+              <th scope="col"><button type="button" data-sort="synopsis">Synopsis <small>/ 5</small></button></th>
+              <th scope="col"><button type="button" data-sort="genre">Genre <small>F1 %</small></button></th>
+              <th scope="col"><button type="button" data-sort="age">Age <small>&plusmn;1 year %</small></button></th>
+              <th scope="col"><button type="button" data-sort="country">Country <small>exact %</small></button></th>
+              <th scope="col"><button type="button" data-sort="safety">Safety evidence <small>strict F1 %</small></button></th>
+            </tr></thead>
+            <tbody>
+              <tr data-rank="1"><td><span class="medal gold" aria-label="First place">1</span></td><th scope="row">Gemini 3.8 Flash</th><td class="score">78.04</td><td>3.54</td><td>3.34</td><td>84.93</td><td>81.42</td><td>77.87</td><td>77.8</td></tr>
+              <tr data-rank="2"><td><span class="medal silver" aria-label="Second place">2</span></td><th scope="row">GPT-5.6 Sol</th><td class="score">74.70</td><td>3.52</td><td>3.40</td><td>81.55</td><td>78.75</td><td>65.42</td><td>74.5</td></tr>
+              <tr data-rank="3"><td><span class="medal bronze" aria-label="Third place">3</span></td><th scope="row">DeepSeek V4 Pro 1.6T</th><td class="score">65.52</td><td>3.25</td><td>2.93</td><td>81.63</td><td>79.33</td><td>58.03</td><td>48.3</td></tr>
+              <tr data-rank="4"><td><span class="rank-number">4</span></td><th scope="row">Gemini 3.5 Flash Lite</th><td class="score">64.70</td><td>3.25</td><td>2.91</td><td>80.92</td><td>72.17</td><td>64.65</td><td>42.8</td></tr>
+              <tr data-rank="5"><td><span class="rank-number">5</span></td><th scope="row">Claude Haiku 4.5</th><td class="score">57.50</td><td>2.91</td><td>2.44</td><td>71.45</td><td>72.75</td><td>54.32</td><td>37.2</td></tr>
+              <tr data-rank="6"><td><span class="rank-number">6</span></td><th scope="row">Qwen3 235B</th><td class="score">53.09</td><td>2.80</td><td>2.30</td><td>68.28</td><td>59.25</td><td>47.88</td><td>29.6</td></tr>
+              <tr data-rank="7"><td><span class="rank-number">7</span></td><th scope="row">Mistral 4 119B</th><td class="score">50.67</td><td>2.44</td><td>2.00</td><td>66.83</td><td>54.50</td><td>47.37</td><td>31.7</td></tr>
+              <tr data-rank="8"><td><span class="rank-number">8</span></td><th scope="row">GPT-5 Nano</th><td class="score">46.67</td><td>2.50</td><td>1.90</td><td>72.43</td><td>60.75</td><td>43.87</td><td>9.6</td></tr>
+              <tr data-rank="9"><td><span class="rank-number">9</span></td><th scope="row">Llama 4 Scout 17B</th><td class="score">41.58</td><td>2.03</td><td>1.67</td><td>66.92</td><td>50.25</td><td>34.12</td><td>12.7</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="table-note">Narrative, genre, age, and country results average the six language settings. Safety evidence is evaluated on English subtitles only. Scores use different scales and are not interchangeable; see the paper for metric definitions and the composite formula.</p>
+      </div>
+    </section>
+
+    <section class="content-section" id="benchmark">
+      <div class="section-label">Benchmark</div>
+      <div class="section-body">
+        <h2>Seven tasks over the same films</h2>
+        <div class="method-grid task-grid">
+          <article><span>Narrative</span><h3>Plot, synopsis, key message</h3><p>Recover the premise, event sequence, and central theme from a long subtitle track.</p></article>
+          <article><span>Classification</span><h3>Multi-label genre</h3><p>Identify the film's genres using the subtitle sequence rather than metadata or video.</p></article>
+          <article><span>Audience guidance</span><h3>Age suitability and country ratings</h3><p>Estimate an appropriate viewing age and ratings in ten distinct national systems.</p></article>
+          <article><span>Grounding</span><h3>Language safety</h3><p>Count safety-relevant language and cite the exact subtitle entries that support each category.</p></article>
+        </div>
+        <p class="language-line"><strong>Subtitle languages:</strong> English, Arabic, Indonesian, Persian, Romanian, and Vietnamese.</p>
+        <p class="language-line"><strong>Rating systems:</strong> Australia, Brazil, France, Germany, Netherlands, Singapore, South Korea, Sweden, United Kingdom, and United States.</p>
+      </div>
+    </section>
+
+    <section class="content-section" id="findings">
+      <div class="section-label">Findings</div>
+      <div class="section-body">
+        <h2>What the benchmark reveals</h2>
+        <h3 class="finding-subhead">RQ1: Does one rank capture every capability?</h3>
+        <p>No. Gemini 3.8 Flash leads the composite score at 78.04, while GPT-5.6 Sol has the best synopsis score (3.40/5). DeepSeek V4 Pro is third overall, yet slightly exceeds Sol on genre F1 and age accuracy within one year. The leaderboard is a starting point, not a substitute for task-level evaluation.</p>
+
+        <h3 class="finding-subhead">RQ2: Does understanding transfer across subtitle languages?</h3>
+        <p>For all nine models, the five non-English languages have lower average narrative scores than English in point estimate. Persian is the lowest narrative setting for every evaluated model. Models recover the plot premise more reliably than a full event-complete synopsis; the paper's evaluator annotations flag a missing major event in 79.7% of synopses and an invented one in 71.1%.</p>
+        <figure class="figure figure-result figure-language">
+          <img src="static/figures/languages.webp" alt="Heatmaps of narrative scores across six subtitle languages. Persian is the lowest overall narrative setting for each of the nine models; plot scores are higher than synopsis scores." width="850" height="850" loading="lazy">
+          <figcaption><span>Language robustness</span> The same films produce different narrative performance when the subtitle language changes.</figcaption>
+        </figure>
+
+        <h3 class="finding-subhead">RQ3: Are age and country ratings calibrated?</h3>
+        <p>Near-match age accuracy can hide different directions of error. In the ten national systems, raw accuracy must be compared with each country's label distribution: France has 31.6% mean model exact match against a 72.0% majority baseline, while Brazil shows meaningful gains over a much lower baseline.</p>
+        <figure class="figure figure-result figure-wide">
+          <div class="figure-scroll" tabindex="0" aria-label="Age and country ratings chart; scroll horizontally on narrow screens">
+            <img src="static/figures/ratings.webp" alt="Age prediction errors vary in magnitude and direction across models. Country-rating exact-match heatmap shows sharp differences among ten national systems and their majority baselines." width="1630" height="1240" loading="lazy">
+          </div>
+          <figcaption><span>Cultural calibration</span> Similar age accuracy can mask opposing errors; country-rating results need local baselines.</figcaption>
+        </figure>
+
+        <h3 class="finding-subhead">RQ4: Can safety judgments cite the right evidence?</h3>
+        <p>Finding a relevant subtitle line and assigning it the correct safety category are different abilities. The leading model reaches 86.8% category-agnostic evidence F1 but 77.8% strict F1. Strong profanity is much easier to ground than mild obscenity, exposing a failure mode hidden by a single safety score.</p>
+        <figure class="figure figure-result figure-wide">
+          <div class="figure-scroll" tabindex="0" aria-label="Language safety chart; scroll horizontally on narrow screens">
+            <img src="static/figures/safety.webp" alt="Language-safety chart comparing category-agnostic and strict subtitle evidence F1 across nine models, plus evidence precision and recall for four lexical categories." width="1630" height="630" loading="lazy">
+          </div>
+          <figcaption><span>Evidence grounding</span> Correct lines are not always assigned the correct category; mild obscenity remains particularly difficult.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="content-section" id="data">
+      <div class="section-label">Data</div>
+      <div class="section-body">
+        <h2>Matched coverage, with explicit limits</h2>
+        <p>The dataset brings together film metadata, audience-guidance labels, and subtitle tracks. Construction filters check timing, coverage, encoding, language, and content, followed by manual quality review. A typical subtitle input is roughly 40,000 to 45,000 prompt tokens; some exceed 100,000.</p>
+        <aside class="care-note"><p><strong>Scope.</strong> This is a subtitle-only benchmark, not a test of visual or audio understanding. Translation quality and subtitle coverage can affect language comparisons; six languages and ten rating systems do not represent all audiences. Language-safety evidence is evaluated only in English. Familiar films may also be known to a model despite withholding titles and other identifiers from standard prompts.</p></aside>
+        <div class="resource-links">
+          <a class="project-button" href="https://github.com/tafseer-nayeem/CineSubBench" target="_blank" rel="noopener noreferrer">Code on GitHub</a>
+          <a class="project-button" href="https://huggingface.co/datasets/tafseer-nayeem/CineSubBench" target="_blank" rel="noopener noreferrer">Dataset on Hugging Face</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span>CineSubBench</span><a href="#top">Back to top</a></footer>
+  <script src="static/js/leaderboard.js" defer></script>
+</body>
+</html>
