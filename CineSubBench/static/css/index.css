@@ -168,9 +168,11 @@ main { padding-top: 1rem; }
 .leaderboard tbody td:first-child { text-align: center; }
 .leaderboard tbody .score { color: var(--blue-dark); font-weight: 780; }
 .medal, .rank-number { display: inline-grid; width: 25px; height: 25px; place-items: center; border-radius: 50%; font-size: 0.73rem; font-weight: 800; }
-.gold { background: #f9e8aa; color: #745106; box-shadow: inset 0 0 0 1px #e7c45d; }
-.silver { background: #e4eaed; color: #4a5c69; box-shadow: inset 0 0 0 1px #b5c4cb; }
-.bronze { background: #f5ddca; color: #815033; box-shadow: inset 0 0 0 1px #d5a47d; }
+.medal { position: relative; isolation: isolate; }
+.medal::before { position: absolute; z-index: -1; top: -7px; left: 5px; width: 15px; height: 12px; background: #45687a; clip-path: polygon(0 0, 100% 0, 78% 100%, 50% 70%, 22% 100%); content: ""; }
+.gold { background: #f9e8aa; color: #745106; box-shadow: inset 0 0 0 2px #d9ad36, 0 1px 2px rgba(42, 50, 58, 0.15); }
+.silver { background: #e4eaed; color: #4a5c69; box-shadow: inset 0 0 0 2px #aab9c2, 0 1px 2px rgba(42, 50, 58, 0.15); }
+.bronze { background: #f5ddca; color: #815033; box-shadow: inset 0 0 0 2px #c78d64, 0 1px 2px rgba(42, 50, 58, 0.15); }
 .rank-number { color: var(--muted); font-weight: 650; }
 .sort-indicator { color: var(--teal); }
 .leaderboard-wrap:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
