@@ -76,7 +76,7 @@ main { padding-top: 1rem; }
 .figure-tokenizers { margin: 1rem 0 1.2rem; }
 .figure-scroll { overflow-x: auto; border: 1px solid var(--rule); border-radius: 5px; background: #fff; overscroll-behavior-inline: contain; }
 .figure-scroll img { display: block; width: 100%; min-width: 760px; height: auto; }
-.figure-results { max-width: 520px; margin: 1.25rem auto 1.5rem; }
+.figure-results { max-width: 390px; margin: 1.25rem auto 1.5rem; }
 .figure-results img { border: 1px solid var(--rule); border-radius: 5px; background: #fff; }
 .figure-transfer { margin-top: 1.5rem; padding: 0.6rem; border: 1px solid var(--rule); border-radius: 5px; background: #fff; }
 .finding-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.7rem; margin-top: 1.4rem; }
@@ -118,7 +118,6 @@ main { padding-top: 1rem; }
   .table-wrap th, .table-wrap td { padding: 0.38rem 0; border-top: 0; }
   .table-wrap tbody th[scope="row"] { padding-bottom: 0.35rem; border-bottom: 1px solid #e5eaee; color: var(--blue-dark); }
   .table-wrap td::before { display: block; margin-bottom: 0.08rem; color: var(--muted); content: attr(data-label); font-size: 0.66rem; font-weight: 730; text-transform: uppercase; }
-  .figure-results { max-width: 440px; }
   .figure-transfer { padding: 0.35rem; }
   figcaption { display: block; font-size: 0.75rem; }
   figcaption span { display: block; margin-bottom: 0.15rem; }
