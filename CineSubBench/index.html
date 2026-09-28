@@ -80,34 +80,45 @@
       <div class="section-body">
         <h2>Performance across nine evaluated models</h2>
         <p>The paper's composite ranking combines distinct capabilities. Use the task columns to see where models differ; a medal marks the original composite rank, even when a column is sorted.</p>
+        <div class="view-switch" role="group" aria-label="Leaderboard columns">
+          <button type="button" data-view="summary" aria-pressed="true">Summary</button>
+          <button type="button" data-view="all" aria-pressed="false">All metrics</button>
+        </div>
         <div class="leaderboard-wrap" role="region" aria-label="CineSubBench model leaderboard" tabindex="0">
-          <table class="leaderboard" id="model-leaderboard">
-            <caption>All-language benchmark results from Table 1 of the paper</caption>
+          <table class="leaderboard" id="model-leaderboard" data-view="summary">
+            <caption>Model results from Table 1 of the paper</caption>
             <thead><tr>
               <th scope="col" class="rank-col"><button type="button" data-sort="rank" aria-label="Sort by paper rank">Rank</button></th>
               <th scope="col" class="model-col"><button type="button" data-sort="model">Model</button></th>
+              <th scope="col" class="detail-col" hidden><button type="button" data-sort="family">Family</button></th>
               <th scope="col" aria-sort="descending"><button type="button" data-sort="composite">Composite <small>/ 100</small><span class="sort-indicator" aria-hidden="true"> &#9660;</span></button></th>
-              <th scope="col"><button type="button" data-sort="narrative">Narrative <small>/ 5</small></button></th>
+              <th scope="col" class="detail-col" hidden><button type="button" data-sort="plot">Plot <small>/ 5</small></button></th>
               <th scope="col"><button type="button" data-sort="synopsis">Synopsis <small>/ 5</small></button></th>
+              <th scope="col" class="detail-col" hidden><button type="button" data-sort="key-message">Key message <small>/ 5</small></button></th>
+              <th scope="col"><button type="button" data-sort="narrative">Narrative <small>/ 5</small></button></th>
               <th scope="col"><button type="button" data-sort="genre">Genre <small>F1 %</small></button></th>
+              <th scope="col" class="detail-col" hidden><button type="button" data-sort="age-exact">Age exact <small>%</small></button></th>
               <th scope="col"><button type="button" data-sort="age">Age <small>&plusmn;1 year %</small></button></th>
+              <th scope="col" class="detail-col" hidden><button type="button" data-sort="age-mae">Age MAE <small>years &darr;</small></button></th>
               <th scope="col"><button type="button" data-sort="country">Country <small>exact %</small></button></th>
+              <th scope="col" class="detail-col" hidden><button type="button" data-sort="country-mae">Country MAE <small>&darr;</small></button></th>
+              <th scope="col" class="detail-col" hidden><button type="button" data-sort="safety-agnostic">Safety evidence <small>agnostic F1 %</small></button></th>
               <th scope="col"><button type="button" data-sort="safety">Safety evidence <small>strict F1 %</small></button></th>
             </tr></thead>
             <tbody>
-              <tr data-rank="1"><td><span class="medal gold" aria-label="First place">1</span></td><th scope="row">Gemini 3.8 Flash</th><td class="score">78.04</td><td>3.54</td><td>3.34</td><td>84.93</td><td>81.42</td><td>77.87</td><td>77.8</td></tr>
-              <tr data-rank="2"><td><span class="medal silver" aria-label="Second place">2</span></td><th scope="row">GPT-5.6 Sol</th><td class="score">74.70</td><td>3.52</td><td>3.40</td><td>81.55</td><td>78.75</td><td>65.42</td><td>74.5</td></tr>
-              <tr data-rank="3"><td><span class="medal bronze" aria-label="Third place">3</span></td><th scope="row">DeepSeek V4 Pro 1.6T</th><td class="score">65.52</td><td>3.25</td><td>2.93</td><td>81.63</td><td>79.33</td><td>58.03</td><td>48.3</td></tr>
-              <tr data-rank="4"><td><span class="rank-number">4</span></td><th scope="row">Gemini 3.5 Flash Lite</th><td class="score">64.70</td><td>3.25</td><td>2.91</td><td>80.92</td><td>72.17</td><td>64.65</td><td>42.8</td></tr>
-              <tr data-rank="5"><td><span class="rank-number">5</span></td><th scope="row">Claude Haiku 4.5</th><td class="score">57.50</td><td>2.91</td><td>2.44</td><td>71.45</td><td>72.75</td><td>54.32</td><td>37.2</td></tr>
-              <tr data-rank="6"><td><span class="rank-number">6</span></td><th scope="row">Qwen3 235B</th><td class="score">53.09</td><td>2.80</td><td>2.30</td><td>68.28</td><td>59.25</td><td>47.88</td><td>29.6</td></tr>
-              <tr data-rank="7"><td><span class="rank-number">7</span></td><th scope="row">Mistral 4 119B</th><td class="score">50.67</td><td>2.44</td><td>2.00</td><td>66.83</td><td>54.50</td><td>47.37</td><td>31.7</td></tr>
-              <tr data-rank="8"><td><span class="rank-number">8</span></td><th scope="row">GPT-5 Nano</th><td class="score">46.67</td><td>2.50</td><td>1.90</td><td>72.43</td><td>60.75</td><td>43.87</td><td>9.6</td></tr>
-              <tr data-rank="9"><td><span class="rank-number">9</span></td><th scope="row">Llama 4 Scout 17B</th><td class="score">41.58</td><td>2.03</td><td>1.67</td><td>66.92</td><td>50.25</td><td>34.12</td><td>12.7</td></tr>
+              <tr data-rank="1"><td><span class="medal gold" aria-label="First place">1</span></td><th scope="row">Gemini 3.8 Flash</th><td class="detail-col" hidden>Closed frontier</td><td class="score">78.04</td><td class="detail-col" hidden>4.16</td><td>3.34</td><td class="detail-col" hidden>3.11</td><td>3.54</td><td>84.93</td><td class="detail-col" hidden>34.25</td><td>81.42</td><td class="detail-col" hidden>0.93</td><td>77.87</td><td class="detail-col" hidden>0.31</td><td class="detail-col" hidden>86.8</td><td>77.8</td></tr>
+              <tr data-rank="2"><td><span class="medal silver" aria-label="Second place">2</span></td><th scope="row">GPT-5.6 Sol</th><td class="detail-col" hidden>Closed frontier</td><td class="score">74.70</td><td class="detail-col" hidden>4.10</td><td>3.40</td><td class="detail-col" hidden>3.08</td><td>3.52</td><td>81.55</td><td class="detail-col" hidden>31.08</td><td>78.75</td><td class="detail-col" hidden>0.98</td><td>65.42</td><td class="detail-col" hidden>0.44</td><td class="detail-col" hidden>81.7</td><td>74.5</td></tr>
+              <tr data-rank="3"><td><span class="medal bronze" aria-label="Third place">3</span></td><th scope="row">DeepSeek V4 Pro 1.6T</th><td class="detail-col" hidden>Open-weight</td><td class="score">65.52</td><td class="detail-col" hidden>3.91</td><td>2.93</td><td class="detail-col" hidden>2.90</td><td>3.25</td><td>81.63</td><td class="detail-col" hidden>30.67</td><td>79.33</td><td class="detail-col" hidden>0.98</td><td>58.03</td><td class="detail-col" hidden>0.52</td><td class="detail-col" hidden>57.5</td><td>48.3</td></tr>
+              <tr data-rank="4"><td><span class="rank-number">4</span></td><th scope="row">Gemini 3.5 Flash Lite</th><td class="detail-col" hidden>Closed baseline</td><td class="score">64.70</td><td class="detail-col" hidden>3.83</td><td>2.91</td><td class="detail-col" hidden>2.99</td><td>3.25</td><td>80.92</td><td class="detail-col" hidden>31.83</td><td>72.17</td><td class="detail-col" hidden>1.09</td><td>64.65</td><td class="detail-col" hidden>0.46</td><td class="detail-col" hidden>65.3</td><td>42.8</td></tr>
+              <tr data-rank="5"><td><span class="rank-number">5</span></td><th scope="row">Claude Haiku 4.5</th><td class="detail-col" hidden>Closed frontier</td><td class="score">57.50</td><td class="detail-col" hidden>3.45</td><td>2.44</td><td class="detail-col" hidden>2.84</td><td>2.91</td><td>71.45</td><td class="detail-col" hidden>27.42</td><td>72.75</td><td class="detail-col" hidden>1.16</td><td>54.32</td><td class="detail-col" hidden>0.57</td><td class="detail-col" hidden>58.1</td><td>37.2</td></tr>
+              <tr data-rank="6"><td><span class="rank-number">6</span></td><th scope="row">Qwen3 235B</th><td class="detail-col" hidden>Open-weight</td><td class="score">53.09</td><td class="detail-col" hidden>3.36</td><td>2.30</td><td class="detail-col" hidden>2.76</td><td>2.80</td><td>68.28</td><td class="detail-col" hidden>22.00</td><td>59.25</td><td class="detail-col" hidden>1.47</td><td>47.88</td><td class="detail-col" hidden>0.64</td><td class="detail-col" hidden>45.0</td><td>29.6</td></tr>
+              <tr data-rank="7"><td><span class="rank-number">7</span></td><th scope="row">Mistral 4 119B</th><td class="detail-col" hidden>Open-weight</td><td class="score">50.67</td><td class="detail-col" hidden>2.80</td><td>2.00</td><td class="detail-col" hidden>2.52</td><td>2.44</td><td>66.83</td><td class="detail-col" hidden>19.42</td><td>54.50</td><td class="detail-col" hidden>1.78</td><td>47.37</td><td class="detail-col" hidden>0.68</td><td class="detail-col" hidden>49.6</td><td>31.7</td></tr>
+              <tr data-rank="8"><td><span class="rank-number">8</span></td><th scope="row">GPT-5 Nano</th><td class="detail-col" hidden>Closed baseline</td><td class="score">46.67</td><td class="detail-col" hidden>2.97</td><td>1.90</td><td class="detail-col" hidden>2.64</td><td>2.50</td><td>72.43</td><td class="detail-col" hidden>20.67</td><td>60.75</td><td class="detail-col" hidden>1.56</td><td>43.87</td><td class="detail-col" hidden>0.76</td><td class="detail-col" hidden>21.7</td><td>9.6</td></tr>
+              <tr data-rank="9"><td><span class="rank-number">9</span></td><th scope="row">Llama 4 Scout 17B</th><td class="detail-col" hidden>Open-weight</td><td class="score">41.58</td><td class="detail-col" hidden>2.21</td><td>1.67</td><td class="detail-col" hidden>2.20</td><td>2.03</td><td>66.92</td><td class="detail-col" hidden>18.58</td><td>50.25</td><td class="detail-col" hidden>1.93</td><td>34.12</td><td class="detail-col" hidden>0.93</td><td class="detail-col" hidden>28.4</td><td>12.7</td></tr>
             </tbody>
           </table>
         </div>
-        <p class="table-note">Narrative, genre, age, and country results average the six language settings. Safety evidence is evaluated on English subtitles only. Scores use different scales and are not interchangeable; see the paper for metric definitions and the composite formula.</p>
+        <p class="table-note">Narrative, genre, age, and country results average the six language settings. Safety evidence uses English subtitles only. The composite equally weights normalized narrative, genre, cultural, and strict safety scores; the cultural component combines normalized age MAE and country exact match. Lower MAE is better. See the paper for metric definitions.</p>
       </div>
     </section>
 
@@ -116,13 +127,17 @@
       <div class="section-body">
         <h2>Seven tasks over the same films</h2>
         <div class="method-grid task-grid">
-          <article><span>Narrative</span><h3>Plot, synopsis, key message</h3><p>Recover the premise, event sequence, and central theme from a long subtitle track.</p></article>
+          <article><span>Narrative</span><h3>Plot, synopsis, key message</h3><p>Recover the premise, spoiler-aware narrative arc, and central theme from a long subtitle track.</p></article>
           <article><span>Classification</span><h3>Multi-label genre</h3><p>Identify the film's genres using the subtitle sequence rather than metadata or video.</p></article>
-          <article><span>Audience guidance</span><h3>Age suitability and country ratings</h3><p>Estimate an appropriate viewing age and ratings in ten distinct national systems.</p></article>
-          <article><span>Grounding</span><h3>Language safety</h3><p>Count safety-relevant language and cite the exact subtitle entries that support each category.</p></article>
+          <article><span>Audience guidance</span><h3>Age suitability and country ratings</h3><p>Predict the Common Sense Media minimum recommended age separately from formal ratings in ten national systems.</p></article>
+          <article><span>Grounding</span><h3>Language safety</h3><p>Count four lexical categories and cite the exact English subtitle entries supporting each judgment.</p></article>
         </div>
         <p class="language-line"><strong>Subtitle languages:</strong> English, Arabic, Indonesian, Persian, Romanian, and Vietnamese.</p>
         <p class="language-line"><strong>Rating systems:</strong> Australia, Brazil, France, Germany, Netherlands, Singapore, South Korea, Sweden, United Kingdom, and United States.</p>
+        <p class="language-line"><strong>Safety categories:</strong> strong profanity, crude bodily language, mild obscenity, and religious profanity or exclamation.</p>
+        <h3 class="subsection-heading">Evaluation protocol</h3>
+        <p>Each film is evaluated through the same six subtitle-language conditions. Narrative outputs are written in English, regardless of input language. Plot, synopsis, and key message receive reference-based 1-5 scores from a common LLM judge (GPT-5.6 Luna) using task-specific rubrics; these are not human ratings. In a 50-film independent-judge audit, 56.8% of paired scores matched exactly and 98.4% were within one point.</p>
+        <p>Genre uses micro-F1; age suitability uses exact match, accuracy within one year, and MAE; national ratings use exact match and ordinal MAE within each country's label space. Safety evidence uses F1 both with and without requiring the correct lexical category.</p>
       </div>
     </section>
 
@@ -134,7 +149,7 @@
         <p>No. Gemini 3.8 Flash leads the composite score at 78.04, while GPT-5.6 Sol has the best synopsis score (3.40/5). DeepSeek V4 Pro is third overall, yet slightly exceeds Sol on genre F1 and age accuracy within one year. The leaderboard is a starting point, not a substitute for task-level evaluation.</p>
 
         <h3 class="finding-subhead">RQ2: Does understanding transfer across subtitle languages?</h3>
-        <p>For all nine models, the five non-English languages have lower average narrative scores than English in point estimate. Persian is the lowest narrative setting for every evaluated model. Models recover the plot premise more reliably than a full event-complete synopsis; the paper's evaluator annotations flag a missing major event in 79.7% of synopses and an invented one in 71.1%.</p>
+        <p>For all nine models, the mean across the five non-English settings is below English on narrative performance in point estimate; the smallest paired differences are not clearly separated from zero. Persian is the lowest narrative setting for every evaluated model. Models recover the plot premise more reliably than a full event-complete synopsis. The LLM judge's diagnostic tags mark a missing major event in 79.7% of judged synopses and an invented one in 71.1%; these are not independent human annotations.</p>
         <figure class="figure figure-result figure-language">
           <img src="static/figures/languages.webp" alt="Heatmaps of narrative scores across six subtitle languages. Persian is the lowest overall narrative setting for each of the nine models; plot scores are higher than synopsis scores." width="850" height="870" loading="lazy">
           <figcaption><span>Language robustness</span> The same films produce different narrative performance when the subtitle language changes.</figcaption>
@@ -146,6 +161,15 @@
           <img src="static/figures/ratings.webp" alt="Age prediction errors vary in magnitude and direction across models. Country-rating exact-match heatmap shows sharp differences among ten national systems and their majority baselines." width="1630" height="1240" loading="lazy">
           <figcaption><span>Cultural calibration</span> Similar age accuracy can mask opposing errors; country-rating results need local baselines.</figcaption>
         </figure>
+        <div class="case-study">
+          <h4>Illustrative case: <em>The Master</em> (2012)</h4>
+          <p>For one film and one model (GPT-5.6 Sol), changing only the subtitle input from English to Vietnamese changes four national-rating predictions from mismatches to matches and corrects the age prediction.</p>
+          <div class="case-compare" aria-label="The Master, English and Vietnamese subtitle results">
+            <div><span>English subtitles</span><strong>2 / 10</strong><small>country ratings matched; age 18+</small></div>
+            <div><span>Vietnamese subtitles</span><strong>6 / 10</strong><small>country ratings matched; age 17+</small></div>
+          </div>
+          <p class="case-note">The reference age is 17+. This selected example illustrates a possible language effect; it does not estimate how often Vietnamese improves results.</p>
+        </div>
 
         <h3 class="finding-subhead">RQ4: Can safety judgments cite the right evidence?</h3>
         <p>Finding a relevant subtitle line and assigning it the correct safety category are different abilities. The leading model reaches 86.8% category-agnostic evidence F1 but 77.8% strict F1. Strong profanity is much easier to ground than mild obscenity, exposing a failure mode hidden by a single safety score.</p>
@@ -160,8 +184,10 @@
       <div class="section-label">Data</div>
       <div class="section-body">
         <h2>Matched coverage, with explicit limits</h2>
-        <p>The dataset brings together film metadata, audience-guidance labels, and subtitle tracks. Construction filters check timing, coverage, encoding, language, and content, followed by manual quality review. A typical subtitle input is roughly 40,000 to 45,000 prompt tokens; some exceed 100,000.</p>
-        <aside class="care-note"><p><strong>Scope.</strong> This is a subtitle-only benchmark, not a test of visual or audio understanding. Translation quality and subtitle coverage can affect language comparisons; six languages and ten rating systems do not represent all audiences. Language-safety evidence is evaluated only in English. Familiar films may also be known to a model despite withholding titles and other identifiers from standard prompts.</p></aside>
+        <p>The dataset joins IMDb metadata and national ratings, Common Sense Media age guidance, Kids-in-Mind language-content metadata, and subtitles from OpenSubtitles with SubDL recovery. Construction checks timing, coverage, encoding, language, and content, followed by manual review. A typical subtitle input is roughly 40,000 to 45,000 prompt tokens; some exceed 100,000.</p>
+        <h3 class="subsection-heading">Prior film knowledge matters</h3>
+        <p>Titles, years, cast, and reference answers are withheld from standard inputs, but models may still recognize familiar films. In a separate 50-film probe, title/year-only narrative scores stayed close to subtitle-only scores for several models, and genre F1 was 2.5 to 11.0 percentage points higher for all five tested models. These probes limit how much performance can be attributed solely to reading the subtitles.</p>
+        <aside class="care-note"><p><strong>Scope and use.</strong> This is a subtitle-only benchmark, not a test of visual or audio understanding. Translation and subtitle coverage affect language comparisons; the matched film set is not representative of global cinema. Safety evidence is English-only. The paper intends non-commercial research and benchmarking, subject to source-provider redistribution requirements. Country ratings should remain tied to their national systems, and safety judgments call for human review rather than automated censorship.</p></aside>
         <div class="resource-links">
           <a class="project-button" href="https://github.com/tafseer-nayeem/CineSubBench" target="_blank" rel="noopener noreferrer">Code on GitHub</a>
           <a class="project-button" href="https://huggingface.co/datasets/tafseer-nayeem/CineSubBench" target="_blank" rel="noopener noreferrer">Dataset on Hugging Face</a>
