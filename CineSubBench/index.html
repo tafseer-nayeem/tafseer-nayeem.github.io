@@ -57,7 +57,9 @@
       <li><strong>10</strong><span>national rating systems</span></li>
     </ul>
     <figure class="figure figure-overview">
-      <img src="static/figures/overview.webp" alt="CineSubBench overview: 1,012 films with six parallel subtitle languages are evaluated on narrative generation, genre, age suitability, national ratings, and subtitle-grounded safety." width="1600" height="1050" fetchpriority="high">
+      <a class="figure-link" href="static/figures/overview.webp" target="_blank" rel="noopener noreferrer" aria-label="Open the full-size CineSubBench overview figure">
+        <img src="static/figures/overview.webp" alt="CineSubBench overview: 1,012 films with six parallel subtitle languages are evaluated on narrative generation, genre, age suitability, national ratings, and subtitle-grounded safety." width="1600" height="1050" fetchpriority="high">
+      </a>
       <figcaption><span>Benchmark overview</span> The same films connect long-form subtitle input to narrative, cultural, and evidence-grounded tasks.</figcaption>
     </figure>
   </header>
@@ -134,25 +136,21 @@
         <h3 class="finding-subhead">RQ2: Does understanding transfer across subtitle languages?</h3>
         <p>For all nine models, the five non-English languages have lower average narrative scores than English in point estimate. Persian is the lowest narrative setting for every evaluated model. Models recover the plot premise more reliably than a full event-complete synopsis; the paper's evaluator annotations flag a missing major event in 79.7% of synopses and an invented one in 71.1%.</p>
         <figure class="figure figure-result figure-language">
-          <img src="static/figures/languages.webp" alt="Heatmaps of narrative scores across six subtitle languages. Persian is the lowest overall narrative setting for each of the nine models; plot scores are higher than synopsis scores." width="850" height="850" loading="lazy">
+          <img src="static/figures/languages.webp" alt="Heatmaps of narrative scores across six subtitle languages. Persian is the lowest overall narrative setting for each of the nine models; plot scores are higher than synopsis scores." width="850" height="870" loading="lazy">
           <figcaption><span>Language robustness</span> The same films produce different narrative performance when the subtitle language changes.</figcaption>
         </figure>
 
         <h3 class="finding-subhead">RQ3: Are age and country ratings calibrated?</h3>
         <p>Near-match age accuracy can hide different directions of error. In the ten national systems, raw accuracy must be compared with each country's label distribution: France has 31.6% mean model exact match against a 72.0% majority baseline, while Brazil shows meaningful gains over a much lower baseline.</p>
         <figure class="figure figure-result figure-wide">
-          <div class="figure-scroll" tabindex="0" aria-label="Age and country ratings chart; scroll horizontally on narrow screens">
-            <img src="static/figures/ratings.webp" alt="Age prediction errors vary in magnitude and direction across models. Country-rating exact-match heatmap shows sharp differences among ten national systems and their majority baselines." width="1630" height="1240" loading="lazy">
-          </div>
+          <img src="static/figures/ratings.webp" alt="Age prediction errors vary in magnitude and direction across models. Country-rating exact-match heatmap shows sharp differences among ten national systems and their majority baselines." width="1630" height="1240" loading="lazy">
           <figcaption><span>Cultural calibration</span> Similar age accuracy can mask opposing errors; country-rating results need local baselines.</figcaption>
         </figure>
 
         <h3 class="finding-subhead">RQ4: Can safety judgments cite the right evidence?</h3>
         <p>Finding a relevant subtitle line and assigning it the correct safety category are different abilities. The leading model reaches 86.8% category-agnostic evidence F1 but 77.8% strict F1. Strong profanity is much easier to ground than mild obscenity, exposing a failure mode hidden by a single safety score.</p>
         <figure class="figure figure-result figure-wide">
-          <div class="figure-scroll" tabindex="0" aria-label="Language safety chart; scroll horizontally on narrow screens">
-            <img src="static/figures/safety.webp" alt="Language-safety chart comparing category-agnostic and strict subtitle evidence F1 across nine models, plus evidence precision and recall for four lexical categories." width="1630" height="630" loading="lazy">
-          </div>
+          <img src="static/figures/safety.webp" alt="Language-safety chart comparing category-agnostic and strict subtitle evidence F1 across nine models, plus evidence precision and recall for four lexical categories." width="1630" height="630" loading="lazy">
           <figcaption><span>Evidence grounding</span> Correct lines are not always assigned the correct category; mild obscenity remains particularly difficult.</figcaption>
         </figure>
       </div>
