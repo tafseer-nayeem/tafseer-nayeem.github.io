@@ -3,7 +3,7 @@
   --ink: #202935;
   --muted: #5d6874;
   --rule: #d9e0e5;
-  --paper: #f5f7f8;
+  --paper: #fff;
   --surface: #fff;
   --blue: #236b91;
   --blue-dark: #174d6b;
@@ -18,7 +18,7 @@ a { color: var(--blue); text-underline-offset: 0.18em; }
 a:hover { color: var(--blue-dark); }
 .skip-link { position: absolute; top: -4rem; left: 1rem; z-index: 5; padding: 0.5rem 0.8rem; background: var(--surface); color: var(--ink); }
 .skip-link:focus { top: 1rem; }
-.site-nav { position: sticky; top: 0; z-index: 3; display: flex; align-items: center; justify-content: space-between; gap: 1.2rem; min-height: 58px; padding: 0.6rem max(24px, calc((100vw - var(--max)) / 2)); border-bottom: 1px solid rgba(217, 224, 229, 0.9); background: rgba(245, 247, 248, 0.96); backdrop-filter: blur(10px); }
+.site-nav { position: sticky; top: 0; z-index: 3; display: flex; align-items: center; justify-content: space-between; gap: 1.2rem; min-height: 58px; padding: 0.6rem max(24px, calc((100vw - var(--max)) / 2)); border-bottom: 1px solid rgba(217, 224, 229, 0.9); background: rgba(248, 250, 251, 0.96); backdrop-filter: blur(10px); }
 .wordmark { color: var(--ink); font-size: 0.92rem; font-weight: 760; text-decoration: none; white-space: nowrap; }
 .wordmark span { color: var(--muted); font-weight: 540; }
 .nav-links { display: flex; align-items: center; gap: 0.15rem; }
@@ -158,6 +158,13 @@ main { padding-top: 1rem; }
 .view-switch button + button { border-left: 1px solid #cbd9df; }
 .view-switch button[aria-pressed="true"] { background: #e5f0f3; color: var(--blue-dark); }
 .view-switch button:hover, .view-switch button:focus-visible { color: var(--blue-dark); outline-color: var(--blue); }
+.model-icon-defs { position: absolute; width: 0; height: 0; overflow: hidden; }
+.model-key { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; margin: 0.65rem 0 -0.5rem; color: var(--muted); font-size: 0.77rem; }
+.model-key span { display: inline-flex; align-items: center; gap: 0.3rem; }
+.model-access { display: inline-block; width: 15px; height: 15px; margin-left: 0.15rem; vertical-align: -0.17em; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+.model-key .model-access { margin-left: 0; }
+.model-access.open { color: #207674; }
+.model-access.closed { color: #637381; }
 .leaderboard-wrap { overflow-x: auto; max-width: 100%; margin: 1.1rem 0 0.4rem; border: 1px solid var(--rule); border-radius: 6px; background: #fff; box-shadow: 0 5px 16px rgba(32, 45, 62, 0.05); }
 .leaderboard { width: 100%; min-width: 790px; border-collapse: separate; border-spacing: 0; font-variant-numeric: tabular-nums; }
 .leaderboard[data-view="all"] { min-width: 1550px; }
