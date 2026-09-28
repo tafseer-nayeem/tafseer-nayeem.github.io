@@ -64,6 +64,7 @@ main { padding-top: 1rem; }
 .method-note, .care-note { margin-top: 1rem; padding: 0.85rem 1rem; border-left: 3px solid var(--teal); background: #edf3f3; }
 .method-note strong, .care-note strong { font-size: 0.87rem; }
 .method-note p, .care-note p { margin: 0.25rem 0 0; color: #435160; font-size: 0.88rem; }
+.care-note p { margin-top: 0; }
 .table-wrap { overflow-x: auto; margin-top: 1.2rem; border: 1px solid var(--rule); border-radius: 5px; background: #fff; }
 .table-wrap table { width: 100%; border-collapse: collapse; text-align: left; }
 .table-wrap caption { padding: 0.8rem 0.9rem 0.55rem; color: var(--muted); font-size: 0.78rem; text-align: left; }
