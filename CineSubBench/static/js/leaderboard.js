@@ -7,6 +7,38 @@ if (table) {
   let activeSort = 'composite';
   let descending = true;
 
+  const chart = document.querySelector('#composite-chart');
+  if (chart) {
+    const list = chart.querySelector('.score-chart-list');
+    [...body.rows].sort((a, b) => Number(a.dataset.rank) - Number(b.dataset.rank)).forEach((row) => {
+      const score = row.querySelector('.score').textContent.trim();
+      const item = document.createElement('li');
+      item.className = 'score-chart-row';
+
+      const model = document.createElement('span');
+      model.className = 'score-chart-model';
+      model.append(row.querySelector('.model-logo').cloneNode(true));
+      const name = document.createElement('span');
+      name.textContent = row.querySelector('th[scope="row"]').textContent.trim();
+      model.append(name);
+
+      const track = document.createElement('span');
+      track.className = 'score-chart-track';
+      track.setAttribute('aria-hidden', 'true');
+      const bar = document.createElement('span');
+      bar.className = 'score-chart-bar';
+      bar.style.width = `${score}%`;
+      track.append(bar);
+
+      const value = document.createElement('strong');
+      value.className = 'score-chart-value';
+      value.textContent = score;
+      item.append(model, track, value);
+      list.append(item);
+    });
+    chart.hidden = false;
+  }
+
   function sortBy(header, direction) {
     const button = header.querySelector('button');
     const sort = button.dataset.sort;
