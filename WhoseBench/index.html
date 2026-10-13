@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="WhoseBench introduces a user-centric framework for auditing the assumptions in evaluation resources, with evidence from 16 text and image-text benchmarks.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Whose Data, Whose Benchmark?">
+  <meta property="og:description" content="A user-centric framework for auditing evaluation resources.">
+  <meta property="og:image" content="https://tafseer-nayeem.github.io/WhoseBench/static/figures/conventions.webp">
+  <title>Whose Data, Whose Benchmark? | WhoseBench</title>
+  <link rel="canonical" href="https://tafseer-nayeem.github.io/WhoseBench/">
+  <link rel="icon" type="image/png" href="../images/site-logo.png">
+  <link rel="stylesheet" href="static/css/index.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="site-nav" aria-label="Page sections">
+    <a class="wordmark" href="#top">Whose<span>Bench</span></a>
+    <div class="nav-links">
+      <a href="#overview">Overview</a>
+      <a href="#framework">Framework</a>
+      <a href="#conventions">Conventions</a>
+      <a href="#geography">Geography</a>
+      <a href="#documentation">Documentation</a>
+      <a href="#checklist">Checklist</a>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <p class="project-label">Auditing evaluation resources</p>
+    <h1>Whose Data, Whose Benchmark?</h1>
+    <p class="subtitle">A user-centric framework for auditing evaluation resources</p>
+    <p class="authors"><a href="https://tafseer-nayeem.github.io/">Mir Tafseer Nayeem</a><span aria-hidden="true">,</span> <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Davood Rafiei</a></p>
+    <p class="affiliation">University of Alberta</p>
+    <div class="publication-links" aria-label="Project resources">
+      <span class="project-button pending" title="The arXiv link will be added when available">
+        <svg class="project-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2.75h8l4 4v14.5H6a2 2 0 0 1-2-2v-15a1.5 1.5 0 0 1 2-1.5Zm7 1.8v3.2h3.2M7.5 12h8.8M7.5 15h8.8M7.5 18h5.4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Paper <small>arXiv link pending</small>
+      </span>
+      <a class="project-button" href="https://github.com/tafseer-nayeem/WhoseBench" target="_blank" rel="noopener noreferrer">
+        <svg class="project-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.56.1.76-.24.76-.54v-2.08c-3.1.67-3.76-1.32-3.76-1.32-.51-1.3-1.24-1.65-1.24-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 .1.77 2.13 3.24 1.51.1-.73.4-1.23.7-1.51-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.21 1.16-2.99-.12-.28-.5-1.42.11-2.96 0 0 .95-.3 3.06 1.14a10.6 10.6 0 0 1 5.57 0c2.12-1.44 3.06-1.14 3.06-1.14.61 1.54.23 2.68.11 2.96.72.78 1.16 1.77 1.16 2.99 0 4.29-2.62 5.23-5.11 5.51.4.35.75 1.03.75 2.08v3.09c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/></svg>
+        Code
+      </a>
+    </div>
+    <ul class="stat-strip" aria-label="Study at a glance">
+      <li><strong>16</strong><span>evaluation resources audited</span></li>
+      <li><strong>7</strong><span>user-centric audit dimensions</span></li>
+      <li><strong>3</strong><span>complementary empirical audits</span></li>
+    </ul>
+    <div class="concept-flow" aria-label="Source users contribute content and judgments to an evaluation resource; target users are those its scores are intended to inform">
+      <div><span>Source users</span><strong>Whose content and judgments?</strong><small>Contributors · annotators · source communities</small></div>
+      <div class="flow-center"><span>Evaluation resource</span><strong>Data · references · scoring</strong></div>
+      <div><span>Target users</span><strong>Whose needs do scores represent?</strong><small>People · settings · evaluation claims</small></div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="content-section" id="overview">
+      <div class="section-label">Overview</div>
+      <div class="section-body">
+        <h2>Auditing the benchmark before the model</h2>
+        <p>Benchmark scores depend on choices about language, geography, reference answers, and scoring rules. WhoseBench distinguishes <strong>source users</strong>, whose content and judgments shape a resource, from <strong>target users</strong>, whose needs and contexts its results are intended to inform.</p>
+        <p>The study audits 11 text benchmarks and five image-text resources. Its three empirical analyses connect conventions in benchmark content, country visibility in textual metadata, and the user assumptions made inspectable by public documentation.</p>
+        <div class="contribution-grid">
+          <article><span>01 / Framework</span><h3>Seven audit dimensions</h3><p>A reusable taxonomy turns questions about users into evidence that can be measured or inspected.</p></article>
+          <article><span>02 / Evidence</span><h3>Three complementary audits</h3><p>Content, scoring, geography, and documentation are examined across 16 resources.</p></article>
+          <article><span>03 / Practice</span><h3>A reporting checklist</h3><p>Six documentation fields help creators state the scope and assumptions of evaluation claims.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="framework">
+      <div class="section-label">Framework</div>
+      <div class="section-body">
+        <h2>Seven dimensions of a user-centric audit</h2>
+        <p>The framework links what a resource contains, where its content comes from, how answers are scored, and which user contexts its scores are meant to represent.</p>
+        <div class="table-wrap">
+          <table>
+            <caption>Adapted from the paper's audit taxonomy (Table 1).</caption>
+            <thead><tr><th scope="col">Dimension</th><th scope="col">What the audit asks</th><th scope="col">Evidence examined</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Linguistic and locale conventions</th><td>Which forms are treated as default?</td><td>Spelling, dates, time, and units</td></tr>
+              <tr><th scope="row">Geographic visibility</th><td>Which countries are visible?</td><td>Country references in captions and metadata</td></tr>
+              <tr><th scope="row">Socioeconomic structure</th><td>What relates to country visibility?</td><td>GDP, population, Internet use, tourism</td></tr>
+              <tr><th scope="row">Source-user context</th><td>Where does content originate?</td><td>Platforms, institutions, provenance fields</td></tr>
+              <tr><th scope="row">Target-user assumptions</th><td>Whose settings can scores inform?</td><td>Intended users, settings, evaluation claims</td></tr>
+              <tr><th scope="row">Annotator visibility</th><td>Whose judgments define labels?</td><td>Expertise, locale, recruitment, protocols</td></tr>
+              <tr><th scope="row">Evaluation normalization</th><td>Are valid alternatives accepted?</td><td>Scoring rules and paired answer tests</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="conventions">
+      <div class="section-label">RQ1 · Text</div>
+      <div class="section-body">
+        <h2>Whose conventions count?</h2>
+        <p>Across 11 text benchmarks, American-centered forms account for <strong>62.4% to 94.4%</strong> of matched spelling, date, time, and measurement signals. This is a share <em>among detected signals</em>; it is not the share of all benchmark items. The paper separately reports signal coverage, which ranges from 5.97% of WinoGrande items to 78.08% of DROP items.</p>
+        <figure class="paper-figure">
+          <a href="static/figures/conventions.webp" target="_blank" rel="noopener noreferrer" aria-label="Open the convention distribution figure at full resolution"><img src="static/figures/conventions.webp" alt="Stacked bars for 11 text benchmarks comparing American-centered and other user-valid spelling, date, time, and unit signals. American-centered shares range from 62.4 to 94.4 percent." width="1308" height="687" fetchpriority="high"></a>
+          <figcaption><strong>Convention profiles.</strong> Color encodes the four convention classes; the right columns show aggregate shares. From Figure 1 of the paper.</figcaption>
+        </figure>
+        <p>Excluding spelling leaves an American-centered majority in eight of the 11 resources. This shows that the pattern is not limited to orthography, while ARC-Challenge, MedQA, and MMLU-Pro have different non-spelling profiles.</p>
+        <details class="data-details">
+          <summary>Benchmark-level coverage and non-spelling results <span>11 resources</span></summary>
+          <div class="table-wrap compact-table">
+            <table>
+              <caption>Convention coverage and American-centered share without spelling, from Table 2.</caption>
+            <thead><tr><th scope="col">Benchmark</th><th scope="col">Items with a signal</th><th scope="col">American-centered share, excluding spelling</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">MMLU</th><td>26.60%</td><td>66.9%</td></tr>
+              <tr><th scope="row">GSM8K</th><td>25.40%</td><td>83.3%</td></tr>
+              <tr><th scope="row">HellaSwag</th><td>38.11%</td><td>71.2%</td></tr>
+              <tr><th scope="row">DROP</th><td>78.08%</td><td>72.3%</td></tr>
+              <tr><th scope="row">WinoGrande</th><td>5.97%</td><td>77.2%</td></tr>
+              <tr><th scope="row">ARC-Challenge</th><td>18.73%</td><td>22.5%</td></tr>
+              <tr><th scope="row">BoolQ</th><td>44.92%</td><td>68.9%</td></tr>
+              <tr><th scope="row">MMLU-Pro</th><td>37.80%</td><td>47.3%</td></tr>
+              <tr><th scope="row">TruthfulQA</th><td>7.59%</td><td>90.5%</td></tr>
+              <tr><th scope="row">MedQA</th><td>65.85%</td><td>44.3%</td></tr>
+              <tr><th scope="row">SVAMP</th><td>9.30%</td><td>80.0%</td></tr>
+            </tbody>
+            </table>
+          </div>
+        </details>
+        <h3>Do equivalent answers receive equal credit?</h3>
+        <p>Paired tests compare reference-consistent answers with meaning-preserving spelling, date, or time variants under the same scoring rules. The largest change occurs in DROP exact match; TruthfulQA's reference-ranking measures behave differently.</p>
+        <div class="table-wrap compact-table">
+          <table>
+            <caption>Scorer sensitivity from Table 3. Values are percentages except ROUGE-1 similarity, which is on a 0–100 scale.</caption>
+            <thead><tr><th scope="col">Benchmark</th><th scope="col">Measure</th><th scope="col">Original</th><th scope="col">Variant</th><th scope="col">Change</th><th scope="col">95% CI for change</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">DROP</th><td>Exact match</td><td>100.0</td><td>33.3</td><td>−66.7</td><td>[−92.3, −36.4]</td></tr>
+              <tr><th scope="row">DROP</th><td>Token F1</td><td>100.0</td><td>77.2</td><td>−22.8</td><td>[−41.6, −5.2]</td></tr>
+              <tr><th scope="row">TruthfulQA</th><td>BLEU correctness</td><td>97.0</td><td>97.0</td><td>0.0</td><td>[0.0, 0.0]</td></tr>
+              <tr><th scope="row">TruthfulQA</th><td>ROUGE-1 correctness</td><td>97.0</td><td>97.0</td><td>0.0</td><td>[0.0, 0.0]</td></tr>
+              <tr><th scope="row">TruthfulQA</th><td>ROUGE-2 correctness</td><td>100.0</td><td>93.9</td><td>−6.1</td><td>[−16.1, 0.0]</td></tr>
+              <tr><th scope="row">TruthfulQA</th><td>ROUGE-1 similarity</td><td>100.0</td><td>88.9</td><td>−11.1</td><td>[−13.5, −9.0]</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="table-note">Confidence intervals use question-clustered bootstrap resampling. These tests measure scorer sensitivity to valid answer expression, not model accuracy.</p>
+      </div>
+    </section>
+
+    <section class="content-section" id="geography">
+      <div class="section-label">RQ2 · Geography</div>
+      <div class="section-body">
+        <h2>Which places become visible?</h2>
+        <p>The study identifies explicit country references in captions and associated text from DataComp1B, WIT English, RedCaps, CC12M, and COYO-700M. Among records assigned uniquely to a country, the United States leads four resources; Iceland leads CC12M. The top three countries account for <strong>26.8% to 37.6%</strong> of resolved assignments.</p>
+        <figure class="paper-figure">
+          <a href="static/figures/geography.webp" target="_blank" rel="noopener noreferrer" aria-label="Open the country visibility figure at full resolution"><img src="static/figures/geography.webp" alt="Five small bar charts show the top country references in DataComp1B, WIT English, RedCaps, CC12M, and COYO-700M. The US leads four; Iceland leads CC12M." width="1347" height="447" loading="lazy"></a>
+          <figcaption><strong>Caption geography.</strong> Shares describe resolved textual country references, not where images were taken. From Figure 2.</figcaption>
+        </figure>
+        <p>Country visibility is strongly associated with national GDP share across the five resources (mean Pearson <em>r</em> = 0.780; mean Spearman <em>ρ</em> = 0.778). In a separate balanced WIT comparison, the US share falls from 20.0% for English to 8.5% for non-English text, while GDP associations persist.</p>
+        <figure class="paper-figure">
+          <a href="static/figures/gdp-association.webp" target="_blank" rel="noopener noreferrer" aria-label="Open the GDP association figure at full resolution"><img src="static/figures/gdp-association.webp" alt="Five scatter plots compare country visibility with GDP share. Each resource shows a positive association; Spearman correlations range from 0.74 to 0.82." width="1347" height="354" loading="lazy"></a>
+          <figcaption><strong>Economic association.</strong> The relationship is descriptive, not causal. From Figure 3.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="content-section" id="documentation">
+      <div class="section-label">RQ3 · Documentation</div>
+      <div class="section-body">
+        <h2>Are intended users documented?</h2>
+        <p>Two annotators assessed public papers, dataset cards, and repositories for all 16 resources. Each criterion was scored as absent (0), explicitly mentioned (1), or operationalized through inspectable evidence (2). All 16 resources operationalize source-user context, but <strong>none operationalize target-user context</strong>.</p>
+        <div class="table-wrap compact-table">
+          <table>
+            <caption>Documentation audit across 16 resources (Table 5).</caption>
+            <thead><tr><th scope="col">Criterion</th><th scope="col">Mean / 2</th><th scope="col">Mentioned</th><th scope="col">Operationalized</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Source-user context</th><td>2.00</td><td>100.0%</td><td>100.0%</td></tr>
+              <tr><th scope="row">Target-user / evaluation context</th><td>1.00</td><td>100.0%</td><td>0.0%</td></tr>
+              <tr><th scope="row">Annotator visibility</th><td>0.56</td><td>56.2%</td><td>0.0%</td></tr>
+              <tr><th scope="row">Locale assumptions</th><td>0.31</td><td>25.0%</td><td>6.2%</td></tr>
+              <tr><th scope="row">Evaluation normalization</th><td>1.44</td><td>75.0%</td><td>68.8%</td></tr>
+              <tr><th scope="row">Source / geographic metadata</th><td>0.69</td><td>37.5%</td><td>31.2%</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="table-note">“Mentioned” includes criteria scored 1 or 2; “operationalized” includes those scored 2.</p>
+      </div>
+    </section>
+
+    <section class="content-section" id="checklist">
+      <div class="section-label">Checklist</div>
+      <div class="section-body">
+        <h2>Six questions for benchmark documentation</h2>
+        <p>The paper translates the audit into a minimal reporting checklist that benchmark creators can apply and benchmark users can inspect.</p>
+        <ol class="checklist">
+          <li><strong>Source users</strong><span>Who produced the content, and through which platform, institution, task, or collection process?</span></li>
+          <li><strong>Target users</strong><span>Which people, settings, or evaluation claims is the benchmark intended to represent?</span></li>
+          <li><strong>Annotators</strong><span>Who provided labels or references, and what is known about their expertise, locale, recruitment, compensation, and quality control?</span></li>
+          <li><strong>Locale conventions</strong><span>Which spelling, date, time, unit, numeric, or language-variety conventions appear?</span></li>
+          <li><strong>Scoring</strong><span>How are valid alternative answers and locale-specific equivalents normalized?</span></li>
+          <li><strong>Audit metadata</strong><span>Which source URLs, domains, language tags, and geographic fields can be inspected?</span></li>
+        </ol>
+        <p class="scope-note"><strong>Reading the evidence.</strong> The convention detector covers selected observable forms, country visibility is based on explicit textual references, and the documentation scores describe released materials. These measurements help define what the audited resources support.</p>
+        <div class="resource-links"><a class="project-button" href="https://github.com/tafseer-nayeem/WhoseBench" target="_blank" rel="noopener noreferrer">Code and audit artifacts</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><span>WhoseBench · University of Alberta</span><a href="#top">Back to top ↑</a></footer>
+</body>
+</html>
