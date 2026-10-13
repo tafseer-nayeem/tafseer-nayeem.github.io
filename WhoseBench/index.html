@@ -76,18 +76,18 @@
       <div class="section-body">
         <h2>Seven dimensions of a user-centric audit</h2>
         <p>The framework links what a resource contains, where its content comes from, how answers are scored, and which user contexts its scores are meant to represent.</p>
-        <div class="table-wrap">
+        <div class="table-wrap framework-table">
           <table>
             <caption>Adapted from the paper's audit taxonomy (Table 1).</caption>
-            <thead><tr><th scope="col">Dimension</th><th scope="col">What the audit asks</th><th scope="col">Evidence examined</th></tr></thead>
+            <thead><tr><th scope="col">Dimension</th><th scope="col">What the audit asks</th><th scope="col">Illustrative evidence</th></tr></thead>
             <tbody>
-              <tr><th scope="row">Linguistic and locale conventions</th><td>Which forms are treated as default?</td><td>Spelling, dates, time, and units</td></tr>
-              <tr><th scope="row">Geographic visibility</th><td>Which countries are visible?</td><td>Country references in captions and metadata</td></tr>
-              <tr><th scope="row">Socioeconomic structure</th><td>What relates to country visibility?</td><td>GDP, population, Internet use, tourism</td></tr>
-              <tr><th scope="row">Source-user context</th><td>Where does content originate?</td><td>Platforms, institutions, provenance fields</td></tr>
-              <tr><th scope="row">Target-user assumptions</th><td>Whose settings can scores inform?</td><td>Intended users, settings, evaluation claims</td></tr>
-              <tr><th scope="row">Annotator visibility</th><td>Whose judgments define labels?</td><td>Expertise, locale, recruitment, protocols</td></tr>
-              <tr><th scope="row">Evaluation normalization</th><td>Are valid alternatives accepted?</td><td>Scoring rules and paired answer tests</td></tr>
+              <tr><th scope="row">Linguistic and locale conventions</th><td>Which forms are treated as default?</td><td>Spelling (e.g., <i>color/colour</i>), date formats, time (e.g., <i>7 pm/19:00</i>), and units (e.g., miles/kilometres) in questions, passages, options, and gold answers</td></tr>
+              <tr><th scope="row">Geographic visibility</th><td>Which countries are visible?</td><td>Country names, demonyms (e.g., <i>Japanese</i>), capitals, and selected cities (e.g., <i>Paris</i>) in captions and metadata</td></tr>
+              <tr><th scope="row">Socioeconomic structure</th><td>What relates to country visibility?</td><td>GDP share, population share, GDP per capita, Internet usage, and tourism arrivals</td></tr>
+              <tr><th scope="row">Source-user context</th><td>Where does content originate?</td><td>Sources (e.g., examinations, Wikipedia, Reddit, CommonCrawl), website domains (e.g., <i>bbc.co.uk</i>, <i>reddit.com</i>), and country-code domains (e.g., <i>.uk</i>, <i>.ca</i>, <i>.jp</i>)</td></tr>
+              <tr><th scope="row">Target-user assumptions</th><td>Whose settings can scores inform?</td><td>Intended users (e.g., students, clinicians), evaluation audiences, deployment settings, and conditions for interpreting results</td></tr>
+              <tr><th scope="row">Annotator visibility</th><td>Whose judgments define labels?</td><td>Expertise (e.g., medical professionals), demographics, locale (e.g., country, language variety), recruitment (e.g., crowdsourcing), compensation, protocols, and quality control (e.g., inter-annotator agreement)</td></tr>
+              <tr><th scope="row">Evaluation normalization</th><td>Are valid alternatives accepted?</td><td>Normalization rules, accepted variants (e.g., <i>color/colour</i>), locale conventions, and paired scorer-sensitivity tests</td></tr>
             </tbody>
           </table>
         </div>
@@ -99,6 +99,20 @@
       <div class="section-body">
         <h2>Whose conventions count?</h2>
         <p>Across 11 text benchmarks, American-centered forms account for <strong>62.4% to 94.4%</strong> of matched spelling, date, time, and measurement signals. This is a share <em>among detected signals</em>; it is not the share of all benchmark items. The paper separately reports signal coverage, which ranges from 5.97% of WinoGrande items to 78.08% of DROP items.</p>
+        <div class="table-wrap examples-table">
+          <table>
+            <caption>Illustrative, meaning-preserving convention contrasts from Appendix Table 8. These are examples of forms the audit detects, not assignments of user identity.</caption>
+            <thead><tr><th scope="col">Convention</th><th scope="col">American-centered example</th><th scope="col">Other user-valid example</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Spelling</th><td data-label="American-centered">color, center</td><td data-label="Other user-valid">colour, centre</td></tr>
+              <tr><th scope="row">Numeric date</th><td data-label="American-centered">04/21/2025</td><td data-label="Other user-valid">21/04/2025</td></tr>
+              <tr><th scope="row">Written date</th><td data-label="American-centered">April 21, 2025</td><td data-label="Other user-valid">21 April 2025</td></tr>
+              <tr><th scope="row">Time notation</th><td data-label="American-centered">7:00 pm</td><td data-label="Other user-valid">19:00</td></tr>
+              <tr><th scope="row">Distance</th><td data-label="American-centered">5 miles</td><td data-label="Other user-valid">8.05 kilometres</td></tr>
+              <tr><th scope="row">Temperature</th><td data-label="American-centered">68 degrees Fahrenheit</td><td data-label="Other user-valid">20 degrees Celsius</td></tr>
+            </tbody>
+          </table>
+        </div>
         <figure class="paper-figure">
           <a href="static/figures/conventions.webp" target="_blank" rel="noopener noreferrer" aria-label="Open the convention distribution figure at full resolution"><img src="static/figures/conventions.webp" alt="Stacked bars for 11 text benchmarks comparing American-centered and other user-valid spelling, date, time, and unit signals. American-centered shares range from 62.4 to 94.4 percent." width="1308" height="687" fetchpriority="high"></a>
           <figcaption><strong>Convention profiles.</strong> Color encodes the four convention classes; the right columns show aggregate shares. From Figure 1 of the paper.</figcaption>
@@ -168,6 +182,20 @@
       <div class="section-body">
         <h2>Are intended users documented?</h2>
         <p>Two annotators assessed public papers, dataset cards, and repositories for all 16 resources. Each criterion was scored as absent (0), explicitly mentioned (1), or operationalized through inspectable evidence (2). All 16 resources operationalize source-user context, but <strong>none operationalize target-user context</strong>.</p>
+        <div class="table-wrap rubric-table">
+          <table>
+            <caption>Documentation audit rubric from Table 4. Each criterion receives a score of 0 (absent), 1 (explicitly mentioned), or 2 (operationalized).</caption>
+            <thead><tr><th scope="col">Criterion</th><th scope="col">Audit question and examples</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Source-user context</th><td>Does the documentation identify content producers, including source populations, platforms (e.g., Reddit, Wikipedia), institutions, or collection processes?</td></tr>
+              <tr><th scope="row">Target-user / evaluation context</th><td>Does it specify intended users (e.g., students, clinicians), evaluation audiences, deployment settings, or contexts in which scores apply?</td></tr>
+              <tr><th scope="row">Annotator visibility</th><td>Does it describe expertise, demographics, locale, recruitment (e.g., crowdsourcing), compensation, quality control, or the absence of human annotation?</td></tr>
+              <tr><th scope="row">Locale assumptions</th><td>Does it document spelling (e.g., <i>color/colour</i>), date, time, measurement, currency, numeric-format, language-variety, or source-language conventions?</td></tr>
+              <tr><th scope="row">Evaluation normalization</th><td>Does it document how scoring handles valid alternative answers, formatting (e.g., date formats), or locale-specific equivalents?</td></tr>
+              <tr><th scope="row">Source / geographic metadata</th><td>Does it expose URLs, website domains (e.g., <i>bbc.co.uk</i>, <i>reddit.com</i>), top-level domains (e.g., <i>.uk</i>, <i>.ca</i>, <i>.jp</i>), language tags (e.g., <i>en</i>, <i>fr</i>, <i>ja</i>), or country and region fields?</td></tr>
+            </tbody>
+          </table>
+        </div>
         <div class="table-wrap compact-table">
           <table>
             <caption>Documentation audit across 16 resources (Table 5).</caption>
@@ -192,12 +220,12 @@
         <h2>Six questions for benchmark documentation</h2>
         <p>The paper translates the audit into a minimal reporting checklist that benchmark creators can apply and benchmark users can inspect.</p>
         <ol class="checklist">
-          <li><strong>Source users</strong><span>Who produced the content, and through which platform, institution, task, or collection process?</span></li>
-          <li><strong>Target users</strong><span>Which people, settings, or evaluation claims is the benchmark intended to represent?</span></li>
+          <li><strong>Source users</strong><span>Who produced the content, and through which platform, institution, task, or collection process, such as examinations, Wikipedia, or Reddit?</span></li>
+          <li><strong>Target users</strong><span>Which people, such as students or clinicians, and which settings or evaluation claims is the benchmark intended to represent?</span></li>
           <li><strong>Annotators</strong><span>Who provided labels or references, and what is known about their expertise, locale, recruitment, compensation, and quality control?</span></li>
-          <li><strong>Locale conventions</strong><span>Which spelling, date, time, unit, numeric, or language-variety conventions appear?</span></li>
-          <li><strong>Scoring</strong><span>How are valid alternative answers and locale-specific equivalents normalized?</span></li>
-          <li><strong>Audit metadata</strong><span>Which source URLs, domains, language tags, and geographic fields can be inspected?</span></li>
+          <li><strong>Locale conventions</strong><span>Which spelling (<i>color/colour</i>), date, time, unit, currency, numeric-format, or language-variety conventions appear?</span></li>
+          <li><strong>Scoring</strong><span>How are valid alternatives such as spelling variants, date formats, and equivalent measurements normalized?</span></li>
+          <li><strong>Audit metadata</strong><span>Which source URLs, website domains such as <i>bbc.co.uk</i>, country-code domains such as <i>.uk</i>, language tags, and geographic fields can be inspected?</span></li>
         </ol>
         <p class="scope-note"><strong>Reading the evidence.</strong> The convention detector covers selected observable forms, country visibility is based on explicit textual references, and the documentation scores describe released materials. These measurements help define what the audited resources support.</p>
         <div class="resource-links"><a class="project-button" href="https://github.com/tafseer-nayeem/WhoseBench" target="_blank" rel="noopener noreferrer">Code and audit artifacts</a></div>

@@ -74,7 +74,7 @@ main { padding-top: 0.15rem; }
 .table-wrap tbody tr:nth-child(even) { background: #f9fbfb; }
 .table-wrap tbody th { color: #2c4253; font-weight: 730; }
 .compact-table td:not(:nth-child(2)) { font-variant-numeric: tabular-nums; }
-.paper-figure { max-width: 810px; margin: 1.25rem 0 1.45rem; }
+.paper-figure { max-width: 720px; margin: 1.25rem auto 1.45rem; }
 .paper-figure a { display: block; border: 1px solid var(--rule); border-radius: 5px; background: #fff; }
 .paper-figure img { display: block; width: 100%; height: auto; border-radius: 4px; }
 .paper-figure figcaption { margin-top: 0.5rem; color: var(--muted); font-size: 0.82rem; line-height: 1.5; }
@@ -127,6 +127,20 @@ a:focus-visible { outline: 2px solid var(--teal); outline-offset: 3px; }
   .contribution-grid { grid-template-columns: 1fr; }
   .table-wrap table { min-width: 600px; }
   .compact-table table { min-width: 570px; }
+  .framework-table, .examples-table, .rubric-table { overflow: visible; border: 0; border-top: 1px solid var(--rule); border-radius: 0; }
+  .framework-table table, .examples-table table, .rubric-table table, .framework-table tbody, .examples-table tbody, .rubric-table tbody { display: block; width: 100%; min-width: 0; }
+  .framework-table caption, .examples-table caption, .rubric-table caption { display: block; padding: 0.7rem 0; }
+  .framework-table thead, .examples-table thead, .rubric-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
+  .examples-table tbody tr { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.1rem 0.75rem; padding: 0.6rem 0; border-top: 1px solid var(--rule); }
+  .framework-table tbody tr:nth-child(even), .examples-table tbody tr:nth-child(even), .rubric-table tbody tr:nth-child(even) { background: transparent; }
+  .examples-table tbody th { grid-column: 1 / -1; padding: 0; border: 0; }
+  .examples-table tbody td { min-width: 0; padding: 0.15rem 0; border: 0; font-size: 0.82rem; overflow-wrap: anywhere; }
+  .examples-table tbody td::before { display: block; margin-bottom: 0.1rem; color: var(--muted); content: attr(data-label); font-size: 0.67rem; font-weight: 730; }
+  .framework-table tbody tr, .rubric-table tbody tr { display: block; padding: 0.6rem 0; border-top: 1px solid var(--rule); }
+  .framework-table tbody th, .framework-table tbody td, .rubric-table tbody th, .rubric-table tbody td { display: block; width: 100%; padding: 0.1rem 0; border: 0; }
+  .framework-table tbody td:nth-child(2)::before, .framework-table tbody td:nth-child(3)::before { display: block; margin-top: 0.2rem; color: var(--muted); font-size: 0.67rem; font-weight: 730; }
+  .framework-table tbody td:nth-child(2)::before { content: "Audit question"; }
+  .framework-table tbody td:nth-child(3)::before { content: "Examples and evidence"; }
   .checklist li { grid-template-columns: 1.05rem minmax(0, 1fr); gap: 0.15rem 0.55rem; }
   .checklist li span { grid-column: 2; }
 }
