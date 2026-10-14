@@ -36,7 +36,6 @@ h1, h2, h3, p, figure { margin-top: 0; }
 .publication-links, .resource-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.55rem; margin: 0.6rem 0 1.55rem; }
 .project-button { display: inline-flex; min-height: 40px; align-items: center; justify-content: center; gap: 0.48rem; padding: 0.45rem 0.9rem; border: 1px solid #343a40; border-radius: 24px; background: #343a40; color: #fff; font-size: 0.86rem; font-weight: 700; text-decoration: none; }
 a.project-button:hover { border-color: #20262b; background: #20262b; color: #fff; }
-.project-button.pending { border-color: #cdd6da; background: #f7f9fa; color: #5f6a73; cursor: default; }
 .project-button small { margin-left: 0.12rem; font-size: 0.7rem; font-weight: 550; }
 .project-icon { display: block; width: 1.05rem; height: 1.05rem; flex: 0 0 1.05rem; }
 .stat-strip { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 830px; margin: 0 auto 1.25rem; padding: 0.55rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); list-style: none; }
