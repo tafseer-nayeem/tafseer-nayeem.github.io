@@ -139,8 +139,8 @@ author_profile: true
     </h3>
     <div class="pub-meta">Preprint (2026)</div>
     <div class="pub-authors">
-      Ridwan Mahbub, Mohammed Saidul Islam, Md Tahmid Rahman Laskar,
-      Mizanur Rahman, <span class="me">Mir Tafseer Nayeem</span>, and Enamul Hoque
+      Ridwan Mahbub, Mohammed Saidul Islam, Md Tahmid Rahman Laskar<span class="eq">*</span>,
+      Mizanur Rahman<span class="eq">*</span>, <span class="me">Mir Tafseer Nayeem</span><span class="eq">*</span>, and Enamul Hoque
     </div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2607.22600">Paper</a>
