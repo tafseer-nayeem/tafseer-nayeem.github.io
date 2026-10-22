@@ -100,7 +100,7 @@ author_profile: true
         loading="lazy" decoding="async"
         sizes="(max-width: 640px) 100vw, var(--thumb-w)">
     </a>
-    <span class="conf-badge-blue">KBS 2026</span>
+    <span class="conf-badge-sienna conf-badge-kbs">KBS 2026</span>
   </div>
 
   <div class="pub-right">

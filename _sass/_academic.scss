@@ -1214,6 +1214,10 @@ a:hover {
   filter: saturate(1.05);
 }
 
+.conf-badge-kbs {
+  --sienna-new: #694a65;
+}
+
 /* Tune the violet badge color in one place */
 :root{
   --badge-violet: #460b7dff; /* BlueViolet (default) */
