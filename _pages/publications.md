@@ -184,6 +184,39 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-left">
+    <a href="https://neurips.cc/virtual/2026/loc/sydney/164999" aria-label="What Happens When the Font Changes? (NeurIPS 2026 Workshop)" class="thumb-wrap">
+      <img
+        src="/images/publication/FontReason-NeurIPS2026.webp"
+        alt="FontReason framework for typographic variation and robustness evaluation"
+        loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <div class="badge-stack">
+      <span class="conf-badge-aegean badge-nocaps">NeurIPS 2026</span>
+      <span class="sub-badge sub-badge-workshop" aria-label="Workshop">Workshop</span>
+    </div>
+  </div>
+
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://neurips.cc/virtual/2026/loc/sydney/164999">
+        What Happens When the Font Changes? A Controlled Study of Typographic Robustness in Vision-Language Models
+      </a>
+    </h3>
+    <div class="pub-meta">Published at <b>NeurIPS 2026</b>(Workshop)</div>
+    <div class="pub-authors">
+      Mohammed Saidul Islam<span class="eq">*</span>, Md Tahmid Rahman Laskar<span class="eq">*</span>,
+      <span class="me">Mir Tafseer Nayeem</span><span class="eq">*</span>, Shumaita Binte Burhan,
+      Raian Rahman, Morsalina, Shafiq Joty, Enamul Hoque, and Jimmy Huang
+    </div>
+    <div class="pub-links">
+      <a href="https://neurips.cc/virtual/2026/loc/sydney/164999">Paper</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-left">
     <a href="https://aclanthology.org/2026.findings-acl.1746/" aria-label="Lost in Translation (ACL 2026 Findings)" class="thumb-wrap">
       <img
         src="/images/publication/MM-RewardBench-ACL2026.webp"
