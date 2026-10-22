@@ -50,9 +50,9 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-left">
-    <a href="https://arxiv.org/abs/2609.36218" aria-label="CineSubBench paper" class="thumb-wrap">
-      <img src="/images/publication/CineSubBench-Preprint2026.webp"
-           alt="CineSubBench overview of multilingual film subtitle evaluation"
+    <a href="https://arxiv.org/abs/2604.04204" aria-label="LLM structural bias paper" class="thumb-wrap">
+      <img src="/images/publication/LLM-Structural-Bias-Preprint2026.webp"
+           alt="Structural bias study overview across the LLM pipeline"
            loading="lazy" decoding="async"
            sizes="(max-width: 640px) 100vw, var(--thumb-w)">
     </a>
@@ -60,15 +60,15 @@ author_profile: true
   </div>
   <div class="pub-right">
     <h3 class="pub-title">
-      <a href="https://arxiv.org/abs/2609.36218">CineSubBench: Evaluating LLMs on Long-Form Narrative and Cultural Understanding from Multilingual Movie Subtitles</a>
+      <a href="https://arxiv.org/abs/2604.04204">How Does &quot;English (US)&quot; Become the Default? Triangulating Structural Bias Towards American English Across the LLM Pipeline</a>
     </h3>
     <div class="pub-meta">Preprint on <b>arXiv</b> (2026)</div>
-    <div class="pub-authors"><span class="me">Mir Tafseer Nayeem</span>, Susmoy Chakraborty, and Davood Rafiei</div>
+    <div class="pub-authors"><span class="me">Mir Tafseer Nayeem</span> and Davood Rafiei</div>
     <div class="pub-links">
-      <a href="https://arxiv.org/abs/2609.36218">Paper</a>
-      <a href="/CineSubBench/">Website</a>
-      <a href="https://github.com/tafseer-nayeem/CineSubBench">Code</a>
-      <a href="https://huggingface.co/datasets/tafseer-nayeem/CineSubBench">Dataset</a>
+      <a href="https://arxiv.org/abs/2604.04204">Paper</a>
+      <a href="/LLM-structural-bias/">Website</a>
+      <a href="https://github.com/tafseer-nayeem/LLM-structural-bias/">Code</a>
+      <a href="https://huggingface.co/datasets/tafseer-nayeem/ame-bre-structural-bias">Dataset</a>
     </div>
   </div>
 </div>
@@ -100,9 +100,9 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-left">
-    <a href="https://arxiv.org/abs/2604.04204" aria-label="LLM structural bias paper" class="thumb-wrap">
-      <img src="/images/publication/LLM-Structural-Bias-Preprint2026.webp"
-           alt="Structural bias study overview across the LLM pipeline"
+    <a href="https://arxiv.org/abs/2609.36218" aria-label="CineSubBench paper" class="thumb-wrap">
+      <img src="/images/publication/CineSubBench-Preprint2026.webp"
+           alt="CineSubBench overview of multilingual film subtitle evaluation"
            loading="lazy" decoding="async"
            sizes="(max-width: 640px) 100vw, var(--thumb-w)">
     </a>
@@ -110,15 +110,15 @@ author_profile: true
   </div>
   <div class="pub-right">
     <h3 class="pub-title">
-      <a href="https://arxiv.org/abs/2604.04204">How Does &quot;English (US)&quot; Become the Default? Triangulating Structural Bias Towards American English Across the LLM Pipeline</a>
+      <a href="https://arxiv.org/abs/2609.36218">CineSubBench: Evaluating LLMs on Long-Form Narrative and Cultural Understanding from Multilingual Movie Subtitles</a>
     </h3>
     <div class="pub-meta">Preprint on <b>arXiv</b> (2026)</div>
-    <div class="pub-authors"><span class="me">Mir Tafseer Nayeem</span> and Davood Rafiei</div>
+    <div class="pub-authors"><span class="me">Mir Tafseer Nayeem</span>, Susmoy Chakraborty, and Davood Rafiei</div>
     <div class="pub-links">
-      <a href="https://arxiv.org/abs/2604.04204">Paper</a>
-      <a href="/LLM-structural-bias/">Website</a>
-      <a href="https://github.com/tafseer-nayeem/LLM-structural-bias/">Code</a>
-      <a href="https://huggingface.co/datasets/tafseer-nayeem/ame-bre-structural-bias">Dataset</a>
+      <a href="https://arxiv.org/abs/2609.36218">Paper</a>
+      <a href="/CineSubBench/">Website</a>
+      <a href="https://github.com/tafseer-nayeem/CineSubBench">Code</a>
+      <a href="https://huggingface.co/datasets/tafseer-nayeem/CineSubBench">Dataset</a>
     </div>
   </div>
 </div>
