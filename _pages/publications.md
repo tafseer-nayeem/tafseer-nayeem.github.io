@@ -32,13 +32,13 @@ author_profile: true
            loading="lazy" decoding="async"
            sizes="(max-width: 640px) 100vw, var(--thumb-w)">
     </a>
-    <span class="conf-badge-blue">Preprint</span>
+    <span class="conf-badge-blue pub-preprint-badge">arXiv</span>
   </div>
   <div class="pub-right">
     <h3 class="pub-title">
       <a href="https://arxiv.org/abs/2610.19268">Whose Data, Whose Benchmark? A User-Centric Framework for Auditing Evaluation Resources</a>
     </h3>
-    <div class="pub-meta">Preprint on <b>arXiv</b> (2026)</div>
+    <div class="pub-meta">Preprint (2026)</div>
     <div class="pub-authors"><span class="me">Mir Tafseer Nayeem</span> and Davood Rafiei</div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2610.19268">Paper</a>
@@ -56,13 +56,13 @@ author_profile: true
            loading="lazy" decoding="async"
            sizes="(max-width: 640px) 100vw, var(--thumb-w)">
     </a>
-    <span class="conf-badge-blue">Preprint</span>
+    <span class="conf-badge-blue pub-preprint-badge">arXiv</span>
   </div>
   <div class="pub-right">
     <h3 class="pub-title">
       <a href="https://arxiv.org/abs/2604.04204">How Does &quot;English (US)&quot; Become the Default? Triangulating Structural Bias Towards American English Across the LLM Pipeline</a>
     </h3>
-    <div class="pub-meta">Preprint on <b>arXiv</b> (2026)</div>
+    <div class="pub-meta">Preprint (2026)</div>
     <div class="pub-authors"><span class="me">Mir Tafseer Nayeem</span> and Davood Rafiei</div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2604.04204">Paper</a>
@@ -81,13 +81,13 @@ author_profile: true
            loading="lazy" decoding="async"
            sizes="(max-width: 640px) 100vw, var(--thumb-w)">
     </a>
-    <span class="conf-badge-blue">Preprint</span>
+    <span class="conf-badge-blue pub-preprint-badge">arXiv</span>
   </div>
   <div class="pub-right">
     <h3 class="pub-title">
       <a href="https://arxiv.org/abs/2609.34065">Who Gets a Token, and What Does It Carry? Unequal Name Support and Concept Access in Large Language Models</a>
     </h3>
-    <div class="pub-meta">Preprint on <b>arXiv</b> (2026)</div>
+    <div class="pub-meta">Preprint (2026)</div>
     <div class="pub-authors"><span class="me">Mir Tafseer Nayeem</span> and Davood Rafiei</div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2609.34065">Paper</a>
@@ -106,13 +106,13 @@ author_profile: true
            loading="lazy" decoding="async"
            sizes="(max-width: 640px) 100vw, var(--thumb-w)">
     </a>
-    <span class="conf-badge-blue">Preprint</span>
+    <span class="conf-badge-blue pub-preprint-badge">arXiv</span>
   </div>
   <div class="pub-right">
     <h3 class="pub-title">
       <a href="https://arxiv.org/abs/2609.36218">CineSubBench: Evaluating LLMs on Long-Form Narrative and Cultural Understanding from Multilingual Movie Subtitles</a>
     </h3>
-    <div class="pub-meta">Preprint on <b>arXiv</b> (2026)</div>
+    <div class="pub-meta">Preprint (2026)</div>
     <div class="pub-authors"><span class="me">Mir Tafseer Nayeem</span>, Susmoy Chakraborty, and Davood Rafiei</div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2609.36218">Paper</a>

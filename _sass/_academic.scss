@@ -1134,6 +1134,14 @@ a:hover {
   filter: saturate(1.05);
 }
 
+.pub-preprint-badge {
+  --badge-blue: #31434b;
+  min-width: 78px;
+  font-weight: 650;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
 /* Tune the teal badge color in one place */
 :root{
   --badge-teal: #0e5c56ff; /* default: teal */
