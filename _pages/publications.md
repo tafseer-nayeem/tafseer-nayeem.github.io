@@ -91,6 +91,35 @@ author_profile: true
   </div>
 </div>
 
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://www.sciencedirect.com/science/article/pii/S0950705126017375" aria-label="SurveyAgent-HKA paper (Knowledge-Based Systems 2026)" class="thumb-wrap">
+      <img
+        src="/images/publication/SurveyAgent-HKA-KBS2026.webp"
+        alt="SurveyAgent-HKA pipeline from literature retrieval through survey evaluation"
+        loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-blue">KBS 2026</span>
+  </div>
+
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://www.sciencedirect.com/science/article/pii/S0950705126017375">
+        SurveyAgent-HKA: A Multi-Agent Framework for Scientific Survey Generation with LLMs and Human Knowledge Augmentation
+      </a>
+    </h3>
+    <div class="pub-meta">Published in <b>Knowledge-Based Systems</b></div>
+    <div class="pub-authors">
+      Tong Bao, <span class="me">Mir Tafseer Nayeem</span>, Yi Zhao, Davood Rafiei, and Chengzhi Zhang
+    </div>
+    <div class="pub-links">
+      <a href="https://www.sciencedirect.com/science/article/pii/S0950705126017375">Paper</a>
+      <a href="https://github.com/tongbao96/code-for-SurveyAgent-HKA">Code</a>
+    </div>
+  </div>
+</div>
+
 <h2 class="pub-year">2025</h2>
 
 <div class="pub-item">
