@@ -154,6 +154,36 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-left">
+    <a href="https://aclanthology.org/2026.eacl-long.394/" aria-label="Tokenizer LLM (EACL 2026)" class="thumb-wrap">
+      <img
+        src="/images/publication/Tokenizer-EACL2026.webp"
+        alt="Stop Taking Tokenizers for Granted: They Are Core Design Decisions in Large Language Models — thumbnail"
+        loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-violet">EACL 2026</span>
+  </div>
+
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://aclanthology.org/2026.eacl-long.394/">
+        Stop Taking Tokenizers for Granted: They Are Core Design Decisions in Large Language Models
+      </a>
+    </h3>
+    <div class="pub-meta">Published at <b>EACL 2026</b>(Main)
+      <span class="tag-badge tag-oral" aria-label="Oral presentation">Oral</span>
+    </div>
+    <div class="pub-authors">
+      <span class="me">Mir Tafseer Nayeem</span><span class="eq">*</span>, Sawsan Alqahtani<span class="eq">*</span>, Md Tahmid Rahman Laskar, Tasnim Mohiuddin, and M Saiful Bari
+    </div>
+    <div class="pub-links">
+      <a href="https://aclanthology.org/2026.eacl-long.394/">Paper</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-left">
     <a href="https://aclanthology.org/2026.findings-acl.1746/" aria-label="Lost in Translation (ACL 2026 Findings)" class="thumb-wrap">
       <img
         src="/images/publication/MM-RewardBench-ACL2026.webp"
@@ -185,36 +215,6 @@ author_profile: true
       <a href="https://aclanthology.org/2026.findings-acl.1746/">Paper</a>
       <a href="https://github.com/tahmedge/mm-judgebench">Code</a>
       <a href="https://huggingface.co/datasets/tahmedge/MM-JudgeBench">Dataset</a>
-    </div>
-  </div>
-</div>
-
-<div class="pub-item">
-  <div class="pub-left">
-    <a href="https://aclanthology.org/2026.eacl-long.394/" aria-label="Tokenizer LLM (EACL 2026)" class="thumb-wrap">
-      <img
-        src="/images/publication/Tokenizer-EACL2026.webp"
-        alt="Stop Taking Tokenizers for Granted: They Are Core Design Decisions in Large Language Models — thumbnail"
-        loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
-    </a>
-    <span class="conf-badge-violet">EACL 2026</span>
-  </div>
-
-  <div class="pub-right">
-    <h3 class="pub-title">
-      <a href="https://aclanthology.org/2026.eacl-long.394/">
-        Stop Taking Tokenizers for Granted: They Are Core Design Decisions in Large Language Models
-      </a>
-    </h3>
-    <div class="pub-meta">Published at <b>EACL 2026</b>(Main)
-      <span class="tag-badge tag-oral" aria-label="Oral presentation">Oral</span>
-    </div>
-    <div class="pub-authors">
-      <span class="me">Mir Tafseer Nayeem</span><span class="eq">*</span>, Sawsan Alqahtani<span class="eq">*</span>, Md Tahmid Rahman Laskar, Tasnim Mohiuddin, and M Saiful Bari
-    </div>
-    <div class="pub-links">
-      <a href="https://aclanthology.org/2026.eacl-long.394/">Paper</a>
     </div>
   </div>
 </div>
