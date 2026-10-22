@@ -123,6 +123,33 @@ author_profile: true
   </div>
 </div>
 
+<div class="pub-item">
+  <div class="pub-left">
+    <a href="https://arxiv.org/abs/2607.22600" aria-label="Chart Deception in Vision-Language Models paper" class="thumb-wrap">
+      <img src="/images/publication/VisDeception-Preprint2026.webp"
+           alt="Examples from the VisDeception chart-deception taxonomy"
+           loading="lazy" decoding="async"
+           sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </a>
+    <span class="conf-badge-blue pub-preprint-badge">arXiv</span>
+  </div>
+  <div class="pub-right">
+    <h3 class="pub-title">
+      <a href="https://arxiv.org/abs/2607.22600">Chart Deception in Vision-Language Models: From Vulnerability to Mitigation</a>
+    </h3>
+    <div class="pub-meta">Preprint (2026)</div>
+    <div class="pub-authors">
+      Ridwan Mahbub, Mohammed Saidul Islam, Md Tahmid Rahman Laskar,
+      Mizanur Rahman, <span class="me">Mir Tafseer Nayeem</span>, and Enamul Hoque
+    </div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2607.22600">Paper</a>
+      <a href="https://github.com/vis-nlp/visDeception">Code</a>
+      <a href="https://github.com/vis-nlp/visDeception/tree/main/ExtendedBenchmark/Benchmark">Dataset</a>
+    </div>
+  </div>
+</div>
+
 <h2 class="pub-year">2026</h2>
 
 <div class="pub-item">
