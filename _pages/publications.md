@@ -27,10 +27,10 @@ author_profile: true
 <div class="pub-item">
   <div class="pub-left">
     <a href="https://arxiv.org/abs/2610.19268" aria-label="Whose Data, Whose Benchmark? paper" class="thumb-wrap">
-      <img src="/images/publication/WhoseBench-Preprint2026.webp"
+      <img src="/images/publication/WhoseBench-Preprint2026.webp" srcset="/images/publication/thumbs/WhoseBench-Preprint2026-320.webp 320w, /images/publication/WhoseBench-Preprint2026.webp 720w" width="720" height="379"
            alt="WhoseBench convention profiles across eleven text benchmarks"
            loading="lazy" decoding="async"
-           sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+           sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-blue pub-preprint-badge">arXiv</span>
   </div>
@@ -51,10 +51,10 @@ author_profile: true
 <div class="pub-item">
   <div class="pub-left">
     <a href="https://arxiv.org/abs/2604.04204" aria-label="LLM structural bias paper" class="thumb-wrap">
-      <img src="/images/publication/LLM-Structural-Bias-Preprint2026.webp"
+      <img src="/images/publication/LLM-Structural-Bias-Preprint2026.webp" srcset="/images/publication/thumbs/LLM-Structural-Bias-Preprint2026-320.webp 320w, /images/publication/LLM-Structural-Bias-Preprint2026.webp 720w" width="720" height="319"
            alt="Structural bias study overview across the LLM pipeline"
            loading="lazy" decoding="async"
-           sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+           sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-blue pub-preprint-badge">arXiv</span>
   </div>
@@ -76,10 +76,10 @@ author_profile: true
 <div class="pub-item">
   <div class="pub-left">
     <a href="https://arxiv.org/abs/2609.34065" aria-label="NameTrace paper" class="thumb-wrap">
-      <img src="/images/publication/NameTrace-Preprint2026.webp"
+      <img src="/images/publication/NameTrace-Preprint2026.webp" srcset="/images/publication/thumbs/NameTrace-Preprint2026-320.webp 320w, /images/publication/NameTrace-Preprint2026.webp 720w" width="720" height="352"
            alt="NameTrace overview of lexical name support and concept accessibility"
            loading="lazy" decoding="async"
-           sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+           sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-blue pub-preprint-badge">arXiv</span>
   </div>
@@ -101,10 +101,10 @@ author_profile: true
 <div class="pub-item">
   <div class="pub-left">
     <a href="https://arxiv.org/abs/2609.36218" aria-label="CineSubBench paper" class="thumb-wrap">
-      <img src="/images/publication/CineSubBench-Preprint2026.webp"
+      <img src="/images/publication/CineSubBench-Preprint2026.webp" srcset="/images/publication/thumbs/CineSubBench-Preprint2026-320.webp 320w, /images/publication/CineSubBench-Preprint2026.webp 720w" width="720" height="473"
            alt="CineSubBench overview of multilingual film subtitle evaluation"
            loading="lazy" decoding="async"
-           sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+           sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-blue pub-preprint-badge">arXiv</span>
   </div>
@@ -126,10 +126,10 @@ author_profile: true
 <div class="pub-item">
   <div class="pub-left">
     <a href="https://arxiv.org/abs/2607.22600" aria-label="Chart Deception in Vision-Language Models paper" class="thumb-wrap">
-      <img src="/images/publication/VisDeception-Preprint2026.webp"
+      <img src="/images/publication/VisDeception-Preprint2026.webp" srcset="/images/publication/thumbs/VisDeception-Preprint2026-320.webp 320w, /images/publication/VisDeception-Preprint2026.webp 720w" width="720" height="390"
            alt="Examples from the VisDeception chart-deception taxonomy"
            loading="lazy" decoding="async"
-           sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+           sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-blue pub-preprint-badge">arXiv</span>
   </div>
@@ -156,10 +156,10 @@ author_profile: true
   <div class="pub-left">
     <a href="https://aclanthology.org/2026.eacl-long.394/" aria-label="Tokenizer LLM (EACL 2026)" class="thumb-wrap">
       <img
-        src="/images/publication/Tokenizer-EACL2026.webp"
+        src="/images/publication/Tokenizer-EACL2026.webp" srcset="/images/publication/thumbs/Tokenizer-EACL2026-320.webp 320w, /images/publication/Tokenizer-EACL2026.webp 720w" width="720" height="416"
         alt="Stop Taking Tokenizers for Granted: They Are Core Design Decisions in Large Language Models — thumbnail"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-violet">EACL 2026</span>
   </div>
@@ -186,10 +186,10 @@ author_profile: true
   <div class="pub-left">
     <a href="https://neurips.cc/virtual/2026/loc/sydney/164999" aria-label="What Happens When the Font Changes? (NeurIPS 2026 Workshop)" class="thumb-wrap">
       <img
-        src="/images/publication/FontReason-NeurIPS2026.webp"
+        src="/images/publication/FontReason-NeurIPS2026.webp" srcset="/images/publication/thumbs/FontReason-NeurIPS2026-320.webp 320w, /images/publication/FontReason-NeurIPS2026.webp 720w" width="720" height="339"
         alt="FontReason framework for typographic variation and robustness evaluation"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <div class="badge-stack">
       <span class="conf-badge-aegean badge-nocaps">NeurIPS 2026</span>
@@ -219,10 +219,10 @@ author_profile: true
   <div class="pub-left">
     <a href="https://aclanthology.org/2026.findings-acl.1746/" aria-label="Lost in Translation (ACL 2026 Findings)" class="thumb-wrap">
       <img
-        src="/images/publication/MM-RewardBench-ACL2026.webp"
+        src="/images/publication/MM-RewardBench-ACL2026.webp" srcset="/images/publication/thumbs/MM-RewardBench-ACL2026-320.webp 320w, /images/publication/MM-RewardBench-ACL2026.webp 720w" width="720" height="284"
         alt="Lost in Translation: Do LVLM Judges Generalize Across Languages? — thumbnail"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-navy">ACL 2026</span>
   </div>
@@ -256,10 +256,10 @@ author_profile: true
   <div class="pub-left">
     <div class="thumb-wrap">
       <img
-        src="/images/publication/RobustChart360-EMNLP2026.webp"
+        src="/images/publication/RobustChart360-EMNLP2026.webp" srcset="/images/publication/thumbs/RobustChart360-EMNLP2026-320.webp 320w, /images/publication/RobustChart360-EMNLP2026.webp 720w" width="720" height="520"
         alt="ROBUSTCHART360 examples across six chart-understanding robustness tasks"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </div>
     <span class="conf-badge-teal">EMNLP 2026</span>
   </div>
@@ -279,10 +279,10 @@ author_profile: true
   <div class="pub-left">
     <a href="https://www.sciencedirect.com/science/article/pii/S0950705126017375" aria-label="SurveyAgent-HKA paper (Knowledge-Based Systems 2026)" class="thumb-wrap">
       <img
-        src="/images/publication/SurveyAgent-HKA-KBS2026.webp"
+        src="/images/publication/SurveyAgent-HKA-KBS2026.webp" srcset="/images/publication/thumbs/SurveyAgent-HKA-KBS2026-320.webp 320w, /images/publication/SurveyAgent-HKA-KBS2026.webp 720w" width="720" height="323"
         alt="SurveyAgent-HKA pipeline from literature retrieval through survey evaluation"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-sienna conf-badge-kbs">KBS 2026</span>
   </div>
@@ -308,10 +308,10 @@ author_profile: true
   <div class="pub-left">
     <div class="thumb-wrap">
       <img
-        src="/images/publication/RL-MR-AACL2026.webp"
+        src="/images/publication/RL-MR-AACL2026.webp" srcset="/images/publication/thumbs/RL-MR-AACL2026-320.webp 320w, /images/publication/RL-MR-AACL2026.webp 720w" width="720" height="361"
         alt="RL-MR phase-wise pipeline from task encoding to budget-aware model ranking"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </div>
     <span class="conf-badge-sienna conf-badge-aacl">AACL 2026</span>
   </div>
@@ -331,9 +331,9 @@ author_profile: true
   <div class="pub-left">
     <a href="https://arxiv.org/abs/2509.00285" aria-label="OpinioRAG paper" class="thumb-wrap">
       <img
-        src="/images/publication/OpinioRAG-COLM2025.webp"
+        src="/images/publication/OpinioRAG-COLM2025.webp" srcset="/images/publication/thumbs/OpinioRAG-COLM2025-320.webp 320w, /images/publication/OpinioRAG-COLM2025.webp 720w" width="720" height="405"
         alt="OpinioRAG thumbnail" loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-blue">COLM 2025</span>
   </div>
@@ -357,10 +357,10 @@ author_profile: true
   <div class="pub-left">
     <a href="https://arxiv.org/abs/2510.09947" aria-label="Beyond Fertility (NeurIPS 2025 Workshop)" class="thumb-wrap">
       <img
-        src="/images/publication/NeurIPS2025-STRR.webp"
+        src="/images/publication/NeurIPS2025-STRR.webp" srcset="/images/publication/thumbs/NeurIPS2025-STRR-320.webp 320w, /images/publication/NeurIPS2025-STRR.webp 720w" width="720" height="334"
         alt="Beyond Fertility: Analyzing STRR as a Metric for Multilingual Tokenization Evaluation — thumbnail"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <div class="badge-stack">
       <span class="conf-badge-aegean badge-nocaps">NeurIPS 2025</span>
@@ -390,9 +390,9 @@ author_profile: true
   <div class="pub-left">
     <a href="https://arxiv.org/abs/2508.17647" aria-label="SurveyGen paper" class="thumb-wrap">
       <img
-        src="/images/publication/SurveyGen-EMNLP2025.webp"
+        src="/images/publication/SurveyGen-EMNLP2025.webp" srcset="/images/publication/thumbs/SurveyGen-EMNLP2025-320.webp 320w, /images/publication/SurveyGen-EMNLP2025.webp 720w" width="720" height="450"
         alt="SurveyGen thumbnail" loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-teal">EMNLP 2025</span>
   </div>
@@ -421,9 +421,9 @@ author_profile: true
   <div class="pub-left">
     <a href="https://aclanthology.org/2025.emnlp-main.1472/" aria-label="Fair Narratives paper" class="thumb-wrap">
       <img
-        src="/images/publication/ChartEthics-EMNLP2025.webp"
+        src="/images/publication/ChartEthics-EMNLP2025.webp" srcset="/images/publication/thumbs/ChartEthics-EMNLP2025-320.webp 320w, /images/publication/ChartEthics-EMNLP2025.webp 720w" width="720" height="540"
         alt="From Charts to Fair Narratives thumbnail" loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-teal">EMNLP 2025</span>
   </div>
@@ -456,9 +456,9 @@ author_profile: true
   <div class="pub-left">
     <a href="https://aclanthology.org/2025.emnlp-industry.134/" aria-label="Chart Judge paper" class="thumb-wrap">
       <img
-        src="/images/publication/ChartJudge-EMNLP2025.webp"
+        src="/images/publication/ChartJudge-EMNLP2025.webp" srcset="/images/publication/thumbs/ChartJudge-EMNLP2025-320.webp 320w, /images/publication/ChartJudge-EMNLP2025.webp 720w" width="720" height="436"
         alt="Chart Judge thumbnail" loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-teal">EMNLP 2025</span>
   </div>
@@ -494,9 +494,9 @@ author_profile: true
   <div class="pub-left">
     <a href="https://arxiv.org/abs/2508.09716" aria-label="Chart Deception paper" class="thumb-wrap">
       <img
-        src="/images/publication/VisDeception-VIS2025.webp"
+        src="/images/publication/VisDeception-VIS2025.webp" srcset="/images/publication/thumbs/VisDeception-VIS2025-320.webp 320w, /images/publication/VisDeception-VIS2025.webp 720w" width="720" height="427"
         alt="The Perils of Chart Deception thumbnail" loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-green">IEEE VIS 2025</span>
   </div>
@@ -533,9 +533,9 @@ author_profile: true
   <div class="pub-left">
     <a href="https://aclanthology.org/2025.acl-industry.83/" aria-label="Judging the Judges (ACL 2025)" class="thumb-wrap">
       <img
-        src="/images/publication/ChartJudge-ACL2025.webp"
+        src="/images/publication/ChartJudge-ACL2025.webp" srcset="/images/publication/thumbs/ChartJudge-ACL2025-320.webp 320w, /images/publication/ChartJudge-ACL2025.webp 720w" width="720" height="247"
         alt="Judging the Judges thumbnail" loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-navy">ACL 2025</span>
   </div>
@@ -563,9 +563,9 @@ author_profile: true
   <div class="pub-left">
     <a href="https://aclanthology.org/2025.naacl-industry.65/" aria-label="eC-Tab2Text (NAACL 2025)" class="thumb-wrap">
       <img
-        src="/images/publication/eC-Tab2Text-NAACL2025.webp"
+        src="/images/publication/eC-Tab2Text-NAACL2025.webp" srcset="/images/publication/thumbs/eC-Tab2Text-NAACL2025-320.webp 320w, /images/publication/eC-Tab2Text-NAACL2025.webp 720w" width="720" height="444"
         alt="eC-Tab2Text thumbnail" loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-sienna">NAACL 2025</span>
   </div>
@@ -595,10 +595,10 @@ author_profile: true
   <div class="pub-left">
     <a href="https://aclanthology.org/2024.emnlp-main.277/" aria-label="KidLM (EMNLP 2024)" class="thumb-wrap">
       <img
-        src="/images/publication/KidLM-EMNLP2024.webp"
+        src="/images/publication/KidLM-EMNLP2024.webp" srcset="/images/publication/thumbs/KidLM-EMNLP2024-320.webp 320w, /images/publication/KidLM-EMNLP2024.webp 720w" width="720" height="438"
         alt="KidLM: Advancing Language Models for Children — thumbnail"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-teal">EMNLP 2024</span>
   </div>
@@ -634,10 +634,10 @@ author_profile: true
   <div class="pub-left">
     <a href="https://aclanthology.org/2024.findings-emnlp.191/" aria-label="LVLM Chart Comprehension (EMNLP 2024 Findings)" class="thumb-wrap">
       <img
-        src="/images/publication/ChartEval-EMNLP2024.webp"
+        src="/images/publication/ChartEval-EMNLP2024.webp" srcset="/images/publication/thumbs/ChartEval-EMNLP2024-320.webp 320w, /images/publication/ChartEval-EMNLP2024.webp 720w" width="720" height="503"
         alt="Are Large Vision Language Models up to the Challenge of Chart Comprehension and Reasoning? — thumbnail"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-teal">EMNLP 2024</span>
   </div>
@@ -669,10 +669,10 @@ author_profile: true
   <div class="pub-left">
     <a href="https://aclanthology.org/2024.findings-acl.771/" aria-label="XL-HeadTags (ACL 2024 Findings)" class="thumb-wrap">
       <img
-        src="/images/publication/XL-HeadTags-ACL2024.webp"
+        src="/images/publication/XL-HeadTags-ACL2024.webp" srcset="/images/publication/thumbs/XL-HeadTags-ACL2024-320.webp 320w, /images/publication/XL-HeadTags-ACL2024.webp 720w" width="720" height="320"
         alt="XL-HeadTags: Leveraging Multimodal Retrieval Augmentation — thumbnail"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-navy">ACL 2024</span>
   </div>
@@ -706,10 +706,10 @@ author_profile: true
   <div class="pub-left">
     <a href="https://aclanthology.org/2024.lrec-main.201/" aria-label="BenLLM-Eval (COLING 2024)" class="thumb-wrap">
       <img
-        src="/images/publication/BenLLM-COLING2024.webp"
+        src="/images/publication/BenLLM-COLING2024.webp" srcset="/images/publication/thumbs/BenLLM-COLING2024-320.webp 320w, /images/publication/BenLLM-COLING2024.webp 720w" width="720" height="485"
         alt="BenLLM-Eval: A Comprehensive Evaluation into the Potentials and Pitfalls of LLMs on Bengali NLP — thumbnail"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-sienna">COLING 2024</span>
   </div>
@@ -743,10 +743,10 @@ author_profile: true
   <div class="pub-left">
     <a href="https://dl.acm.org/doi/10.1145/3583780.3615172" aria-label="Product Entity Matching via Tabular Data (CIKM 2023)" class="thumb-wrap">
       <img
-        src="/images/publication/PEM-CIKM2023.webp"
+        src="/images/publication/PEM-CIKM2023.webp" srcset="/images/publication/thumbs/PEM-CIKM2023-320.webp 320w, /images/publication/PEM-CIKM2023.webp 720w" width="720" height="384"
         alt="Product Entity Matching via Tabular Data — thumbnail"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-green">CIKM 2023</span>
   </div>
@@ -774,10 +774,10 @@ author_profile: true
   <div class="pub-left">
     <a href="https://aclanthology.org/2023.findings-eacl.125/" aria-label="Reviewer Expertise & Temporal Helpfulness (EACL 2023 Findings)" class="thumb-wrap">
       <img
-        src="/images/publication/EACL2023-RHP.webp"
+        src="/images/publication/EACL2023-RHP.webp" srcset="/images/publication/thumbs/EACL2023-RHP-320.webp 320w, /images/publication/EACL2023-RHP.webp 720w" width="720" height="265"
         alt="On the Role of Reviewer Expertise in Temporal Review Helpfulness Prediction — thumbnail"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-violet">EACL 2023</span>
   </div>
@@ -805,10 +805,10 @@ author_profile: true
   <div class="pub-left">
     <a href="https://aclanthology.org/2023.eacl-main.4/" aria-label="Shironaam (EACL 2023)" class="thumb-wrap">
       <img
-        src="/images/publication/Shironaam-EACL2023.webp"
+        src="/images/publication/Shironaam-EACL2023.webp" srcset="/images/publication/thumbs/Shironaam-EACL2023-320.webp 320w, /images/publication/Shironaam-EACL2023.webp 720w" width="720" height="277"
         alt="Shironaam: Bengali News Headline Generation using Auxiliary Information — thumbnail"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-violet">EACL 2023</span>
   </div>
@@ -841,10 +841,10 @@ author_profile: true
   <div class="pub-left">
     <a href="https://ojs.aaai.org/index.php/AAAI/article/view/17495" aria-label="Simple or Complex? (AAAI 2021)" class="thumb-wrap">
       <img
-        src="/images/publication/AAAI2021-Readability.webp"
+        src="/images/publication/AAAI2021-Readability.webp" srcset="/images/publication/thumbs/AAAI2021-Readability-320.webp 320w, /images/publication/AAAI2021-Readability.webp 720w" width="720" height="322"
         alt="Simple or Complex? Learning to Predict Readability of Bengali Texts — thumbnail"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-blue">AAAI 2021</span>
   </div>
@@ -877,10 +877,10 @@ author_profile: true
   <div class="pub-left">
     <a href="https://www.aclweb.org/anthology/2021.eacl-main.224" aria-label="Unsupervised Abstractive Summarization of Bengali Text Documents (EACL 2021)" class="thumb-wrap">
       <img
-        src="/images/publication/EACL2021-Summarization.webp"
+        src="/images/publication/EACL2021-Summarization.webp" srcset="/images/publication/thumbs/EACL2021-Summarization-320.webp 320w, /images/publication/EACL2021-Summarization.webp 720w" width="720" height="305"
         alt="Unsupervised Abstractive Summarization of Bengali Text Documents — thumbnail"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-violet">EACL 2021</span>
   </div>
@@ -916,10 +916,10 @@ author_profile: true
   <div class="pub-left">
     <a href="https://link.springer.com/chapter/10.1007/978-3-030-15719-7_14" aria-label="Neural Diverse Abstractive Sentence Compression (ECIR 2019)" class="thumb-wrap">
       <img
-        src="/images/publication/ECIR2019-Compression.webp"
+        src="/images/publication/ECIR2019-Compression.webp" srcset="/images/publication/thumbs/ECIR2019-Compression-320.webp 320w, /images/publication/ECIR2019-Compression.webp 720w" width="720" height="308"
         alt="Neural Diverse Abstractive Sentence Compression Generation — thumbnail"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-green">ECIR 2019</span>
   </div>
@@ -948,10 +948,10 @@ author_profile: true
        aria-label="Neural Sentence Fusion for Diversity Driven Abstractive Multi-Document Summarization (CSL 2019)"
        class="thumb-wrap">
       <img
-        src="/images/publication/CSL2019-NeuFuse.webp"
+        src="/images/publication/CSL2019-NeuFuse.webp" srcset="/images/publication/thumbs/CSL2019-NeuFuse-320.webp 320w, /images/publication/CSL2019-NeuFuse.webp 720w" width="720" height="434"
         alt="Neural Sentence Fusion for Diversity Driven Abstractive Multi-Document Summarization — thumbnail"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-sienna">CS&L 2019</span>
   </div>
@@ -985,10 +985,10 @@ author_profile: true
     <a href="http://aclweb.org/anthology/C18-1102"
        aria-label="COLING 2018 — Paraphrastic Sentence Fusion" class="thumb-wrap">
       <img
-        src="/images/publication/COLING2018-Fusion.webp"
+        src="/images/publication/COLING2018-Fusion.webp" srcset="/images/publication/thumbs/COLING2018-Fusion-320.webp 320w, /images/publication/COLING2018-Fusion.webp 720w" width="720" height="275"
         alt="Abstractive Unsupervised Multi-Document Summarization using Paraphrastic Sentence Fusion — thumbnail"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-sienna">COLING 2018</span>
   </div>
@@ -1031,10 +1031,10 @@ author_profile: true
        class="thumb-wrap">
       
       <img
-        src="/images/publication/CIKM2017-ParaphrasticFusion.webp"
+        src="/images/publication/CIKM2017-ParaphrasticFusion.webp" srcset="/images/publication/thumbs/CIKM2017-ParaphrasticFusion-320.webp 320w, /images/publication/CIKM2017-ParaphrasticFusion.webp 720w" width="720" height="363"
         alt="Paraphrastic Fusion for Abstractive Multi-Sentence Compression Generation — thumbnail"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-green">CIKM 2017</span>
   </div>
@@ -1064,10 +1064,10 @@ author_profile: true
   <div class="pub-left">
     <a href="https://aclanthology.org/I17-2071" aria-label="IJCNLP 2017 — Submodular + Compression + Merging" class="thumb-wrap">
       <img
-        src="/images/publication/IJCNLP2017-Submodular.webp"
+        src="/images/publication/IJCNLP2017-Submodular.webp" srcset="/images/publication/thumbs/IJCNLP2017-Submodular-320.webp 320w, /images/publication/IJCNLP2017-Submodular.webp 720w" width="720" height="426"
         alt="Towards Abstractive Multi-Document Summarization Using Submodular Function-Based Framework, Sentence Compression and Merging — thumbnail"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <span class="conf-badge-blue">IJCNLP 2017</span>
   </div>
@@ -1094,10 +1094,10 @@ author_profile: true
   <div class="pub-left">
     <a href="https://aclanthology.org/W17-2407" aria-label="Extract with Order (ACL 2017 Workshop, Oral)" class="thumb-wrap">
       <img
-        src="/images/publication/ACL2017-ExtractWithOrder.webp"
+        src="/images/publication/ACL2017-ExtractWithOrder.webp" srcset="/images/publication/thumbs/ACL2017-ExtractWithOrder-320.webp 320w, /images/publication/ACL2017-ExtractWithOrder.webp 720w" width="720" height="352"
         alt="Extract with Order for Coherent Multi-Document Summarization — thumbnail"
         loading="lazy" decoding="async"
-        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+        sizes="(max-width: 640px) calc(100vw - 48px), 132px">
     </a>
     <div class="badge-stack">
       <span class="conf-badge-navy">ACL 2017</span>
