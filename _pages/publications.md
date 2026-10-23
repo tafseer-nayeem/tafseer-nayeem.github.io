@@ -304,6 +304,27 @@ author_profile: true
   </div>
 </div>
 
+<div class="pub-item">
+  <div class="pub-left">
+    <div class="thumb-wrap">
+      <img
+        src="/images/publication/RL-MR-AACL2026.webp"
+        alt="RL-MR phase-wise pipeline from task encoding to budget-aware model ranking"
+        loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </div>
+    <span class="conf-badge-sienna conf-badge-aacl">AACL 2026</span>
+  </div>
+
+  <div class="pub-right">
+    <h3 class="pub-title">RL-MR: Reinforcement Learning based Budget-Aware Sequential Pretrained Model Ranking</h3>
+    <div class="pub-meta">Published at <b>AACL 2026</b></div>
+    <div class="pub-authors">
+      Saddam Mukta, Md. Ahashan Habib, <span class="me">Mir Tafseer Nayeem</span>, and Md Adnanul Islam
+    </div>
+  </div>
+</div>
+
 <h2 class="pub-year">2025</h2>
 
 <div class="pub-item">
