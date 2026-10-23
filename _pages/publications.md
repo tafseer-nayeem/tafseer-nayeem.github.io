@@ -254,6 +254,29 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-left">
+    <div class="thumb-wrap">
+      <img
+        src="/images/publication/RobustChart360-EMNLP2026.webp"
+        alt="ROBUSTCHART360 examples across six chart-understanding robustness tasks"
+        loading="lazy" decoding="async"
+        sizes="(max-width: 640px) 100vw, var(--thumb-w)">
+    </div>
+    <span class="conf-badge-teal">EMNLP 2026</span>
+  </div>
+
+  <div class="pub-right">
+    <h3 class="pub-title">From Benchmarks to Real-World Use: Evaluating the Robustness of Vision-Language Models for Chart Understanding</h3>
+    <div class="pub-meta">Published at <b>EMNLP 2026</b>(Industry Track)</div>
+    <div class="pub-authors">
+      Awal Ahmed Fime<span class="eq">*</span>, Mohammed Saidul Islam<span class="eq">*</span>,
+      Md Tahmid Rahman Laskar, Md Zarif Hossain, Ridwan Mahbub,
+      <span class="me">Mir Tafseer Nayeem</span>, Mizanur Rahman, Ahmed Imteaj, and Enamul Hoque Prince
+    </div>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-left">
     <a href="https://www.sciencedirect.com/science/article/pii/S0950705126017375" aria-label="SurveyAgent-HKA paper (Knowledge-Based Systems 2026)" class="thumb-wrap">
       <img
         src="/images/publication/SurveyAgent-HKA-KBS2026.webp"
