@@ -22,6 +22,10 @@ redirect_from:
     <h3 class="subhead"><span class="i"><i class="fas fa-user-tie" aria-hidden="true"></i></span> Area Chair</h3>
     <ul class="year-list">
       <li>
+        <span class="year">2027</span>
+        <span class="venue-row"><a class="venue-chip" href="https://2027.naacl.org/">NAACL</a></span>
+      </li>
+      <li>
         <span class="year">2026</span>
         <span class="venue-row">
           <a class="venue-chip" href="https://2026.aclweb.org/">ACL</a>
@@ -44,6 +48,10 @@ redirect_from:
   <div class="service-block">
     <h3 class="subhead"><span class="i"><i class="fas fa-clipboard-check" aria-hidden="true"></i></span> Reviewer</h3>
     <ul class="year-list">
+      <li>
+        <span class="year">2027</span>
+        <span class="venue-row"><a class="venue-chip" href="https://iclr.cc/Conferences/2027/index.html">ICLR</a></span>
+      </li>
       <li>
         <span class="year">2026</span>
         <span class="venue-row">
