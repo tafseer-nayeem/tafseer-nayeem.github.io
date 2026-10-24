@@ -23,7 +23,10 @@ redirect_from:
     <ul class="year-list">
       <li>
         <span class="year">2027</span>
-        <span class="venue-row"><a class="venue-chip" href="https://2027.naacl.org/">NAACL</a></span>
+        <span class="venue-row">
+          <a class="venue-chip" href="https://2027.naacl.org/">NAACL</a>
+          <a class="venue-chip" href="https://aclrollingreview.org/">ARR</a>
+        </span>
       </li>
       <li>
         <span class="year">2026</span>
