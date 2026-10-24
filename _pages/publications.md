@@ -254,23 +254,26 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-left">
-    <div class="thumb-wrap">
+    <a href="https://aclanthology.org/2026.emnlp-industry.165/" aria-label="From Benchmarks to Real-World Use (EMNLP 2026 Industry Track)" class="thumb-wrap">
       <img
         src="/images/publication/RobustChart360-EMNLP2026.webp" srcset="/images/publication/thumbs/RobustChart360-EMNLP2026-320.webp 320w, /images/publication/RobustChart360-EMNLP2026.webp 720w" width="720" height="520"
         alt="ROBUSTCHART360 examples across six chart-understanding robustness tasks"
         loading="lazy" decoding="async"
         sizes="(max-width: 640px) calc(100vw - 48px), 132px">
-    </div>
+    </a>
     <span class="conf-badge-teal">EMNLP 2026</span>
   </div>
 
   <div class="pub-right">
-    <h3 class="pub-title">From Benchmarks to Real-World Use: Evaluating the Robustness of Vision-Language Models for Chart Understanding</h3>
+    <h3 class="pub-title"><a href="https://aclanthology.org/2026.emnlp-industry.165/">From Benchmarks to Real-World Use: Evaluating the Robustness of Vision-Language Models for Chart Understanding</a></h3>
     <div class="pub-meta">Published at <b>EMNLP 2026</b>(Industry Track)</div>
     <div class="pub-authors">
       Awal Ahmed Fime<span class="eq">*</span>, Mohammed Saidul Islam<span class="eq">*</span>,
       Md Tahmid Rahman Laskar, Md Zarif Hossain, Ridwan Mahbub,
       <span class="me">Mir Tafseer Nayeem</span>, Mizanur Rahman, Ahmed Imteaj, and Enamul Hoque Prince
+    </div>
+    <div class="pub-links">
+      <a href="https://aclanthology.org/2026.emnlp-industry.165/">Paper</a>
     </div>
   </div>
 </div>
