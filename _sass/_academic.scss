@@ -991,8 +991,8 @@ a:hover {
     grid-template-columns: var(--thumb-w) 1fr;
     gap:12px;
     align-items:start;
-    padding:10px 12px;
-    margin:10px 0;
+    padding:8px 12px;
+    margin:8px 0;
     border:1px solid #e5e7eb;
     border-radius:12px;
     background:#fff;
@@ -1333,7 +1333,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
       grid-template-columns:1fr;
       --thumb-w: 100%;
       gap:10px;
-      padding:10px 12px;
+      padding:8px 12px;
     }
     .pub-left{
       display:grid;
@@ -1408,7 +1408,7 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 @media (max-width: 480px){
     .pub-item{
       gap:12px;
-      padding:10px 12px;
+      padding:8px 12px;
     }
     .pub-left [class^="conf-badge-"],
     .pub-left [class*=" conf-badge-"]{
