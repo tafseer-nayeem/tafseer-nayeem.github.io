@@ -321,7 +321,9 @@ author_profile: true
 
   <div class="pub-right">
     <h3 class="pub-title">RL-MR: Reinforcement Learning based Budget-Aware Sequential Pretrained Model Ranking</h3>
-    <div class="pub-meta">Published at <b>AACL 2026</b> (Main)</div>
+    <div class="pub-meta">Published at <b>AACL 2026</b>(Main)
+      <span class="tag-badge tag-oral" aria-label="Oral presentation">Oral</span>
+    </div>
     <div class="pub-authors">
       Saddam Mukta, Md. Ahashan Habib, <span class="me">Mir Tafseer Nayeem</span>, and Md Adnanul Islam
     </div>
@@ -1114,7 +1116,7 @@ author_profile: true
       </a>
     </h3>
     <div class="pub-meta">
-      Published at <b>ACL 2017</b> (Workshop)
+      Published at <b>ACL 2017</b>(Workshop)
       <span class="tag-badge tag-oral" aria-label="Oral presentation">Oral</span>
     </div>
     <div class="pub-authors">
