@@ -11,12 +11,12 @@ author_profile: true
 
 <section class="cv-download">
   <div>
-    <p>Full academic CV with publications, awards, service, teaching, and professional activities.</p>
-    <p class="cv-updated">Last updated: February 2026</p>
+    <p>Selected academic CV with publications, working papers, awards, service, and teaching.</p>
+    <p class="cv-updated">Last updated: October 2026</p>
   </div>
   <div class="cv-actions">
-    <a class="cv-button" href="/files/CVs/CV_long_tafseer.pdf" target="_blank" rel="noopener">View CV</a>
-    <a class="cv-button cv-button-secondary" href="/files/CVs/CV_long_tafseer.pdf" download>Download PDF</a>
+    <a class="cv-button" href="/files/CVs/CV_tafseer.pdf" target="_blank" rel="noopener">View CV</a>
+    <a class="cv-button cv-button-secondary" href="/files/CVs/CV_tafseer.pdf" download>Download PDF</a>
   </div>
 </section>
 
