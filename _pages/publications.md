@@ -375,7 +375,7 @@ author_profile: true
 
   <div class="pub-right">
     <h3 class="pub-title">
-      <a href="https://arxiv.org/abs/2510.09947">
+      <a href="https://neurips.cc/virtual/2025/loc/san-diego/122433">
         Beyond Fertility: Analyzing STRR as a Metric for Multilingual Tokenization Evaluation
       </a>
     </h3>
