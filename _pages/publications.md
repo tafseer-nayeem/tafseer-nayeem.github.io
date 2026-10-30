@@ -205,8 +205,8 @@ author_profile: true
     </h3>
     <div class="pub-meta">Published at <b>NeurIPS 2026</b>(Workshop)</div>
     <div class="pub-authors">
-      Mohammed Saidul Islam<span class="eq">*</span>, Md Tahmid Rahman Laskar<span class="eq">*</span>,
-      <span class="me">Mir Tafseer Nayeem</span><span class="eq">*</span>, Shumaita Binte Burhan,
+      Mohammed Saidul Islam, Md Tahmid Rahman Laskar,
+      <span class="me">Mir Tafseer Nayeem</span>, Shumaita Binte Burhan,
       Raian Rahman, Morsalina, Shafiq Joty, Enamul Hoque, and Jimmy Huang
     </div>
     <div class="pub-links">
