@@ -15,11 +15,11 @@ redirect_from:
   <h1 id="home-title">Mir Tafseer Nayeem</h1>
 
   <p class="profile-lede">
-    I study how human context shapes language models, their applications, and their evaluation.
+    I develop and evaluate user-centric language models and applications.
   </p>
 
   <p class="profile-framing">
-    People produce the language data that models learn from. Tokenization turns that data into units models use to predict what comes next. My user-centric research follows this path from <strong>who</strong> creates information to <strong>whom</strong> AI systems serve, and asks how we can evaluate the outcomes.
+    People produce the language data that models learn from. Tokenization turns that data into units models use to predict what comes next. My research follows this path from <strong>who</strong> creates information to <strong>whom</strong> AI systems serve, and asks how we can evaluate the outcomes.
   </p>
 
   <p class="profile-affiliation">
@@ -46,7 +46,7 @@ redirect_from:
     <div class="research-pillar-body">
       <h2 class="research-pillar-title" id="modeling-title"><i class="fas fa-layer-group" aria-hidden="true"></i> Modeling</h2>
       <p class="research-pillar-question">Whose language can a model represent?</p>
-      <p class="research-pillar-summary">Human-produced text trains models, yet data selection, tokenization, and learning objectives support languages and users unequally. I trace how differences persist inside models.</p>
+      <p class="research-pillar-summary">Human-produced text trains models, yet data selection, tokenization, and learning objectives support languages and users unequally. I develop data resources, algorithms, and training methods to address these gaps and study their effects on model behavior.</p>
       <ul class="research-work" aria-label="Selected work on modeling">
         <li><a href="https://aclanthology.org/2024.emnlp-main.277/">KidLM</a><span>EMNLP 2024</span><a class="research-work-award" href="https://2024.emnlp.org/program/best_papers/" aria-label="KidLM: Best Resource Paper Award at EMNLP 2024"><i class="fas fa-trophy" aria-hidden="true"></i> Best Resource Paper</a></li>
         <li><a href="/LLM-structural-bias/">English (US) as Default</a><span>Preprint 2026</span></li>
@@ -61,7 +61,7 @@ redirect_from:
     <div class="research-pillar-body">
       <h2 class="research-pillar-title" id="applications-title"><i class="fas fa-comments" aria-hidden="true"></i> Applications</h2>
       <p class="research-pillar-question">How can language systems serve people?</p>
-      <p class="research-pillar-summary">I study how systems understand reviews, research papers, and film subtitles across languages and cultures, and produce useful, faithful outputs for different audiences.</p>
+      <p class="research-pillar-summary">I build and evaluate language systems for reviews, research papers, and film subtitles, considering the languages, cultures, and audiences they serve.</p>
       <ul class="research-work" aria-label="Selected work on applications">
         <li><a href="/OpinioRAG/">OpinioRAG</a><span>COLM 2025</span></li>
         <li><a href="/CineSubBench/">CineSubBench</a><span>Preprint 2026</span></li>
@@ -109,6 +109,15 @@ redirect_from:
       <time>Sep 2025</time>
       <p><a href="https://arxiv.org/abs/2508.09716">ChartDeception</a> received the <strong>Best Short Paper Award</strong> at <a href="https://ieeevis.org/year/2025/info/awards/best-paper-awards">IEEE VIS 2025</a>.</p>
     </li>
+    <li class="news-award">
+      <time>Nov 2024</time>
+      <p><a href="https://aclanthology.org/2024.emnlp-main.277/">KidLM</a> received the <strong>Best Resource Paper Award</strong> at <a href="https://2024.emnlp.org/program/best_papers/">EMNLP 2024</a>.</p>
+    </li>
+  </ol>
+
+  <button type="button" class="news-toggle" aria-expanded="false" aria-controls="older-news">Older news</button>
+
+  <ol class="news-list news-list-older" id="older-news" hidden>
     <li>
       <time>Aug 2025</time>
       <p>Three papers accepted at <a href="https://2025.emnlp.org/">EMNLP 2025</a>.</p>
@@ -121,15 +130,6 @@ redirect_from:
       <time>Jun 2025</time>
       <p>One paper accepted at <a href="https://ieeevis.org/year/2025/welcome">IEEE VIS 2025</a>.</p>
     </li>
-    <li class="news-award">
-      <time>Nov 2024</time>
-      <p><a href="https://aclanthology.org/2024.emnlp-main.277/">KidLM</a> received the <strong>Best Resource Paper Award</strong> at <a href="https://2024.emnlp.org/program/best_papers/">EMNLP 2024</a>.</p>
-    </li>
-  </ol>
-
-  <button type="button" class="news-toggle" aria-expanded="false" aria-controls="older-news">Older news</button>
-
-  <ol class="news-list news-list-older" id="older-news" hidden>
     <li>
       <time>May 2025</time>
       <p>One paper accepted at <a href="https://2025.aclweb.org/">ACL 2025</a> Industry Track.</p>
