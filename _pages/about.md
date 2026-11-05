@@ -19,7 +19,7 @@ redirect_from:
   </p>
 
   <p class="profile-framing">
-    People produce the language data that models learn from. Tokenization turns that data into units models use to predict what comes next. My user-centric research follows this path from <strong>who</strong> creates information to <strong>whom</strong> AI systems serve, and asks how we can evaluate the outcomes responsibly.
+    People produce the language data models learn from. Tokenization turns data into units models use to predict what comes next. My user-centric research follows this path from <strong>who</strong> creates information to <strong>whom</strong> AI systems serve, and asks how we can evaluate the outcomes responsibly.
   </p>
 
   <p class="profile-affiliation">
