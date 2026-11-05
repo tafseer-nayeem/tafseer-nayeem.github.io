@@ -15,7 +15,7 @@ redirect_from:
   <h1 id="home-title">Mir Tafseer Nayeem</h1>
 
   <p class="profile-lede">
-    I develop and evaluate user-centric language models and applications.
+    I study how human context shapes language models, their applications, and their evaluation.
   </p>
 
   <p class="profile-framing">
