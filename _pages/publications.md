@@ -309,23 +309,26 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-left">
-    <div class="thumb-wrap">
+    <a href="https://aclanthology.org/2026.aacl-short.36/" aria-label="RL-MR paper (AACL 2026)" class="thumb-wrap">
       <img
         src="/images/publication/RL-MR-AACL2026.webp" srcset="/images/publication/thumbs/RL-MR-AACL2026-320.webp 320w, /images/publication/RL-MR-AACL2026.webp 720w" width="720" height="361"
         alt="RL-MR phase-wise pipeline from task encoding to budget-aware model ranking"
         loading="lazy" decoding="async"
         sizes="(max-width: 640px) calc(100vw - 48px), 132px">
-    </div>
+    </a>
     <span class="conf-badge-sienna conf-badge-aacl">AACL 2026</span>
   </div>
 
   <div class="pub-right">
-    <h3 class="pub-title">RL-MR: Reinforcement Learning based Budget-Aware Sequential Pretrained Model Ranking</h3>
+    <h3 class="pub-title"><a href="https://aclanthology.org/2026.aacl-short.36/">RL-MR: Reinforcement Learning based Budget-Aware Sequential Pretrained Model Ranking</a></h3>
     <div class="pub-meta">Published at <b>AACL 2026</b>(Main)
       <span class="tag-badge tag-oral" aria-label="Oral presentation">Oral</span>
     </div>
     <div class="pub-authors">
       Saddam Mukta, Md. Ahashan Habib, <span class="me">Mir Tafseer Nayeem</span>, and Md Adnanul Islam
+    </div>
+    <div class="pub-links">
+      <a href="https://aclanthology.org/2026.aacl-short.36/">Paper</a>
     </div>
   </div>
 </div>
