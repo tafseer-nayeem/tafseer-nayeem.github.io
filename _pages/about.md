@@ -1,8 +1,8 @@
 ---
 permalink: /
 title: ""
-description: "Mir Tafseer Nayeem is a PhD Candidate in Computing Science at the University of Alberta working on user-centric NLP, age-appropriate language modeling, opinion synthesis, and LLM adaptation."
-excerpt: "Mir Tafseer Nayeem is a PhD Candidate in Computing Science at the University of Alberta working on user-centric NLP, age-appropriate language modeling, opinion synthesis, and LLM adaptation."
+description: "Mir Tafseer Nayeem is a PhD Candidate at the University of Alberta studying user-centric language modeling, AI applications, and evaluation."
+excerpt: "Mir Tafseer Nayeem studies how human context shapes what language models learn, generate, and evaluate."
 author_profile: true
 redirect_from:
   - /about/
@@ -15,11 +15,15 @@ redirect_from:
   <h1 id="home-title">Mir Tafseer Nayeem</h1>
 
   <p class="profile-lede">
-    I am a PhD Candidate in <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Prof. Davood Rafiei</a>. My research focuses on user-centric language technologies, including age-appropriate language modeling, opinion synthesis, and reliable adaptation of language models.
+    I study how human context shapes what language models learn, what they generate, and how we evaluate them.
   </p>
 
-  <p>
-    My research is supported by the Huawei PhD Fellowship, and my work has received awards at EMNLP, COLING, and IEEE VIS.
+  <p class="profile-framing">
+    People produce text; tokenizers turn it into tokens, and generative LLMs learn to predict the next one. People then interpret and use their outputs. My user-centric research follows this path from <strong>who</strong> creates information to <strong>whom</strong> AI systems serve.
+  </p>
+
+  <p class="profile-affiliation">
+    I am a PhD Candidate in <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Prof. Davood Rafiei</a>.
   </p>
 
   <div class="profile-badges" aria-label="Selected awards and recognitions">
@@ -37,52 +41,54 @@ redirect_from:
   </nav>
 </section>
 
-<section class="home-section" aria-labelledby="themes-title">
-  <div class="section-header">
-    <h2 id="themes-title">Research Themes</h2>
-  </div>
+<section class="research-agenda" aria-label="Research agenda">
+  <article class="research-pillar research-pillar-modeling" aria-labelledby="modeling-question">
+    <div class="research-pillar-icon" aria-hidden="true"><i class="fas fa-layer-group"></i></div>
+    <div class="research-pillar-body">
+      <p class="research-pillar-label">01 / Modeling</p>
+      <h2 id="modeling-question">Whose language can a model represent?</h2>
+      <p class="research-pillar-summary">People produce the text that trains language models, but data selection, tokenization, and learning objectives do not support every language or user equally. I study where these differences begin and how they persist inside models.</p>
+      <ul class="research-work" aria-label="Selected work on modeling">
+        <li><a href="https://aclanthology.org/2024.emnlp-main.277/">KidLM</a><span>EMNLP 2024</span></li>
+        <li><a href="/LLM-structural-bias/">English (US) as Default</a><span>Preprint 2026</span></li>
+        <li><a href="/NameTrace/">NameTrace</a><span>Preprint 2026</span></li>
+        <li><a href="https://arxiv.org/abs/2510.09947">STRR</a><span>NeurIPS 2025 Workshop</span></li>
+        <li><a href="https://aclanthology.org/2026.eacl-long.394/">Stop Taking Tokenizers for Granted</a><span>EACL 2026</span></li>
+      </ul>
+    </div>
+  </article>
 
-  <div class="theme-list">
-    <article class="theme-card theme-card-featured">
-      <div>
-        <p class="card-label">KidLM</p>
-        <h3>Age-appropriate language modeling</h3>
-      </div>
-      <p>
-        Building and evaluating language models for children and young readers, including <a href="https://aclanthology.org/2024.emnlp-main.277/">KidLM</a>, winner of the EMNLP 2024 Best Resource Paper Award.
-      </p>
-    </article>
+  <article class="research-pillar research-pillar-applications" aria-labelledby="applications-question">
+    <div class="research-pillar-icon" aria-hidden="true"><i class="fas fa-comments"></i></div>
+    <div class="research-pillar-body">
+      <p class="research-pillar-label">02 / Applications</p>
+      <h2 id="applications-question">For whom should systems generate?</h2>
+      <p class="research-pillar-summary">Reviews, news, and research papers carry the perspectives of their authors. I build systems that select and synthesize this evidence into useful, faithful outputs for the people who need them.</p>
+      <ul class="research-work" aria-label="Selected work on applications">
+        <li><a href="/OpinioRAG/">OpinioRAG</a><span>COLM 2025</span></li>
+        <li><a href="https://aclanthology.org/2023.findings-eacl.125/">Review Helpfulness</a><span>EACL 2023</span></li>
+        <li><a href="https://aclanthology.org/2024.findings-acl.771/">XL-HeadTags</a><span>ACL 2024</span></li>
+        <li><a href="https://arxiv.org/abs/2508.17647">SurveyGen</a><span>EMNLP 2025</span></li>
+        <li><a href="https://www.sciencedirect.com/science/article/pii/S0950705126017375">SurveyAgent-HKA</a><span>Knowledge-Based Systems 2026</span></li>
+      </ul>
+    </div>
+  </article>
 
-    <article class="theme-card">
-      <div>
-        <p class="card-label">User-centric NLP</p>
-        <h3>Personalized language technologies</h3>
-      </div>
-      <p>
-        Modeling how user attributes, preferences, and context affect generation, summarization, and language technology design.
-      </p>
-    </article>
-
-    <article class="theme-card">
-      <div>
-        <p class="card-label">Opinion synthesis</p>
-        <h3>Opinion-rich text understanding</h3>
-      </div>
-      <p>
-        Generating faithful and useful highlights from large-scale reviews and opinion collections, including <a href="/OpinioRAG/">OpinioRAG</a>.
-      </p>
-    </article>
-
-    <article class="theme-card">
-      <div>
-        <p class="card-label">LLM evaluation</p>
-        <h3>Adaptation and reliability</h3>
-      </div>
-      <p>
-        Designing resources and evaluations for inclusivity, controllability, robustness, and user-aware model behavior.
-      </p>
-    </article>
-  </div>
+  <article class="research-pillar research-pillar-evaluation" aria-labelledby="evaluation-question">
+    <div class="research-pillar-icon" aria-hidden="true"><i class="fas fa-balance-scale"></i></div>
+    <div class="research-pillar-body">
+      <p class="research-pillar-label">03 / Evaluation</p>
+      <h2 id="evaluation-question">Whose standards define success?</h2>
+      <p class="research-pillar-summary">A benchmark score can hide whose conventions, cultures, or judgments define a correct answer. I develop evaluations that make those assumptions visible and test whether systems remain reliable across real contexts.</p>
+      <ul class="research-work" aria-label="Selected work on evaluation">
+        <li><a href="/WhoseBench/">WhoseBench</a><span>Preprint 2026</span></li>
+        <li><a href="/CineSubBench/">CineSubBench</a><span>Preprint 2026</span></li>
+        <li><a href="https://aclanthology.org/2025.emnlp-main.1472/">Fair Narratives</a><span>EMNLP 2025</span></li>
+        <li><a href="https://arxiv.org/abs/2508.09716">Chart Deception</a><span>IEEE VIS 2025</span></li>
+        <li><a href="https://aclanthology.org/2026.findings-acl.1746/">Lost in Translation</a><span>ACL 2026</span></li>
+      </ul>
+    </div>
+  </article>
 </section>
 
 <section class="home-section news-section" aria-labelledby="news-title">

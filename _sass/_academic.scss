@@ -305,8 +305,25 @@ a:hover {
 }
 
 .profile-hero .profile-lede {
+  max-width: 43rem;
+  color: var(--site-ink) !important;
+  font-size: 20px !important;
+  font-weight: 650;
+  line-height: 1.42;
+}
+
+.profile-hero .profile-framing {
+  max-width: 46rem;
   color: #344255 !important;
-  font-size: 17px !important;
+}
+
+.profile-hero .profile-framing strong {
+  color: var(--site-teal);
+}
+
+.profile-hero .profile-affiliation {
+  color: var(--site-muted) !important;
+  font-size: 15px !important;
 }
 
 .profile-badges {
@@ -414,31 +431,6 @@ a:hover {
   background: linear-gradient(90deg, var(--site-rule), rgba(223, 231, 239, 0));
 }
 
-.theme-list {
-  display: grid;
-  max-width: 760px;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.55rem;
-}
-
-.theme-card {
-  min-width: 0;
-  border: 1px solid var(--site-rule);
-  border-radius: 8px;
-  background: var(--site-card);
-  box-shadow: 0 1px 2px rgba(32, 45, 62, 0.04);
-}
-
-.theme-card {
-  padding: 0.78rem 0.85rem 0.82rem;
-}
-
-.theme-card-featured {
-  border-top: 3px solid var(--site-gold);
-  background: linear-gradient(180deg, var(--site-gold-soft), #fff 58%);
-}
-
-.theme-card:hover,
 .pub-item:hover,
 .cv-card:hover,
 .award-card:hover {
@@ -447,27 +439,112 @@ a:hover {
   transition: box-shadow 0.16s ease, border-color 0.16s ease;
 }
 
-.card-label {
-  margin: 0 0 0.16rem !important;
+.research-agenda {
+  margin: 1.35rem 0 0;
+}
+
+.research-pillar {
+  display: grid;
+  grid-template-columns: 2.5rem minmax(0, 1fr);
+  gap: 0.9rem;
+  padding: 1.32rem 0 1.5rem;
+  border-top: 1px solid var(--site-rule);
+}
+
+.research-pillar-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid rgba(36, 107, 146, 0.18);
+  border-radius: 6px;
+  background: rgba(36, 107, 146, 0.07);
+  color: var(--site-blue);
+  font-size: 1.1rem;
+}
+
+.research-pillar-applications .research-pillar-icon {
+  border-color: rgba(47, 125, 116, 0.2);
+  background: rgba(47, 125, 116, 0.08);
+  color: var(--site-teal);
+}
+
+.research-pillar-evaluation .research-pillar-icon {
+  border-color: rgba(164, 111, 24, 0.23);
+  background: rgba(164, 111, 24, 0.09);
+  color: #8c6019;
+}
+
+.research-pillar-body {
+  min-width: 0;
+}
+
+.research-pillar-label {
+  margin: 0 0 0.3rem !important;
   color: var(--site-teal) !important;
-  font-size: 0.66rem !important;
-  font-weight: 850;
-  letter-spacing: 0.04em !important;
+  font-size: 0.7rem !important;
+  font-weight: 800;
   line-height: 1.2;
-  text-transform: uppercase;
 }
 
-.theme-card h3 {
-  margin: 0 0 0.28rem;
-  color: var(--site-ink);
-  font-size: 0.9rem;
-  line-height: 1.22;
+.research-pillar-applications .research-pillar-label {
+  color: var(--site-blue) !important;
 }
 
-.theme-card p {
+.research-pillar-evaluation .research-pillar-label {
+  color: #8c6019 !important;
+}
+
+.research-pillar h2 {
+  margin: 0 0 0.5rem !important;
+  color: var(--site-ink) !important;
+  font-size: 1.22rem !important;
+  line-height: 1.24;
+  border: 0 !important;
+}
+
+.research-pillar-summary {
+  max-width: 45rem;
+  margin: 0 0 0.92rem !important;
+  font-size: 0.88rem !important;
+  line-height: 1.55;
+}
+
+.research-work {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.18rem 1rem;
+  max-width: 45rem;
   margin: 0 !important;
-  font-size: 0.8rem !important;
-  line-height: 1.42;
+  padding: 0 !important;
+  list-style: none;
+}
+
+.research-work li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.08rem 0.42rem;
+  min-width: 0;
+  margin: 0;
+  padding: 0.25rem 0;
+  font-size: 0.82rem !important;
+  line-height: 1.4;
+}
+
+.research-work a {
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.research-work a:hover {
+  text-decoration: underline;
+}
+
+.research-work span {
+  color: var(--site-muted);
+  font-size: 0.72rem;
 }
 
 .news-section {
@@ -817,7 +894,6 @@ a:hover {
     max-width: none;
   }
 
-  .theme-list,
   .highlight-grid {
     grid-template-columns: 1fr;
   }
@@ -833,8 +909,7 @@ a:hover {
   .page__inner-wrap,
   .page__content,
   .academic-home,
-  .profile-hero,
-  .theme-card {
+  .profile-hero {
     max-width: 100%;
     min-width: 0;
   }
@@ -935,6 +1010,35 @@ a:hover {
   .profile-hero p,
   .profile-hero .profile-lede {
     font-size: 16px !important;
+  }
+
+  .profile-hero .profile-lede {
+    font-size: 18px !important;
+  }
+
+  .profile-hero .profile-affiliation {
+    font-size: 14px !important;
+  }
+
+  .research-pillar {
+    grid-template-columns: 2.15rem minmax(0, 1fr);
+    gap: 0.68rem;
+    padding: 1.18rem 0 1.35rem;
+  }
+
+  .research-pillar-icon {
+    width: 2.15rem;
+    height: 2.15rem;
+    font-size: 1rem;
+  }
+
+  .research-pillar h2 {
+    font-size: 1.12rem !important;
+  }
+
+  .research-work {
+    grid-template-columns: 1fr;
+    gap: 0;
   }
 
   .section-header {
@@ -2103,7 +2207,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
 /* Unified card depth
    ========================================================================== */
 
-.theme-card,
 .pub-tools,
 .pub-item,
 .cv-download,
@@ -2120,12 +2223,10 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   box-shadow: var(--site-card-shadow) !important;
 }
 
-.theme-card-featured,
 .service-callout {
   background: linear-gradient(135deg, #fffaf0 0%, #ffffff 62%, #f8fbfd 100%) !important;
 }
 
-.theme-card,
 .pub-tools,
 .pub-item,
 .cv-download,
@@ -2140,7 +2241,6 @@ outline:3px solid #93c5fd; outline-offset:3px; border-radius:10px;
   transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease, background-color .18s ease;
 }
 
-.theme-card:hover,
 .pub-tools:hover,
 .pub-item:hover,
 .cv-contact-card:hover,
