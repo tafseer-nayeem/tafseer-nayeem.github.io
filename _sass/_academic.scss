@@ -323,7 +323,6 @@ a:hover {
 
 .profile-hero .profile-affiliation {
   color: var(--site-muted) !important;
-  font-size: 15px !important;
 }
 
 .profile-badges {
@@ -444,10 +443,10 @@ a:hover {
 }
 
 .research-pillar {
-  margin-bottom: 1rem;
-  padding: 1.25rem 1.45rem 1.3rem;
+  margin-bottom: 0.72rem;
+  padding: 1.1rem 1.25rem 1.15rem;
   border: 1px solid var(--site-rule);
-  border-top: 3px solid var(--site-blue);
+  border-left: 3px solid var(--site-blue);
   border-radius: 7px;
   background: #fff;
   box-shadow: var(--site-card-shadow);
@@ -456,19 +455,19 @@ a:hover {
 
 .research-pillar:hover,
 .research-pillar:focus-within {
+  border-top-color: #c7d4df;
   border-right-color: #c7d4df;
   border-bottom-color: #c7d4df;
-  border-left-color: #c7d4df;
-  box-shadow: 0 8px 22px rgba(32, 45, 62, 0.09);
+  box-shadow: 0 8px 22px rgba(32, 45, 62, 0.07);
   transform: translateY(-1px);
 }
 
 .research-pillar-applications {
-  border-top-color: var(--site-teal);
+  border-left-color: var(--site-teal);
 }
 
 .research-pillar-evaluation {
-  border-top-color: var(--site-gold);
+  border-left-color: var(--site-gold);
 }
 
 .research-pillar-body {
@@ -1044,10 +1043,6 @@ a:hover {
 
   .profile-hero .profile-lede {
     font-size: 16px !important;
-  }
-
-  .profile-hero .profile-affiliation {
-    font-size: 14px !important;
   }
 
   .research-pillar {

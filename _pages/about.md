@@ -46,7 +46,7 @@ redirect_from:
     <div class="research-pillar-body">
       <h2 class="research-pillar-title" id="modeling-title"><i class="fas fa-layer-group" aria-hidden="true"></i> Modeling</h2>
       <p class="research-pillar-question">Whose language can a model represent?</p>
-      <p class="research-pillar-summary">Human-produced text trains language models, yet data selection, tokenization, and learning objectives support languages and users unequally. I trace how these differences persist inside models.</p>
+      <p class="research-pillar-summary">Human-produced text trains models, yet data selection, tokenization, and learning objectives support languages and users unequally. I trace how differences persist inside models.</p>
       <ul class="research-work" aria-label="Selected work on modeling">
         <li><a href="https://aclanthology.org/2024.emnlp-main.277/">KidLM</a><span>EMNLP 2024</span><a class="research-work-award" href="https://2024.emnlp.org/program/best_papers/" aria-label="KidLM: Best Resource Paper Award at EMNLP 2024"><i class="fas fa-trophy" aria-hidden="true"></i> Best Resource Paper</a></li>
         <li><a href="/LLM-structural-bias/">English (US) as Default</a><span>Preprint 2026</span></li>
