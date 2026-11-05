@@ -76,7 +76,7 @@ redirect_from:
   <article class="research-pillar research-pillar-evaluation" aria-labelledby="evaluation-title">
     <div class="research-pillar-body">
       <h2 class="research-pillar-title" id="evaluation-title"><i class="fas fa-balance-scale" aria-hidden="true"></i> Responsible Evaluation</h2>
-      <p class="research-pillar-question">What do benchmark scores miss in practice?</p>
+      <p class="research-pillar-question">What do benchmark scores miss about people?</p>
       <p class="research-pillar-summary">Benchmark scores can hide conventions and judgments. I build evaluations that reveal these assumptions and test reliability across people, cultures, and real-world contexts.</p>
       <ul class="research-work" aria-label="Selected work on evaluation">
         <li><a href="/WhoseBench/">WhoseBench</a><span>Preprint 2026</span></li>
@@ -94,6 +94,10 @@ redirect_from:
   </div>
 
   <ol class="news-list">
+    <li>
+      <time datetime="2026-09">Sep 2026</time>
+      <p>Papers at <a href="https://aclanthology.org/2026.emnlp-industry.165/">EMNLP</a>, <a href="https://aclanthology.org/2026.aacl-short.36/">AACL</a>, and <a href="https://neurips.cc/virtual/2026/loc/sydney/164999">NeurIPS</a> (Workshop).</p>
+    </li>
     <li>
       <time>Apr 2026</time>
       <p>One paper accepted at <a href="https://2026.aclweb.org/">ACL 2026</a>.</p>
