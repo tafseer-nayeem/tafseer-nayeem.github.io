@@ -68,7 +68,6 @@ redirect_from:
         <li><a href="https://aclanthology.org/2023.findings-eacl.125/">Review Helpfulness</a><span>EACL 2023</span></li>
         <li><a href="https://aclanthology.org/2024.findings-acl.771/">XL-HeadTags</a><span>ACL 2024</span></li>
         <li><a href="https://arxiv.org/abs/2508.17647">SurveyGen</a><span>EMNLP 2025</span></li>
-        <li><a href="https://www.sciencedirect.com/science/article/pii/S0950705126017375">SurveyAgent-HKA</a><span>Knowledge-Based Systems 2026</span></li>
       </ul>
     </div>
   </article>
