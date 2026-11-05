@@ -61,7 +61,7 @@ redirect_from:
     <div class="research-pillar-body">
       <h2 class="research-pillar-title" id="applications-title"><i class="fas fa-comments" aria-hidden="true"></i> Applications</h2>
       <p class="research-pillar-question">How can AI applications better serve diverse people?</p>
-      <p class="research-pillar-summary">I build AI applications around the people who create and use information. Their experience, preferences, language, culture, and age guide which evidence I select, how I organize and present it, and how I assess whether the result serves its audience.</p>
+      <p class="research-pillar-summary">People create and use information in different ways, shaped by their experience, preferences, language, culture, and age. I use that context to select evidence, design outputs, and evaluate whether applications serve their intended audiences.</p>
       <ul class="research-work" aria-label="Selected work on applications">
         <li><a href="/OpinioRAG/">OpinioRAG</a><span>COLM 2025</span></li>
         <li><a href="/CineSubBench/">CineSubBench</a><span>Preprint 2026</span></li>
