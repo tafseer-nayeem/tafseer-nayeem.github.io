@@ -46,7 +46,7 @@ redirect_from:
     <div class="research-pillar-body">
       <h2 class="research-pillar-title" id="modeling-title"><i class="fas fa-layer-group" aria-hidden="true"></i> Modeling</h2>
       <p class="research-pillar-question">Whose language can a model represent?</p>
-      <p class="research-pillar-summary">Human-produced text trains models, yet data selection, tokenization, and learning objectives support languages and users unequally. I develop data resources, algorithms, and training methods to address these gaps and study their effects on model behavior.</p>
+      <p class="research-pillar-summary">Text comes from and serves people of different ages, dialects, and languages; even names receive unequal token support. I develop data resources, algorithms, and training methods, then study how tokenization and learning shape model behavior.</p>
       <ul class="research-work" aria-label="Selected work on modeling">
         <li><a href="https://aclanthology.org/2024.emnlp-main.277/">KidLM</a><span>EMNLP 2024</span><a class="research-work-award" href="https://2024.emnlp.org/program/best_papers/" aria-label="KidLM: Best Resource Paper Award at EMNLP 2024"><i class="fas fa-trophy" aria-hidden="true"></i> Best Resource Paper</a></li>
         <li><a href="/LLM-structural-bias/">English (US) as Default</a><span>Preprint 2026</span></li>
@@ -61,13 +61,13 @@ redirect_from:
     <div class="research-pillar-body">
       <h2 class="research-pillar-title" id="applications-title"><i class="fas fa-comments" aria-hidden="true"></i> Applications</h2>
       <p class="research-pillar-question">How can language systems serve people?</p>
-      <p class="research-pillar-summary">I build and evaluate language systems for reviews, research papers, and film subtitles, considering the languages, cultures, and audiences they serve.</p>
+      <p class="research-pillar-summary">I model reviewer experience for helpfulness; user preferences steer opinion highlights through queries, length, and format, with sentiment checked against reviews. Authors' publication histories, citations, and venues guide survey retrieval; human-selected references and outlines guide writing. Visual cues help select multilingual news content for readers, and film evaluation tests cultural understanding, age suitability, and country-specific ratings across languages.</p>
       <ul class="research-work" aria-label="Selected work on applications">
         <li><a href="/OpinioRAG/">OpinioRAG</a><span>COLM 2025</span></li>
         <li><a href="/CineSubBench/">CineSubBench</a><span>Preprint 2026</span></li>
         <li><a href="https://aclanthology.org/2023.findings-eacl.125/">Review Helpfulness</a><span>EACL 2023</span></li>
         <li><a href="https://aclanthology.org/2024.findings-acl.771/">XL-HeadTags</a><span>ACL 2024</span></li>
-        <li><a href="https://arxiv.org/abs/2508.17647">SurveyGen</a><span>EMNLP 2025</span></li>
+        <li><a href="https://aclanthology.org/2025.emnlp-main.136/">SurveyGen</a><span>EMNLP 2025</span></li>
       </ul>
     </div>
   </article>
@@ -76,7 +76,7 @@ redirect_from:
     <div class="research-pillar-body">
       <h2 class="research-pillar-title" id="evaluation-title"><i class="fas fa-balance-scale" aria-hidden="true"></i> Responsible Evaluation</h2>
       <p class="research-pillar-question">What do benchmark scores miss about people?</p>
-      <p class="research-pillar-summary">Benchmark scores can hide conventions and judgments. I build evaluations that reveal these assumptions and test reliability across people, cultures, and real-world contexts.</p>
+      <p class="research-pillar-summary">Benchmarks draw on people's data and judgments, but scores may not reflect the users they are meant to serve. I audit this source-target gap and test language, country, economic context, and deceptive visuals for hidden failures.</p>
       <ul class="research-work" aria-label="Selected work on evaluation">
         <li><a href="/WhoseBench/">WhoseBench</a><span>Preprint 2026</span></li>
         <li><a href="https://aclanthology.org/2025.emnlp-main.1472/">Fair Narratives</a><span>EMNLP 2025</span></li>

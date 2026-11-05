@@ -396,7 +396,7 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-left">
-    <a href="https://arxiv.org/abs/2508.17647" aria-label="SurveyGen paper" class="thumb-wrap">
+    <a href="https://aclanthology.org/2025.emnlp-main.136/" aria-label="SurveyGen paper" class="thumb-wrap">
       <img
         src="/images/publication/SurveyGen-EMNLP2025.webp" srcset="/images/publication/thumbs/SurveyGen-EMNLP2025-320.webp 320w, /images/publication/SurveyGen-EMNLP2025.webp 720w" width="720" height="450"
         alt="SurveyGen thumbnail" loading="lazy" decoding="async"
@@ -407,7 +407,7 @@ author_profile: true
 
   <div class="pub-right">
     <h3 class="pub-title">
-      <a href="https://arxiv.org/abs/2508.17647">
+      <a href="https://aclanthology.org/2025.emnlp-main.136/">
         SurveyGen: Quality-Aware Scientific Survey Generation with Large Language Models
       </a>
     </h3>
@@ -417,7 +417,7 @@ author_profile: true
     </div>
     <div class="pub-authors">Tong Bao, <span class="me">Mir Tafseer Nayeem</span>, Davood Rafiei, and Chengzhi Zhang</div>
     <div class="pub-links">
-      <a href="https://arxiv.org/abs/2508.17647">Paper</a>
+      <a href="https://aclanthology.org/2025.emnlp-main.136/">Paper</a>
       <a href="https://github.com/tongbao96/SurveyGen">Code</a>
       <a href="/files/EMNLP2025/EMNLP2025_SurveyGen_presentation.pdf">Slides</a>
       <a href="/files/EMNLP2025/EMNLP2025_SurveyGen_poster.pdf">Poster</a>
