@@ -306,10 +306,10 @@ a:hover {
 
 .profile-hero .profile-lede {
   max-width: 43rem;
-  color: var(--site-ink) !important;
-  font-size: 20px !important;
-  font-weight: 650;
-  line-height: 1.42;
+  color: #416073 !important;
+  font-size: 16px !important;
+  font-weight: 600;
+  line-height: 1.55;
 }
 
 .profile-hero .profile-framing {
@@ -444,69 +444,68 @@ a:hover {
 }
 
 .research-pillar {
-  display: grid;
-  grid-template-columns: 2.5rem minmax(0, 1fr);
-  gap: 0.9rem;
-  padding: 1.32rem 0 1.5rem;
-  border-top: 1px solid var(--site-rule);
+  margin-bottom: 0.8rem;
+  padding: 1.2rem 1.35rem 1.25rem;
+  border: 1px solid var(--site-rule);
+  border-left: 3px solid var(--site-blue);
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: var(--site-card-shadow);
+  transition: border-color 0.16s ease, box-shadow 0.16s ease;
 }
 
-.research-pillar-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 2.5rem;
-  height: 2.5rem;
-  border: 1px solid rgba(36, 107, 146, 0.18);
-  border-radius: 6px;
-  background: rgba(36, 107, 146, 0.07);
-  color: var(--site-blue);
-  font-size: 1.1rem;
+.research-pillar:hover {
+  border-color: #c7d4df;
+  box-shadow: 0 8px 22px rgba(32, 45, 62, 0.09);
 }
 
-.research-pillar-applications .research-pillar-icon {
-  border-color: rgba(47, 125, 116, 0.2);
-  background: rgba(47, 125, 116, 0.08);
-  color: var(--site-teal);
+.research-pillar-applications {
+  border-left-color: var(--site-teal);
 }
 
-.research-pillar-evaluation .research-pillar-icon {
-  border-color: rgba(164, 111, 24, 0.23);
-  background: rgba(164, 111, 24, 0.09);
-  color: #8c6019;
+.research-pillar-evaluation {
+  border-left-color: var(--site-gold);
 }
 
 .research-pillar-body {
   min-width: 0;
 }
 
-.research-pillar-label {
-  margin: 0 0 0.3rem !important;
-  color: var(--site-teal) !important;
-  font-size: 0.7rem !important;
-  font-weight: 800;
-  line-height: 1.2;
-}
-
-.research-pillar-applications .research-pillar-label {
-  color: var(--site-blue) !important;
-}
-
-.research-pillar-evaluation .research-pillar-label {
-  color: #8c6019 !important;
-}
-
-.research-pillar h2 {
-  margin: 0 0 0.5rem !important;
+.research-pillar .research-pillar-title {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0 0 0.35rem !important;
   color: var(--site-ink) !important;
-  font-size: 1.22rem !important;
+  font-size: 1.42rem !important;
   line-height: 1.24;
   border: 0 !important;
 }
 
+.research-pillar-title i {
+  color: var(--site-blue);
+  font-size: 0.92em;
+}
+
+.research-pillar-applications .research-pillar-title i {
+  color: var(--site-teal);
+}
+
+.research-pillar-evaluation .research-pillar-title i {
+  color: var(--site-gold);
+}
+
+.research-pillar-question {
+  margin: 0 0 0.45rem !important;
+  color: #344255 !important;
+  font-size: 0.98rem !important;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
 .research-pillar-summary {
   max-width: 45rem;
-  margin: 0 0 0.92rem !important;
+  margin: 0 0 0.8rem !important;
   font-size: 0.88rem !important;
   line-height: 1.55;
 }
@@ -514,10 +513,11 @@ a:hover {
 .research-work {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.18rem 1rem;
+  gap: 0.18rem 1.15rem;
   max-width: 45rem;
   margin: 0 !important;
-  padding: 0 !important;
+  padding: 0.68rem 0 0 !important;
+  border-top: 1px solid var(--site-rule);
   list-style: none;
 }
 
@@ -545,6 +545,16 @@ a:hover {
 .research-work span {
   color: var(--site-muted);
   font-size: 0.72rem;
+}
+
+.research-work .research-work-award {
+  color: #805817;
+  font-size: 0.71rem;
+  font-weight: 750;
+}
+
+.research-work-award i {
+  font-size: 0.84em;
 }
 
 .news-section {
@@ -1013,7 +1023,7 @@ a:hover {
   }
 
   .profile-hero .profile-lede {
-    font-size: 18px !important;
+    font-size: 16px !important;
   }
 
   .profile-hero .profile-affiliation {
@@ -1021,19 +1031,11 @@ a:hover {
   }
 
   .research-pillar {
-    grid-template-columns: 2.15rem minmax(0, 1fr);
-    gap: 0.68rem;
-    padding: 1.18rem 0 1.35rem;
+    padding: 1rem 1rem 1.1rem;
   }
 
-  .research-pillar-icon {
-    width: 2.15rem;
-    height: 2.15rem;
-    font-size: 1rem;
-  }
-
-  .research-pillar h2 {
-    font-size: 1.12rem !important;
+  .research-pillar .research-pillar-title {
+    font-size: 1.25rem !important;
   }
 
   .research-work {

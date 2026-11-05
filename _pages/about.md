@@ -2,7 +2,7 @@
 permalink: /
 title: ""
 description: "Mir Tafseer Nayeem is a PhD Candidate at the University of Alberta studying user-centric language modeling, AI applications, and evaluation."
-excerpt: "Mir Tafseer Nayeem studies how human context shapes what language models learn, generate, and evaluate."
+excerpt: "Mir Tafseer Nayeem studies user-centric language modeling, applications, and responsible evaluation."
 author_profile: true
 redirect_from:
   - /about/
@@ -15,15 +15,15 @@ redirect_from:
   <h1 id="home-title">Mir Tafseer Nayeem</h1>
 
   <p class="profile-lede">
-    I study how human context shapes what language models learn, what they generate, and how we evaluate them.
+    I study how human context shapes language models, their applications, and their evaluation.
   </p>
 
   <p class="profile-framing">
-    People produce text; tokenizers turn it into tokens, and generative LLMs learn to predict the next one. People then interpret and use their outputs. My user-centric research follows this path from <strong>who</strong> creates information to <strong>whom</strong> AI systems serve.
+    People produce the language data that models learn from; tokenizers shape its basic units, and language models learn to predict what comes next. My user-centric research follows this path from <strong>who</strong> creates information to <strong>whom</strong> AI systems serve, and asks how we can evaluate the outcomes responsibly.
   </p>
 
   <p class="profile-affiliation">
-    I am a PhD Candidate in <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Prof. Davood Rafiei</a>.
+    I am a final-year PhD Candidate in <a href="https://www.ualberta.ca/computing-science/index.html">Computing Science</a> at the <a href="https://www.ualberta.ca/index.html">University of Alberta</a>, advised by <a href="https://webdocs.cs.ualberta.ca/~drafiei/">Prof. Davood Rafiei</a>.
   </p>
 
   <div class="profile-badges" aria-label="Selected awards and recognitions">
@@ -42,14 +42,13 @@ redirect_from:
 </section>
 
 <section class="research-agenda" aria-label="Research agenda">
-  <article class="research-pillar research-pillar-modeling" aria-labelledby="modeling-question">
-    <div class="research-pillar-icon" aria-hidden="true"><i class="fas fa-layer-group"></i></div>
+  <article class="research-pillar research-pillar-modeling" aria-labelledby="modeling-title">
     <div class="research-pillar-body">
-      <p class="research-pillar-label">01 / Modeling</p>
-      <h2 id="modeling-question">Whose language can a model represent?</h2>
-      <p class="research-pillar-summary">People produce the text that trains language models, but data selection, tokenization, and learning objectives do not support every language or user equally. I study where these differences begin and how they persist inside models.</p>
+      <h2 class="research-pillar-title" id="modeling-title"><i class="fas fa-layer-group" aria-hidden="true"></i> Modeling</h2>
+      <p class="research-pillar-question">Whose language can a model represent?</p>
+      <p class="research-pillar-summary">Human-produced text trains language models, yet data selection, tokenization, and learning objectives support languages and users unequally. I trace how these differences persist inside models.</p>
       <ul class="research-work" aria-label="Selected work on modeling">
-        <li><a href="https://aclanthology.org/2024.emnlp-main.277/">KidLM</a><span>EMNLP 2024</span></li>
+        <li><a href="https://aclanthology.org/2024.emnlp-main.277/">KidLM</a><span>EMNLP 2024</span><a class="research-work-award" href="https://2024.emnlp.org/program/best_papers/" aria-label="KidLM: Best Resource Paper Award at EMNLP 2024"><i class="fas fa-trophy" aria-hidden="true"></i> Best Resource Paper</a></li>
         <li><a href="/LLM-structural-bias/">English (US) as Default</a><span>Preprint 2026</span></li>
         <li><a href="/NameTrace/">NameTrace</a><span>Preprint 2026</span></li>
         <li><a href="https://arxiv.org/abs/2510.09947">STRR</a><span>NeurIPS 2025 Workshop</span></li>
@@ -58,14 +57,14 @@ redirect_from:
     </div>
   </article>
 
-  <article class="research-pillar research-pillar-applications" aria-labelledby="applications-question">
-    <div class="research-pillar-icon" aria-hidden="true"><i class="fas fa-comments"></i></div>
+  <article class="research-pillar research-pillar-applications" aria-labelledby="applications-title">
     <div class="research-pillar-body">
-      <p class="research-pillar-label">02 / Applications</p>
-      <h2 id="applications-question">For whom should systems generate?</h2>
-      <p class="research-pillar-summary">Reviews, news, and research papers carry the perspectives of their authors. I build systems that select and synthesize this evidence into useful, faithful outputs for the people who need them.</p>
+      <h2 class="research-pillar-title" id="applications-title"><i class="fas fa-comments" aria-hidden="true"></i> Applications</h2>
+      <p class="research-pillar-question">How can language systems serve people?</p>
+      <p class="research-pillar-summary">I study how systems understand reviews, research papers, and film subtitles across languages and cultures, and produce useful, faithful outputs for different audiences.</p>
       <ul class="research-work" aria-label="Selected work on applications">
         <li><a href="/OpinioRAG/">OpinioRAG</a><span>COLM 2025</span></li>
+        <li><a href="/CineSubBench/">CineSubBench</a><span>Preprint 2026</span></li>
         <li><a href="https://aclanthology.org/2023.findings-eacl.125/">Review Helpfulness</a><span>EACL 2023</span></li>
         <li><a href="https://aclanthology.org/2024.findings-acl.771/">XL-HeadTags</a><span>ACL 2024</span></li>
         <li><a href="https://arxiv.org/abs/2508.17647">SurveyGen</a><span>EMNLP 2025</span></li>
@@ -74,17 +73,15 @@ redirect_from:
     </div>
   </article>
 
-  <article class="research-pillar research-pillar-evaluation" aria-labelledby="evaluation-question">
-    <div class="research-pillar-icon" aria-hidden="true"><i class="fas fa-balance-scale"></i></div>
+  <article class="research-pillar research-pillar-evaluation" aria-labelledby="evaluation-title">
     <div class="research-pillar-body">
-      <p class="research-pillar-label">03 / Evaluation</p>
-      <h2 id="evaluation-question">Whose standards define success?</h2>
-      <p class="research-pillar-summary">A benchmark score can hide whose conventions, cultures, or judgments define a correct answer. I develop evaluations that make those assumptions visible and test whether systems remain reliable across real contexts.</p>
+      <h2 class="research-pillar-title" id="evaluation-title"><i class="fas fa-balance-scale" aria-hidden="true"></i> Responsible Evaluation</h2>
+      <p class="research-pillar-question">What do benchmark scores miss in practice?</p>
+      <p class="research-pillar-summary">Benchmark scores can hide conventions and judgments. I build evaluations that reveal these assumptions and test reliability across people, cultures, and real-world contexts.</p>
       <ul class="research-work" aria-label="Selected work on evaluation">
         <li><a href="/WhoseBench/">WhoseBench</a><span>Preprint 2026</span></li>
-        <li><a href="/CineSubBench/">CineSubBench</a><span>Preprint 2026</span></li>
         <li><a href="https://aclanthology.org/2025.emnlp-main.1472/">Fair Narratives</a><span>EMNLP 2025</span></li>
-        <li><a href="https://arxiv.org/abs/2508.09716">Chart Deception</a><span>IEEE VIS 2025</span></li>
+        <li><a href="https://arxiv.org/abs/2508.09716">Chart Deception</a><span>IEEE VIS 2025</span><a class="research-work-award" href="https://ieeevis.org/year/2025/info/awards/best-paper-awards" aria-label="Chart Deception: Best Short Paper Award at IEEE VIS 2025"><i class="fas fa-trophy" aria-hidden="true"></i> Best Short Paper</a></li>
         <li><a href="https://aclanthology.org/2026.findings-acl.1746/">Lost in Translation</a><span>ACL 2026</span></li>
       </ul>
     </div>
