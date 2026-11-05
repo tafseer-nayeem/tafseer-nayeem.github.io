@@ -45,8 +45,8 @@ redirect_from:
   <article class="research-pillar research-pillar-modeling" aria-labelledby="modeling-title">
     <div class="research-pillar-body">
       <h2 class="research-pillar-title" id="modeling-title"><i class="fas fa-layer-group" aria-hidden="true"></i> Modeling</h2>
-      <p class="research-pillar-question">Whose language can a model represent?</p>
-      <p class="research-pillar-summary">Text comes from and serves people of different ages, dialects, and languages; even names receive unequal token support. I develop data resources, algorithms, and training methods, then study how tokenization and learning shape model behavior.</p>
+      <p class="research-pillar-question">Whose language can a model learn to represent?</p>
+      <p class="research-pillar-summary">Text comes from and serves people of different ages, dialects, and languages; even names receive unequal token support. I develop data resources, algorithms, and training methods, then study how tokenization and learning shape model behavior for different users.</p>
       <ul class="research-work" aria-label="Selected work on modeling">
         <li><a href="https://aclanthology.org/2024.emnlp-main.277/">KidLM</a><span>EMNLP 2024</span><a class="research-work-award" href="https://2024.emnlp.org/program/best_papers/" aria-label="KidLM: Best Resource Paper Award at EMNLP 2024"><i class="fas fa-trophy" aria-hidden="true"></i> Best Resource Paper</a></li>
         <li><a href="/LLM-structural-bias/">English (US) as Default</a><span>Preprint 2026</span></li>
@@ -60,8 +60,8 @@ redirect_from:
   <article class="research-pillar research-pillar-applications" aria-labelledby="applications-title">
     <div class="research-pillar-body">
       <h2 class="research-pillar-title" id="applications-title"><i class="fas fa-comments" aria-hidden="true"></i> Applications</h2>
-      <p class="research-pillar-question">How can language systems serve people?</p>
-      <p class="research-pillar-summary">I model reviewer experience for helpfulness; user preferences steer opinion highlights through queries, length, and format, with sentiment checked against reviews. Authors' publication histories, citations, and venues guide survey retrieval; human-selected references and outlines guide writing. Visual cues help select multilingual news content for readers, and film evaluation tests cultural understanding, age suitability, and country-specific ratings across languages.</p>
+      <p class="research-pillar-question">How can language systems better serve diverse people?</p>
+      <p class="research-pillar-summary">Reviewer experience informs helpfulness; queries, length, format, and sentiment shape opinion summaries. Author histories and human-selected outlines guide surveys; visual cues support multilingual news. Film evaluation tests language, culture, age, and country ratings.</p>
       <ul class="research-work" aria-label="Selected work on applications">
         <li><a href="/OpinioRAG/">OpinioRAG</a><span>COLM 2025</span></li>
         <li><a href="/CineSubBench/">CineSubBench</a><span>Preprint 2026</span></li>
@@ -75,8 +75,8 @@ redirect_from:
   <article class="research-pillar research-pillar-evaluation" aria-labelledby="evaluation-title">
     <div class="research-pillar-body">
       <h2 class="research-pillar-title" id="evaluation-title"><i class="fas fa-balance-scale" aria-hidden="true"></i> Responsible Evaluation</h2>
-      <p class="research-pillar-question">What do benchmark scores miss about people?</p>
-      <p class="research-pillar-summary">Benchmarks draw on people's data and judgments, but scores may not reflect the users they are meant to serve. I audit this source-target gap and test language, country, economic context, and deceptive visuals for hidden failures.</p>
+      <p class="research-pillar-question">What do benchmark scores miss about users and their contexts?</p>
+      <p class="research-pillar-summary">Benchmarks can hide whose data and judgments define success. I audit their source and target users, build multilingual evaluations of model judges, and test how economic context and deceptive charts change model outputs.</p>
       <ul class="research-work" aria-label="Selected work on evaluation">
         <li><a href="/WhoseBench/">WhoseBench</a><span>Preprint 2026</span></li>
         <li><a href="https://aclanthology.org/2025.emnlp-main.1472/">Fair Narratives</a><span>EMNLP 2025</span></li>
